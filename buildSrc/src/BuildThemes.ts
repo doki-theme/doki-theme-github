@@ -1,5 +1,6 @@
 // @ts-ignore
 import {DokiThemeDefinitions, MasterDokiThemeDefinition, StringDictonary, GitHubDokiThemeDefinition} from './types';
+import {cssSources} from "./CSSStuff";
 
 const path = require('path');
 
@@ -20,6 +21,12 @@ const githubTemplateDirectoryPath = path.resolve(
   '.',
   "templates",
 );
+
+const themesOutputDirectoryTemplateDirectoryPath = path.resolve(
+  repoDirectory,
+  'themes',
+);
+
 
 function walkDir(dir: string): Promise<string[]> {
   const values: Promise<string[]>[] = fs.readdirSync(dir)
@@ -453,11 +460,24 @@ walkDir(githubThemeDefinitionDirectoryPath)
         )
       );
   }).then(dokiThemes => {
-  // write things for extension
-  dokiThemes.forEach(dokiTheme => {
+   const url = require("url");
+    return walkDir(path.resolve(__dirname, '..', 'temp'))
+      .then(paths => paths.map(p => {
+        const fileName = path.basename(p)
+        const sourceName = fileName.substr(0, fileName.length - 4);
+        return {
+          ...(cssSources.find(s => s.name === sourceName) || {}),
+          url: url.pathToFileURL(p).href,
+        }
+      }))
+      .then(cssSources => {
+        // write css files
+        dokiThemes.forEach(dokiTheme => {
+          const themeName = constructGitHubName(dokiTheme.definition);
 
-  })
-
+          fs.writeFileSync(path.resolve(themesOutputDirectoryTemplateDirectoryPath, `${themeName}.css`), 'skeet');
+        })
+      });
 })
   .then(() => {
     console.log('Theme Generation Complete!');
