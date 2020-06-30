@@ -461,3 +461,20 @@ export const cssSources = [
   },
 ];
 
+export const ignoreSelectors = [
+  /\.CodeMirror/,
+  /\.cm-/, // CodeMirror
+  /\.pl-/, // GitHub Pretty Lights Syntax highlighter
+  /\spre$/,
+  /^.Popover-message:before$/,
+  /^.Popover-message:after$/,
+  /^h[1-6] a$/, // conflicting styles from help.github.com
+  /^\.bg-white$/,
+  /^\.CircleBadge$/,
+  /^table$/,
+  /^.text-gray-dark$/,
+  /^.markdown-body del$/, // this in not main page style
+  /:(before|after).+/, // invalid pseudo-elements, they must come last in a chain of
+  /:not\(li\.moved\)/, // invalid :not content (not a simple selector)
+];
+

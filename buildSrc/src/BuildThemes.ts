@@ -1,6 +1,9 @@
 // @ts-ignore
 import {DokiThemeDefinitions, MasterDokiThemeDefinition, StringDictonary, GitHubDokiThemeDefinition} from './types';
-import {cssSources} from "./CSSStuff";
+import {cssMappings, cssSources, ignoreSelectors} from "./CSSStuff";
+import fetchCssLocal from './FetchCSS';
+
+const remapCss = require('remap-css');
 
 const path = require('path');
 
@@ -197,21 +200,27 @@ function constructGitHubName(dokiTheme: MasterDokiThemeDefinition) {
   return dokiTheme.name.replace(/ /g, '_').toLowerCase();
 }
 
-function buildGithubTemplate(
+function buildCssMappings(
   dokiThemeDefinition: MasterDokiThemeDefinition,
   dokiTemplateDefinitions: DokiThemeDefinitions,
   dokiThemeGitHubDefinition: GitHubDokiThemeDefinition,
-  githubAfterScript: FileDef[],
+  githubCssColorMappings: StringDictonary<string>,
 ) {
-  return githubAfterScript.map(({fileName, fileContents})=>({
-    fileName,
-    fileContents: evaluateTemplate(
-      dokiThemeDefinition,
-      dokiTemplateDefinitions,
-      fileContents
-    )
-  }));
+  return githubCssColorMappings;
+}
 
+
+function buildCssTemplate(
+  dokiThemeDefinition: MasterDokiThemeDefinition,
+  dokiTemplateDefinitions: DokiThemeDefinitions,
+  dokiThemeGitHubDefinition: GitHubDokiThemeDefinition,
+  githubCssTemplate: string,
+) {
+  return evaluateTemplate(
+    dokiThemeDefinition,
+    dokiTemplateDefinitions,
+    githubCssTemplate
+  );
 }
 
 const capitalize = require('lodash/capitalize');
@@ -304,9 +313,9 @@ function fillInTemplateScript(
 
 type FileDef = { fileName: string, fileContents: string };
 type GitHubTemplates = {
-  templates: FileDef[]
+  cssColorMappings: StringDictonary<string>;
+  cssTemplate: string
 };
-
 
 function createDokiTheme(
   dokiFileDefinitionPath: string,
@@ -319,11 +328,17 @@ function createDokiTheme(
     return {
       path: dokiFileDefinitionPath,
       definition: dokiThemeDefinition,
-      autoloadTemplate: buildGithubTemplate(
+      cssMappings: buildCssMappings(
         dokiThemeDefinition,
         dokiTemplateDefinitions,
         dokiThemeGitHubDefinition,
-        githubTemplates.templates,
+        githubTemplates.cssColorMappings,
+      ),
+      cssTemplate: buildCssTemplate(
+        dokiThemeDefinition,
+        dokiTemplateDefinitions,
+        dokiThemeGitHubDefinition,
+        githubTemplates.cssTemplate,
       ),
     };
   } catch (e) {
@@ -409,16 +424,17 @@ walkDir(githubThemeDefinitionDirectoryPath)
       .then(githubSyntaxPaths => {
         return {
           ...templatesAndDefinitions,
-          githubSyntaxFileDefs : githubSyntaxPaths.map(syntaxPath => ({
+          githubSyntaxFileDefs: githubSyntaxPaths.map(syntaxPath => ({
             fileName: path.basename(syntaxPath),
-            fileContents: fs.readFileSync(syntaxPath,'utf-8'),
+            fileContents: fs.readFileSync(syntaxPath, 'utf-8'),
           }))
         }
       })
   )
   .then(templatesAndDefinitions => {
     const githubTemplates: GitHubTemplates = {
-      templates: templatesAndDefinitions.githubSyntaxFileDefs
+      cssColorMappings: cssMappings,
+      cssTemplate: "skeet skeet"
     };
     const {
       dokiTemplateDefinitions,
@@ -459,26 +475,32 @@ walkDir(githubThemeDefinitionDirectoryPath)
           githubTemplates
         )
       );
-  }).then(dokiThemes => {
-   const url = require("url");
-    return walkDir(path.resolve(__dirname, '..', 'temp'))
-      .then(paths => paths.map(p => {
-        const fileName = path.basename(p)
-        const sourceName = fileName.substr(0, fileName.length - 4);
-        return {
-          ...(cssSources.find(s => s.name === sourceName) || {}),
-          url: url.pathToFileURL(p).href,
-        }
-      }))
-      .then(cssSources => {
-        // write css files
-        dokiThemes.forEach(dokiTheme => {
-          const themeName = constructGitHubName(dokiTheme.definition);
+  }).then(dokiThemes =>
+  walkDir(path.resolve(__dirname, '..', 'temp'))
+    .then(paths => paths.map(p => {
+      return {
+        url: p,
+      }
+    }))
+    .then(cssSources => fetchCssLocal(cssSources))
+    .then(cssSources => {
+      // write css files
 
-          fs.writeFileSync(path.resolve(themesOutputDirectoryTemplateDirectoryPath, `${themeName}.css`), 'skeet');
+      return dokiThemes.slice(0, 2).reduce((accum, dokiTheme) => {
+        return accum.then(() => remapCss(cssSources, dokiTheme.cssMappings, {
+            ignoreSelectors,
+            indentCss: 2,
+            lineLength: 76,
+            comments: true,
+            stylistic: true,
+            validate: true,
+          })
+        ).then(remappedCss => {
+          const themeName = constructGitHubName(dokiTheme.definition);
+          fs.writeFileSync(path.resolve(themesOutputDirectoryTemplateDirectoryPath, `${themeName}.css`), remappedCss);
         })
-      });
-})
+      }, Promise.resolve())
+    }))
   .then(() => {
     console.log('Theme Generation Complete!');
   });

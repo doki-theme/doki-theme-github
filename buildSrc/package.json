@@ -10,10 +10,11 @@
   "devDependencies": {
     "@types/chrome": "^0.0.115",
     "@types/jest": "^26.0.0",
-    "@types/lodash": "^4.14.155",
+    "@types/lodash": "^4.14.157",
     "copy-webpack-plugin": "^6.0.2",
     "fetch-css": "^3.0.1",
     "jest": "^26.0.1",
+    "lodash": "^4.17.15",
     "remap-css": "^4.7.3",
     "rimraf": "^3.0.2",
     "ts-jest": "^26.1.0",
