@@ -17,6 +17,7 @@
     "lodash": "^4.17.15",
     "remap-css": "^4.7.3",
     "rimraf": "^3.0.2",
+    "stylelint": "^13.6.1",
     "ts-jest": "^26.1.0",
     "ts-loader": "^7.0.5",
     "ts-node": "^8.10.2",
