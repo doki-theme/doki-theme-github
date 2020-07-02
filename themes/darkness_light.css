@@ -16108,12 +16108,12 @@ select:-webkit-autofill:focus {
 }
 /* text selection */
 ::selection {
-    background-color: /*[[base-color]]*/ #F5C83C !important;
-    color: #fff !important;
+    background-color: /*[[base-color]]*/ #fff3b4 !important;
+    color: #A8930A !important;
 }
 ::-moz-selection {
-    background-color: /*[[base-color]]*/ #F5C83C !important;
-    color: #fff !important;
+    background-color: /*[[base-color]]*/ #fff3b4 !important;
+    color: #A8930A !important;
 }
 .CodeMirror-selected {
     background: rgba(255, 255, 255, .12) !important;
