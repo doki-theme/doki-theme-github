@@ -1,0 +1,13 @@
+#202020 -> baseBackground
+#181818 -> textEditorBackground
+// border color light
+#404040 -> borderColor
+// accent colors
+#4f8cc9 -> accentColor
+#246 -> accentColor // topic button border
+#273045 -> accentColor // topic button hover
+// buttons
+#9daccc -> buttonFont
+#182030 -> buttonColor
+//
+rgba(24, 24, 24, .4) -> headerColor
