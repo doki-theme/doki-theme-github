@@ -11,3 +11,11 @@
 #182030 -> buttonColor
 //
 rgba(24, 24, 24, .4) -> headerColor
+
+// manually set selection colors
+
+// border stuff
+/* source #14: "#e1e4e8" */
+  .UnderlineNav {
+    border-bottom-color: {{borderColor}};
+  }

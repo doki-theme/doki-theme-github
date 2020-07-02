@@ -15126,7 +15126,7 @@
   }
   /* source #14: "#e1e4e8" */
   .UnderlineNav {
-    border-bottom-color: #343434;
+    border-bottom-color: #e2eaee !important;
   }
   /* source #14: "color: #586069", "transparent", "transparent" */
   .UnderlineNav-item {
