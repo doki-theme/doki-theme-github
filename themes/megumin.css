@@ -8681,7 +8681,7 @@
   /* source #5: "color: #24292e", "border-bottom-color: #e36209" */
   .emoji-tab[role="tab"][aria-selected="true"] {
     color: #cdcdcd;
-    border-bottom-color: #eee;
+    border-bottom-color: #a73035;
   }
   /* source #5: "color: #6a737d" */
   .emoji-tab[role="tab"][aria-selected="true"] .UnderlineNav-octicon {
@@ -10774,7 +10774,7 @@
   /* source #5: "color: #24292e", "border-bottom-color: #e36209" */
   .repository-settings-actions [role="tab"][aria-selected="true"] {
     color: #cdcdcd;
-    border-bottom-color: #eee;
+    border-bottom-color: #a73035;
   }
   /* source #5: "color: #6a737d" */
   .repository-settings-actions [role="tab"][aria-selected="true"] .UnderlineNav-octicon {
@@ -13261,7 +13261,7 @@
   .UnderlineNav-item[aria-current]:not([aria-current="false"]),
   .UnderlineNav-item[role="tab"][aria-selected="true"] {
     color: #cdcdcd;
-    border-bottom-color: #eee;
+    border-bottom-color: #a73035;
   }
   /* source #9: "color: #6a737d" */
   .UnderlineNav-item.selected .UnderlineNav-octicon,
@@ -15148,7 +15148,7 @@
   .UnderlineNav-item.selected, .UnderlineNav-item[aria-current],
   .UnderlineNav-item[role="tab"][aria-selected="true"] {
     color: #cdcdcd;
-    border-bottom-color: #eee;
+    border-bottom-color: #a73035;
   }
   /* source #14: "color: #6a737d" */
   .UnderlineNav-item.selected .UnderlineNav-octicon,
@@ -16460,7 +16460,7 @@ aside.border-top + section.bg-gray-dark:not([class*="js-"]) {
 }
 @media screen and (min-width: 1024px) {
     .site-subnav .subnav-primary.selected, .site-subnav .subnav-primary:hover {
-        border-bottom-color: #eee !important;
+        border-bottom-color: #a73035 !important;
     }
 }
 @media screen and (max-width: 768px) {
