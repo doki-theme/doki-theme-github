@@ -2,13 +2,13 @@
 #181818 -> textEditorBackground
 #242424 -> selectionInactive
 // comments border color
-#224466 -> accentColor + 35
+#224466 -> accentColor + 35 (in mappings)
 // border color light
 #404040 -> borderColor
 // accent colors
 #4f8cc9 -> accentColor
-#246 -> accentColor // topic button border
-#273045 -> accentColor // topic button hover
+#246 -> accentColor + 55 // topic button border
+#273045 -> accentColor + 45 // topic button hover
 // buttons
 #9daccc -> buttonFont
 #182030 -> buttonColor
