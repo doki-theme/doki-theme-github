@@ -1,6 +1,7 @@
 #202020 -> baseBackground
 #181818 -> textEditorBackground
 #242424 -> selectionInactive
+#224466
 // border color light
 #404040 -> borderColor
 // accent colors
