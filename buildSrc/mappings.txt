@@ -19,3 +19,17 @@ rgba(24, 24, 24, .4) -> headerColor
   .UnderlineNav {
     border-bottom-color: {{borderColor}};
   }
+
+//button
+.btn-primary {
+    background-color: {{accentColor}};
+    color: {{selectionForeground}} !important;
+    background-image: linear-gradient(-180deg, {{accentColor}} 0%, {{accentColor}} 90%);
+  }
+
+.btn.hover, .btn:hover {
+    background-color: {{selectionBackground}};
+    background-image: linear-gradient(-180deg, {{selectionBackground}} 0%, {{selectionBackground}} 90%);
+    border-color: none !important;
+    color: {{selectionForeground}} !important;
+  }

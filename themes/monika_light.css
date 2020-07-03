@@ -35,6 +35,34 @@
         color: #f2fff0;
     }
 
+    /* Doki addons */
+
+    .UnderlineNav {
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden;
+        box-shadow: inset 0 -1px 0 #e2eee3;
+        justify-content: space-between;
+    }
+
+    .form-control, .form-select {
+      box-shadow: none !important;
+    }
+
+    .octicon {
+      fill: #838b83;
+    }
+
+    .btn-primary .octicon {
+      fill: #393d45 !important;
+    }
+
+    .btn {
+      box-shadow: none !important;
+    }
+
+    /* end doki addons */
+
   /* source #0: "transparent" */
   .bg-shade-gradient {
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.065), transparent) !important;
@@ -14524,10 +14552,11 @@
   }
   /* source #14: "#e6ebf1", "#e6ebf1", "rgba(27,31,35,0.35)" */
   .btn.hover, .btn:hover {
-    background-color: #444;
-    background-image: linear-gradient(-180deg, #f0f3f6 0%, #444 90%);
-    border-color: rgba(200, 200, 200, 0.3);
-  }
+      background-color: #a9ecac;
+      background-image: linear-gradient(-180deg, #a9ecac 0%, #a9ecac 90%);
+      border-color: none !important;
+      color: #393d45 !important;
+    }
   /* source #14: "#e9ecef", "none", "rgba(27,31,35,0.35)" */
   .btn.selected, .btn:active, .btn[aria-selected="true"], [open] > .btn {
     background-color: #e2eee3;
@@ -14544,8 +14573,9 @@
   }
   /* source #14: "#28a745", "#28a745" */
   .btn-primary {
-    background-color: #373;
-    background-image: linear-gradient(-180deg, #34d058 0%, #373 90%);
+    background-color: #388E3C;
+    color: #393d45 !important;
+    background-image: linear-gradient(-180deg, #388E3C 0%, #388E3C 90%);
   }
   /* source #14: "box-shadow: 0 0 0 .2em rgba(52,208,88,.4)" */
   .btn-primary.focus, .btn-primary:focus {
