@@ -1,5 +1,6 @@
 #202020 -> baseBackground
 #181818 -> textEditorBackground
+#242424 -> selectionInactive
 // border color light
 #404040 -> borderColor
 // accent colors
@@ -18,6 +19,11 @@ rgba(24, 24, 24, .4) -> headerColor
 /* source #14: "#e1e4e8" */
   .UnderlineNav {
     border-bottom-color: {{borderColor}};
+  }
+
+.Box-header--blue {
+    background-color: {{buttonColor}};
+    border-color: none !important;
   }
 
 //button
