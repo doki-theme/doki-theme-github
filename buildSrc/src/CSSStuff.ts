@@ -2,22 +2,22 @@ export const cssMappings = {
   // ==========================================================================
   // Background
   // ==========================================================================
-  "$background: #fff": "#181818; background-image: none",
-  "$background: #ffe": "#181818",
-  "$background: #fdfdfd": "#181818",
-  "$background: #fafafb": "#181818",
-  "$background: #fafbfc": "#181818", // .bg-gray-light
-  "$background: #f9f9f9": "#181818",
-  "$background: #f8f8f8": "#202020", // zenhub
-  "$background: #efefef": "#202020",
+  "$background: #fff": "{{textEditorBackground}}; background-image: none",
+  "$background: #ffe": "{{textEditorBackground}}",
+  "$background: #fdfdfd": "{{textEditorBackground}}",
+  "$background: #fafafb": "{{textEditorBackground}}",
+  "$background: #fafbfc": "{{textEditorBackground}}", // .bg-gray-light
+  "$background: #f9f9f9": "{{textEditorBackground}}",
+  "$background: #f8f8f8": "{{baseBackground}}", // zenhub
+  "$background: #efefef": "{{baseBackground}}",
   "$background: #f6f8fa": "#222",
   "$background: #f5f5f5": "#222", // gitako
-  "$background: #f4f5f5": "#242424", // zenhub
-  "$background: #f4f4f4": "#242424",
-  "$background: #eff3f6": "#242424",
-  "$background: #eee": "#242424", // graphql explorer
+  "$background: #f4f5f5": "{{selectionInactive}}", // zenhub
+  "$background: #f4f4f4": "{{selectionInactive}}",
+  "$background: #eff3f6": "{{selectionInactive}}",
+  "$background: #eee": "{{selectionInactive}}", // graphql explorer
   "$background: #eaecef": "#343434",
-  "$background: #e9ecef": "#404040",
+  "$background: #e9ecef": "{{borderColor}}",
   "$background: #e9e9e9": "#343434", // zenhub
   "$background: #e6ebf1": "#444",
   "$background: #e1e4e8": "#343434",
@@ -25,27 +25,27 @@ export const cssMappings = {
   "$background: #ddd": "#383838",
   "$background: #d6e2f1": "#444",
   "$background: #d3e2f4": "#383838",
-  "$background: #d1d5da": "#404040",
+  "$background: #d1d5da": "{{borderColor}}",
   "$background: #ccc": "#484848",
   "$background: #c6cbd1": "#484848",
   "$background: #6a737d": "#444",
   "$background: #586069": "#343434",
   "$background: #2f363d": "#282828",
-  "$background: #24292e": "#181818",
+  "$background: #24292e": "{{textEditorBackground}}",
 
   "$background: rgba(225,228,232,0.31)": "#282828",
   "$background: hsla(0,0%,100%,.125)": "hsla(0,0%,100%,.05)",
   "$background: hsla(0,0%,100%,.175)": "hsla(0,0%,100%,.1)",
-  "$background: linear-gradient(180deg,rgba(242,248,254,0),rgba(242,248,254,.47))": "linear-gradient(180deg,#181818,#181818)",
-  "$background: linear-gradient(#fafafa,#eaeaea)": "linear-gradient(#202020, #181818)",
-  "$background: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%)": "linear-gradient(-180deg, #202020 0%, #181818 90%)", // status
+  "$background: linear-gradient(180deg,rgba(242,248,254,0),rgba(242,248,254,.47))": "linear-gradient(180deg,{{textEditorBackground}},{{textEditorBackground}})",
+  "$background: linear-gradient(#fafafa,#eaeaea)": "linear-gradient({{baseBackground}}, {{textEditorBackground}})",
+  "$background: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%)": "linear-gradient(-180deg, {{baseBackground}} 0%, {{textEditorBackground}} 90%)", // status
   "$background: linear-gradient(#f7f7f7, #e2e2e2)": "#222", // graphql explorer
   "$background: linear-gradient(#f9f9f9, #ececec)": "linear-gradient(#303030, #282828)", // graphql explorer
   "$background: linear-gradient(#fdfdfd, #d2d3d6)": "linear-gradient(#303030, #282828)", // graphql explorer
-  "$background: linear-gradient(#e6e6e6, #c3c3c3)": "linear-gradient(#404040, #383838)", // graphql explorer
-  "$background: linear-gradient(#ececec, #d5d5d5)": "linear-gradient(#404040, #383838)", // graphql explorer
+  "$background: linear-gradient(#e6e6e6, #c3c3c3)": "linear-gradient({{borderColor}}, #383838)", // graphql explorer
+  "$background: linear-gradient(#ececec, #d5d5d5)": "linear-gradient({{borderColor}}, #383838)", // graphql explorer
   "$background: linear-gradient(#ccc,#d5d5d5)": "linear-gradient(#303030, #282828)",
-  "$background: linear-gradient(-180deg,#f0f3f6,#e6ebf1 90%)": "linear-gradient(#404040, #383838)",
+  "$background: linear-gradient(-180deg,#f0f3f6,#e6ebf1 90%)": "linear-gradient({{borderColor}}, #383838)",
 
   "$background: rgba(27,31,35,.08)": "rgba(200,200,200,.15)",
   "$background: rgba(27,31,35,.1)": "rgba(200,200,200,.17)",
@@ -73,7 +73,7 @@ export const cssMappings = {
   "$border: #bbb": "#484848",
   "$border: #c3c8cf": "#484848",
   "$border: #dfe2e5": "#343434",
-  "$border: #d1d5da": "#404040",
+  "$border: #d1d5da": "{{borderColor}}",
   "$border: #ddd": "#343434",
   "$border: #d6d6d6": "#343434", // graphql explorer
   "$border: #d0d0d0": "#343434", // graphql explorer
@@ -86,17 +86,17 @@ export const cssMappings = {
   "$border: #eaecef": "#343434",
   "$border: #eaeaea": "#343434",
   "$border: #eee": "#343434",
-  "$border: #f6f8fa": "#202020",
+  "$border: #f6f8fa": "{{baseBackground}}",
   "$border: #f8f8f8": "#343434",
-  "$border: #fff": "#181818",
+  "$border: #fff": "{{textEditorBackground}}",
   "$border: #2f363d": "#282828",
 
   "border-top: 8px solid rgba(27,31,35,.15)": "border-top-color: rgba(200,200,200,.15)",
   "border-bottom-color: #e36209": "border-bottom-color: #eee",
 
-  "border: 1px solid": "border-color: #181818",
-  "border-top: 7px solid #fff": "border-top-color: #181818",
-  "border-color: #dfe2e5 #dfe2e5 #fff": "border-color: #343434 #343434 #181818",
+  "border: 1px solid": "border-color: {{textEditorBackground}}",
+  "border-top: 7px solid #fff": "border-top-color: {{textEditorBackground}}",
+  "border-color: #dfe2e5 #dfe2e5 #fff": "border-color: #343434 #343434 {{textEditorBackground}}",
 
   // ==========================================================================
   // Box-Shadow
@@ -107,7 +107,7 @@ export const cssMappings = {
   `, // graphql explorer
   "box-shadow: inset 0 0 0 1px rgba(0,0,0,0.2),0 1px 0 rgba(255,255,255,0.7),inset 0 1px #fff": "box-shadow: 0 0 0 .1px #343434", // graphql explorer
   "box-shadow: 0 1px 0 #fff": "box-shadow: 0 0 0 1px #484848", // graphql explorer
-  "box-shadow: inset 1px 0 0 #fff": "box-shadow: inset 1px 0 0 #181818",
+  "box-shadow: inset 1px 0 0 #fff": "box-shadow: inset 1px 0 0 {{textEditorBackground}}",
   "box-shadow: inset 0 2px 3px rgba(0,0,0,.075)": "box-shadow: inset 0 2px 3px rgba(255,255,255,.075)",
 
   "box-shadow: 0 0 0 .2em rgba(3,102,214,.3)": `
@@ -131,7 +131,7 @@ export const cssMappings = {
   `,
 
   "box-shadow: 0 1px 0 0 #1074e7": `
-    box-shadow: 0 1px 0 0 #4f8cc9;
+    box-shadow: 0 1px 0 0 {{accentColor}};
     box-shadow: 0 1px 0 0 /*[[base-color]]*/;
   `,
 
@@ -150,8 +150,8 @@ export const cssMappings = {
   "box-shadow: 0 1px 0 #eaecef": "box-shadow: 0 1px 0 #343434",
   "box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px inset": "box-shadow: #000 0px 0px 0px inset", // status
 
-  "box-shadow: 0 1px 0 0 #0058a2": "box-shadow: 0 1px 0 0 /*[[base-color]]*/ #4f8cc9",
-  "box-shadow: 0 0 0.2em #c8e1ff": "box-shadow: 0 0 .2em /*[[base-color]]*/ #4f8cc9",
+  "box-shadow: 0 1px 0 0 #0058a2": "box-shadow: 0 1px 0 0 /*[[base-color]]*/ {{accentColor}}",
+  "box-shadow: 0 0 0.2em #c8e1ff": "box-shadow: 0 0 .2em /*[[base-color]]*/ {{accentColor}}",
 
   "box-shadow: inset 2px 0 0 #0366d6": "box-shadow: inset 2px 0 0 #eee",
 
@@ -179,7 +179,7 @@ export const cssMappings = {
   "color: #a3aab1": "color: #767676",
   "color: #c3c8cf": "color: #5a5a5a",
   "color: #c6cbd1": "color: #5a5a5a",
-  "color: #d1d5da": "color: #404040",
+  "color: #d1d5da": "color: {{borderColor}}",
 
   "color: #4183c4": `
     color: rgba(79,140,201,.9);
@@ -198,12 +198,12 @@ export const cssMappings = {
   "color: rgb(36,41,46)": "color: rgb(210,210,210) !important", // notifications preview
 
   "fill: #959da5": "fill: #757575",
-  "fill: #0366d6": "fill:  /*[[base-color]]*/ #4f8cc9",
-  "fill: #1074e7": "fill:  /*[[base-color]]*/ #4f8cc9",
+  "fill: #0366d6": "fill:  /*[[base-color]]*/ {{accentColor}}",
+  "fill: #1074e7": "fill:  /*[[base-color]]*/ {{accentColor}}",
 
-  "color: #0366d6": "color: /*[[base-color]]*/ #4f8cc9",
-  "color: #1074e7": "color: /*[[base-color]]*/ #4f8cc9",
-  "color: #1f61a0": "color: /*[[base-color]]*/ #4f8cc9", //  graphql explorer
+  "color: #0366d6": "color: /*[[base-color]]*/ {{accentColor}}",
+  "color: #1074e7": "color: /*[[base-color]]*/ {{accentColor}}",
+  "color: #1f61a0": "color: /*[[base-color]]*/ {{accentColor}}", //  graphql explorer
   "color: rgba(88,96,105,.5)": "color: rgba(148,148,148,.5)",
 
   "fill: #24292e": "fill: #bebebe",
@@ -211,33 +211,33 @@ export const cssMappings = {
   "stroke: #24292e": "stroke: #d2d2d2",
 
   // blue
-  "color: #032f62": "color: #9daccc",
+  "color: #032f62": "color: {{buttonFont}}",
   "color: #05264c": "color: #bebebe", // big commit title
-  "color: #264c72": "color: #9daccc",
-  "$background: #f1f8ff": "#182030",
-  "$background: #032f62": "#182030",
-  "$background: #dbedff": "#182030",
-  "$background: #d8ebf8": "#182030",
-  "$border: #f1f8ff": "#182030",
-  "$border: #97c1da": "#224466",
-  "color: #c0d3eb": "color: #224466",
-  "$background: #c8e1ff": "#224466",
-  "$border: #c8e1ff": "#224466",
-  "$border: #c0d3eb": "#224466",
-  "$background: #0361cc": "#182030",
-  "$background: #05264c": "#182030",
-  "$background: #005cc2": "/*[[base-color]]*/ #4f8cc9",
-  "$background: linear-gradient(-180deg,#0679fc,#0361cc 90%)": "linear-gradient(to bottom,#283040,#182030)",
-  "$background: linear-gradient(90deg,#257bf9,#2426ca)": "linear-gradient(90deg,#283040,#182030)",
-  "$background: #3072b3": "/*[[base-color]]*/ #4f8cc9",
+  "color: #264c72": "color: {{buttonFont}}",
+  "$background: #f1f8ff": "{{buttonColor}}",
+  "$background: #032f62": "{{buttonColor}}",
+  "$background: #dbedff": "{{buttonColor}}",
+  "$background: #d8ebf8": "{{buttonColor}}",
+  "$border: #f1f8ff": "{{buttonColor}}",
+  "$border: #97c1da": "{{accentColor}}35",
+  "color: #c0d3eb": "color: {{accentColor}}35",
+  "$background: #c8e1ff": "{{accentColor}}35",
+  "$border: #c8e1ff": "{{accentColor}}35",
+  "$border: #c0d3eb": "{{accentColor}}35",
+  "$background: #0361cc": "{{buttonColor}}",
+  "$background: #05264c": "{{buttonColor}}",
+  "$background: #005cc2": "/*[[base-color]]*/ {{accentColor}}",
+  "$background: linear-gradient(-180deg,#0679fc,#0361cc 90%)": "linear-gradient(to bottom,#283040,{{buttonColor}})",
+  "$background: linear-gradient(90deg,#257bf9,#2426ca)": "linear-gradient(90deg,#283040,{{buttonColor}})",
+  "$background: #3072b3": "/*[[base-color]]*/ {{accentColor}}",
 
   // blue (base-color)
-  "color: #327fc7": "color: /*[[base-color]]*/ #4f8cc9",
-  "color: #b4d6fe": "color: /*[[base-color]]*/ #4f8cc9", // github hovercard
-  "$background: #4183c4": "/*[[base-color]]*/ #4f8cc9",
-  "$background: #0366d6": "/*[[base-color]]*/ #4f8cc9; color: #fff; background-image: none",
-  "$border: #0366d6": "/*[[base-color]]*/ #4f8cc9",
-  "$border: #1074e7": "/*[[base-color]]*/ #4f8cc9",
+  "color: #327fc7": "color: /*[[base-color]]*/ {{accentColor}}",
+  "color: #b4d6fe": "color: /*[[base-color]]*/ {{accentColor}}", // github hovercard
+  "$background: #4183c4": "/*[[base-color]]*/ {{accentColor}}",
+  "$background: #0366d6": "/*[[base-color]]*/ {{accentColor}}; color: #fff; background-image: none",
+  "$border: #0366d6": "/*[[base-color]]*/ {{accentColor}}",
+  "$border: #1074e7": "/*[[base-color]]*/ {{accentColor}}",
   "filter: drop-shadow(-.25em 0 0 #c8e1ff)": `
     filter: drop-shadow(-.25em 0 0 rgba(79,140,201,.3));
     filter: drop-shadow(-.25em 0 0 rgba(/*[[base-color-rgb]]*/, .3))
@@ -250,20 +250,20 @@ export const cssMappings = {
     filter: drop-shadow(-.28em 0 0 rgba(79,140,201,.3));
     filter: drop-shadow(-.28em 0 0 rgba(/*[[base-color-rgb]]*/, .3))
   `,
-  "$border: #2188ff": "/*[[base-color]]*/ #4f8cc9",
-  "$background: linear-gradient(#54a3ff,#006eed)": "linear-gradient(/*[[base-color]]*/ #4f8cc9, /*[[base-color]]*/ #4f8cc9)", // notification icon
-  "color: #cce888": "color: /*[[base-color]]*/ #4f8cc9", // https://github.com/StylishThemes/GitHub-Dark/issues/954
-  "$background: linear-gradient(#599bcd,#3072b3)": "linear-gradient(/*[[base-color]]*/ #4f8cc9, /*[[base-color]]*/ #4f8cc9)",
-  "$border: #2a65a0": "/*[[base-color]]*/ #4f8cc9",
-  "color: rgba(3, 47, 98, 0.55)": "color: /*[[base-color]]*/ #4f8cc9", // gitako
-  "color: #0366d6d0": "color: /*[[base-color]]*/ #4f8cc9", // gitako
-  "$background: #79b8ff": "/*[[base-color]]*/ #4f8cc9",
+  "$border: #2188ff": "/*[[base-color]]*/ {{accentColor}}",
+  "$background: linear-gradient(#54a3ff,#006eed)": "linear-gradient(/*[[base-color]]*/ {{accentColor}}, /*[[base-color]]*/ {{accentColor}})", // notification icon
+  "color: #cce888": "color: /*[[base-color]]*/ {{accentColor}}", // https://github.com/StylishThemes/GitHub-Dark/issues/954
+  "$background: linear-gradient(#599bcd,#3072b3)": "linear-gradient(/*[[base-color]]*/ {{accentColor}}, /*[[base-color]]*/ {{accentColor}})",
+  "$border: #2a65a0": "/*[[base-color]]*/ {{accentColor}}",
+  "color: rgba(3, 47, 98, 0.55)": "color: /*[[base-color]]*/ {{accentColor}}", // gitako
+  "color: #0366d6d0": "color: /*[[base-color]]*/ {{accentColor}}", // gitako
+  "$background: #79b8ff": "/*[[base-color]]*/ {{accentColor}}",
   "box-shadow: 0 0 10px rgba(121,184,255,.7)": `
     box-shadow: 0 0 rgba(79,140,201,.3);
     box-shadow: 0 0 rgba(/*[[base-color-rgb]]*/, .3)
   `,
-  "color: #3b5998": "color: /*[[base-color]]*/ #4f8cc9",
-  "$border: #3b5998": "/*[[base-color]]*/ #4f8cc9",
+  "color: #3b5998": "color: /*[[base-color]]*/ {{accentColor}}",
+  "$border: #3b5998": "/*[[base-color]]*/ {{accentColor}}",
 
   // red
   "color: #cb2431": "color: #f44",
@@ -353,8 +353,8 @@ export const cssMappings = {
 
   "outline: 1px solid #fff": "outline-color: #222",
 
-  "$background: rgba(0,0,0,.8)": "#242424", // github hovercard
-  "$border: rgba(0,0,0,.8)": "#242424", // github hovercard
+  "$background: rgba(0,0,0,.8)": "{{selectionInactive}}", // github hovercard
+  "$border: rgba(0,0,0,.8)": "{{selectionInactive}}", // github hovercard
 
   "box-shadow: none": "box-shadow: none",
 
