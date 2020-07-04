@@ -1,5 +1,6 @@
 #202020 -> baseBackground
 #181818 -> textEditorBackground
+#1c1c1c -> textEditorBackground (line number gutter)
 #242424 -> selectionInactive
 // comments border color
 #224466 -> accentColor + 35 (in mappings)
@@ -49,3 +50,15 @@ rgba(24, 24, 24, .4) -> headerColor
     color: {{selectionForeground}}!important;
     background-image: none !important;
   }
+
+.blame .blob-num, .blame-blob-num, .collection-card, .team-grid .team,
+.code-list .divider .blob-num, .code-list .divider .blob-code,
+.expandable-line-num .diff-expander:hover, .build-status-item, .more-branches,
+.plan-choice.open, .uploaded-files>li.delete, .more-repos,
+.billing-per-seat-callout::after, .code-list-item .blob-num,
+.blob-num.js-line-number, .bg-gray-light.disabled,
+.MarketplaceBackground-buffer, .team-left-column.bg-white, .overall-summary,
+.markdown-body table tr {
+    background: {{textEditorBackground}} !important;
+    color: {{lineNumberColor}} !important; /* added color*/
+}
