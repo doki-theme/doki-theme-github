@@ -11041,7 +11041,8 @@
   }
   /* source #5: "#fff" */
   .tree-browser-result[aria-selected="true"] {
-    background-color: #1d2115;
+    background-color: #30432B!important;
+    color: #ffffff!important;
     background-image: none !important;
   }
   /* source #5: "color: #0366d6", "none" */

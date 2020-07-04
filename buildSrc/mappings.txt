@@ -41,3 +41,11 @@ rgba(24, 24, 24, .4) -> headerColor
     border-color: none !important;
     color: {{selectionForeground}} !important;
   }
+
+// tree search result
+/* source #5: "#fff" */
+  .tree-browser-result[aria-selected="true"] {
+    background-color: {{selectionBackground}}!important;
+    color: {{selectionForeground}}!important;
+    background-image: none !important;
+  }
