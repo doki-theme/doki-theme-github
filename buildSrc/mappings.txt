@@ -1,6 +1,8 @@
 #202020 -> baseBackground
 #181818 -> textEditorBackground
 #1c1c1c -> textEditorBackground (line number gutter)
+// markdown code
+#141414 -> secondaryBackground
 #242424 -> selectionInactive
 // comments border color
 #224466 -> accentColor + 35 (in mappings)

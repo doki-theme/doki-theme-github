@@ -16934,7 +16934,7 @@ button.bg-white.subnav-link, main [style="background-color: #fcfdfd;"],
     border-color: #343434;
 }
 .blob-num-context, #user-content-toc td, .markdown-body table tr:nth-child(2n) {
-    background: #141414 !important;
+    background: #faecff !important;
 }
 .blame .blob-num, .blame-blob-num, .collection-card, .team-grid .team,
 .code-list .divider .blob-num, .code-list .divider .blob-code,
@@ -19136,7 +19136,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 /*[[syntax-theme]]*//*[[syntax-codemirror]]*//*[[syntax-jupyter]]*/
 /* usercss build - remove start *//*! GitHub: Twilight */
 :root {
-    --ghd-code-background: #141414;
+    --ghd-code-background: #faecff;
     --ghd-code-color: #ccc;
 }
 .pl-c, .pl-c span {
@@ -19589,7 +19589,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #bd6b18 !important;
 }
 .cm-meta {
-    background-color: #141414 !important;
+    background-color: #faecff !important;
     color: #f7f7f7 !important;
 }
 .cm-builtin {
@@ -19623,7 +19623,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 #notebook .input_area:not(.highlight), body.api pre,
 :is(#notebook, body.api) .highlight, :is(#notebook, body.api) .highlight pre,
 :is(#notebook, body.api) .highlight table {
-    background: #141414 !important;
+    background: #faecff !important;
     color: #ccc !important;
 }
 :is(#notebook, body.api) .highlight .hll, .highlight code .hll {
@@ -19673,7 +19673,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Other */
 :is(#notebook, body.api) .highlight .w, .highlight code .w {
-    color: #141414 !important;
+    color: #faecff !important;
 }
 /* Text.Whitespace */
 :is(#notebook, body.api) .highlight .cm, .highlight code .cm {
@@ -19895,7 +19895,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 #notebook .input_area, .blob-code-context, .markdown-format code, .api pre,
 .api li:not(a) code, .hook-delivery-details pre, .hook-delivery-container pre,
 .code-list .file-box, .CodeMirror, .highlight.bg-gray {
-    background-color: var(--ghd-code-background, #141414) !important;
+    background-color: var(--ghd-code-background, #faecff) !important;
     color: var(--ghd-code-color, #ccc) !important;
 }
 .flash p code {
@@ -20436,7 +20436,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
         background-color: /*[[base-color]]*/ #82357d;
     }
     .intercom-attribute-collector-card-body {
-        background-color: #141414;
+        background-color: #faecff;
         color: #eee;
         box-shadow: 0 4px 15px 0 rgba(0, 0, 0, .1),
         0 1px 2px 0 rgba(0, 0, 0, .1),
