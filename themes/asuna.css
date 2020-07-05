@@ -91,7 +91,7 @@
   }
   /* source #0: "#f5f5f5","#fff" */
   .shade-gradient {
-    background-image: linear-gradient(180deg, #222, #fcfcfc; background-image: none);
+    background-image: linear-gradient(180deg, #eeeeee, #fcfcfc; background-image: none);
   }
   /* source #0: "color: #333" */
   .text-emphasized {
@@ -789,7 +789,7 @@
   }
   /* source #0: "#f5f5f5" */
   .bg-custom-gradient {
-    background-image: linear-gradient(180deg, #222, rgba(245, 245, 245, 0));
+    background-image: linear-gradient(180deg, #eeeeee, rgba(245, 245, 245, 0));
   }
   /* source #1: "color: #24292e" */
   .gisthead .pagehead-actions .octicon-mute {
@@ -9702,7 +9702,7 @@
   }
   /* source #5: "#fff","#f5f5f5" */
   .saml-enabled-banner-container {
-    background-image: linear-gradient(-1deg, #fcfcfc; background-image: none, #222);
+    background-image: linear-gradient(-1deg, #fcfcfc; background-image: none, #eeeeee);
   }
   /* source #5: "#cb2431" */
   .saml-settings-form .test-status-indicator-error {
@@ -12804,7 +12804,7 @@
   }
   /* source #7: "background-color: #94d3a2", "none", "rgba(27,31,35,0.2)", "box-shadow: none" */
   .btn-primary.disabled, .btn-primary:disabled {
-    background: #040;
+    background: #a61d0d20;
     background-image: none;
     border-color: rgba(200, 200, 200, 0.15);
     box-shadow: none;
@@ -13465,7 +13465,7 @@
   }
   /* source #9: "outline: 1px solid #fff" */
   .avatar.avatar-more::after, .avatar.avatar-more::before {
-    outline-color: #222;
+    outline-color: #eeeeee;
   }
   /* source #9: "#e1e4e8" */
   .avatar.avatar-more::before {
@@ -14606,7 +14606,7 @@
   /* source #14: "background-color: #94d3a2", "none", "rgba(27,31,35,0.2)", "box-shadow: none" */
   .btn-primary.disabled, .btn-primary:disabled,
   .btn-primary[aria-disabled="true"] {
-    background: #040;
+    background: #a61d0d20;
     background-image: none;
     border-color: rgba(200, 200, 200, 0.15);
     box-shadow: none;
@@ -16659,7 +16659,7 @@ a.gollum-minibutton, a.gollum-minibutton:visited,
 .discussion-item-icon, .date::after, ul.color-label-list .color,
 .facebox-header, .TimelineItem-badge,
 .release-timeline-tags .tag-timeline-date::after {
-    border-color: #222;
+    border-color: #eeeeee;
 }
 .filter-tab.selected {
     border: 1px solid #444 !important;
@@ -17266,7 +17266,7 @@ rect[style*="#gradient-"] {
 .calendar-graph rect[fill="#ebedf0"], .contrib-legend li[style*="#ebedf0"],
 .js-activity-overview-graph-container [fill="white"] {
     background-color: #fdfdfd !important;
-    fill: #222 !important;
+    fill: #eeeeee !important;
 }
 .calendar-graph rect[fill="#196127"], .contrib-legend li[style*="#196127"] {
     opacity: 1 !important;
@@ -17502,7 +17502,7 @@ path.js-diff-placeholder {
     display: block !important;
 }
 g.dots circle {
-    stroke: #222 !important;
+    stroke: #eeeeee !important;
 }
 .traffic-graph g.axis:not(.views):not(.unique) g.tick:not(:nth-child(15)):not(:first-of-type) line,
 g.axis path, line.axis, svg:not(.vis) g.axis line {
@@ -17541,7 +17541,7 @@ svg.arrow[stroke="#1277eb"], svg path[stroke="#1074E7"] {
     fill: /*[[base-color]]*/ #a61d0d !important;
 }
 .features-branch-diagram circle[stroke="#ffffff"] {
-    stroke: #222 !important;
+    stroke: #eeeeee !important;
 }
 rect.map-background, .audit-log-map {
     fill: #1e4062 !important;
@@ -18714,7 +18714,7 @@ form[action*="/.github/workflows/"] .commit-create {
     border-right: 0 !important;
 }
 .js-details-container.navigation-focus .gobutton {
-    background: linear-gradient(#444, #222) !important;
+    background: linear-gradient(#444, #eeeeee) !important;
 }
 /* no top border radius */
 table.files {
@@ -18748,7 +18748,7 @@ table.files {
 }
 .file-commit-form .commit-form::after, .ScreenshotCarousel-navitem,
 .new-discussion-timeline .composer .timeline-comment::after {
-    border-right-color: #222 !important;
+    border-right-color: #eeeeee !important;
 }
 #com .dropdown-menu::after {
     border: 9px solid;
@@ -18878,7 +18878,7 @@ table.files {
 /* git diff line numbers (med green) */
 .gi .diff-line-num, .gi .diff-line-code, .gi .diff-line-pre {
     background: #020 !important;
-    border-color: #040 !important;
+    border-color: #a61d0d20 !important;
 }
 /* git diff line deletions (med red) */
 .gd .diff-line-num, .highlight .err, .gd .diff-line-code, .gd .diff-line-pre {

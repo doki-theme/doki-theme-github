@@ -19,6 +19,8 @@
 #182030 -> buttonColor
 // warning background
 #261d08 -> secondaryBackground
+#040 -> accentColor + 20 // disabled primary button
+#222 -> borderColor
 
 // code colors
 #cda869 -> keywordColor
