@@ -203,12 +203,14 @@ function constructGitHubName(dokiTheme: MasterDokiThemeDefinition) {
 function buildCssTemplate(
   dokiThemeDefinition: MasterDokiThemeDefinition,
   dokiTemplateDefinitions: DokiThemeDefinitions,
+  dokiFileDefinitionPath: string,
   dokiThemeGitHubDefinition: GitHubDokiThemeDefinition,
   githubCssTemplate: string,
 ) {
   return evaluateTemplate(
     dokiThemeDefinition,
     dokiTemplateDefinitions,
+    dokiFileDefinitionPath,
     githubCssTemplate
   );
 }
@@ -218,6 +220,7 @@ const capitalize = require('lodash/capitalize');
 function evaluateTemplate(
   dokiThemeDefinition: MasterDokiThemeDefinition,
   dokiTemplateDefinitions: DokiThemeDefinitions,
+  dokiFileDefinitionPath: string,
   gitHubCss: string,
 ) {
   const namedColors = constructNamedColorTemplate(
@@ -235,6 +238,7 @@ function evaluateTemplate(
         ...namedColors,
         themeName,
         themeProperName,
+        stickerPath: resolveStickerPath(dokiFileDefinitionPath, dokiThemeDefinition.stickers.default),
       }
     );
   } catch (e) {
@@ -314,6 +318,7 @@ function createDokiTheme(
       applyNamedColors: (css: string) => buildCssTemplate(
         dokiThemeDefinition,
         dokiTemplateDefinitions,
+        dokiFileDefinitionPath,
         dokiThemeGitHubDefinition,
         css
       )

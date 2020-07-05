@@ -37,6 +37,11 @@
 
     /* Doki addons */
 
+    body::before {
+    content:'';pointer-events:none;position:fixed;z-index:9001;width:100%;height:100%;background-position:100% 100%;background-repeat:no-repeat;opacity:1;
+    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-jetbrains/master/assets/miscellaneous/miku/miku.png');
+    }
+
     .UnderlineNav {
         display: flex;
         overflow-x: auto;
