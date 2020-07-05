@@ -1,6 +1,8 @@
 #202020 -> baseBackground
 #181818 -> textEditorBackground
 #1c1c1c -> textEditorBackground (line number gutter)
+#383838 -> secondaryBackground
+#343434 -> borderColor
 // markdown code
 #141414 -> secondaryBackground
 #242424 -> selectionInactive
