@@ -66,6 +66,11 @@
       box-shadow: none !important;
     }
 
+    .social-count {
+      box-shadow: none !important;
+      background-color: #1e1c19;
+    }
+
     /* end doki addons */
 
   /* source #0: "transparent" */
