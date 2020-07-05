@@ -19163,7 +19163,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant.numeric */
 .pl-coc {
-    color: #cf6a4c !important;
+    color: #F3C49C !important;
 }
 /* constant.other.color */
 .pl-cos {
@@ -19252,7 +19252,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* keyword.operator.logical.python */
 .pl-kos {
-    color: #cf6a4c !important;
+    color: #f3edff !important;
 }
 /* keyword.other.special-method */
 .pl-kou {
@@ -19390,11 +19390,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* storage.modifier.c */
 .pl-smi {
-    color: #ccc !important;
+    color: #DABDFB !important;
 }
 /* storage.modifier.import */
 .pl-smp {
-    color: #ccc !important;
+    color: #DABDFB !important;
 }
 /* storage.modifier.package */
 .pl-sok {
@@ -19524,7 +19524,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* variable.parameter.url */
 .pl-entl {
-    color: #ccc !important;
+    color: #DABDFB !important;
 }
 /* entity.name.tag.label */
 .pl-corl, .highlight .pl-corl span.x {
@@ -19534,7 +19534,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 /* links */
 .pl-token.active, .pl-token:hover {
     background: #DABDFB !important;
-    color: #ccc !important;
+    color: #DABDFB !important;
 }
 /*! CodeMirror: Twilight */
 /* based on https://github.com/codemirror/CodeMirror/blob/master/theme/twilight.css */
