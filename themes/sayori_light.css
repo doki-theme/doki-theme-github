@@ -19199,7 +19199,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.section */
 .pl-ent {
-    color: #cda869 !important;
+    color: #9D868D !important;
 }
 /* entity.name.tag */
 .pl-entc {
@@ -19216,7 +19216,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.type.module */
 .pl-eoa {
-    color: #cda869 !important;
+    color: #9D868D !important;
 }
 /* entity.other.attribute-name */
 .pl-eoac {
@@ -19228,11 +19228,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* punctuation.definition.entity */
 .pl-eoai {
-    color: #cda869 !important;
+    color: #9D868D !important;
 }
 /* entity.other.attribute-name.id */
 .pl-eoai .pl-pde {
-    color: #cda869 !important;
+    color: #9D868D !important;
 }
 /* punctuation.definition.entity */
 .pl-eoi {
@@ -19240,15 +19240,15 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.other.inherited-class */
 .pl-k {
-    color: #cda869 !important;
+    color: #9D868D !important;
 }
 /* keyword */
 .pl-ko {
-    color: #cda869 !important;
+    color: #9D868D !important;
 }
 /* keyword.operator */
 .pl-kolp {
-    color: #cda869 !important;
+    color: #9D868D !important;
 }
 /* keyword.operator.logical.python */
 .pl-kos {
@@ -19269,7 +19269,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* markup.bold */
 .pl-mc {
-    color: #cda869 !important;
+    color: #9D868D !important;
 }
 /* markup.changed */
 .pl-mh {
@@ -19282,7 +19282,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* markup.heading punctuation.definition.heading */
 .pl-mi {
-    color: #cda869 !important;
+    color: #9D868D !important;
     font-style: italic !important;
 }
 /* markup.italic */
@@ -19307,11 +19307,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* markup.quote */
 .pl-mr {
-    color: #cda869 !important;
+    color: #9D868D !important;
 }
 /* meta.require */
 .pl-ms {
-    color: #cda869 !important;
+    color: #9D868D !important;
 }
 /* meta.selector */
 .pl-pdb {
@@ -19333,7 +19333,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* punctuation.definition.entity */
 .pl-pdi {
-    color: #cda869 !important;
+    color: #9D868D !important;
     font-style: italic !important;
 }
 /* punctuation.definition.italic */
@@ -19366,7 +19366,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* source */
 .pl-mp .pl-s3 {
-    color: #cda869 !important;
+    color: #9D868D !important;
 }
 /* support */
 .pl-s3 {
@@ -19398,7 +19398,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* storage.modifier.package */
 .pl-sok {
-    color: #cda869 !important;
+    color: #9D868D !important;
 }
 /* support.other.keyword */
 .pl-sol {
@@ -19414,19 +19414,19 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* string.regexp */
 .pl-sra {
-    color: #cda869 !important;
+    color: #9D868D !important;
 }
 /* string.regexp string.regexp.arbitrary-repetition */
 .pl-src {
-    color: #cda869 !important;
+    color: #9D868D !important;
 }
 /* string.regexp.character-class */
 .pl-sre {
-    color: #cda869 !important;
+    color: #9D868D !important;
 }
 /* string.regexp source.ruby.embedded */
 .pl-st {
-    color: #cda869 !important;
+    color: #9D868D !important;
 }
 /* support.type */
 .pl-stj {
@@ -19580,7 +19580,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #607392 !important;
 }
 .cm-operator {
-    color: #cda869 !important;
+    color: #9D868D !important;
 }
 .cm-comment {
     color: #777 !important;
@@ -19598,7 +19598,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #f7f7f7 !important;
 }
 .cm-builtin {
-    color: #cda869 !important;
+    color: #9D868D !important;
 }
 .cm-tag {
     color: #997643 !important;
@@ -19650,7 +19650,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Name */
 :is(#notebook, body.api) .highlight .k, .highlight code .k {
-    color: #cda869 !important;
+    color: #9D868D !important;
 }
 /* Keyword */
 :is(#notebook, body.api) .highlight .l, .highlight code .l {
@@ -19765,7 +19765,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Name.Attribute */
 :is(#notebook, body.api) .highlight .nb, .highlight code .nb {
-    color: #cda869 !important;
+    color: #9D868D !important;
 }
 /* Name.Builtin */
 :is(#notebook, body.api) .highlight .nc, .highlight code .nc {
@@ -19797,7 +19797,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Name.Namespace */
 :is(#notebook, body.api) .highlight .nt, .highlight code .nt {
-    color: #cda869 !important;
+    color: #9D868D !important;
     font-weight: bold !important;
 }
 /* Name.Tag */
