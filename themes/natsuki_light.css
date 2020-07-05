@@ -19145,16 +19145,16 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     --ghd-code-color: #ccc;
 }
 .pl-c, .pl-c span {
-    color: #5f5a60 !important;
+    color: #6272A4 !important;
     font-style: italic !important;
 }
 /* comment */
 .pl-c1 {
-    color: #cf6a4c !important;
+    color: #6272A4 !important;
 }
 /* constant */
 .pl-cce {
-    color: #cf6a4c !important;
+    color: #4C94D6 !important;
     font-weight: normal !important;
 }
 /* constant.character.escape */
@@ -19167,19 +19167,19 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant.other.color */
 .pl-cos {
-    color: #8f9d6a !important;
+    color: #7C75EF !important;
 }
 /* constant.other.symbol */
 .pl-e {
-    color: #ac885b !important;
+    color: #df81b8 !important;
 }
 /* entity */
 .pl-ef {
-    color: #ac885b !important;
+    color: #df81b8 !important;
 }
 /* entity.function */
 .pl-en {
-    color: #ac885b !important;
+    color: #df81b8 !important;
 }
 /* entity.name */
 .pl-enc {
@@ -19187,11 +19187,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.class */
 .pl-enf {
-    color: #ac885b !important;
+    color: #df81b8 !important;
 }
 /* entity.name.function */
 .pl-enm {
-    color: #ac885b !important;
+    color: #df81b8 !important;
 }
 /* entity.name.method-name */
 .pl-ens {
@@ -19203,11 +19203,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.tag */
 .pl-entc {
-    color: #ac885b !important;
+    color: #df81b8 !important;
 }
 /* entity.name.type.class */
 .pl-enti {
-    color: #ac885b !important;
+    color: #df81b8 !important;
     font-weight: bold !important;
 }
 /* entity.name.type.instance */
@@ -19236,7 +19236,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* punctuation.definition.entity */
 .pl-eoi {
-    color: #ac885b !important;
+    color: #df81b8 !important;
 }
 /* entity.other.inherited-class */
 .pl-k {
@@ -19264,7 +19264,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* support.function */
 .pl-mb {
-    color: #8f9d6a !important;
+    color: #7C75EF !important;
     font-weight: bold !important;
 }
 /* markup.bold */
@@ -19287,7 +19287,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* markup.italic */
 .pl-ml {
-    color: #8f9d6a !important;
+    color: #7C75EF !important;
 }
 /* markup.list */
 .pl-mm {
@@ -19315,7 +19315,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* meta.selector */
 .pl-pdb {
-    color: #8f9d6a !important;
+    color: #7C75EF !important;
     font-weight: bold !important;
 }
 /* punctuation.definition.bold */
@@ -19338,7 +19338,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* punctuation.definition.italic */
 .pl-pds {
-    color: #8f9d6a !important;
+    color: #7C75EF !important;
 }
 /* punctuation.definition.string */
 .pl-pdv {
@@ -19354,11 +19354,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* punctuation.section.embedded source */
 .pl-s {
-    color: #f9ee98 !important;
+    color: #DC872E !important;
 }
 /* storage */
 .pl-s1 {
-    color: #8f9d6a !important;
+    color: #7C75EF !important;
 }
 /* string */
 .pl-s2 {
@@ -19386,7 +19386,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* support.function */
 .pl-smc {
-    color: #ac885b !important;
+    color: #df81b8 !important;
 }
 /* storage.modifier.c */
 .pl-smi {
@@ -19402,7 +19402,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* support.other.keyword */
 .pl-sol {
-    color: #8f9d6a !important;
+    color: #7C75EF !important;
 }
 /* string.other.link */
 .pl-som {
@@ -19450,7 +19450,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* variable.interpolation */
 .pl-vo {
-    color: #ac885b !important;
+    color: #df81b8 !important;
 }
 /* variable.other */
 .pl-vpf {
@@ -19528,12 +19528,12 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.tag.label */
 .pl-corl, .highlight .pl-corl span.x {
-    color: #f9ee98 !important;
+    color: #DC872E !important;
     text-decoration: underline !important;
 }
 /* links */
 .pl-token.active, .pl-token:hover {
-    background: #ac885b !important;
+    background: #df81b8 !important;
     color: #ccc !important;
 }
 /*! CodeMirror: Twilight */
@@ -19562,7 +19562,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: white !important;
 }
 .cm-keyword {
-    color: #f9ee98 !important;
+    color: #DC872E !important;
 }
 .cm-atom {
     color: #fc0 !important;
@@ -19588,7 +19588,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     font-weight: normal !important;
 }
 .cm-string {
-    color: #8f9d6a !important;
+    color: #7C75EF !important;
 }
 .cm-string-2 {
     color: #bd6b18 !important;
@@ -19761,7 +19761,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Keyword.Type */
 :is(#notebook, body.api) .highlight .na, .highlight code .na {
-    color: #f9ee98 !important;
+    color: #DC872E !important;
 }
 /* Name.Attribute */
 :is(#notebook, body.api) .highlight .nb, .highlight code .nb {
@@ -19827,29 +19827,29 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Literal.Number.Oct */
 :is(#notebook, body.api) .highlight .sb, .highlight code .sb {
-    color: #8f9d6a !important;
+    color: #7C75EF !important;
 }
 /* Literal.String.Backtick */
 :is(#notebook, body.api) .highlight .sc, .highlight code .sc {
-    color: #8f9d6a !important;
+    color: #7C75EF !important;
 }
 /* Literal.String.Char */
 :is(#notebook, body.api) .highlight .sd, .highlight code .sd {
-    color: #8f9d6a !important;
+    color: #7C75EF !important;
     font-style: italic !important;
 }
 /* Literal.String.Doc */
 :is(#notebook, body.api) .highlight .s2, .highlight code .s2 {
-    color: #8f9d6a !important;
+    color: #7C75EF !important;
 }
 /* Literal.String.Double */
 :is(#notebook, body.api) .highlight .se, .highlight code .se {
-    color: #f9ee98 !important;
+    color: #DC872E !important;
     font-weight: bold !important;
 }
 /* Literal.String.Escape */
 :is(#notebook, body.api) .highlight .sh, .highlight code .sh {
-    color: #8f9d6a !important;
+    color: #7C75EF !important;
 }
 /* Literal.String.Heredoc */
 :is(#notebook, body.api) .highlight .si, .highlight code .si {
@@ -19858,7 +19858,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Literal.String.Interpol */
 :is(#notebook, body.api) .highlight .sx, .highlight code .sx {
-    color: #8f9d6a !important;
+    color: #7C75EF !important;
 }
 /* Literal.String.Other */
 :is(#notebook, body.api) .highlight .sr, .highlight code .sr {
@@ -19866,7 +19866,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Literal.String.Regex */
 :is(#notebook, body.api) .highlight .s1, .highlight code .s1 {
-    color: #8f9d6a !important;
+    color: #7C75EF !important;
 }
 /* Literal.String.Single */
 :is(#notebook, body.api) .highlight .ss, .highlight code .ss {

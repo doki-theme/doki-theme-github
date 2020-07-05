@@ -18,6 +18,12 @@
 // warning background
 #261d08 -> secondaryBackground
 
+// code colors
+#cda869 -> keywordColor
+#f9ee98 -> stringColor
+#8f9d6a -> keyColor
+#ac885b -> classNameColor
+
 //
 rgba(24, 24, 24, .4) -> headerColor
 
@@ -68,4 +74,21 @@ rgba(24, 24, 24, .4) -> headerColor
 .markdown-body table tr {
     background: {{textEditorBackground}} !important;
     color: {{lineNumberColor}} !important; /* added color*/
+}
+
+
+// syntax - stuff
+
+.pl-c, .pl-c span {
+    color: #5f5a60 !important;
+    font-style: italic !important;
+}
+// comment
+.pl-c1 {
+    color: #cf6a4c !important;
+}
+/* constant */
+.pl-cce {
+    color: #cf6a4c !important;
+    font-weight: normal !important;
 }
