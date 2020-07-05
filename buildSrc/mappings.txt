@@ -13,8 +13,13 @@
 // buttons
 #9daccc -> buttonFont
 #182030 -> buttonColor
+// warning background
+#261d08 -> secondaryBackground
+
 //
 rgba(24, 24, 24, .4) -> headerColor
+
+
 
 // manually set selection colors
 

@@ -647,7 +647,7 @@
   }
   /* source #0: "#ffe3c8" */
   .warning table {
-    background-color: #261d08;
+    background-color: #401010;
   }
   /* source #0: "color: #6f42c1", "#f8f4ff", "#f8f4ff", "#6f42c1" */
   .product {
@@ -748,8 +748,8 @@
   .deprecation-warning {
     color: #bba257;
     border-color: #542;
-    background-color: #261d08;
-    background: -webkit-linear-gradient(#261d08, #f5dac0);
+    background-color: #401010;
+    background: -webkit-linear-gradient(#401010, #f5dac0);
   }
   /* source #0: "#fff", "#e5e5e5" */
   .pagination > span, .pagination a, .pagination em {
@@ -6099,7 +6099,7 @@
   }
   /* source #5: "#fffbdd" */
   .conflict-gutter-marker {
-    background-color: #261d08;
+    background-color: #401010;
   }
   /* source #5: "#d73a49" */
   .conflict-gutter-marker::after, .conflict-gutter-marker::before {
@@ -6598,7 +6598,7 @@
   /* source #5: "color: rgba(27,31,35,.85)", "#fffbdd", "rgba(27,31,35,.15)" */
   .boxed-group-warning {
     color: rgba(230, 230, 230, 0.85);
-    background-color: #261d08;
+    background-color: #401010;
     border-color: rgba(200, 200, 200, 0.1);
   }
   /* source #5: "#e1e4e8" */
@@ -6611,7 +6611,7 @@
   }
   /* source #5: "#fffdef" */
   .list-group-item.selected {
-    background-color: #261d08;
+    background-color: #401010;
   }
   /* source #5: "#f1f8ff" */
   .list-group-item.navigation-focus, .list-group-item[aria-selected="true"] {
@@ -7084,7 +7084,7 @@
   }
   /* source #5: "#fffbdd" */
   .blob-code-inner.highlighted, .blob-code-inner .highlighted {
-    background-color: #261d08;
+    background-color: #401010;
   }
   /* source #5: "color: rgba(27,31,35,.7)" */
   .blob-code-hunk, .blob-num-expandable, .blob-num-hunk {
@@ -7312,7 +7312,7 @@
   /* source #5: "#fffdef", "#e5d999" */
   .timeline-comment.is-internal .timeline-comment-header,
   .timeline-comment.unread-item .timeline-comment-header {
-    background-color: #261d08;
+    background-color: #401010;
     border-bottom-color: #542;
   }
   /* source #5: "#e5d999" */
@@ -7323,7 +7323,7 @@
   /* source #5: "#fffdef", "#e5d999" */
   .timeline-comment.is-internal .previewable-comment-form .comment-form-head.tabnav,
   .timeline-comment.unread-item .previewable-comment-form .comment-form-head.tabnav {
-    background-color: #261d08;
+    background-color: #401010;
     border-bottom-color: #542;
   }
   /* source #5: "#e1e4e8" */
@@ -7349,7 +7349,7 @@
   }
   /* source #5: "#fffdef" */
   .is-pending .timeline-comment--caret::after {
-    border-right-color: #261d08;
+    border-right-color: #401010;
   }
   /* source #5: "transparent" */
   .timeline-comment--caret.current-user::after,
@@ -7374,7 +7374,7 @@
   /* source #5: "#fffdef" */
   .timeline-comment--caret.is-internal::after,
   .timeline-comment--caret.unread-item::after {
-    border-right-color: #261d08;
+    border-right-color: #401010;
   }
   /* source #5: "#e5d999" */
   .timeline-comment--caret.is-internal::before,
@@ -7528,7 +7528,7 @@
   }
   /* source #5: "#fffdef" */
   .is-pending .comment-form-head.tabnav, .is-pending .file-header {
-    background-color: #261d08;
+    background-color: #401010;
   }
   /* source #5: "#e1e4e8" */
   .discussion-item-review-comment {
@@ -7717,12 +7717,12 @@
   }
   /* source #5: "#fffdef" */
   .prose-diff > .markdown-body li.added.moved {
-    background: #261d08;
+    background: #401010;
   }
   /* source #5: "#fffdef", "#dfe2e5" */
   .prose-diff > .markdown-body td.changed,
   .prose-diff > .markdown-body th.changed {
-    background: #261d08;
+    background: #401010;
     border-left-color: #343434;
   }
   /* source #5: "color: #cb2431" */
@@ -8277,7 +8277,7 @@
   }
   /* source #5: "#fffbdd", "rgba(27,31,35,.15)" */
   .RecentBranches {
-    background-color: #261d08;
+    background-color: #401010;
     border-color: rgba(200, 200, 200, 0.1);
   }
   /* source #5: "color: #735c0f" */
@@ -8484,7 +8484,7 @@
   }
   /* source #5: "#fffdef" */
   .code-list-item-private .blob-num {
-    background-color: #261d08;
+    background-color: #401010;
   }
   /* source #5: "color: rgba(27,31,35,.7)" */
   .code-list-item-private .blob-num a {
@@ -8494,7 +8494,7 @@
   .code-list-item-private .divider .blob-code,
   .code-list-item-private .divider .blob-num {
     color: rgba(230, 230, 230, 0.7);
-    background-color: #261d08;
+    background-color: #401010;
   }
   /* source #5: "#ffd33d" */
   .code-scanning-alert-warning-message {
@@ -10201,7 +10201,7 @@
   /* source #5: "color: #735c0f", "#fffbdd" */
   .diffbar-range-menu .is-range-selected {
     color: #bba257;
-    background-color: #261d08;
+    background-color: #401010;
   }
   /* source #5: "#fff5b1" */
   .diffbar-range-menu .is-last-in-range {
@@ -10227,7 +10227,7 @@
   /* source #5: "color: #b08800", "#fffdef" */
   .review-comment .pending-batched-suggestion-label {
     color: #cb4;
-    background-color: #261d08;
+    background-color: #401010;
   }
   /* source #5: "#fff", "#e1e4e8" */
   .review-comment .is-comment-editing {
@@ -10385,7 +10385,7 @@
   }
   /* source #5: "#fffdef" */
   .private .mini-repo-list-item {
-    background-color: #261d08;
+    background-color: #401010;
   }
   /* source #5: "color: rgba(27,31,35,.7)" */
   .private .mini-repo-list-item .repo-icon {
@@ -10557,7 +10557,7 @@
   }
   /* source #5: "#fffdef" */
   .selected-user-key {
-    background-color: #261d08;
+    background-color: #401010;
   }
   /* source #5: "#ddd" */
   .user-key-badge, .user-key-email {
@@ -14518,7 +14518,7 @@
   }
   /* source #14: "#fffbdd" */
   .Box-row--yellow {
-    background-color: #261d08;
+    background-color: #401010;
   }
   /* source #14: "#f1f8ff" */
   .Box-row--blue {
@@ -14817,7 +14817,7 @@
   }
   /* source #14: "#fffbdd" */
   .form-checkbox label em.highlight {
-    background: #261d08;
+    background: #401010;
   }
   /* source #14: "color: #586069" */
   .form-checkbox .note, .hfields .form-group .form-group-header label,
@@ -14827,7 +14827,7 @@
   /* source #14: "color: #735c0f", "#fffbdd", "#d9d0a5" */
   .form-warning {
     color: #bba257;
-    background: #261d08;
+    background: #401010;
     border-color: #542;
   }
   /* source #14: "#fff" */
@@ -14891,7 +14891,7 @@
   /* source #14: "color: #735c0f", "#fffbdd", "#d9d0a5" */
   .form-group.warn .warning {
     color: #bba257;
-    background-color: #261d08;
+    background-color: #401010;
     border-color: #542;
   }
   /* source #14: "#fffbdd" */
@@ -15242,7 +15242,7 @@
   /* source #14: "color: #735c0f", "#fffbdd", "rgba(27,31,35,0.15)" */
   .flash-warn {
     color: #bba257;
-    background-color: #261d08;
+    background-color: #401010;
   }
   /* source #14: "color: #86181d", "#ffdce0", "rgba(27,31,35,0.15)" */
   .flash-error, .flash-warn {
@@ -15260,7 +15260,7 @@
   }
   /* source #14: "#fffbdd" */
   .warning {
-    background-color: #261d08;
+    background-color: #401010;
   }
   /* source #14: "#1074e7" */
   .btn-mktg {
@@ -15664,7 +15664,7 @@
   }
   /* source #14: "#fffbdd" */
   .bg-yellow-0, .bg-yellow-1 {
-    background-color: #261d08 !important;
+    background-color: #401010 !important;
   }
   /* source #14: "#fff5b1" */
   .bg-yellow-2 {
@@ -18291,7 +18291,7 @@ body[class="page-responsive"] .btn-danger:disabled {
 .discussion-item-review.is-pending .comment-form-head.tabnav,
 .timeline-comment.unread-item .timeline-comment-header, .Label.bg-yellow,
 .code-list-item-private .blob-num {
-    background-color: #261d08 !important;
+    background-color: #401010 !important;
     border-color: #542 !important;
     color: #ddd !important;
 }
@@ -18305,7 +18305,7 @@ body[class="page-responsive"] .btn-danger:disabled {
     border-right-color: #542 !important;
 }
 .timeline-comment-wrapper .timeline-comment.unread-item::after {
-    border-right-color: #261d08 !important;
+    border-right-color: #401010 !important;
 }
 #toc .octicon-diff-modified, .secret .repo-label span, .api .s2 {
     color: #b74 !important;
@@ -18317,7 +18317,7 @@ body[class="page-responsive"] .btn-danger:disabled {
 .code-list-item-private .divider .blob-num,
 .AnnotationsPopover .bg-yellow-light.flash-warn,
 .js-notification-search-autocomplete-results .bg-yellow-light {
-    background-color: #261d08 !important;
+    background-color: #401010 !important;
 }
 /* semi-transparent brown */
 .compare-pr-placeholder, .compare-cutoff, .diff-cutoff,
@@ -20257,10 +20257,10 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
         background-color: #cb4 !important;
     }
     .form-checkbox label em.highlight, .form-warning {
-        background: #261d08;
+        background: #401010;
     }
     .form-group.warn .warning {
-        background-color: #261d08;
+        background-color: #401010;
     }
     .form-group.warn .warning::after {
         border-bottom-color: #321;
