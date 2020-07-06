@@ -21,6 +21,11 @@
 #261d08 -> secondaryBackground
 #040 -> accentColor + 20 // disabled primary button
 #222 -> borderColor
+//diff
+#420a0a -> diff.conflict
+#380000 -> diff.conflict
+#0a320a -> diff.inserted
+#002800 -> diff.inserted
 
 // code colors
 #cda869 -> keywordColor

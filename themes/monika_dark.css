@@ -62,6 +62,10 @@
       fill: #ffffff !important;
     }
 
+    .btn-primary:active {
+      background-color: #388E3CA7;
+    }
+
     .btn {
       box-shadow: none !important;
     }
@@ -18815,21 +18819,21 @@ table.files {
 }
 /* git diff line additions (dark green) */
 .blob-code-addition {
-    background-color: #002800 !important;
+    background-color: #204b21 !important;
     border-color: #060 !important;
 }
 .blob-num-addition {
-    background-color: #0a320a !important;
+    background-color: #204b21 !important;
 }
 /* git diff line deletions (dark red) */
 .blob-code-deletion, .CodeMirror-linebackground.conflict-background,
 .conflict-gutter-marker,
 .conflict-background + .CodeMirror-gutter-wrapper .CodeMirror-linenumber {
-    background-color: #380000 !important;
+    background-color: #5d323f !important;
     border-color: #600 !important;
 }
 .blob-num-deletion {
-    background-color: #420a0a !important;
+    background-color: #5d323f !important;
 }
 /* code splitter in diffs */
 .blob-num-expandable, .blob-num-hunk {
