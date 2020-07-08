@@ -33,6 +33,9 @@
 #8f9d6a -> keyColor
 #ac885b -> classNameColor
 
+// light scheme stuff
+#cdcdcd -> infoForeground
+
 //
 rgba(24, 24, 24, .4) -> headerColor
 
