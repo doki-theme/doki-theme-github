@@ -17062,7 +17062,7 @@ h3.conversation-list-heading strong, .file-commit-form .commit-form,
 }
 .starred-repo.navigation-focus, .marketing-section-stripe,
 .blob-expanded .blob-num, .blob-expanded .blob-code, .migration-section-grey {
-    background: rgba(50, 50, 50, .5) !important;
+    background: #1d274b !important;
 }
 .details-expanded-dark[open] > summary::before,
 .details-overlay-dark[open] > summary::before,

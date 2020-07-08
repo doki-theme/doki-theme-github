@@ -97,6 +97,11 @@ rgba(24, 24, 24, .4) -> headerColor
 }
 
 
+.starred-repo.navigation-focus, .marketing-section-stripe,
+.blob-expanded .blob-num, .blob-expanded .blob-code, .migration-section-grey {
+    background: rgba(50, 50, 50, .5) !important; // selectionInactive
+}
+
 // syntax - stuff
 
 .pl-c, .pl-c span {
