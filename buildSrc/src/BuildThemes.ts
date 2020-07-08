@@ -217,6 +217,10 @@ function buildCssTemplate(
 
 const capitalize = require('lodash/capitalize');
 
+const packageJson = JSON.parse(fs.readFileSync(path.resolve(
+  repoDirectory, "package.json"
+), {encoding: "utf-8"}));
+
 function evaluateTemplate(
   dokiThemeDefinition: MasterDokiThemeDefinition,
   dokiTemplateDefinitions: DokiThemeDefinitions,
@@ -236,6 +240,8 @@ function evaluateTemplate(
       gitHubCss,
       {
         ...namedColors,
+        displayName: dokiThemeDefinition.name,
+        version: packageJson.version,
         themeName,
         themeProperName,
         stickerPath: resolveStickerPath(dokiFileDefinitionPath, dokiThemeDefinition.stickers.default),
@@ -491,7 +497,7 @@ walkDir(githubThemeDefinitionDirectoryPath)
         const mappedTemplateCss = dokiTheme.applyNamedColors(baseCssTemplate)
         const themeName = constructGitHubName(dokiTheme.definition);
         fs.writeFileSync(
-          path.resolve(themesOutputDirectoryTemplateDirectoryPath, `${themeName}.css`),
+          path.resolve(themesOutputDirectoryTemplateDirectoryPath, `${themeName}.user.css`),
           mappedTemplateCss
         );
       });
