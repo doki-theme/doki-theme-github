@@ -34,7 +34,8 @@
 #ac885b -> classNameColor
 
 // light scheme stuff
-#cdcdcd -> infoForeground
+#cdcdcd -> infoForeground + AA
+#afafaf -> infoForeground + CC
 
 //
 rgba(24, 24, 24, .4) -> headerColor

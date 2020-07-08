@@ -471,7 +471,7 @@ walkDir(githubThemeDefinitionDirectoryPath)
     // local cached CSS (fast)
     .then(()=> fs.readFileSync(path.resolve(githubTemplateDirectoryPath, 'tempCss.css.txt'), {encoding:"utf-8"}))
 
-    // remote-real css (slow)
+    // remote-real css  (slow)
     // .then(cssSources => fetchCssLocal(cssSources))
     // .then(cssSources => {
     //     console.log('Re-Mapping Css');
