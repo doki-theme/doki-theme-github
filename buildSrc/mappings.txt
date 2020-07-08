@@ -37,6 +37,7 @@
 #cdcdcd -> foregroundColor + AA
 #afafaf -> foregroundColor + CC
 #bebebe -> foregroundColor + EE
+var(--ghd-code-color, #ccc)  -> foregroundColor + 77
 
 //
 rgba(24, 24, 24, .4) -> headerColor

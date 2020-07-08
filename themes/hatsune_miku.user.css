@@ -19911,13 +19911,13 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 .api li:not(a) code, .hook-delivery-details pre, .hook-delivery-container pre,
 .code-list .file-box, .CodeMirror, .highlight.bg-gray {
     background-color: var(--ghd-code-background, #313939) !important;
-    color: var(--ghd-code-color, #ccc) !important;
+    color: #bbbbbb77 !important;
 }
 .flash p code {
     background-color: inherit !important;
 }
 .blob-code, .blob-code-inner {
-    color: var(--ghd-code-color, #ccc) !important;
+    color: #bbbbbb77 !important;
 }
 }
 @-moz-document regexp("^https?://www\.zuora\.com.*github\.com.*") {
@@ -19980,7 +19980,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     }
     /* Using #fff over currentColor because GH relies on browser default #000 */
     .hljs {
-        color: var(--ghd-code-color, #ccc);
+        color: #bbbbbb77;
     }
     .extended-markdown p code {
         background-color: #1e293c !important;
