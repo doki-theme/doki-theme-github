@@ -18825,21 +18825,21 @@ table.files {
 }
 /* git diff line additions (dark green) */
 .blob-code-addition {
-    background-color: {{diff.inserted}} !important;
+    background-color: {{diff.inserted}}99 !important;
     border-color: #060 !important;
 }
 .blob-num-addition {
-    background-color: {{diff.inserted}} !important;
+    background-color: {{diff.inserted}}99 !important;
 }
 /* git diff line deletions (dark red) */
 .blob-code-deletion, .CodeMirror-linebackground.conflict-background,
 .conflict-gutter-marker,
 .conflict-background + .CodeMirror-gutter-wrapper .CodeMirror-linenumber {
-    background-color: {{diff.conflict}} !important;
+    background-color: {{diff.deleted}}99 !important;
     border-color: #600 !important;
 }
 .blob-num-deletion {
-    background-color: {{diff.conflict}} !important;
+    background-color: {{diff.deleted}}99 !important;
 }
 /* code splitter in diffs */
 .blob-num-expandable, .blob-num-hunk {
