@@ -34,8 +34,9 @@
 #ac885b -> classNameColor
 
 // light scheme stuff
-#cdcdcd -> infoForeground + AA
-#afafaf -> infoForeground + CC
+#cdcdcd -> foregroundColor + AA
+#afafaf -> foregroundColor + CC
+#bebebe -> foregroundColor + EE
 
 //
 rgba(24, 24, 24, .4) -> headerColor
@@ -87,6 +88,11 @@ rgba(24, 24, 24, .4) -> headerColor
 .markdown-body table tr {
     background: {{textEditorBackground}} !important;
     color: {{lineNumberColor}} !important; /* added color*/
+}
+
+/* code splitter in diffs */
+.blob-num-expandable, .blob-num-hunk {
+    background: #2b2b2b; // headerColor
 }
 
 
