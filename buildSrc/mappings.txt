@@ -43,6 +43,8 @@ var(--ghd-code-color, #ccc)  -> foregroundColor + 77
 //
 rgba(24, 24, 24, .4) -> headerColor
 
+// replaced using this string
+border-color: #484848 -> borderColor
 
 
 // manually set selection colors
