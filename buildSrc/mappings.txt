@@ -143,6 +143,10 @@ button.project-header-link, td.icon, .facebox-close, .tree-browser-result mark,
     color: {{keyColor}} !important;
 } // I removed tree-browser-result mark
 
+.box-shadow-large, html[class*="ghh-"] .tooltipster-box {
+    box-shadow: 0 1px 15px #000 !important; // accentColor 20
+}
+
 // syntax - stuff
 
 .pl-c, .pl-c span {

@@ -16393,7 +16393,7 @@ input.tree-finder-input, input.tree-finder-input:focus {
     box-shadow: 0 1px 3px rgba(0, 0, 0, .15), 0 8px 15px rgba(0, 0, 0, .3) !important;
 }
 .box-shadow-large, html[class*="ghh-"] .tooltipster-box {
-    box-shadow: 0 1px 15px #000 !important;
+    box-shadow: 0 1px 15px #388E3C20 !important;
 }
 img[src*="images/modules/checks"].box-shadow-large {
     box-shadow: 0 1px 15px #fff !important;
