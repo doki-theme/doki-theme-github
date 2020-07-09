@@ -5966,7 +5966,7 @@
   }
   /* source #5: "color: #1b1f23", "#eaecef" */
   .menu-item {
-    color: #dcdcdc;
+    color: #fafafaDD;
   }
   /* source #5: "#f6f8fa" */
   .menu-item:focus, .menu-item:hover {
@@ -5982,7 +5982,7 @@
   }
   /* source #5: "color: #1b1f23", "#eaecef" */
   .menu-heading {
-    color: #dcdcdc;
+    color: #fafafaDD;
   }
   /* source #5: "#e1e4e8" */
   .tabnav {
@@ -6020,7 +6020,7 @@
   }
   /* source #5: "color: #1b1f23", "initial", "#eaecef" */
   .SideNav-item {
-    color: #dcdcdc;
+    color: #fafafaDD;
   }
   /* source #5: "color: #0366d6", "initial" */
   .SideNav-item, .SideNav-subItem {
@@ -6036,7 +6036,7 @@
   }
   /* source #5: "color: #1b1f23", "initial" */
   .UnderlineNav-item {
-    color: #dcdcdc;
+    color: #fafafaDD;
     background-color: initial;
   }
   /* source #5: "color: #586069" */
@@ -6304,7 +6304,7 @@
   }
   /* source #5: "color: #1b1f23" */
   .header-search-current .jump-to-suggestions-path {
-    color: #dcdcdc;
+    color: #fafafaDD;
   }
   /* source #5: "color: #6a737d" */
   .header-search-current .jump-to-suggestions-path .jump-to-octicon {
@@ -6364,7 +6364,7 @@
   }
   /* source #5: "color: #1b1f23" */
   .header-search-prototype .ems-refine-details-dialog .ems-menu-item {
-    color: #dcdcdc;
+    color: #fafafaDD;
   }
   /* source #5: "color: #24292e" */
   .header-search-prototype .ems-refine-details-dialog .ems-result-type-item {
@@ -6392,7 +6392,7 @@
   }
   /* source #5: "color: #1b1f23" */
   .header-search-prototype .jump-to-suggestions-path {
-    color: #dcdcdc;
+    color: #fafafaDD;
   }
   /* source #5: "color: #6a737d" */
   .header-search-prototype .jump-to-suggestions-path .jump-to-octicon {
@@ -9977,7 +9977,7 @@
       border-color: #b00;
     }
     .State {
-      color: #dcdcdc;
+      color: #fafafaDD;
       background: none;
     }
     .State--green {
@@ -11484,7 +11484,7 @@
   }
   /* source #5: "color: #1b1f23 !important", "#1074e7" */
   .subnav-link.selected {
-    color: #dcdcdc !important;
+    color: #fafafaDD !important;
     border-bottom-color: /*[[base-color]]*/ #e03943;
   }
   /* source #5: "transparent", "transparent" */
@@ -11751,7 +11751,7 @@
   }
   /* source #5: "color: #1b1f23" */
   .MarketingBody ol strong, .MarketingBody ul strong {
-    color: #dcdcdc;
+    color: #fafafaDD;
   }
   /* source #5: "color: #2f363d !important" */
   .MarketingBody-lead > p:first-child {
@@ -12655,7 +12655,7 @@
   }
   /* source #7: "color: #141823" */
   .graphiql-container, .graphiql-container button, .graphiql-container input {
-    color: #dcdcdc;
+    color: #fafafaDD;
   }
   /* source #7: "linear-gradient(#f7f7f7, #e2e2e2)", "#d0d0d0" */
   .graphiql-container .topBar {
@@ -13622,7 +13622,7 @@
   .markdown-body h1 .octicon-link, .markdown-body h2 .octicon-link,
   .markdown-body h3 .octicon-link, .markdown-body h4 .octicon-link,
   .markdown-body h5 .octicon-link, .markdown-body h6 .octicon-link {
-    color: #dcdcdc;
+    color: #fafafaDD;
   }
   /* source #9: "#eaecef" */
   .markdown-body h1, .markdown-body h2 {
@@ -13867,7 +13867,7 @@
   }
   /* source #9: "color: #1b1f23", "#fff" */
   .Toast {
-    color: #dcdcdc;
+    color: #fafafaDD;
     background-color: #3E1010;
   }
   /* source #9: "#0366d6" */
@@ -14233,7 +14233,7 @@
   }
   /* source #11: "color: #1b1f23" */
   .gitako-side-bar mark {
-    color: #dcdcdc;
+    color: #fafafaDD;
   }
   /* source #11: "color: #24292e", "#fff" */
   .gitako-side-bar body {
@@ -14425,7 +14425,7 @@
   }
   /* source #14: "color: #1b1f23" */
   mark {
-    color: #dcdcdc;
+    color: #fafafaDD;
   }
   /* source #14: "color: #24292e", "#fff" */
   body {
@@ -15241,7 +15241,7 @@
   }
   /* source #14: "color: #1b1f23", "transparent" */
   .tooltipped::before {
-    color: #dcdcdc;
+    color: #fafafaDD;
     border-color: transparent;
   }
   /* source #14: "color: #032f62", "#dbedff", "rgba(27,31,35,0.15)" */
@@ -17938,7 +17938,7 @@ a.team-mention, .team-mention, .boxed-group-inner h4,
 .marketplace-product-callout .branch-action-item-icon,
 .user-status-org-button span.text-bold, .octicon-fold,
 .jump-to-suggestions-path {
-    color: #dcdcdc !important;
+    color: #fafafaDD !important;
 }
 pre, #languages a.bar, .lineoption p, table.notifications th,
 .usagestats dl dt.numbers, .commit-preview p.name .date, .download-list h4,
@@ -19008,7 +19008,7 @@ html.octotree:not(.octotree-show) .zhc-board--is-fullscreen .zhc-menu-bar {
 }
 .octotree-github-sidebar a.octotree-toggle,
 a.octotree-toggle:not(.octotree-loading):hover > span::after {
-    color: #dcdcdc !important;
+    color: #fafafaDD !important;
 }
 .octotree-github-sidebar a.octotree-opts .settings::before,
 .octotree-help > span::before, .octotree-patch-files {

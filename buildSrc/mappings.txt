@@ -37,6 +37,7 @@
 #cdcdcd -> foregroundColor + AA
 #afafaf -> foregroundColor + CC
 #bebebe -> foregroundColor + EE
+#dcdcdc -> foregroundColor + DD
 var(--ghd-code-color, #ccc)  -> foregroundColor + 77
 
 //
