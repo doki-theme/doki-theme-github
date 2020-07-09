@@ -199,7 +199,7 @@
   /* source #0: "color: #333", "#fff", "#ddd" */
   .social-count {
     color: #252427EE;
-    border-color: #e2eaee;
+    border-color: rgba(200, 200, 200, 0.15);
   }
   /* source #0: "color: #333", "#fff", "#ddd" */
   .form-control, .form-select {
@@ -19919,6 +19919,9 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 .blob-code, .blob-code-inner {
     color: #25242777 !important;
 }
+.social-count {
+    border-color: rgba(200, 200, 200, 0.15) !important;
+  }
 }
 @-moz-document regexp("^https?://www\.zuora\.com.*github\.com.*") {
     /* Styles the payment form iframe */
