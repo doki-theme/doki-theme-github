@@ -103,6 +103,46 @@ rgba(24, 24, 24, .4) -> headerColor
     background: rgba(50, 50, 50, .5) !important; // selectionInactive
 }
 
+.calendar-graph .contrib-details div, .time, .gist-item .metadata .datetime,
+.list-group-item-meta, a.keyboard-shortcuts, button.keyboard-shortcuts,
+.simple-conversation-list, .simple-conversation-list > li .title .num,
+.starred-repo .sort-info, .org-stats, .commandbar .choice,
+.commandbar .loading, .commandbar .description, ul.summary-stats li a,
+.authorship, .sha-block, .gh-header-meta, #last-edit, .setup-header .lead a,
+.mini-icon-remove-close:hover, .section-heading-title .separator, .hook-list a,
+.github-jobs-promotion a.jobs-logo, .org-teams-list .team-meta,
+.repo-list-item .repo-description, .branch-infobar .lightweight-actions > li a,
+.repo-leaderboard-list .repo-leaderboard-meta-item a,
+.changed .moved-up::before, .changed .moved-down::before,
+.comment-header .octicon, a.section-heading-back,
+.list-group-item-meta .octicon, .repo-leaderboard-title .title-meta,
+a.pagehead-nav-item, .wiki-wrapper .wiki-empty-box,
+.commits-list-item .commits-comments-link, .commits-list-item .commit-meta,
+.issues-listing .table-list-issues .issue-comments-link,
+.issues-listing .table-list-issues .issue-meta-section a, .labels-list-action,
+table.tag-list p a, table.tag-list td.date a, .render-view-modes li,
+.site-footer, .site-footer .octicon-mark-github:hover,
+.repo-list-stats .repo-list-stat-item, .range-editor span.flag .octicon,
+.commit-info .commit-meta a, .notifications .read a,
+.auth-form-header .octicon, .releases-tag-list p a, .history-link a,
+a.issue-nwo-link, .member-meta .teams-link, .member-meta .btn-link,
+ul.comparison-list > li em, ul.comparison-list > li.title, .diffstat-summary,
+a.team-member-ellipsis, a.discussion-item-toggle-open,
+a.discussion-item-toggle-closed, button.discussion-item-toggle-open,
+button.discussion-item-toggle-closed, .dropdown-header, .participation a,
+.completeness-indicator-info, .type-icon-state-none, .delete-owners-button,
+.stats-group-stat, .stats-group-stat.no-link:hover, .wiki-edit-link,
+.member-meta .member-meta-link, .hidden-text-expander a, .text-muted,
+.listgroup-item, .discussion-item-header, .discussion-sidebar-heading,
+.org-header-meta .meta-item .meta-link, .underline-nav-item,
+.boxed-group-inner, .lead, .form-checkbox .note, .bot-identifier,
+.dashboard-notice .dismiss:hover, td.icon .octicon-file-text,
+td.icon .octicon-file-symlink-file, .UnderlineNav-item, .project-header-link,
+button.project-header-link, td.icon, .facebox-close, .tree-browser-result mark,
+.octicon.text-gray, .notification-actions .age {
+    color: {{keyColor}} !important;
+} // I removed tree-browser-result mark
+
 // syntax - stuff
 
 .pl-c, .pl-c span {
@@ -117,4 +157,7 @@ rgba(24, 24, 24, .4) -> headerColor
 .pl-cce {
     color: #cf6a4c !important;
     font-weight: normal !important;
+}
+.blob-code, .blob-code-inner {
+    color: {{foregroundColor}} !important;
 }
