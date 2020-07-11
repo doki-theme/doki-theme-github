@@ -1800,7 +1800,7 @@
   }
   /* source #3: "#279f43", "none", "rgba(27,31,35,0.5)" */
   .zh-webapp.zh-epic-creator-page-visible .btn-primary:active {
-    background-color: #484;
+    background-color: #578CDA;
     background-image: none;
     border-color: rgba(200, 200, 200, 0.3);
   }
@@ -12807,7 +12807,7 @@
   }
   /* source #7: "#279f43", "none", "rgba(27,31,35,0.5)" */
   .btn-primary.selected, .btn-primary:active, [open] > .btn-primary {
-    background-color: #484;
+    background-color: #578CDA;
     background-image: none;
     border-color: rgba(200, 200, 200, 0.3);
   }
@@ -14608,7 +14608,7 @@
   /* source #14: "#279f43", "none", "rgba(27,31,35,0.5)" */
   .btn-primary.selected, .btn-primary:active,
   .btn-primary[aria-selected="true"], [open] > .btn-primary {
-    background-color: #484;
+    background-color: #578CDA;
     background-image: none;
     border-color: rgba(200, 200, 200, 0.3);
   }
@@ -18345,9 +18345,9 @@ body[class="page-responsive"] .btn-danger:disabled {
 .unsupported-browser, .prereceive-feedback, .code-list em, .issue-list em,
 .user-list em, .wiki-list em, .blob-code .bg-yellow-light,
 .codesearch-results #code_search_results .bg-yellow-light {
-    background: rgba(51, 34, 17, .4) !important;
-    border: 1px solid #542 !important;
-    color: #ddd !important;
+    background: #30373d !important;
+    border: 1px solid #578CDA33 !important;
+    color: #578CDA !important;
 }
 .btn.btn-secret {
     background: linear-gradient(#321, #210) !important;

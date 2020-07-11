@@ -46,8 +46,23 @@ rgba(24, 24, 24, .4) -> headerColor
 // replaced using this string
 border-color: #484848 -> borderColor
 
+// btn active
+#484 -> accentColor
+
 
 // manually set selection colors
+
+// stale button
+.compare-pr-placeholder, .compare-cutoff, .diff-cutoff,
+.markdown-body li.added.moved, .repo-private-label, .gist-secret-label,
+.label-private, .stale-files-tab, .signed-out-comment, .commits-list-item em,
+.unsupported-browser, .prereceive-feedback, .code-list em, .issue-list em,
+.user-list em, .wiki-list em, .blob-code .bg-yellow-light,
+.codesearch-results #code_search_results .bg-yellow-light {
+    background: {{contrastColor}} !important;
+    border: 1px solid {{accentColor}}33 !important;
+    color: {{accentColor}} !important;
+}
 
 // border stuff
 /* source #14: "#e1e4e8" */

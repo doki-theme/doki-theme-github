@@ -28,6 +28,6 @@
   },
   "dependencies": {},
   "scripts": {
-    "buildThemes": "ts-node ./buildSrc/BuildThemes.ts"
+    "buildThemes": "ts-node ./src/BuildThemes.ts"
   }
 }
