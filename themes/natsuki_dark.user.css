@@ -39,6 +39,16 @@
     }
 
     /* Doki addons */
+    .suggester li:hover .octicon,
+    .suggester li[aria-selected="true"] .octicon {
+      fill: #e6afca;
+    }
+
+    .suggester li:hover small,
+    .suggester li[aria-selected="true"] small {
+      color: #e6afca;
+    }
+
     ::-webkit-input-placeholder {
         color: #bbbbbb66 !important;
         opacity: 1 !important;
@@ -13478,7 +13488,7 @@
   .suggester li.navigation-focus, .suggester li:hover,
   .suggester li[aria-selected="true"] {
     background: /*[[base-color]]*/ #E94686;
-    color: #fff;
+    color: #e6afca;
     background-image: none;
   }
   /* source #9: "#fff" */

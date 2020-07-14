@@ -39,6 +39,16 @@
     }
 
     /* Doki addons */
+    .suggester li:hover .octicon,
+    .suggester li[aria-selected="true"] .octicon {
+      fill: {{defaultButtonColor|selectionForeground}};
+    }
+
+    .suggester li:hover small,
+    .suggester li[aria-selected="true"] small {
+      color: {{defaultButtonColor|selectionForeground}};
+    }
+
     ::-webkit-input-placeholder {
         color: {{foregroundColor}}66 !important;
         opacity: 1 !important;
@@ -93,7 +103,7 @@
     }
 
     .btn-primary .octicon {
-      fill: {{selectionForeground}} !important;
+      fill: {{defaultButtonColor|selectionForeground}} !important;
     }
 
     .btn-primary:active {
@@ -13478,7 +13488,7 @@
   .suggester li.navigation-focus, .suggester li:hover,
   .suggester li[aria-selected="true"] {
     background: /*[[base-color]]*/ {{accentColor}};
-    color: #fff;
+    color: {{defaultButtonColor|selectionForeground}};
     background-image: none;
   }
   /* source #9: "#fff" */
@@ -14604,7 +14614,7 @@
       background-color: {{selectionBackground}};
       background-image: linear-gradient(-180deg, {{selectionBackground}} 0%, {{selectionBackground}} 90%);
       border-color: none !important;
-      color: {{selectionForeground}} !important;
+      color: {{defaultButtonColor|selectionForeground}} !important;
     }
   /* source #14: "#e9ecef", "none", "rgba(27,31,35,0.35)" */
   .btn.selected, .btn:active, .btn[aria-selected="true"], [open] > .btn {
@@ -14623,7 +14633,7 @@
   /* source #14: "#28a745", "#28a745" */
   .btn-primary {
     background-color: {{accentColor}};
-    color: {{selectionForeground}} !important;
+    color: {{defaultButtonColor|selectionForeground}} !important;
     background-image: linear-gradient(-180deg, {{accentColor}} 0%, {{accentColor}} 90%);
   }
   /* source #14: "box-shadow: 0 0 0 .2em rgba(52,208,88,.4)" */

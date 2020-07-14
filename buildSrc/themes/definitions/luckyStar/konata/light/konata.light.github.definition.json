@@ -4,6 +4,7 @@
   "laf": {},
   "syntax": {},
   "colors": {
-    "accentColor": "&accentColorBrighter&"
+    "accentColor": "&accentColorBrighter&",
+    "defaultButtonColor": "#333333"
   }
 }

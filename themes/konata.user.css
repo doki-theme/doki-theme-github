@@ -39,6 +39,16 @@
     }
 
     /* Doki addons */
+    .suggester li:hover .octicon,
+    .suggester li[aria-selected="true"] .octicon {
+      fill: #333333;
+    }
+
+    .suggester li:hover small,
+    .suggester li[aria-selected="true"] small {
+      color: #333333;
+    }
+
     ::-webkit-input-placeholder {
         color: #f3edff66 !important;
         opacity: 1 !important;
@@ -93,7 +103,7 @@
     }
 
     .btn-primary .octicon {
-      fill: #e7e9ff !important;
+      fill: #333333 !important;
     }
 
     .btn-primary:active {
@@ -13478,7 +13488,7 @@
   .suggester li.navigation-focus, .suggester li:hover,
   .suggester li[aria-selected="true"] {
     background: /*[[base-color]]*/ #60ff62;
-    color: #fff;
+    color: #333333;
     background-image: none;
   }
   /* source #9: "#fff" */
@@ -14604,7 +14614,7 @@
       background-color: #59a5b2;
       background-image: linear-gradient(-180deg, #59a5b2 0%, #59a5b2 90%);
       border-color: none !important;
-      color: #e7e9ff !important;
+      color: #333333 !important;
     }
   /* source #14: "#e9ecef", "none", "rgba(27,31,35,0.35)" */
   .btn.selected, .btn:active, .btn[aria-selected="true"], [open] > .btn {
@@ -14623,7 +14633,7 @@
   /* source #14: "#28a745", "#28a745" */
   .btn-primary {
     background-color: #60ff62;
-    color: #e7e9ff !important;
+    color: #333333 !important;
     background-image: linear-gradient(-180deg, #60ff62 0%, #60ff62 90%);
   }
   /* source #14: "box-shadow: 0 0 0 .2em rgba(52,208,88,.4)" */

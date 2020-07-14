@@ -141,14 +141,14 @@ function constructNamedColorTemplate(
   dokiThemeTemplateJson: MasterDokiThemeDefinition,
   dokiTemplateDefinitions: DokiThemeDefinitions
 ) {
-  const lafTemplates = dokiTemplateDefinitions[NAMED_COLOR_TYPE];
+  const namedColorTemplates = dokiTemplateDefinitions[NAMED_COLOR_TYPE];
   const lafTemplate =
     (dokiThemeTemplateJson.dark ?
-      lafTemplates.dark : lafTemplates.light);
+      namedColorTemplates.dark : namedColorTemplates.light);
 
   const resolvedColorTemplate =
     resolveTemplate(
-      lafTemplate, lafTemplates,
+      lafTemplate, namedColorTemplates,
       template => template.colors,
       template => template.extends
     );
@@ -256,7 +256,9 @@ function evaluateTemplate(
 }
 
 function getColorFromTemplate(templateVariables: StringDictionary<string>, templateVariable: string) {
-  const resolvedTemplateVariable = templateVariables[templateVariable];
+  const resolvedTemplateVariable = templateVariable.split('|')
+    .map(namedColor => templateVariables[namedColor])
+    .filter(Boolean)[0]
   if (!resolvedTemplateVariable) {
     throw Error(`Template does not have variable ${templateVariable}`)
   }
