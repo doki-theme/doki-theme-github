@@ -39,6 +39,22 @@
     }
 
     /* Doki addons */
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active  {
+        -webkit-box-shadow: 0 0 0 30px #342f36 inset !important;
+        -webkit-text-fill-color: #e594bf !important;
+    }
+
+    .SelectMenu-tabs {
+        box-shadow: inset 0 -1px 0 #362d39;
+    }
+
+    .SelectMenu-tab {
+        box-shadow: inset 0 -1px 0 #362d39;
+    }
+
     .autocomplete-item {
       color: #bbbbbb !important;
     }
