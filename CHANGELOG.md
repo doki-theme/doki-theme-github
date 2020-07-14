@@ -1,6 +1,11 @@
 Changelog
 ---
 
+# 2.1.0 [Konata Izumi Usability]
+
+- The vivid color theme for Konata is now usable.
+- Updated yellow warning colors for all themes.
+
 # 2.0.1 [Consistency Updates]
 
 - Fixed chrome auto fill background color
