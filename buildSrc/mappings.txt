@@ -38,6 +38,7 @@
 #afafaf -> foregroundColor + CC
 #bebebe -> foregroundColor + EE
 #dcdcdc -> foregroundColor + DD
+#949494 -> foregroundColor + 94
 var(--ghd-code-color, #ccc)  -> foregroundColor + 77
 
 //
