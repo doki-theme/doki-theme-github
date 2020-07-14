@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Yuri Dark
 @namespace      github.com/doki-theme
-@version        2.0.0
+@version        2.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -39,6 +39,22 @@
     }
 
     /* Doki addons */
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active  {
+        -webkit-box-shadow: 0 0 0 30px #422D5A inset !important;
+        -webkit-text-fill-color: #AB47BC !important;
+    }
+
+    .SelectMenu-tabs {
+        box-shadow: inset 0 -1px 0 #4d3a63;
+    }
+
+    .SelectMenu-tab {
+        box-shadow: inset 0 -1px 0 #4d3a63;
+    }
+
     .autocomplete-item {
       color: #DADADA !important;
     }
@@ -17106,7 +17122,7 @@ td.inst, .metabox-loader, .pull-flag, .browser-content,
 .credit-card.normal .signature, .credit-card.amex .gladiator,
 .progress-bar:not(.anim-grow-x), .header-search-scope:hover,
 .CommunityTemplate-highlight--focus, .related-issue-item.navigation-focus {
-    background: #333 !important;
+    background: #412D62 !important;
 }
 .discussion-item-locked .discussion-item-icon,
 .discussion-item-unlocked .discussion-item-icon,
