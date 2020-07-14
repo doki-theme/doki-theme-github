@@ -39,6 +39,9 @@
 #bebebe -> foregroundColor + EE
 #dcdcdc -> foregroundColor + DD
 #949494 -> foregroundColor + 94
+#757575 -> foregroundColor + 75
+// placeholder color
+#666 -> foregroundColor + 66
 var(--ghd-code-color, #ccc)  -> foregroundColor + 77
 
 //
