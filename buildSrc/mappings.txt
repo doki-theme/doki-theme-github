@@ -21,6 +21,10 @@
 #261d08 -> secondaryBackground
 #040 -> accentColor + 20 // disabled primary button
 #222 -> borderColor
+
+// warn color
+#bba257 -> terminal.ansiYellow
+
 //diff
 #420a0a -> diff.conflict
 #380000 -> diff.conflict
@@ -38,6 +42,10 @@
 #afafaf -> foregroundColor + CC
 #bebebe -> foregroundColor + EE
 #dcdcdc -> foregroundColor + DD
+#949494 -> foregroundColor + 94
+#757575 -> foregroundColor + 75
+// placeholder color
+#666 -> foregroundColor + 66
 var(--ghd-code-color, #ccc)  -> foregroundColor + 77
 
 //

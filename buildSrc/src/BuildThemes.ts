@@ -141,14 +141,14 @@ function constructNamedColorTemplate(
   dokiThemeTemplateJson: MasterDokiThemeDefinition,
   dokiTemplateDefinitions: DokiThemeDefinitions
 ) {
-  const lafTemplates = dokiTemplateDefinitions[NAMED_COLOR_TYPE];
+  const namedColorTemplates = dokiTemplateDefinitions[NAMED_COLOR_TYPE];
   const lafTemplate =
     (dokiThemeTemplateJson.dark ?
-      lafTemplates.dark : lafTemplates.light);
+      namedColorTemplates.dark : namedColorTemplates.light);
 
   const resolvedColorTemplate =
     resolveTemplate(
-      lafTemplate, lafTemplates,
+      lafTemplate, namedColorTemplates,
       template => template.colors,
       template => template.extends
     );
@@ -209,6 +209,7 @@ function buildCssTemplate(
 ) {
   return evaluateTemplate(
     dokiThemeDefinition,
+    dokiThemeGitHubDefinition,
     dokiTemplateDefinitions,
     dokiFileDefinitionPath,
     githubCssTemplate
@@ -223,6 +224,7 @@ const packageJson = JSON.parse(fs.readFileSync(path.resolve(
 
 function evaluateTemplate(
   dokiThemeDefinition: MasterDokiThemeDefinition,
+  dokiThemeGitHubDefinition: GitHubDokiThemeDefinition,
   dokiTemplateDefinitions: DokiThemeDefinitions,
   dokiFileDefinitionPath: string,
   gitHubCss: string,
@@ -233,13 +235,14 @@ function evaluateTemplate(
   const themeName = constructGitHubName(dokiThemeDefinition);
   const themeProperName = dokiThemeDefinition.name.split(" ")
     .map(part => capitalize(part))
-    .join('')
+    .join('');
 
   try {
     return fillInTemplateScript(
       gitHubCss,
       {
         ...namedColors,
+        ...dokiThemeGitHubDefinition.colors,
         displayName: dokiThemeDefinition.name,
         version: packageJson.version,
         themeName,
@@ -253,7 +256,9 @@ function evaluateTemplate(
 }
 
 function getColorFromTemplate(templateVariables: StringDictionary<string>, templateVariable: string) {
-  const resolvedTemplateVariable = templateVariables[templateVariable];
+  const resolvedTemplateVariable = templateVariable.split('|')
+    .map(namedColor => templateVariables[namedColor])
+    .filter(Boolean)[0]
   if (!resolvedTemplateVariable) {
     throw Error(`Template does not have variable ${templateVariable}`)
   }

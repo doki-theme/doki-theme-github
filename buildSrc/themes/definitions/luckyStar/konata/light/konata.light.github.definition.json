@@ -3,5 +3,8 @@
   "overrides": {},
   "laf": {},
   "syntax": {},
-  "colors": {}
+  "colors": {
+    "accentColor": "&accentColorBrighter&",
+    "defaultButtonColor": "#333333"
+  }
 }
