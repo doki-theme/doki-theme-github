@@ -1,6 +1,10 @@
 Changelog
 ---
 
+# 2.2.0 [Consistency]
+
+- Updated Misato's `diff & merge` and selection inactive colors.
+
 # 2.1.0 [Konata Izumi Usability]
 
 - The vivid color theme for Konata is now usable.
