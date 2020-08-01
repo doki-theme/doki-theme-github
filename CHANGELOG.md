@@ -1,6 +1,13 @@
 Changelog
 ---
 
+# 3.0.0 [Kanna Kamui]
+
+- Added Miss Kobayashi's Dragon Maid's `Kanna` as a dark theme!
+
+![The Girl](https://doki.assets.unthrottled.io/misc/v10_girl.png?version=1)
+
+
 # 2.2.0 [Consistency]
 
 - Updated Misato's `diff & merge` and selection inactive colors.

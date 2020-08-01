@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Rias
 @namespace      github.com/doki-theme
-@version        2.2.0
+@version        3.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -18868,11 +18868,11 @@ table.files {
 }
 /* git diff line additions (dark green) */
 .blob-code-addition {
-    background-color: #1c233199 !important;
+    background-color: #102d0e99 !important;
     border-color: #060 !important;
 }
 .blob-num-addition {
-    background-color: #1c233199 !important;
+    background-color: #102d0e99 !important;
 }
 /* git diff line deletions (dark red) */
 .blob-code-deletion, .CodeMirror-linebackground.conflict-background,

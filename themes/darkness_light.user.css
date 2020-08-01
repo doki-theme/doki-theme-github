@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Darkness Light
 @namespace      github.com/doki-theme
-@version        2.2.0
+@version        3.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -18878,11 +18878,11 @@ table.files {
 .blob-code-deletion, .CodeMirror-linebackground.conflict-background,
 .conflict-gutter-marker,
 .conflict-background + .CodeMirror-gutter-wrapper .CodeMirror-linenumber {
-    background-color: #EBEBEB99 !important;
+    background-color: #E9E6DB99 !important;
     border-color: #600 !important;
 }
 .blob-num-deletion {
-    background-color: #EBEBEB99 !important;
+    background-color: #E9E6DB99 !important;
 }
 /* code splitter in diffs */
 .blob-num-expandable, .blob-num-hunk {
