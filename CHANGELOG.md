@@ -4,6 +4,7 @@ Changelog
 # 3.0.0 [Kanna Kamui]
 
 - Added Miss Kobayashi's Dragon Maid's `Kanna` as a dark theme!
+- Updated all theme's diff colors.
 
 ![The New Girl](https://doki.assets.unthrottled.io/misc/v10_girl.png?version=1)
 
