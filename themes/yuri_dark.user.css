@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Yuri Dark
 @namespace      github.com/doki-theme
-@version        3.0.0
+@version        4.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -16998,7 +16998,7 @@ button.bg-white.subnav-link, main [style="background-color: #fcfdfd;"],
 .MarketplaceBackground-buffer, .team-left-column.bg-white, .overall-summary,
 .markdown-body table tr {
     background: #422D5A !important;
-    color: #666879 !important;
+    color: #6f6679 !important;
 }
 .action-card::after, .action-card::before {
     background-color: #493162 !important;

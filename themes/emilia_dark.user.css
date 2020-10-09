@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Emilia Dark
 @namespace      github.com/doki-theme
-@version        3.0.0
+@version        4.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -19198,12 +19198,12 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     --ghd-code-color: #ccc;
 }
 .pl-c, .pl-c span {
-    color: #6272A4 !important;
+    color: #8986A3 !important;
     font-style: italic !important;
 }
 /* comment */
 .pl-c1 {
-    color: #6272A4 !important;
+    color: #8986A3 !important;
 }
 /* constant */
 .pl-cce {
@@ -19252,7 +19252,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.section */
 .pl-ent {
-    color: #bca3aa !important;
+    color: #E03FA4 !important;
 }
 /* entity.name.tag */
 .pl-entc {
@@ -19269,7 +19269,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.type.module */
 .pl-eoa {
-    color: #bca3aa !important;
+    color: #E03FA4 !important;
 }
 /* entity.other.attribute-name */
 .pl-eoac {
@@ -19281,11 +19281,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* punctuation.definition.entity */
 .pl-eoai {
-    color: #bca3aa !important;
+    color: #E03FA4 !important;
 }
 /* entity.other.attribute-name.id */
 .pl-eoai .pl-pde {
-    color: #bca3aa !important;
+    color: #E03FA4 !important;
 }
 /* punctuation.definition.entity */
 .pl-eoi {
@@ -19293,15 +19293,15 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.other.inherited-class */
 .pl-k {
-    color: #bca3aa !important;
+    color: #E03FA4 !important;
 }
 /* keyword */
 .pl-ko {
-    color: #bca3aa !important;
+    color: #E03FA4 !important;
 }
 /* keyword.operator */
 .pl-kolp {
-    color: #bca3aa !important;
+    color: #E03FA4 !important;
 }
 /* keyword.operator.logical.python */
 .pl-kos {
@@ -19322,7 +19322,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* markup.bold */
 .pl-mc {
-    color: #bca3aa !important;
+    color: #E03FA4 !important;
 }
 /* markup.changed */
 .pl-mh {
@@ -19335,7 +19335,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* markup.heading punctuation.definition.heading */
 .pl-mi {
-    color: #bca3aa !important;
+    color: #E03FA4 !important;
     font-style: italic !important;
 }
 /* markup.italic */
@@ -19360,11 +19360,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* markup.quote */
 .pl-mr {
-    color: #bca3aa !important;
+    color: #E03FA4 !important;
 }
 /* meta.require */
 .pl-ms {
-    color: #bca3aa !important;
+    color: #E03FA4 !important;
 }
 /* meta.selector */
 .pl-pdb {
@@ -19386,7 +19386,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* punctuation.definition.entity */
 .pl-pdi {
-    color: #bca3aa !important;
+    color: #E03FA4 !important;
     font-style: italic !important;
 }
 /* punctuation.definition.italic */
@@ -19407,7 +19407,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* punctuation.section.embedded source */
 .pl-s {
-    color: #f1fa8c !important;
+    color: #FDEFA2 !important;
 }
 /* storage */
 .pl-s1 {
@@ -19419,7 +19419,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* source */
 .pl-mp .pl-s3 {
-    color: #bca3aa !important;
+    color: #E03FA4 !important;
 }
 /* support */
 .pl-s3 {
@@ -19451,7 +19451,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* storage.modifier.package */
 .pl-sok {
-    color: #bca3aa !important;
+    color: #E03FA4 !important;
 }
 /* support.other.keyword */
 .pl-sol {
@@ -19467,19 +19467,19 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* string.regexp */
 .pl-sra {
-    color: #bca3aa !important;
+    color: #E03FA4 !important;
 }
 /* string.regexp string.regexp.arbitrary-repetition */
 .pl-src {
-    color: #bca3aa !important;
+    color: #E03FA4 !important;
 }
 /* string.regexp.character-class */
 .pl-sre {
-    color: #bca3aa !important;
+    color: #E03FA4 !important;
 }
 /* string.regexp source.ruby.embedded */
 .pl-st {
-    color: #bca3aa !important;
+    color: #E03FA4 !important;
 }
 /* support.type */
 .pl-stj {
@@ -19581,7 +19581,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.tag.label */
 .pl-corl, .highlight .pl-corl span.x {
-    color: #f1fa8c !important;
+    color: #FDEFA2 !important;
     text-decoration: underline !important;
 }
 /* links */
@@ -19615,7 +19615,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: white !important;
 }
 .cm-keyword {
-    color: #f1fa8c !important;
+    color: #FDEFA2 !important;
 }
 .cm-atom {
     color: #fc0 !important;
@@ -19633,7 +19633,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #607392 !important;
 }
 .cm-operator {
-    color: #bca3aa !important;
+    color: #E03FA4 !important;
 }
 .cm-comment {
     color: #777 !important;
@@ -19651,7 +19651,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #f7f7f7 !important;
 }
 .cm-builtin {
-    color: #bca3aa !important;
+    color: #E03FA4 !important;
 }
 .cm-tag {
     color: #997643 !important;
@@ -19703,7 +19703,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Name */
 :is(#notebook, body.api) .highlight .k, .highlight code .k {
-    color: #bca3aa !important;
+    color: #E03FA4 !important;
 }
 /* Keyword */
 :is(#notebook, body.api) .highlight .l, .highlight code .l {
@@ -19814,11 +19814,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Keyword.Type */
 :is(#notebook, body.api) .highlight .na, .highlight code .na {
-    color: #f1fa8c !important;
+    color: #FDEFA2 !important;
 }
 /* Name.Attribute */
 :is(#notebook, body.api) .highlight .nb, .highlight code .nb {
-    color: #bca3aa !important;
+    color: #E03FA4 !important;
 }
 /* Name.Builtin */
 :is(#notebook, body.api) .highlight .nc, .highlight code .nc {
@@ -19850,7 +19850,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Name.Namespace */
 :is(#notebook, body.api) .highlight .nt, .highlight code .nt {
-    color: #bca3aa !important;
+    color: #E03FA4 !important;
     font-weight: bold !important;
 }
 /* Name.Tag */
@@ -19897,7 +19897,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Literal.String.Double */
 :is(#notebook, body.api) .highlight .se, .highlight code .se {
-    color: #f1fa8c !important;
+    color: #FDEFA2 !important;
     font-weight: bold !important;
 }
 /* Literal.String.Escape */
