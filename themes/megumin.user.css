@@ -42,7 +42,8 @@
     :root {
       --color-previewable-comment-form-bg: #2c2126;
       --color-bg-canvas: #271c21;
-      --color-underlinenav-counter-text: #E2CB14
+      --color-underlinenav-counter-text: #bbbbbb;
+      --color-text-primary: #AF5C5A;
     }
 
     .suggester li:hover .octicon,
@@ -5929,7 +5930,7 @@
   }
   /* source #5: "rgba(27,31,35,.08)" */
   .btn .Counter {
-    background-color: #563036
+    background-color: #a32f345a
   }
   /* source #5: "color: #959da5", "#fafbfc", "rgba(27,31,35,.15)" */
   .btn, .btn.disabled, .btn:disabled, .btn[aria-disabled="true"] {
@@ -13618,7 +13619,7 @@
   /* source #9: "color: #586069", "rgba(27,31,35,.08)" */
   .Counter {
     color: #bbbbbbCC;
-    background-color: #563036
+    background-color: #a32f345a
   }
   /* source #9: "color: #24292e", "rgba(27,31,35,.15)" */
   .Counter--gray-light {
