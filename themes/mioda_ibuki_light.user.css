@@ -42,11 +42,7 @@
     :root {
       --color-previewable-comment-form-bg: #ffeefd;
       --color-bg-canvas: #ffedfe;
-      --color-underlinenav-counter-text: #DA46A7
-    }
-
-    .Counter {
-
+      --color-underlinenav-counter-text: #393d45
     }
 
     .suggester li:hover .octicon,
@@ -5933,7 +5929,7 @@
   }
   /* source #5: "rgba(27,31,35,.08)" */
   .btn .Counter {
-    background-color: #fde2f6
+    background-color: #8EDBFF
   }
   /* source #5: "color: #959da5", "#fafbfc", "rgba(27,31,35,.15)" */
   .btn, .btn.disabled, .btn:disabled, .btn[aria-disabled="true"] {
@@ -13622,7 +13618,7 @@
   /* source #9: "color: #586069", "rgba(27,31,35,.08)" */
   .Counter {
     color: #272426CC;
-    background-color: #fde2f6
+    background-color: #8EDBFF
   }
   /* source #9: "color: #24292e", "rgba(27,31,35,.15)" */
   .Counter--gray-light {
