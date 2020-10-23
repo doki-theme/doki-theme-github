@@ -1,6 +1,30 @@
 Changelog
 ---
 
+# 4.1.0 [GitHub Update Fixes]
+
+- Fixed issues with new GitHub styles. [See issue for more details](https://github.com/doki-theme/doki-theme-github/issues/13)
+
+# 4.0.0 [New Themes!!]
+
+## 5 New Themes!
+
+Girls from the Fate series:
+
+- Ishtar (Light/Dark)
+- Tohsaka Rin (Dark)
+
+From the Gate series:
+
+- Rory Mercury (Dark)
+
+Last addition to the Konosuba series:
+
+- Aqua (Dark)
+
+![v11 Girls](http://doki.assets.unthrottled.io/misc/v11_girls.png)
+
+
 # 3.0.0 [Kanna Kamui]
 
 - Added Miss Kobayashi's Dragon Maid's `Kanna` as a dark theme!
