@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Kanna
 @namespace      github.com/doki-theme
-@version        4.0.0
+@version        4.1.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -39,6 +39,16 @@
     }
 
     /* Doki addons */
+    :root {
+      --color-previewable-comment-form-bg: #1a1426;
+      --color-bg-canvas: #1b1529;
+      --color-underlinenav-counter-text: #46459e
+    }
+
+    .Counter {
+
+    }
+
     .suggester li:hover .octicon,
     .suggester li[aria-selected="true"] .octicon {
       fill: #fbfbfb;
@@ -118,6 +128,9 @@
       box-shadow: none !important;
       background-color: #262732;
     }
+
+
+
 
     /* end doki addons */
 
@@ -5920,7 +5933,7 @@
   }
   /* source #5: "rgba(27,31,35,.08)" */
   .btn .Counter {
-    background-color: rgba(200, 200, 200, 0.15);
+    background-color: #241c33
   }
   /* source #5: "color: #959da5", "#fafbfc", "rgba(27,31,35,.15)" */
   .btn, .btn.disabled, .btn:disabled, .btn[aria-disabled="true"] {
@@ -13609,7 +13622,7 @@
   /* source #9: "color: #586069", "rgba(27,31,35,.08)" */
   .Counter {
     color: #d0d0d0CC;
-    background-color: rgba(200, 200, 200, 0.15);
+    background-color: #241c33
   }
   /* source #9: "color: #24292e", "rgba(27,31,35,.15)" */
   .Counter--gray-light {
