@@ -18878,11 +18878,11 @@ table.files {
 }
 /* git diff line additions (dark green) */
 .blob-code-addition {
-    background-color: #17361899 !important;
+    background-color: #10241399 !important;
     border-color: #060 !important;
 }
 .blob-num-addition {
-    background-color: #17361899 !important;
+    background-color: #10241399 !important;
 }
 /* git diff line deletions (dark red) */
 .blob-code-deletion, .CodeMirror-linebackground.conflict-background,

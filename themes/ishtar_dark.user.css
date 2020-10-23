@@ -18143,7 +18143,7 @@ button.project-header-link, td.icon, .facebox-close,
 }
 
  .tree-browser-result mark {
-    color: #666f71 !important;
+    color: #7C7C82 !important;
  }
 
 .timeline-comment-action, #suggestions a, .table-list-header-toggle .btn-link,
@@ -19234,15 +19234,15 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant.other.symbol */
 .pl-e {
-    color: #666f71 !important;
+    color: #7C7C82 !important;
 }
 /* entity */
 .pl-ef {
-    color: #666f71 !important;
+    color: #7C7C82 !important;
 }
 /* entity.function */
 .pl-en {
-    color: #666f71 !important;
+    color: #7C7C82 !important;
 }
 /* entity.name */
 .pl-enc {
@@ -19250,11 +19250,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.class */
 .pl-enf {
-    color: #666f71 !important;
+    color: #7C7C82 !important;
 }
 /* entity.name.function */
 .pl-enm {
-    color: #666f71 !important;
+    color: #7C7C82 !important;
 }
 /* entity.name.method-name */
 .pl-ens {
@@ -19266,11 +19266,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.tag */
 .pl-entc {
-    color: #666f71 !important;
+    color: #7C7C82 !important;
 }
 /* entity.name.type.class */
 .pl-enti {
-    color: #666f71 !important;
+    color: #7C7C82 !important;
     font-weight: bold !important;
 }
 /* entity.name.type.instance */
@@ -19299,7 +19299,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* punctuation.definition.entity */
 .pl-eoi {
-    color: #666f71 !important;
+    color: #7C7C82 !important;
 }
 /* entity.other.inherited-class */
 .pl-k {
@@ -19449,15 +19449,15 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* support.function */
 .pl-smc {
-    color: #666f71 !important;
+    color: #7C7C82 !important;
 }
 /* storage.modifier.c */
 .pl-smi {
-    color: #666f71 !important;
+    color: #7C7C82 !important;
 }
 /* storage.modifier.import */
 .pl-smp {
-    color: #666f71 !important;
+    color: #7C7C82 !important;
 }
 /* storage.modifier.package */
 .pl-sok {
@@ -19513,7 +19513,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* variable.interpolation */
 .pl-vo {
-    color: #666f71 !important;
+    color: #7C7C82 !important;
 }
 /* variable.other */
 .pl-vpf {
@@ -19587,7 +19587,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* variable.parameter.url */
 .pl-entl {
-    color: #666f71 !important;
+    color: #7C7C82 !important;
 }
 /* entity.name.tag.label */
 .pl-corl, .highlight .pl-corl span.x {
@@ -19596,8 +19596,8 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* links */
 .pl-token.active, .pl-token:hover {
-    background: #666f71 !important;
-    color: #666f71 !important;
+    background: #7C7C82 !important;
+    color: #7C7C82 !important;
 }
 /*! CodeMirror: Twilight */
 /* based on https://github.com/codemirror/CodeMirror/blob/master/theme/twilight.css */
