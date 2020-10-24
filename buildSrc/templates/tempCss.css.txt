@@ -17554,7 +17554,7 @@ circle.day:hover {
     fill: #fff !important;
 }
 path.js-diff-placeholder {
-    fill: #282828 !important;
+    fill: {{highlightColor}} !important;
 }
 #contributors-master svg.viz {
     display: block !important;
