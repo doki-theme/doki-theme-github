@@ -1,6 +1,10 @@
 Changelog
 ---
 
+# 4.2.1 [GitHub Update Maintenance]
+
+- Fixed more small issues with GitHub Style Upgrades
+
 # 4.2.0 [Github Updates]
 
 - Fixed patching issues with new GitHub Upgrade.
