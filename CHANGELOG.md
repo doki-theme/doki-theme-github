@@ -1,6 +1,10 @@
 Changelog
 ---
 
+# 4.2.2 [Tooltip Fix]
+
+- Fixed the tool tip overlay color.
+
 # 4.2.1 [GitHub Update Maintenance]
 
 - Fixed more small issues with GitHub Style Upgrades
