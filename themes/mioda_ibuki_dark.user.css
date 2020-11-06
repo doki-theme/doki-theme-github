@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Mioda Ibuki Dark
 @namespace      github.com/doki-theme
-@version        4.1.1
+@version        4.2.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -42,8 +42,15 @@
     :root {
       --color-previewable-comment-form-bg: #191b1d;
       --color-bg-canvas: #141617;
+      --color-bg-primary: #141617;
+      --color-calendar-graph-day-bg: #343434;
       --color-underlinenav-counter-text: #bbbbbb;
       --color-text-primary: #5ea7ff;
+      --color-calendar-graph-day-L1-bg: #5395b477;
+      --color-calendar-graph-day-L2-bg: #5395b4CC;
+      --color-calendar-graph-day-L3-bg: #5395b4FF;
+      --color-calendar-graph-day-L4-bg: #68c4ee;
+      --color-verified-badge-bg: #00000000;
     }
 
     .suggester li:hover .octicon,

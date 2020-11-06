@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Darkness Light
 @namespace      github.com/doki-theme
-@version        4.1.1
+@version        4.2.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -42,8 +42,15 @@
     :root {
       --color-previewable-comment-form-bg: #FFFEF9;
       --color-bg-canvas: #fefefa;
+      --color-bg-primary: #fefefa;
+      --color-calendar-graph-day-bg: #F3F2E2;
       --color-underlinenav-counter-text: #000000;
       --color-text-primary: #3492b1;
+      --color-calendar-graph-day-L1-bg: #F5C83C77;
+      --color-calendar-graph-day-L2-bg: #F5C83CCC;
+      --color-calendar-graph-day-L3-bg: #F5C83CFF;
+      --color-calendar-graph-day-L4-bg: #FCFFA5;
+      --color-verified-badge-bg: #00000000;
     }
 
     .suggester li:hover .octicon,

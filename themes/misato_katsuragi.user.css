@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Misato Katsuragi
 @namespace      github.com/doki-theme
-@version        4.1.1
+@version        4.2.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -42,8 +42,15 @@
     :root {
       --color-previewable-comment-form-bg: #382536;
       --color-bg-canvas: #3a2333;
+      --color-bg-primary: #3a2333;
+      --color-calendar-graph-day-bg: #322130;
       --color-underlinenav-counter-text: #b5a3b0;
       --color-text-primary: #FF357C;
+      --color-calendar-graph-day-L1-bg: #c2383e77;
+      --color-calendar-graph-day-L2-bg: #c2383eCC;
+      --color-calendar-graph-day-L3-bg: #c2383eFF;
+      --color-calendar-graph-day-L4-bg: #ec1f62;
+      --color-verified-badge-bg: #00000000;
     }
 
     .suggester li:hover .octicon,

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Sayori Dark
 @namespace      github.com/doki-theme
-@version        4.1.1
+@version        4.2.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -42,8 +42,15 @@
     :root {
       --color-previewable-comment-form-bg: #111b2d;
       --color-bg-canvas: #0E1D31;
+      --color-bg-primary: #0E1D31;
+      --color-calendar-graph-day-bg: #1B1D31;
       --color-underlinenav-counter-text: #bbbbbb;
       --color-text-primary: #3F77EF;
+      --color-calendar-graph-day-L1-bg: #00BCD477;
+      --color-calendar-graph-day-L2-bg: #00BCD4CC;
+      --color-calendar-graph-day-L3-bg: #00BCD4FF;
+      --color-calendar-graph-day-L4-bg: #11FFFD;
+      --color-verified-badge-bg: #00000000;
     }
 
     .suggester li:hover .octicon,

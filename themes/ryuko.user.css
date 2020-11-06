@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Ryuko
 @namespace      github.com/doki-theme
-@version        4.1.1
+@version        4.2.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -42,8 +42,15 @@
     :root {
       --color-previewable-comment-form-bg: #2b3238;
       --color-bg-canvas: #2f363c;
+      --color-bg-primary: #2f363c;
+      --color-calendar-graph-day-bg: #292e34;
       --color-underlinenav-counter-text: #bbbbbb;
       --color-text-primary: #C1B5C3;
+      --color-calendar-graph-day-L1-bg: #a7303577;
+      --color-calendar-graph-day-L2-bg: #a73035CC;
+      --color-calendar-graph-day-L3-bg: #a73035FF;
+      --color-calendar-graph-day-L4-bg: #ee2726;
+      --color-verified-badge-bg: #00000000;
     }
 
     .suggester li:hover .octicon,

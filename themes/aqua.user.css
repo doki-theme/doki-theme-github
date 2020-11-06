@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Aqua
 @namespace      github.com/doki-theme
-@version        4.1.1
+@version        4.2.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -42,8 +42,15 @@
     :root {
       --color-previewable-comment-form-bg: #262940;
       --color-bg-canvas: #282b42;
+      --color-bg-primary: #282b42;
+      --color-calendar-graph-day-bg: #2e3149;
       --color-underlinenav-counter-text: #bbbbbb;
       --color-text-primary: #6893f3;
+      --color-calendar-graph-day-L1-bg: #578CDA77;
+      --color-calendar-graph-day-L2-bg: #578CDACC;
+      --color-calendar-graph-day-L3-bg: #578CDAFF;
+      --color-calendar-graph-day-L4-bg: #688dee;
+      --color-verified-badge-bg: #00000000;
     }
 
     .suggester li:hover .octicon,

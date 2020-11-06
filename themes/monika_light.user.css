@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Monika Light
 @namespace      github.com/doki-theme
-@version        4.1.1
+@version        4.2.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -42,8 +42,15 @@
     :root {
       --color-previewable-comment-form-bg: #f2fff0;
       --color-bg-canvas: #f3fff4;
+      --color-bg-primary: #f3fff4;
+      --color-calendar-graph-day-bg: #eaf6eb;
       --color-underlinenav-counter-text: #252427;
       --color-text-primary: #8a777d;
+      --color-calendar-graph-day-L1-bg: #388E3C77;
+      --color-calendar-graph-day-L2-bg: #388E3CCC;
+      --color-calendar-graph-day-L3-bg: #388E3CFF;
+      --color-calendar-graph-day-L4-bg: #5EEF1B;
+      --color-verified-badge-bg: #00000000;
     }
 
     .suggester li:hover .octicon,

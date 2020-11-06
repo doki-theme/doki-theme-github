@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Emilia Light
 @namespace      github.com/doki-theme
-@version        4.1.1
+@version        4.2.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -42,8 +42,15 @@
     :root {
       --color-previewable-comment-form-bg: #fbf0ff;
       --color-bg-canvas: #fcf3ff;
+      --color-bg-primary: #fcf3ff;
+      --color-calendar-graph-day-bg: #f2eaf6;
       --color-underlinenav-counter-text: #252427;
       --color-text-primary: #7C75EF;
+      --color-calendar-graph-day-L1-bg: #82357d77;
+      --color-calendar-graph-day-L2-bg: #82357dCC;
+      --color-calendar-graph-day-L3-bg: #82357dFF;
+      --color-calendar-graph-day-L4-bg: #e984ed;
+      --color-verified-badge-bg: #00000000;
     }
 
     .suggester li:hover .octicon,
