@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Emilia Dark
 @namespace      github.com/doki-theme
-@version        4.1.1
+@version        4.2.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -42,8 +42,15 @@
     :root {
       --color-previewable-comment-form-bg: #492d5a;
       --color-bg-canvas: #4e3162;
+      --color-bg-primary: #4e3162;
+      --color-calendar-graph-day-bg: #402a54;
       --color-underlinenav-counter-text: #DADADA;
       --color-text-primary: #a475ef;
+      --color-calendar-graph-day-L1-bg: #a53ba077;
+      --color-calendar-graph-day-L2-bg: #a53ba0CC;
+      --color-calendar-graph-day-L3-bg: #a53ba0FF;
+      --color-calendar-graph-day-L4-bg: #F667FF;
+      --color-verified-badge-bg: #00000000;
     }
 
     .suggester li:hover .octicon,

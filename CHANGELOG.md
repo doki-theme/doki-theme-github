@@ -1,6 +1,11 @@
 Changelog
 ---
 
+# 4.2.0 [Github Updates]
+
+- Fixed patching issues with new GitHub Upgrade.
+- Changed the GitHub Contribution Coloring.
+
 # 4.1.0 [GitHub Update Fixes]
 
 - Fixed issues with new GitHub styles. [See issue for more details](https://github.com/doki-theme/doki-theme-github/issues/13)

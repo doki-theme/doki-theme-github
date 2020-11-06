@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Ram
 @namespace      github.com/doki-theme
-@version        4.1.1
+@version        4.2.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -42,8 +42,15 @@
     :root {
       --color-previewable-comment-form-bg: #342f36;
       --color-bg-canvas: #302930;
+      --color-bg-primary: #302930;
+      --color-calendar-graph-day-bg: #2c2934;
       --color-underlinenav-counter-text: #bbbbbb;
       --color-text-primary: #F375C8;
+      --color-calendar-graph-day-L1-bg: #e594bf77;
+      --color-calendar-graph-day-L2-bg: #e594bfCC;
+      --color-calendar-graph-day-L3-bg: #e594bfFF;
+      --color-calendar-graph-day-L4-bg: #e565ee;
+      --color-verified-badge-bg: #00000000;
     }
 
     .suggester li:hover .octicon,

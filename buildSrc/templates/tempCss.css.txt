@@ -42,8 +42,15 @@
     :root {
       --color-previewable-comment-form-bg: {{textEditorBackground}};
       --color-bg-canvas: {{baseBackground}};
+      --color-bg-primary: {{baseBackground}};
+      --color-calendar-graph-day-bg: {{codeBlock}};
       --color-underlinenav-counter-text: {{foregroundColor}};
       --color-text-primary: {{keyColor}};
+      --color-calendar-graph-day-L1-bg: {{accentColor}}77;
+      --color-calendar-graph-day-L2-bg: {{accentColor}}CC;
+      --color-calendar-graph-day-L3-bg: {{accentColor}}FF;
+      --color-calendar-graph-day-L4-bg: {{stopColor}};
+      --color-verified-badge-bg: #00000000;
     }
 
     .suggester li:hover .octicon,

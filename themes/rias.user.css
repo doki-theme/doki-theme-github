@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Rias
 @namespace      github.com/doki-theme
-@version        4.1.1
+@version        4.2.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -42,8 +42,15 @@
     :root {
       --color-previewable-comment-form-bg: #3E1010;
       --color-bg-canvas: #401112;
+      --color-bg-primary: #401112;
+      --color-calendar-graph-day-bg: #491818;
       --color-underlinenav-counter-text: #fafafa;
       --color-text-primary: #eea367;
+      --color-calendar-graph-day-L1-bg: #e0394377;
+      --color-calendar-graph-day-L2-bg: #e03943CC;
+      --color-calendar-graph-day-L3-bg: #e03943FF;
+      --color-calendar-graph-day-L4-bg: #ec081e;
+      --color-verified-badge-bg: #00000000;
     }
 
     .suggester li:hover .octicon,

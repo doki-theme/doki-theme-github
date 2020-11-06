@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Satsuki
 @namespace      github.com/doki-theme
-@version        4.1.1
+@version        4.2.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -42,8 +42,15 @@
     :root {
       --color-previewable-comment-form-bg: #e7e6eb;
       --color-bg-canvas: #eae9ee;
+      --color-bg-primary: #eae9ee;
+      --color-calendar-graph-day-bg: #ECEDF8;
       --color-underlinenav-counter-text: #252427;
       --color-text-primary: #cd862f;
+      --color-calendar-graph-day-L1-bg: #275AB377;
+      --color-calendar-graph-day-L2-bg: #275AB3CC;
+      --color-calendar-graph-day-L3-bg: #275AB3FF;
+      --color-calendar-graph-day-L4-bg: #7aa9ed;
+      --color-verified-badge-bg: #00000000;
     }
 
     .suggester li:hover .octicon,

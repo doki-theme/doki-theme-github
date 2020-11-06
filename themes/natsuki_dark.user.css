@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Natsuki Dark
 @namespace      github.com/doki-theme
-@version        4.1.1
+@version        4.2.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -42,8 +42,15 @@
     :root {
       --color-previewable-comment-form-bg: #35102c;
       --color-bg-canvas: #310a29;
+      --color-bg-primary: #310a29;
+      --color-calendar-graph-day-bg: #3d1c31;
       --color-underlinenav-counter-text: #bbbbbb;
       --color-text-primary: #FF9CD6;
+      --color-calendar-graph-day-L1-bg: #E9468677;
+      --color-calendar-graph-day-L2-bg: #E94686CC;
+      --color-calendar-graph-day-L3-bg: #E94686FF;
+      --color-calendar-graph-day-L4-bg: #F650FF;
+      --color-verified-badge-bg: #00000000;
     }
 
     .suggester li:hover .octicon,

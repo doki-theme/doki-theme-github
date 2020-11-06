@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Tohsaka Rin
 @namespace      github.com/doki-theme
-@version        4.1.1
+@version        4.2.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -42,8 +42,15 @@
     :root {
       --color-previewable-comment-form-bg: #161415;
       --color-bg-canvas: #191718;
+      --color-bg-primary: #191718;
+      --color-calendar-graph-day-bg: #211D1E;
       --color-underlinenav-counter-text: #bbbbbb;
       --color-text-primary: #e0474b;
+      --color-calendar-graph-day-L1-bg: #4c969777;
+      --color-calendar-graph-day-L2-bg: #4c9697CC;
+      --color-calendar-graph-day-L3-bg: #4c9697FF;
+      --color-calendar-graph-day-L4-bg: #ee2726;
+      --color-verified-badge-bg: #00000000;
     }
 
     .suggester li:hover .octicon,
