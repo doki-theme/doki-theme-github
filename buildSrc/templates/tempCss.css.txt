@@ -54,6 +54,7 @@
       --color-calendar-graph-day-L3-bg: {{accentColor}}FF;
       --color-calendar-graph-day-L4-bg: {{stopColor}};
       --color-verified-badge-bg: #00000000;
+      --color-bg-overlay: {{secondaryBackground}};
     }
 
     .suggester li:hover .octicon,

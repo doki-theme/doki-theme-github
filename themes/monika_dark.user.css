@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Monika Dark
 @namespace      github.com/doki-theme
-@version        4.2.1
+@version        4.2.2
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -54,6 +54,7 @@
       --color-calendar-graph-day-L3-bg: #388E3CFF;
       --color-calendar-graph-day-L4-bg: #FFFA11;
       --color-verified-badge-bg: #00000000;
+      --color-bg-overlay: #1a1e12;
     }
 
     .suggester li:hover .octicon,
