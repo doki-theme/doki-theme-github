@@ -42,6 +42,7 @@
     :root {
       --color-previewable-comment-form-bg: {{textEditorBackground}};
       --color-bg-canvas: {{baseBackground}};
+      --color-bg-canvas-inset: {{baseBackground}};
       --color-bg-primary: {{baseBackground}};
       --color-calendar-graph-day-bg: {{codeBlock}};
       --color-underlinenav-counter-text: {{foregroundColor}};
@@ -55,6 +56,8 @@
       --color-calendar-graph-day-L4-bg: {{stopColor}};
       --color-verified-badge-bg: #00000000;
       --color-bg-overlay: {{secondaryBackground}};
+      --color-border-primary: {{borderColor}};
+      --color-border-primary: {{borderColor}};
     }
 
     .suggester li:hover .octicon,

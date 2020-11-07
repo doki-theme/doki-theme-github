@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Sayori Light
 @namespace      github.com/doki-theme
-@version        4.2.2
+@version        4.2.3
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -42,6 +42,7 @@
     :root {
       --color-previewable-comment-form-bg: #f0faff;
       --color-bg-canvas: #f3faff;
+      --color-bg-canvas-inset: #f3faff;
       --color-bg-primary: #f3faff;
       --color-calendar-graph-day-bg: #eaf0f6;
       --color-underlinenav-counter-text: #252427;
@@ -55,6 +56,8 @@
       --color-calendar-graph-day-L4-bg: #3DFFF3;
       --color-verified-badge-bg: #00000000;
       --color-bg-overlay: #ecfbff;
+      --color-border-primary: #e2eaee;
+      --color-border-primary: #e2eaee;
     }
 
     .suggester li:hover .octicon,

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Beatrice
 @namespace      github.com/doki-theme
-@version        4.2.2
+@version        4.2.3
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -42,6 +42,7 @@
     :root {
       --color-previewable-comment-form-bg: #FFE5F1;
       --color-bg-canvas: #ffe4f1;
+      --color-bg-canvas-inset: #ffe4f1;
       --color-bg-primary: #ffe4f1;
       --color-calendar-graph-day-bg: #FDD8FF;
       --color-underlinenav-counter-text: #000000;
@@ -55,6 +56,8 @@
       --color-calendar-graph-day-L4-bg: #fbadff;
       --color-verified-badge-bg: #00000000;
       --color-bg-overlay: #f3cfe0;
+      --color-border-primary: #F1D7E6;
+      --color-border-primary: #F1D7E6;
     }
 
     .suggester li:hover .octicon,

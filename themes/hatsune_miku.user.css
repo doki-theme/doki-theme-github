@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Hatsune Miku
 @namespace      github.com/doki-theme
-@version        4.2.2
+@version        4.2.3
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -42,6 +42,7 @@
     :root {
       --color-previewable-comment-form-bg: #2f3635;
       --color-bg-canvas: #293030;
+      --color-bg-canvas-inset: #293030;
       --color-bg-primary: #293030;
       --color-calendar-graph-day-bg: #293433;
       --color-underlinenav-counter-text: #bbbbbb;
@@ -55,6 +56,8 @@
       --color-calendar-graph-day-L4-bg: #68eede;
       --color-verified-badge-bg: #00000000;
       --color-bg-overlay: #313939;
+      --color-border-primary: #2d3839;
+      --color-border-primary: #2d3839;
     }
 
     .suggester li:hover .octicon,
@@ -19225,7 +19228,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant */
 .pl-cce {
-    color: #BD93F9 !important;
+    color: #86dbfd !important;
     font-weight: normal !important;
 }
 /* constant.character.escape */
@@ -19234,7 +19237,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant.numeric */
 .pl-coc {
-    color: #BD93F9 !important;
+    color: #86dbfd !important;
 }
 /* constant.other.color */
 .pl-cos {
