@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Asuna
 @namespace      github.com/doki-theme
-@version        4.2.2
+@version        4.2.3
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -42,6 +42,7 @@
     :root {
       --color-previewable-comment-form-bg: #fcfcfc;
       --color-bg-canvas: #ffffff;
+      --color-bg-canvas-inset: #ffffff;
       --color-bg-primary: #ffffff;
       --color-calendar-graph-day-bg: #f6f6f6;
       --color-underlinenav-counter-text: #252427;
@@ -55,6 +56,8 @@
       --color-calendar-graph-day-L4-bg: #ec081e;
       --color-verified-badge-bg: #00000000;
       --color-bg-overlay: #fcfcfc;
+      --color-border-primary: #eeeeee;
+      --color-border-primary: #eeeeee;
     }
 
     .suggester li:hover .octicon,

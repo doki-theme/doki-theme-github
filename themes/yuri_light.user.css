@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Yuri Light
 @namespace      github.com/doki-theme
-@version        4.2.2
+@version        4.2.3
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -42,6 +42,7 @@
     :root {
       --color-previewable-comment-form-bg: #f3f0ff;
       --color-bg-canvas: #f7f3ff;
+      --color-bg-canvas-inset: #f7f3ff;
       --color-bg-primary: #f7f3ff;
       --color-calendar-graph-day-bg: #efeaf6;
       --color-underlinenav-counter-text: #252427;
@@ -55,6 +56,8 @@
       --color-calendar-graph-day-L4-bg: #f595ff;
       --color-verified-badge-bg: #00000000;
       --color-bg-overlay: #f5ecff;
+      --color-border-primary: #e2e3ee;
+      --color-border-primary: #e2e3ee;
     }
 
     .suggester li:hover .octicon,

@@ -466,12 +466,13 @@ walkDir(githubThemeDefinitionDirectoryPath)
   })
 
   .then(dokiThemes =>
-  walkDir(path.resolve(__dirname, '..', 'temp'))
-    .then(paths => paths.map(p => {
-      return {
-        url: p,
-      }
-    }))
+  //walkDir(path.resolve(__dirname, '..', 'temp'))
+  //  .then(paths => paths.map(p => {
+  //    return {
+  //      url: p,
+  //    }
+  //  }))
+    Promise.resolve()
 
     // local cached CSS (fast)
     .then(()=> fs.readFileSync(path.resolve(githubTemplateDirectoryPath, 'tempCss.css.txt'), {encoding:"utf-8"}))

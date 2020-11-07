@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Konata
 @namespace      github.com/doki-theme
-@version        4.2.2
+@version        4.2.3
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -42,6 +42,7 @@
     :root {
       --color-previewable-comment-form-bg: #608ee9;
       --color-bg-canvas: #6192ee;
+      --color-bg-canvas-inset: #6192ee;
       --color-bg-primary: #6192ee;
       --color-calendar-graph-day-bg: #6c95ee;
       --color-underlinenav-counter-text: #f3edff;
@@ -55,6 +56,8 @@
       --color-calendar-graph-day-L4-bg: #98ff3d;
       --color-verified-badge-bg: #00000000;
       --color-bg-overlay: #5c89e8;
+      --color-border-primary: #5a86dc;
+      --color-border-primary: #5a86dc;
     }
 
     .suggester li:hover .octicon,

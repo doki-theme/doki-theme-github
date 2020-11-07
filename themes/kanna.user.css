@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Kanna
 @namespace      github.com/doki-theme
-@version        4.2.2
+@version        4.2.3
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -42,6 +42,7 @@
     :root {
       --color-previewable-comment-form-bg: #1a1426;
       --color-bg-canvas: #1b1529;
+      --color-bg-canvas-inset: #1b1529;
       --color-bg-primary: #1b1529;
       --color-calendar-graph-day-bg: #1d152d;
       --color-underlinenav-counter-text: #d0d0d0;
@@ -55,6 +56,8 @@
       --color-calendar-graph-day-L4-bg: #344acb;
       --color-verified-badge-bg: #00000000;
       --color-bg-overlay: #150f20;
+      --color-border-primary: #221f2e;
+      --color-border-primary: #221f2e;
     }
 
     .suggester li:hover .octicon,
@@ -19225,7 +19228,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant */
 .pl-cce {
-    color: #BD93F9 !important;
+    color: #86dbfd !important;
     font-weight: normal !important;
 }
 /* constant.character.escape */
@@ -19234,7 +19237,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant.numeric */
 .pl-coc {
-    color: #BD93F9 !important;
+    color: #86dbfd !important;
 }
 /* constant.other.color */
 .pl-cos {

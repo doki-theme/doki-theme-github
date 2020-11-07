@@ -1,6 +1,10 @@
 Changelog
 ---
 
+# 4.2.3 [Dashboard Fix]
+
+- Fixed the GitHub dashboard look and feel
+
 # 4.2.2 [Tooltip Fix]
 
 - Fixed the tool tip overlay color.
