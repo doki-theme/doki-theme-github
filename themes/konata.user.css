@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Konata
 @namespace      github.com/doki-theme
-@version        4.2.3
+@version        4.2.4
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -58,6 +58,9 @@
       --color-bg-overlay: #5c89e8;
       --color-border-primary: #5a86dc;
       --color-border-primary: #5a86dc;
+      --color-notifications-row-read-bg: #6c95ee;
+      --color-input-disabled-bg: #6c95ee;
+      --color-input-disabled-border: #5a86dc;
     }
 
     .suggester li:hover .octicon,
@@ -17689,7 +17692,7 @@ ul.bignav li a:hover, ul.smallnav li a:hover, .comments-wrapper, .rackspace,
 .state-widget .ahead .bar, .render-shell > .slider .dragger:hover,
 .render-shell > .slider .dragger:active, .issues-reset-query-icon,
 .projects-reset-query-icon {
-    background: #f3edff94 !important;
+    background: #83a0ee94 !important;
 }
 /* https://github.com/StylishThemes/GitHub-Dark/search?q=test&unscoped_q=test */
 .Counter--gray {

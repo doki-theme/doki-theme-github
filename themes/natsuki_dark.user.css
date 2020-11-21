@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Natsuki Dark
 @namespace      github.com/doki-theme
-@version        4.2.3
+@version        4.2.4
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -58,6 +58,9 @@
       --color-bg-overlay: #330A2B;
       --color-border-primary: #381927;
       --color-border-primary: #381927;
+      --color-notifications-row-read-bg: #3d1c31;
+      --color-input-disabled-bg: #6F3654;
+      --color-input-disabled-border: #381927;
     }
 
     .suggester li:hover .octicon,
@@ -17689,7 +17692,7 @@ ul.bignav li a:hover, ul.smallnav li a:hover, .comments-wrapper, .rackspace,
 .state-widget .ahead .bar, .render-shell > .slider .dragger:hover,
 .render-shell > .slider .dragger:active, .issues-reset-query-icon,
 .projects-reset-query-icon {
-    background: #bbbbbb94 !important;
+    background: #561b3e94 !important;
 }
 /* https://github.com/StylishThemes/GitHub-Dark/search?q=test&unscoped_q=test */
 .Counter--gray {
@@ -19228,7 +19231,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant */
 .pl-cce {
-    color: #86dbfd !important;
+    color: #BD93F9 !important;
     font-weight: normal !important;
 }
 /* constant.character.escape */
@@ -19237,7 +19240,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant.numeric */
 .pl-coc {
-    color: #86dbfd !important;
+    color: #BD93F9 !important;
 }
 /* constant.other.color */
 .pl-cos {

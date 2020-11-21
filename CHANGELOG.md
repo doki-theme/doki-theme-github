@@ -1,5 +1,8 @@
 Changelog
 ---
+# 4.2.4 [Notifications Fix]
+
+- Fixed the GitHub notifications look and feel.
 
 # 4.2.3 [Dashboard Fix]
 
