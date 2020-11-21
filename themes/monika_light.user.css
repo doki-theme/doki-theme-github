@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Monika Light
 @namespace      github.com/doki-theme
-@version        4.2.3
+@version        4.2.4
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -58,6 +58,9 @@
       --color-bg-overlay: #edffec;
       --color-border-primary: #e2eee3;
       --color-border-primary: #e2eee3;
+      --color-notifications-row-read-bg: #eaf6eb;
+      --color-input-disabled-bg: #d8f1d7;
+      --color-input-disabled-border: #e2eee3;
     }
 
     .suggester li:hover .octicon,
@@ -17689,7 +17692,7 @@ ul.bignav li a:hover, ul.smallnav li a:hover, .comments-wrapper, .rackspace,
 .state-widget .ahead .bar, .render-shell > .slider .dragger:hover,
 .render-shell > .slider .dragger:active, .issues-reset-query-icon,
 .projects-reset-query-icon {
-    background: #25242794 !important;
+    background: #d8eed994 !important;
 }
 /* https://github.com/StylishThemes/GitHub-Dark/search?q=test&unscoped_q=test */
 .Counter--gray {

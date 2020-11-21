@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Aqua
 @namespace      github.com/doki-theme
-@version        4.2.3
+@version        4.2.4
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -58,6 +58,9 @@
       --color-bg-overlay: #242942;
       --color-border-primary: #2a334b;
       --color-border-primary: #2a334b;
+      --color-notifications-row-read-bg: #2e3149;
+      --color-input-disabled-bg: #31344b;
+      --color-input-disabled-border: #2a334b;
     }
 
     .suggester li:hover .octicon,
@@ -17689,7 +17692,7 @@ ul.bignav li a:hover, ul.smallnav li a:hover, .comments-wrapper, .rackspace,
 .state-widget .ahead .bar, .render-shell > .slider .dragger:hover,
 .render-shell > .slider .dragger:active, .issues-reset-query-icon,
 .projects-reset-query-icon {
-    background: #bbbbbb94 !important;
+    background: #31374b94 !important;
 }
 /* https://github.com/StylishThemes/GitHub-Dark/search?q=test&unscoped_q=test */
 .Counter--gray {

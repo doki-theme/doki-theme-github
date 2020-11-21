@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Asuna
 @namespace      github.com/doki-theme
-@version        4.2.3
+@version        4.2.4
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -58,6 +58,9 @@
       --color-bg-overlay: #fcfcfc;
       --color-border-primary: #eeeeee;
       --color-border-primary: #eeeeee;
+      --color-notifications-row-read-bg: #f6f6f6;
+      --color-input-disabled-bg: #fff4f4;
+      --color-input-disabled-border: #eeeeee;
     }
 
     .suggester li:hover .octicon,
@@ -17689,7 +17692,7 @@ ul.bignav li a:hover, ul.smallnav li a:hover, .comments-wrapper, .rackspace,
 .state-widget .ahead .bar, .render-shell > .slider .dragger:hover,
 .render-shell > .slider .dragger:active, .issues-reset-query-icon,
 .projects-reset-query-icon {
-    background: #25242794 !important;
+    background: #f9f2f294 !important;
 }
 /* https://github.com/StylishThemes/GitHub-Dark/search?q=test&unscoped_q=test */
 .Counter--gray {

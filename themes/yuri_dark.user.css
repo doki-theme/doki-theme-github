@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Yuri Dark
 @namespace      github.com/doki-theme
-@version        4.2.3
+@version        4.2.4
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -58,6 +58,9 @@
       --color-bg-overlay: #412D62;
       --color-border-primary: #4d3a63;
       --color-border-primary: #4d3a63;
+      --color-notifications-row-read-bg: #392A54;
+      --color-input-disabled-bg: #473466;
+      --color-input-disabled-border: #4d3a63;
     }
 
     .suggester li:hover .octicon,
@@ -17689,7 +17692,7 @@ ul.bignav li a:hover, ul.smallnav li a:hover, .comments-wrapper, .rackspace,
 .state-widget .ahead .bar, .render-shell > .slider .dragger:hover,
 .render-shell > .slider .dragger:active, .issues-reset-query-icon,
 .projects-reset-query-icon {
-    background: #DADADA94 !important;
+    background: #48396794 !important;
 }
 /* https://github.com/StylishThemes/GitHub-Dark/search?q=test&unscoped_q=test */
 .Counter--gray {

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Mioda Ibuki Light
 @namespace      github.com/doki-theme
-@version        4.2.3
+@version        4.2.4
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -58,6 +58,9 @@
       --color-bg-overlay: #FFEAF9;
       --color-border-primary: #ede1e9;
       --color-border-primary: #ede1e9;
+      --color-notifications-row-read-bg: #ecf2f8;
+      --color-input-disabled-bg: #f1d7ef;
+      --color-input-disabled-border: #ede1e9;
     }
 
     .suggester li:hover .octicon,
@@ -17689,7 +17692,7 @@ ul.bignav li a:hover, ul.smallnav li a:hover, .comments-wrapper, .rackspace,
 .state-widget .ahead .bar, .render-shell > .slider .dragger:hover,
 .render-shell > .slider .dragger:active, .issues-reset-query-icon,
 .projects-reset-query-icon {
-    background: #27242694 !important;
+    background: #F7E0F394 !important;
 }
 /* https://github.com/StylishThemes/GitHub-Dark/search?q=test&unscoped_q=test */
 .Counter--gray {

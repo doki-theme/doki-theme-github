@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Misato Katsuragi
 @namespace      github.com/doki-theme
-@version        4.2.3
+@version        4.2.4
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -58,6 +58,9 @@
       --color-bg-overlay: #382639;
       --color-border-primary: #432E3D;
       --color-border-primary: #432E3D;
+      --color-notifications-row-read-bg: #322130;
+      --color-input-disabled-bg: #4b283c;
+      --color-input-disabled-border: #432E3D;
     }
 
     .suggester li:hover .octicon,
@@ -17689,7 +17692,7 @@ ul.bignav li a:hover, ul.smallnav li a:hover, .comments-wrapper, .rackspace,
 .state-widget .ahead .bar, .render-shell > .slider .dragger:hover,
 .render-shell > .slider .dragger:active, .issues-reset-query-icon,
 .projects-reset-query-icon {
-    background: #b5a3b094 !important;
+    background: #341F2D94 !important;
 }
 /* https://github.com/StylishThemes/GitHub-Dark/search?q=test&unscoped_q=test */
 .Counter--gray {

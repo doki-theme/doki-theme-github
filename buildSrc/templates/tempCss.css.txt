@@ -58,6 +58,9 @@
       --color-bg-overlay: {{secondaryBackground}};
       --color-border-primary: {{borderColor}};
       --color-border-primary: {{borderColor}};
+      --color-notifications-row-read-bg: {{codeBlock}};
+      --color-input-disabled-bg: {{selectionInactive}};
+      --color-input-disabled-border: {{borderColor}};
     }
 
     .suggester li:hover .octicon,
@@ -17689,7 +17692,7 @@ ul.bignav li a:hover, ul.smallnav li a:hover, .comments-wrapper, .rackspace,
 .state-widget .ahead .bar, .render-shell > .slider .dragger:hover,
 .render-shell > .slider .dragger:active, .issues-reset-query-icon,
 .projects-reset-query-icon {
-    background: {{foregroundColor}}94 !important;
+    background: {{buttonColor}}94 !important;
 }
 /* https://github.com/StylishThemes/GitHub-Dark/search?q=test&unscoped_q=test */
 .Counter--gray {
