@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Natsuki Dark
 @namespace      github.com/doki-theme
-@version        4.2.4
+@version        4.2.5
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -59,6 +59,7 @@
       --color-border-primary: #381927;
       --color-border-primary: #381927;
       --color-notifications-row-read-bg: #3d1c31;
+      --color-notifications-row-bg: #4D2339;
       --color-input-disabled-bg: #6F3654;
       --color-input-disabled-border: #381927;
     }

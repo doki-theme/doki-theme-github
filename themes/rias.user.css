@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Rias
 @namespace      github.com/doki-theme
-@version        4.2.4
+@version        4.2.5
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -59,6 +59,7 @@
       --color-border-primary: #551818;
       --color-border-primary: #551818;
       --color-notifications-row-read-bg: #491818;
+      --color-notifications-row-bg: #491818;
       --color-input-disabled-bg: #491818;
       --color-input-disabled-border: #551818;
     }

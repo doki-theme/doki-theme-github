@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Megumin
 @namespace      github.com/doki-theme
-@version        4.2.4
+@version        4.2.5
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -59,6 +59,7 @@
       --color-border-primary: #32262c;
       --color-border-primary: #32262c;
       --color-notifications-row-read-bg: #2f2329;
+      --color-notifications-row-bg: #31262b;
       --color-input-disabled-bg: #31262b;
       --color-input-disabled-border: #32262c;
     }

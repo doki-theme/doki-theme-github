@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Ishtar Light
 @namespace      github.com/doki-theme
-@version        4.2.4
+@version        4.2.5
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -59,6 +59,7 @@
       --color-border-primary: #eeeeee;
       --color-border-primary: #eeeeee;
       --color-notifications-row-read-bg: #f6f6f6;
+      --color-notifications-row-bg: #fffaed;
       --color-input-disabled-bg: #fffaed;
       --color-input-disabled-border: #eeeeee;
     }

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Beatrice
 @namespace      github.com/doki-theme
-@version        4.2.4
+@version        4.2.5
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -59,6 +59,7 @@
       --color-border-primary: #F1D7E6;
       --color-border-primary: #F1D7E6;
       --color-notifications-row-read-bg: #FDD8FF;
+      --color-notifications-row-bg: #ffdce6;
       --color-input-disabled-bg: #FFD9E2;
       --color-input-disabled-border: #F1D7E6;
     }

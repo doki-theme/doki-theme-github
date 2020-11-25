@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Monika Dark
 @namespace      github.com/doki-theme
-@version        4.2.4
+@version        4.2.5
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -59,6 +59,7 @@
       --color-border-primary: #202416;
       --color-border-primary: #202416;
       --color-notifications-row-read-bg: #23271A;
+      --color-notifications-row-bg: #292D1F;
       --color-input-disabled-bg: #122D13;
       --color-input-disabled-border: #202416;
     }

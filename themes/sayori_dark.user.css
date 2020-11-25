@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Sayori Dark
 @namespace      github.com/doki-theme
-@version        4.2.4
+@version        4.2.5
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -59,6 +59,7 @@
       --color-border-primary: #1a1c2d;
       --color-border-primary: #1a1c2d;
       --color-notifications-row-read-bg: #1B1D31;
+      --color-notifications-row-bg: #252D3C;
       --color-input-disabled-bg: #1d274b;
       --color-input-disabled-border: #1a1c2d;
     }
