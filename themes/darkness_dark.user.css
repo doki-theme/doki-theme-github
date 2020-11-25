@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Darkness Dark
 @namespace      github.com/doki-theme
-@version        4.2.4
+@version        4.2.5
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -59,6 +59,7 @@
       --color-border-primary: #1c1500;
       --color-border-primary: #1c1500;
       --color-notifications-row-read-bg: #191715;
+      --color-notifications-row-bg: #14110d;
       --color-input-disabled-bg: #1d1704;
       --color-input-disabled-border: #1c1500;
     }

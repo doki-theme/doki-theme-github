@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Rory Mercury
 @namespace      github.com/doki-theme
-@version        4.2.4
+@version        4.2.5
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -59,6 +59,7 @@
       --color-border-primary: #261616;
       --color-border-primary: #261616;
       --color-notifications-row-read-bg: #191715;
+      --color-notifications-row-bg: #1a1a1d;
       --color-input-disabled-bg: #1e1e21;
       --color-input-disabled-border: #261616;
     }

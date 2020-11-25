@@ -59,6 +59,7 @@
       --color-border-primary: {{borderColor}};
       --color-border-primary: {{borderColor}};
       --color-notifications-row-read-bg: {{codeBlock}};
+      --color-notifications-row-bg: {{caretRow}};
       --color-input-disabled-bg: {{selectionInactive}};
       --color-input-disabled-border: {{borderColor}};
     }

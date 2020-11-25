@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Kanna
 @namespace      github.com/doki-theme
-@version        4.2.4
+@version        4.2.5
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -59,6 +59,7 @@
       --color-border-primary: #221f2e;
       --color-border-primary: #221f2e;
       --color-notifications-row-read-bg: #1d152d;
+      --color-notifications-row-bg: #231a31;
       --color-input-disabled-bg: #231a31;
       --color-input-disabled-border: #221f2e;
     }
