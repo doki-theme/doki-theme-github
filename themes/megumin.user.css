@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Megumin
 @namespace      github.com/doki-theme
-@version        4.2.5
+@version        4.2.6
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -41,6 +41,8 @@
     /* Doki addons */
     :root {
       --color-previewable-comment-form-bg: #2c2126;
+      --color-avatar-bg: #2c2126;
+      --color-avatar-border: #00000000;
       --color-bg-canvas: #271c21;
       --color-bg-canvas-inset: #271c21;
       --color-bg-primary: #271c21;

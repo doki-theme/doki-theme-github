@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Satsuki
 @namespace      github.com/doki-theme
-@version        4.2.5
+@version        4.2.6
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -41,6 +41,8 @@
     /* Doki addons */
     :root {
       --color-previewable-comment-form-bg: #e7e6eb;
+      --color-avatar-bg: #e7e6eb;
+      --color-avatar-border: #00000000;
       --color-bg-canvas: #eae9ee;
       --color-bg-canvas-inset: #eae9ee;
       --color-bg-primary: #eae9ee;

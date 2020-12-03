@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Mioda Ibuki Light
 @namespace      github.com/doki-theme
-@version        4.2.5
+@version        4.2.6
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -41,6 +41,8 @@
     /* Doki addons */
     :root {
       --color-previewable-comment-form-bg: #ffeefd;
+      --color-avatar-bg: #ffeefd;
+      --color-avatar-border: #00000000;
       --color-bg-canvas: #ffedfe;
       --color-bg-canvas-inset: #ffedfe;
       --color-bg-primary: #ffedfe;
