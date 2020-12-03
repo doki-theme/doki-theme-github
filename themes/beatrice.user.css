@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Beatrice
 @namespace      github.com/doki-theme
-@version        4.2.5
+@version        4.2.6
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -41,6 +41,8 @@
     /* Doki addons */
     :root {
       --color-previewable-comment-form-bg: #FFE5F1;
+      --color-avatar-bg: #FFE5F1;
+      --color-avatar-border: #00000000;
       --color-bg-canvas: #ffe4f1;
       --color-bg-canvas-inset: #ffe4f1;
       --color-bg-primary: #ffe4f1;

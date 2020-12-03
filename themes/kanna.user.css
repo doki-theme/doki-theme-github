@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Kanna
 @namespace      github.com/doki-theme
-@version        4.2.5
+@version        4.2.6
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -41,6 +41,8 @@
     /* Doki addons */
     :root {
       --color-previewable-comment-form-bg: #1a1426;
+      --color-avatar-bg: #1a1426;
+      --color-avatar-border: #00000000;
       --color-bg-canvas: #1b1529;
       --color-bg-canvas-inset: #1b1529;
       --color-bg-primary: #1b1529;

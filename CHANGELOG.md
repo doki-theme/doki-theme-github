@@ -1,5 +1,10 @@
 Changelog
 ---
+# 4.2.6 [Organization Avatar Fix]
+
+- Fixed the GitHub organization avatar backgrounds.
+
+
 # 4.2.5 [Notifications Fix, Part Duex]
 
 - Fixed the GitHub **unread** notifications look and feel.

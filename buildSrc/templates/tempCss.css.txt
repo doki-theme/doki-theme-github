@@ -41,6 +41,8 @@
     /* Doki addons */
     :root {
       --color-previewable-comment-form-bg: {{textEditorBackground}};
+      --color-avatar-bg: {{textEditorBackground}};
+      --color-avatar-border: #00000000;
       --color-bg-canvas: {{baseBackground}};
       --color-bg-canvas-inset: {{baseBackground}};
       --color-bg-primary: {{baseBackground}};

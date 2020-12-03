@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Emilia Light
 @namespace      github.com/doki-theme
-@version        4.2.5
+@version        4.2.6
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -41,6 +41,8 @@
     /* Doki addons */
     :root {
       --color-previewable-comment-form-bg: #fbf0ff;
+      --color-avatar-bg: #fbf0ff;
+      --color-avatar-border: #00000000;
       --color-bg-canvas: #fcf3ff;
       --color-bg-canvas-inset: #fcf3ff;
       --color-bg-primary: #fcf3ff;
