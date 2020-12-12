@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Ram
 @namespace      github.com/doki-theme
-@version        4.2.6
+@version        4.2.7
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -47,6 +47,10 @@
       --color-bg-canvas-inset: #302930;
       --color-bg-primary: #302930;
       --color-calendar-graph-day-bg: #2c2934;
+      --color-workflow-card-bg: #2c2934;
+      --color-bg-tertiary: #342f36;
+      --color-bg-secondary: #353139;
+      --color-bg-discussions-row-emoji-box: #373237;
       --color-underlinenav-counter-text: #bbbbbb;
       --color-text-primary: #F375C8;
       --color-alert-warn-bg: #313332;

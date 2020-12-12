@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Konata
 @namespace      github.com/doki-theme
-@version        4.2.6
+@version        4.2.7
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -47,6 +47,10 @@
       --color-bg-canvas-inset: #6192ee;
       --color-bg-primary: #6192ee;
       --color-calendar-graph-day-bg: #6c95ee;
+      --color-workflow-card-bg: #6c95ee;
+      --color-bg-tertiary: #608ee9;
+      --color-bg-secondary: #6c95ee;
+      --color-bg-discussions-row-emoji-box: #83a0ee;
       --color-underlinenav-counter-text: #f3edff;
       --color-text-primary: #fffdae;
       --color-alert-warn-bg: #7197e4;

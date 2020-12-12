@@ -1,5 +1,10 @@
 Changelog
 ---
+# 4.2.7 [Actions & Discussions fix]
+
+- Fixed small issues with the Actions and Discussions tab
+
+
 # 4.2.6 [Organization Avatar Fix]
 
 - Fixed the GitHub organization avatar backgrounds.

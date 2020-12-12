@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Mioda Ibuki Light
 @namespace      github.com/doki-theme
-@version        4.2.6
+@version        4.2.7
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -47,6 +47,10 @@
       --color-bg-canvas-inset: #ffedfe;
       --color-bg-primary: #ffedfe;
       --color-calendar-graph-day-bg: #ecf2f8;
+      --color-workflow-card-bg: #ecf2f8;
+      --color-bg-tertiary: #ffeefd;
+      --color-bg-secondary: #f7dcf3;
+      --color-bg-discussions-row-emoji-box: #F7E0F3;
       --color-underlinenav-counter-text: #272426;
       --color-text-primary: #4174b3;
       --color-alert-warn-bg: #fff0eb;

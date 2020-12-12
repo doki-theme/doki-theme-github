@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Megumin
 @namespace      github.com/doki-theme
-@version        4.2.6
+@version        4.2.7
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -47,6 +47,10 @@
       --color-bg-canvas-inset: #271c21;
       --color-bg-primary: #271c21;
       --color-calendar-graph-day-bg: #2f2329;
+      --color-workflow-card-bg: #2f2329;
+      --color-bg-tertiary: #2c2126;
+      --color-bg-secondary: #31262b;
+      --color-bg-discussions-row-emoji-box: #2f2329;
       --color-underlinenav-counter-text: #bbbbbb;
       --color-text-primary: #AF5C5A;
       --color-alert-warn-bg: #312A26;
