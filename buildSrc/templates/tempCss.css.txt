@@ -47,6 +47,10 @@
       --color-bg-canvas-inset: {{baseBackground}};
       --color-bg-primary: {{baseBackground}};
       --color-calendar-graph-day-bg: {{codeBlock}};
+      --color-workflow-card-bg: {{codeBlock}};
+      --color-bg-tertiary: {{textEditorBackground}};
+      --color-bg-secondary: {{caretRow}};
+      --color-bg-discussions-row-emoji-box: {{buttonColor}};
       --color-underlinenav-counter-text: {{foregroundColor}};
       --color-text-primary: {{keyColor}};
       --color-alert-warn-bg: {{nonProjectFileScopeColor}};
