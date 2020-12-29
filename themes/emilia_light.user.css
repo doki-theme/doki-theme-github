@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Emilia Light
 @namespace      github.com/doki-theme
-@version        4.2.7
+@version        5.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -139,6 +139,11 @@
 
     .btn-primary:active {
       background-color: #82357dA7;
+    }
+
+    .btn-primary:hover {
+      background-color: #82357dCC !important;
+      background-image: none !important;
     }
 
     .btn {
@@ -15915,7 +15920,7 @@
   /* source #14: "#0366d6" */
   .dropdown-item:focus, .dropdown-item:hover {
     background-color: /*[[base-color]]*/ #82357d;
-    color: #fff;
+    color: #393d45;
     background-image: none;
   }
   /* source #14: "none" */
@@ -17931,7 +17936,7 @@ html[prefix] .site-header-nav .dropdown-menu a:hover {
 .filter-item.selected p, .filter-item:hover .marketplace-plan-per-time,
 .feature-preview-dialog .text-white,
 .oauth-permissions-details .permission-summary em.highlight, .btn-primary {
-    color: #f0f0f0;
+    color: #393d45;
 }
 ul.repo-stats li a:hover, .minibutton.danger:hover, #gist-form label,
 .subnav li a:hover, .filters li.selected a, .filters li a:hover, .code-list em,
@@ -19229,12 +19234,12 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     --ghd-code-color: #ccc;
 }
 .pl-c, .pl-c span {
-    color: #6272A4 !important;
+    color: #6a737d !important;
     font-style: italic !important;
 }
 /* comment */
 .pl-c1 {
-    color: #6272A4 !important;
+    color: #6a737d !important;
 }
 /* constant */
 .pl-cce {
