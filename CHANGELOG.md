@@ -33,6 +33,10 @@ Addition to the Sword Art Online series:
 
 - Konata's theme is now a bit darker to aid in usability
 
+### Miscellaneous
+
+- "Last Name First Name"'d Misato.
+
 
 # 4.2.7 [Actions & Discussions fix]
 
