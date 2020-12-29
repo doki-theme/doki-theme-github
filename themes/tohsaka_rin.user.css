@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Tohsaka Rin
 @namespace      github.com/doki-theme
-@version        4.2.7
+@version        5.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -139,6 +139,11 @@
 
     .btn-primary:active {
       background-color: #4c9697A7;
+    }
+
+    .btn-primary:hover {
+      background-color: #4c9697CC !important;
+      background-image: none !important;
     }
 
     .btn {
@@ -15915,7 +15920,7 @@
   /* source #14: "#0366d6" */
   .dropdown-item:focus, .dropdown-item:hover {
     background-color: /*[[base-color]]*/ #4c9697;
-    color: #fff;
+    color: #fbfbfb;
     background-image: none;
   }
   /* source #14: "none" */
@@ -17931,7 +17936,7 @@ html[prefix] .site-header-nav .dropdown-menu a:hover {
 .filter-item.selected p, .filter-item:hover .marketplace-plan-per-time,
 .feature-preview-dialog .text-white,
 .oauth-permissions-details .permission-summary em.highlight, .btn-primary {
-    color: #f0f0f0;
+    color: #fbfbfb;
 }
 ul.repo-stats li a:hover, .minibutton.danger:hover, #gist-form label,
 .subnav li a:hover, .filters li.selected a, .filters li a:hover, .code-list em,
@@ -18164,7 +18169,7 @@ button.project-header-link, td.icon, .facebox-close,
 }
 
  .tree-browser-result mark {
-    color: #4593f5 !important;
+    color: #EFA554 !important;
  }
 
 .timeline-comment-action, #suggestions a, .table-list-header-toggle .btn-link,
@@ -19229,12 +19234,12 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     --ghd-code-color: #ccc;
 }
 .pl-c, .pl-c span {
-    color: #6272A4 !important;
+    color: #6272a4 !important;
     font-style: italic !important;
 }
 /* comment */
 .pl-c1 {
-    color: #6272A4 !important;
+    color: #6272a4 !important;
 }
 /* constant */
 .pl-cce {
@@ -19255,15 +19260,15 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant.other.symbol */
 .pl-e {
-    color: #4593f5 !important;
+    color: #EFA554 !important;
 }
 /* entity */
 .pl-ef {
-    color: #4593f5 !important;
+    color: #EFA554 !important;
 }
 /* entity.function */
 .pl-en {
-    color: #4593f5 !important;
+    color: #EFA554 !important;
 }
 /* entity.name */
 .pl-enc {
@@ -19271,11 +19276,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.class */
 .pl-enf {
-    color: #4593f5 !important;
+    color: #EFA554 !important;
 }
 /* entity.name.function */
 .pl-enm {
-    color: #4593f5 !important;
+    color: #EFA554 !important;
 }
 /* entity.name.method-name */
 .pl-ens {
@@ -19287,11 +19292,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.tag */
 .pl-entc {
-    color: #4593f5 !important;
+    color: #EFA554 !important;
 }
 /* entity.name.type.class */
 .pl-enti {
-    color: #4593f5 !important;
+    color: #EFA554 !important;
     font-weight: bold !important;
 }
 /* entity.name.type.instance */
@@ -19320,7 +19325,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* punctuation.definition.entity */
 .pl-eoi {
-    color: #4593f5 !important;
+    color: #EFA554 !important;
 }
 /* entity.other.inherited-class */
 .pl-k {
@@ -19470,15 +19475,15 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* support.function */
 .pl-smc {
-    color: #4593f5 !important;
+    color: #EFA554 !important;
 }
 /* storage.modifier.c */
 .pl-smi {
-    color: #4593f5 !important;
+    color: #EFA554 !important;
 }
 /* storage.modifier.import */
 .pl-smp {
-    color: #4593f5 !important;
+    color: #EFA554 !important;
 }
 /* storage.modifier.package */
 .pl-sok {
@@ -19534,7 +19539,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* variable.interpolation */
 .pl-vo {
-    color: #4593f5 !important;
+    color: #EFA554 !important;
 }
 /* variable.other */
 .pl-vpf {
@@ -19608,7 +19613,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* variable.parameter.url */
 .pl-entl {
-    color: #4593f5 !important;
+    color: #EFA554 !important;
 }
 /* entity.name.tag.label */
 .pl-corl, .highlight .pl-corl span.x {
@@ -19617,8 +19622,8 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* links */
 .pl-token.active, .pl-token:hover {
-    background: #4593f5 !important;
-    color: #4593f5 !important;
+    background: #EFA554 !important;
+    color: #EFA554 !important;
 }
 /*! CodeMirror: Twilight */
 /* based on https://github.com/codemirror/CodeMirror/blob/master/theme/twilight.css */

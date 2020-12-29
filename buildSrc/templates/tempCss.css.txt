@@ -141,6 +141,11 @@
       background-color: {{accentColor}}A7;
     }
 
+    .btn-primary:hover {
+      background-color: {{accentColor}}CC !important;
+      background-image: none !important;
+    }
+
     .btn {
       box-shadow: none !important;
     }
@@ -15915,7 +15920,7 @@
   /* source #14: "#0366d6" */
   .dropdown-item:focus, .dropdown-item:hover {
     background-color: /*[[base-color]]*/ {{accentColor}};
-    color: #fff;
+    color: {{defaultButtonColor|selectionForeground}};
     background-image: none;
   }
   /* source #14: "none" */
@@ -17931,7 +17936,7 @@ html[prefix] .site-header-nav .dropdown-menu a:hover {
 .filter-item.selected p, .filter-item:hover .marketplace-plan-per-time,
 .feature-preview-dialog .text-white,
 .oauth-permissions-details .permission-summary em.highlight, .btn-primary {
-    color: #f0f0f0;
+    color: {{defaultButtonColor|selectionForeground}};
 }
 ul.repo-stats li a:hover, .minibutton.danger:hover, #gist-form label,
 .subnav li a:hover, .filters li.selected a, .filters li a:hover, .code-list em,
@@ -19229,12 +19234,12 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     --ghd-code-color: #ccc;
 }
 .pl-c, .pl-c span {
-    color: {{commentColor}} !important;
+    color: {{comments}} !important;
     font-style: italic !important;
 }
 /* comment */
 .pl-c1 {
-    color: {{commentColor}} !important;
+    color: {{comments}} !important;
 }
 /* constant */
 .pl-cce {
