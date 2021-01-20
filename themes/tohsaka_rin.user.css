@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Tohsaka Rin
 @namespace      github.com/doki-theme
-@version        5.0.0
+@version        5.1.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -40,34 +40,34 @@
 
     /* Doki addons */
     :root {
-      --color-previewable-comment-form-bg: #161415;
-      --color-avatar-bg: #161415;
-      --color-avatar-border: #00000000;
-      --color-bg-canvas: #191718;
-      --color-bg-canvas-inset: #191718;
-      --color-bg-primary: #191718;
-      --color-calendar-graph-day-bg: #211D1E;
-      --color-workflow-card-bg: #211D1E;
-      --color-bg-tertiary: #161415;
-      --color-bg-secondary: #22191b;
-      --color-bg-discussions-row-emoji-box: #232121;
-      --color-underlinenav-counter-text: #bbbbbb;
-      --color-text-primary: #e0474b;
-      --color-alert-warn-bg: #21211f;
-      --color-alert-info-bg: #1b191a;
-      --color-alert-error-bg: #ff000022;
-      --color-calendar-graph-day-L1-bg: #4c969777;
-      --color-calendar-graph-day-L2-bg: #4c9697CC;
-      --color-calendar-graph-day-L3-bg: #4c9697FF;
-      --color-calendar-graph-day-L4-bg: #ee2726;
-      --color-verified-badge-bg: #00000000;
-      --color-bg-overlay: #151314;
-      --color-border-primary: #211e1e;
-      --color-border-primary: #211e1e;
-      --color-notifications-row-read-bg: #211D1E;
-      --color-notifications-row-bg: #22191b;
-      --color-input-disabled-bg: #241B1D;
-      --color-input-disabled-border: #211e1e;
+      --color-previewable-comment-form-bg: #161415 !important;
+      --color-avatar-bg: #161415 !important;
+      --color-avatar-border: #00000000 !important;
+      --color-bg-canvas: #191718 !important;
+      --color-bg-canvas-inset: #191718 !important;
+      --color-bg-primary: #191718 !important;
+      --color-calendar-graph-day-bg: #211D1E !important;
+      --color-workflow-card-bg: #211D1E !important;
+      --color-bg-tertiary: #161415 !important;
+      --color-bg-secondary: #22191b !important;
+      --color-bg-discussions-row-emoji-box: #232121 !important;
+      --color-underlinenav-counter-text: #bbbbbb !important;
+      --color-text-primary: #e0474b !important;
+      --color-alert-warn-bg: #21211f !important;
+      --color-alert-info-bg: #1b191a !important;
+      --color-alert-error-bg: #ff000022 !important;
+      --color-calendar-graph-day-L1-bg: #4c969777 !important;
+      --color-calendar-graph-day-L2-bg: #4c9697CC !important;
+      --color-calendar-graph-day-L3-bg: #4c9697FF !important;
+      --color-calendar-graph-day-L4-bg: #ee2726 !important;
+      --color-verified-badge-bg: #00000000 !important;
+      --color-bg-overlay: #151314 !important;
+      --color-border-primary: #211e1e !important;
+      --color-border-primary: #211e1e !important;
+      --color-notifications-row-read-bg: #211D1E !important;
+      --color-notifications-row-bg: #22191b !important;
+      --color-input-disabled-bg: #241B1D !important;
+      --color-input-disabled-border: #211e1e !important;
     }
 
     .suggester li:hover .octicon,

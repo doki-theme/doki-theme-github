@@ -1,6 +1,10 @@
 Changelog
 ---
 
+# 5.1.0 [GitHub Updates]
+
+- Fixed major styling issues with newest GitHub style update.
+
 # 5.0.0 [Echidna, Yukino, Kurisu, Asuna, Umi, & Konata]
 
 ## 5 New Themes!
