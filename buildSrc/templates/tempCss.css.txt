@@ -40,34 +40,34 @@
 
     /* Doki addons */
     :root {
-      --color-previewable-comment-form-bg: {{textEditorBackground}};
-      --color-avatar-bg: {{textEditorBackground}};
-      --color-avatar-border: #00000000;
-      --color-bg-canvas: {{baseBackground}};
-      --color-bg-canvas-inset: {{baseBackground}};
-      --color-bg-primary: {{baseBackground}};
-      --color-calendar-graph-day-bg: {{codeBlock}};
-      --color-workflow-card-bg: {{codeBlock}};
-      --color-bg-tertiary: {{textEditorBackground}};
-      --color-bg-secondary: {{caretRow}};
-      --color-bg-discussions-row-emoji-box: {{buttonColor}};
-      --color-underlinenav-counter-text: {{foregroundColor}};
-      --color-text-primary: {{keyColor}};
-      --color-alert-warn-bg: {{nonProjectFileScopeColor}};
-      --color-alert-info-bg: {{headerColor}};
-      --color-alert-error-bg: #ff000022;
-      --color-calendar-graph-day-L1-bg: {{accentColor}}77;
-      --color-calendar-graph-day-L2-bg: {{accentColor}}CC;
-      --color-calendar-graph-day-L3-bg: {{accentColor}}FF;
-      --color-calendar-graph-day-L4-bg: {{stopColor}};
-      --color-verified-badge-bg: #00000000;
-      --color-bg-overlay: {{secondaryBackground}};
-      --color-border-primary: {{borderColor}};
-      --color-border-primary: {{borderColor}};
-      --color-notifications-row-read-bg: {{codeBlock}};
-      --color-notifications-row-bg: {{caretRow}};
-      --color-input-disabled-bg: {{selectionInactive}};
-      --color-input-disabled-border: {{borderColor}};
+      --color-previewable-comment-form-bg: {{textEditorBackground}} !important;
+      --color-avatar-bg: {{textEditorBackground}} !important;
+      --color-avatar-border: #00000000 !important;
+      --color-bg-canvas: {{baseBackground}} !important;
+      --color-bg-canvas-inset: {{baseBackground}} !important;
+      --color-bg-primary: {{baseBackground}} !important;
+      --color-calendar-graph-day-bg: {{codeBlock}} !important;
+      --color-workflow-card-bg: {{codeBlock}} !important;
+      --color-bg-tertiary: {{textEditorBackground}} !important;
+      --color-bg-secondary: {{caretRow}} !important;
+      --color-bg-discussions-row-emoji-box: {{buttonColor}} !important;
+      --color-underlinenav-counter-text: {{foregroundColor}} !important;
+      --color-text-primary: {{keyColor}} !important;
+      --color-alert-warn-bg: {{nonProjectFileScopeColor}} !important;
+      --color-alert-info-bg: {{headerColor}} !important;
+      --color-alert-error-bg: #ff000022 !important;
+      --color-calendar-graph-day-L1-bg: {{accentColor}}77 !important;
+      --color-calendar-graph-day-L2-bg: {{accentColor}}CC !important;
+      --color-calendar-graph-day-L3-bg: {{accentColor}}FF !important;
+      --color-calendar-graph-day-L4-bg: {{stopColor}} !important;
+      --color-verified-badge-bg: #00000000 !important;
+      --color-bg-overlay: {{secondaryBackground}} !important;
+      --color-border-primary: {{borderColor}} !important;
+      --color-border-primary: {{borderColor}} !important;
+      --color-notifications-row-read-bg: {{codeBlock}} !important;
+      --color-notifications-row-bg: {{caretRow}} !important;
+      --color-input-disabled-bg: {{selectionInactive}} !important;
+      --color-input-disabled-border: {{borderColor}} !important;
     }
 
     .suggester li:hover .octicon,
