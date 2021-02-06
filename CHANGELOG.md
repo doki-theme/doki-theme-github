@@ -1,6 +1,10 @@
 Changelog
 ---
 
+# 5.1.1 [Consistency Updates]
+
+- Updated syntax coloring when editing yaml files and readme files.
+
 # 5.1.0 [GitHub Updates]
 
 - Fixed major styling issues with newest GitHub style update.

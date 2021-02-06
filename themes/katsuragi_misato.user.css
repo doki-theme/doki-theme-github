@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Katsuragi Misato
 @namespace      github.com/doki-theme
-@version        5.1.0
+@version        5.1.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -19663,7 +19663,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #8da6ce !important;
 }
 .cm-variable-2, span.cm-tag {
-    color: #607392 !important;
+    color: #8c72a9 !important;
 }
 .cm-variable-3, span.cm-def {
     color: #607392 !important;
@@ -19672,7 +19672,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #BD84DD !important;
 }
 .cm-comment {
-    color: #777 !important;
+    color: #6AADFF !important;
     font-style: italic !important;
     font-weight: normal !important;
 }
@@ -19696,13 +19696,13 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #d6bb6d !important;
 }
 .cm-header {
-    color: #ff6400 !important;
+    color: #BD84DD !important;
 }
 .cm-hr {
     color: #aeaeae !important;
 }
 .cm-link {
-    color: #ad9361 !important;
+    color: #42E66C !important;
     font-style: italic !important;
     text-decoration: none !important;
 }

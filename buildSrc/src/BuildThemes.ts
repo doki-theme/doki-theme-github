@@ -166,6 +166,8 @@ function constructNamedColorTemplate(
     ...resolvedColors,
     ...resolvedColorTemplate,
     ...resolvedNameColors,
+    accentColorEditor: dokiThemeTemplateJson.overrides?.editorScheme?.colors?.accentColor ||
+    dokiThemeTemplateJson.colors.accentColor,
   };
 }
 

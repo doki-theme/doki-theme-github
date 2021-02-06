@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Mioda Ibuki Dark
 @namespace      github.com/doki-theme
-@version        5.1.0
+@version        5.1.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -46,8 +46,8 @@
       --color-bg-canvas: #141617 !important;
       --color-bg-canvas-inset: #141617 !important;
       --color-bg-primary: #141617 !important;
-      --color-calendar-graph-day-bg: #343434 !important;
-      --color-workflow-card-bg: #343434 !important;
+      --color-calendar-graph-day-bg: #1f2123 !important;
+      --color-workflow-card-bg: #1f2123 !important;
       --color-bg-tertiary: #191b1d !important;
       --color-bg-secondary: #222526 !important;
       --color-bg-discussions-row-emoji-box: #262c32 !important;
@@ -64,7 +64,7 @@
       --color-bg-overlay: #1a1e20 !important;
       --color-border-primary: #1e2021 !important;
       --color-border-primary: #1e2021 !important;
-      --color-notifications-row-read-bg: #343434 !important;
+      --color-notifications-row-read-bg: #1f2123 !important;
       --color-notifications-row-bg: #222526 !important;
       --color-input-disabled-bg: #333333 !important;
       --color-input-disabled-border: #1e2021 !important;
@@ -19663,7 +19663,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #8da6ce !important;
 }
 .cm-variable-2, span.cm-tag {
-    color: #607392 !important;
+    color: #ab8d9f !important;
 }
 .cm-variable-3, span.cm-def {
     color: #607392 !important;
@@ -19672,7 +19672,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #8b8b8b !important;
 }
 .cm-comment {
-    color: #777 !important;
+    color: #8daeef !important;
     font-style: italic !important;
     font-weight: normal !important;
 }
@@ -19696,13 +19696,13 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #d6bb6d !important;
 }
 .cm-header {
-    color: #ff6400 !important;
+    color: #a28a92 !important;
 }
 .cm-hr {
     color: #aeaeae !important;
 }
 .cm-link {
-    color: #ad9361 !important;
+    color: #ff69df !important;
     font-style: italic !important;
     text-decoration: none !important;
 }
