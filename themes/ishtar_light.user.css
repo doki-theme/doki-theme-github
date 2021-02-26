@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Ishtar Light
 @namespace      github.com/doki-theme
-@version        6.0.0
+@version        6.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -53,6 +53,8 @@
       --color-bg-discussions-row-emoji-box: #fffef7 !important;
       --color-underlinenav-counter-text: #252427 !important;
       --color-text-primary: #0d5fa6 !important;
+      --color-text-link: #f5a821 !important;
+      --color-shadow-large: 0 8px 24px #f5a82122 !important;
       --color-alert-warn-bg: #fcfdf3 !important;
       --color-alert-info-bg: #fffefb !important;
       --color-alert-error-bg: #ff000022 !important;
@@ -62,7 +64,6 @@
       --color-calendar-graph-day-L4-bg: #ec081e !important;
       --color-verified-badge-bg: #00000000 !important;
       --color-bg-overlay: #fcfcfa !important;
-      --color-border-primary: #eeeeee !important;
       --color-border-primary: #eeeeee !important;
       --color-notifications-row-read-bg: #f6f6f6 !important;
       --color-notifications-row-bg: #fffaed !important;

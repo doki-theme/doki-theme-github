@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Mai Light
 @namespace      github.com/doki-theme
-@version        6.0.0
+@version        6.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -53,6 +53,8 @@
       --color-bg-discussions-row-emoji-box: #d7dcf1 !important;
       --color-underlinenav-counter-text: #252427 !important;
       --color-text-primary: #C869A3 !important;
+      --color-text-link: #4f5287 !important;
+      --color-shadow-large: 0 8px 24px #4f528722 !important;
       --color-alert-warn-bg: #fef8e7 !important;
       --color-alert-info-bg: #fff7f6 !important;
       --color-alert-error-bg: #ff000022 !important;
@@ -62,7 +64,6 @@
       --color-calendar-graph-day-L4-bg: #aba9dd !important;
       --color-verified-badge-bg: #00000000 !important;
       --color-bg-overlay: #f8efee !important;
-      --color-border-primary: #e6d8d7 !important;
       --color-border-primary: #e6d8d7 !important;
       --color-notifications-row-read-bg: #eaecf6 !important;
       --color-notifications-row-bg: #f1ecf2 !important;

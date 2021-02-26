@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Monika Dark
 @namespace      github.com/doki-theme
-@version        6.0.0
+@version        6.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -53,6 +53,8 @@
       --color-bg-discussions-row-emoji-box: #1e3219 !important;
       --color-underlinenav-counter-text: #bbbbbb !important;
       --color-text-primary: #bca3aa !important;
+      --color-text-link: #388E3C !important;
+      --color-shadow-large: 0 8px 24px #388E3C22 !important;
       --color-alert-warn-bg: #222613 !important;
       --color-alert-info-bg: #1D2115 !important;
       --color-alert-error-bg: #ff000022 !important;
@@ -62,7 +64,6 @@
       --color-calendar-graph-day-L4-bg: #FFFA11 !important;
       --color-verified-badge-bg: #00000000 !important;
       --color-bg-overlay: #1a1e12 !important;
-      --color-border-primary: #202416 !important;
       --color-border-primary: #202416 !important;
       --color-notifications-row-read-bg: #23271A !important;
       --color-notifications-row-bg: #292D1F !important;

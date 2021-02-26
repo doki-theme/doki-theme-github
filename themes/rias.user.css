@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Rias
 @namespace      github.com/doki-theme
-@version        6.0.0
+@version        6.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -53,6 +53,8 @@
       --color-bg-discussions-row-emoji-box: #611c1c !important;
       --color-underlinenav-counter-text: #fafafa !important;
       --color-text-primary: #eea367 !important;
+      --color-text-link: #e03943 !important;
+      --color-shadow-large: 0 8px 24px #e0394322 !important;
       --color-alert-warn-bg: #3e1c13 !important;
       --color-alert-info-bg: #3d1313 !important;
       --color-alert-error-bg: #ff000022 !important;
@@ -62,7 +64,6 @@
       --color-calendar-graph-day-L4-bg: #ec081e !important;
       --color-verified-badge-bg: #00000000 !important;
       --color-bg-overlay: #401010 !important;
-      --color-border-primary: #551818 !important;
       --color-border-primary: #551818 !important;
       --color-notifications-row-read-bg: #491818 !important;
       --color-notifications-row-bg: #491818 !important;

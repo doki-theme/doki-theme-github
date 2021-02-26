@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Kanna
 @namespace      github.com/doki-theme
-@version        6.0.0
+@version        6.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -53,6 +53,8 @@
       --color-bg-discussions-row-emoji-box: #262732 !important;
       --color-underlinenav-counter-text: #d0d0d0 !important;
       --color-text-primary: #FF357C !important;
+      --color-text-link: #46459e !important;
+      --color-shadow-large: 0 8px 24px #46459e22 !important;
       --color-alert-warn-bg: #1f1a25 !important;
       --color-alert-info-bg: #1a1526 !important;
       --color-alert-error-bg: #ff000022 !important;
@@ -62,7 +64,6 @@
       --color-calendar-graph-day-L4-bg: #344acb !important;
       --color-verified-badge-bg: #00000000 !important;
       --color-bg-overlay: #150f20 !important;
-      --color-border-primary: #221f2e !important;
       --color-border-primary: #221f2e !important;
       --color-notifications-row-read-bg: #1d152d !important;
       --color-notifications-row-bg: #231a31 !important;

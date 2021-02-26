@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Echidna
 @namespace      github.com/doki-theme
-@version        6.0.0
+@version        6.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -53,6 +53,8 @@
       --color-bg-discussions-row-emoji-box: #212425 !important;
       --color-underlinenav-counter-text: #a8a8a8 !important;
       --color-text-primary: #BD93F9 !important;
+      --color-text-link: #ECECEC !important;
+      --color-shadow-large: 0 8px 24px #ECECEC22 !important;
       --color-alert-warn-bg: #191a18 !important;
       --color-alert-info-bg: #171519 !important;
       --color-alert-error-bg: #ff000022 !important;
@@ -62,7 +64,6 @@
       --color-calendar-graph-day-L4-bg: #7ceec8 !important;
       --color-verified-badge-bg: #00000000 !important;
       --color-bg-overlay: #110f13 !important;
-      --color-border-primary: #1e2021 !important;
       --color-border-primary: #1e2021 !important;
       --color-notifications-row-read-bg: #1e1b20 !important;
       --color-notifications-row-bg: #1a171c !important;
