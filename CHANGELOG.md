@@ -1,6 +1,12 @@
 Changelog
 ---
 
+# 6.0.1 [GitHub updates]
+
+- Updated the coloring of:
+    - Issue Links
+    - Popup box shadow
+
 # 6.0.0 [Zero Two & Sakurajima Mai]
 
 ## 4 New Themes

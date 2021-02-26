@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Rory Mercury
 @namespace      github.com/doki-theme
-@version        6.0.0
+@version        6.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -53,6 +53,8 @@
       --color-bg-discussions-row-emoji-box: #1f1a1a !important;
       --color-underlinenav-counter-text: #c3c3c3 !important;
       --color-text-primary: #6b7476 !important;
+      --color-text-link: #b53241 !important;
+      --color-shadow-large: 0 8px 24px #b5324122 !important;
       --color-alert-warn-bg: #1b1d1a !important;
       --color-alert-info-bg: #18181b !important;
       --color-alert-error-bg: #ff000022 !important;
@@ -62,7 +64,6 @@
       --color-calendar-graph-day-L4-bg: #ee2726 !important;
       --color-verified-badge-bg: #00000000 !important;
       --color-bg-overlay: #111114 !important;
-      --color-border-primary: #261616 !important;
       --color-border-primary: #261616 !important;
       --color-notifications-row-read-bg: #191715 !important;
       --color-notifications-row-bg: #1a1a1d !important;
