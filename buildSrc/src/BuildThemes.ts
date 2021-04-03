@@ -6,7 +6,6 @@ import {
   fillInTemplateScript,
   MasterDokiThemeDefinition,
   resolvePaths,
-  resolveStickerPath
 } from 'doki-build-source';
 
 type GitHubDokiThemeDefinition = BaseAppDokiThemeDefinition;
@@ -17,8 +16,20 @@ const fs = require('fs');
 
 const {
   repoDirectory,
-  templateDirectoryPath,
+  masterThemeDefinitionDirectoryPath,
+  appTemplatesDirectoryPath,
 } = resolvePaths(__dirname);
+
+function resolveStickerPath(
+  themeDefinitionPath: string,
+  sticker: string,
+) {
+  const stickerPath = path.resolve(
+    path.resolve(themeDefinitionPath, '..'),
+    sticker
+  );
+  return stickerPath.substr(masterThemeDefinitionDirectoryPath.length + '/definitions'.length);
+}
 
 const themesOutputDirectoryTemplateDirectoryPath = path.resolve(
   repoDirectory,
@@ -27,7 +38,7 @@ const themesOutputDirectoryTemplateDirectoryPath = path.resolve(
 
 
 function constructGitHubName(dokiTheme: MasterDokiThemeDefinition) {
-  return dokiTheme.name.replace(/ /g, '_').toLowerCase();
+  return getName(dokiTheme).replace(/ /g, '_').toLowerCase();
 }
 
 function buildCssTemplate(
@@ -63,7 +74,7 @@ function evaluateTemplate(
     dokiThemeDefinition, dokiTemplateDefinitions,
   );
   const themeName = constructGitHubName(dokiThemeDefinition);
-  const themeProperName = dokiThemeDefinition.name.split(" ")
+  const themeProperName = getName(dokiThemeDefinition).split(" ")
     .map(part => capitalize(part))
     .join('');
 
@@ -73,14 +84,13 @@ function evaluateTemplate(
       {
         ...namedColors,
         ...dokiThemeGitHubDefinition.colors,
-        displayName: dokiThemeDefinition.name,
+        displayName: getName(dokiThemeDefinition),
         version: packageJson.version,
         themeName,
         themeProperName,
         stickerPath: resolveStickerPath(
           dokiFileDefinitionPath,
           dokiThemeDefinition.stickers.default,
-          __dirname
         ),
         accentColorEditor: dokiThemeDefinition.overrides?.editorScheme?.colors?.accentColor ||
           dokiThemeDefinition.colors.accentColor,
@@ -95,8 +105,9 @@ function evaluateTemplate(
 function createDokiTheme(
   dokiFileDefinitionPath: string,
   dokiThemeDefinition: MasterDokiThemeDefinition,
-  dokiTemplateDefinitions: DokiThemeDefinitions,
+  _: DokiThemeDefinitions,
   dokiThemeGitHubDefinition: GitHubDokiThemeDefinition,
+  dokiTemplateDefinitions: DokiThemeDefinitions,
 ) {
   try {
     return {
@@ -128,7 +139,7 @@ evaluateTemplates(
   .then(dokiThemes =>
     Promise.resolve()
       // local cached CSS (fast)
-      .then(() => fs.readFileSync(path.resolve(templateDirectoryPath, 'tempCss.css.txt'), {encoding: "utf-8"}))
+      .then(() => fs.readFileSync(path.resolve(appTemplatesDirectoryPath, 'tempCss.css.txt'), {encoding: "utf-8"}))
       .then(baseCssTemplate => {
         console.log('Css Re-Mapped');
         // write css files
@@ -144,3 +155,7 @@ evaluateTemplates(
   .then(() => {
     console.log('Theme Generation Complete!');
   });
+
+  function getName(dokiDefinition: MasterDokiThemeDefinition) {
+  return dokiDefinition.name.replace(':', '');
+}

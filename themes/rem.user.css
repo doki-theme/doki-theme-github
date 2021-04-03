@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Rem
 @namespace      github.com/doki-theme
-@version        6.0.1
+@version        7.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -18915,11 +18915,11 @@ table.files {
 .blob-code-deletion, .CodeMirror-linebackground.conflict-background,
 .conflict-gutter-marker,
 .conflict-background + .CodeMirror-gutter-wrapper .CodeMirror-linenumber {
-    background-color: #40424599 !important;
+    background-color: #36393B99 !important;
     border-color: #600 !important;
 }
 .blob-num-deletion {
-    background-color: #40424599 !important;
+    background-color: #36393B99 !important;
 }
 /* code splitter in diffs */
 .blob-num-expandable, .blob-num-hunk {

@@ -1,6 +1,29 @@
 Changelog
 ---
 
+# 7.0.0 [Astolfo, Maika, Rias, & Rei]
+
+## 4 New Themes
+
+From the Fate series:
+
+- Astolfo (Dark)
+
+From the Highschool DxD series:
+
+- Rias: Onyx (a darker theme)
+
+From the Blend S series:
+
+- Sakuranomiya Maika (Dark)
+
+From the Neon Genesis Evangelion series:
+
+- Ayanami Rei (Dark)
+
+![v14 Girls](https://doki.assets.unthrottled.io/misc/v14_girls.png)
+
+
 # 6.0.1 [GitHub updates]
 
 - Updated the coloring of:

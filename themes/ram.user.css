@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Ram
 @namespace      github.com/doki-theme
-@version        6.0.1
+@version        7.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -46,8 +46,8 @@
       --color-bg-canvas: #302930 !important;
       --color-bg-canvas-inset: #302930 !important;
       --color-bg-primary: #302930 !important;
-      --color-calendar-graph-day-bg: #302b32 !important;
-      --color-workflow-card-bg: #302b32 !important;
+      --color-calendar-graph-day-bg: #322a32 !important;
+      --color-workflow-card-bg: #322a32 !important;
       --color-bg-tertiary: #342f36 !important;
       --color-bg-secondary: #353139 !important;
       --color-bg-discussions-row-emoji-box: #373237 !important;
@@ -65,7 +65,7 @@
       --color-verified-badge-bg: #00000000 !important;
       --color-bg-overlay: #373139 !important;
       --color-border-primary: #362d39 !important;
-      --color-notifications-row-read-bg: #302b32 !important;
+      --color-notifications-row-read-bg: #322a32 !important;
       --color-notifications-row-bg: #353139 !important;
       --color-input-disabled-bg: #413a44 !important;
       --color-input-disabled-border: #362d39 !important;
@@ -18915,11 +18915,11 @@ table.files {
 .blob-code-deletion, .CodeMirror-linebackground.conflict-background,
 .conflict-gutter-marker,
 .conflict-background + .CodeMirror-gutter-wrapper .CodeMirror-linenumber {
-    background-color: #3F3D3E99 !important;
+    background-color: #3B393A99 !important;
     border-color: #600 !important;
 }
 .blob-num-deletion {
-    background-color: #3F3D3E99 !important;
+    background-color: #3B393A99 !important;
 }
 /* code splitter in diffs */
 .blob-num-expandable, .blob-num-hunk {

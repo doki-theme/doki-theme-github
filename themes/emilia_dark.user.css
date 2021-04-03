@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Emilia Dark
 @namespace      github.com/doki-theme
-@version        6.0.1
+@version        7.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -11136,7 +11136,7 @@
   }
   /* source #5: "#fff" */
   .tree-browser-result[aria-selected="true"] {
-    background-color: #552a70!important;
+    background-color: #51256d!important;
     color: #d29eff!important;
     background-image: none !important;
   }
@@ -14648,8 +14648,8 @@
   }
   /* source #14: "#e6ebf1", "#e6ebf1", "rgba(27,31,35,0.35)" */
   .btn.hover, .btn:hover {
-      background-color: #552a70;
-      background-image: linear-gradient(-180deg, #552a70 0%, #552a70 90%);
+      background-color: #51256d;
+      background-image: linear-gradient(-180deg, #51256d 0%, #51256d 90%);
       border-color: none !important;
       color: #d29eff !important;
     }
@@ -16234,11 +16234,11 @@ select:-webkit-autofill:focus {
 }
 /* text selection */
 ::selection {
-    background-color: /*[[base-color]]*/ #552a70 !important;
+    background-color: /*[[base-color]]*/ #51256d !important;
     color: #d29eff !important;
 }
 ::-moz-selection {
-    background-color: /*[[base-color]]*/ #552a70 !important;
+    background-color: /*[[base-color]]*/ #51256d !important;
     color: #d29eff !important;
 }
 .CodeMirror-selected {
@@ -19235,12 +19235,12 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     --ghd-code-color: #ccc;
 }
 .pl-c, .pl-c span {
-    color: #8986A3 !important;
+    color: #9277a7 !important;
     font-style: italic !important;
 }
 /* comment */
 .pl-c1 {
-    color: #8986A3 !important;
+    color: #9277a7 !important;
 }
 /* constant */
 .pl-cce {
