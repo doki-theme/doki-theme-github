@@ -17,7 +17,7 @@ const fs = require('fs');
 
 const {
   repoDirectory,
-  templateDirectoryPath,
+  appTemplatesDirectoryPath,
 } = resolvePaths(__dirname);
 
 const themesOutputDirectoryTemplateDirectoryPath = path.resolve(
@@ -27,7 +27,7 @@ const themesOutputDirectoryTemplateDirectoryPath = path.resolve(
 
 
 function constructGitHubName(dokiTheme: MasterDokiThemeDefinition) {
-  return dokiTheme.name.replace(/ /g, '_').toLowerCase();
+  return getName(dokiTheme).replace(/ /g, '_').toLowerCase();
 }
 
 function buildCssTemplate(
@@ -63,7 +63,7 @@ function evaluateTemplate(
     dokiThemeDefinition, dokiTemplateDefinitions,
   );
   const themeName = constructGitHubName(dokiThemeDefinition);
-  const themeProperName = dokiThemeDefinition.name.split(" ")
+  const themeProperName = getName(dokiThemeDefinition).split(" ")
     .map(part => capitalize(part))
     .join('');
 
@@ -73,7 +73,7 @@ function evaluateTemplate(
       {
         ...namedColors,
         ...dokiThemeGitHubDefinition.colors,
-        displayName: dokiThemeDefinition.name,
+        displayName: getName(dokiThemeDefinition),
         version: packageJson.version,
         themeName,
         themeProperName,
@@ -95,8 +95,9 @@ function evaluateTemplate(
 function createDokiTheme(
   dokiFileDefinitionPath: string,
   dokiThemeDefinition: MasterDokiThemeDefinition,
-  dokiTemplateDefinitions: DokiThemeDefinitions,
+  _: DokiThemeDefinitions,
   dokiThemeGitHubDefinition: GitHubDokiThemeDefinition,
+  dokiTemplateDefinitions: DokiThemeDefinitions,
 ) {
   try {
     return {
@@ -128,7 +129,7 @@ evaluateTemplates(
   .then(dokiThemes =>
     Promise.resolve()
       // local cached CSS (fast)
-      .then(() => fs.readFileSync(path.resolve(templateDirectoryPath, 'tempCss.css.txt'), {encoding: "utf-8"}))
+      .then(() => fs.readFileSync(path.resolve(appTemplatesDirectoryPath, 'tempCss.css.txt'), {encoding: "utf-8"}))
       .then(baseCssTemplate => {
         console.log('Css Re-Mapped');
         // write css files
@@ -144,3 +145,7 @@ evaluateTemplates(
   .then(() => {
     console.log('Theme Generation Complete!');
   });
+
+  function getName(dokiDefinition: MasterDokiThemeDefinition) {
+  return dokiDefinition.name.replace(':', '');
+}

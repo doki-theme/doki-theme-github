@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Hatsune Miku
 @namespace      github.com/doki-theme
-@version        6.0.1
+@version        7.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -115,7 +115,7 @@
     }
     body::before {
     content:'';pointer-events:none;position:fixed;z-index:9001;width:100%;height:100%;background-position:100% 100%;background-repeat:no-repeat;opacity:1;
-    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/master/assets/stickers/miscellaneous/miku/miku.png');
+    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/v7/assets/stickerseous/miku/miku.png');
     }
 
     .UnderlineNav {

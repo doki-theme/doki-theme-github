@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Rem
 @namespace      github.com/doki-theme
-@version        6.0.1
+@version        7.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -115,7 +115,7 @@
     }
     body::before {
     content:'';pointer-events:none;position:fixed;z-index:9001;width:100%;height:100%;background-position:100% 100%;background-repeat:no-repeat;opacity:1;
-    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/master/assets/stickers/reZero/rem/rem.png');
+    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/v7/assets/stickersm/rem.png');
     }
 
     .UnderlineNav {
@@ -18915,11 +18915,11 @@ table.files {
 .blob-code-deletion, .CodeMirror-linebackground.conflict-background,
 .conflict-gutter-marker,
 .conflict-background + .CodeMirror-gutter-wrapper .CodeMirror-linenumber {
-    background-color: #40424599 !important;
+    background-color: #36393B99 !important;
     border-color: #600 !important;
 }
 .blob-num-deletion {
-    background-color: #40424599 !important;
+    background-color: #36393B99 !important;
 }
 /* code splitter in diffs */
 .blob-num-expandable, .blob-num-hunk {

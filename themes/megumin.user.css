@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Megumin
 @namespace      github.com/doki-theme
-@version        6.0.1
+@version        7.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -63,7 +63,7 @@
       --color-calendar-graph-day-L3-bg: #a73035FF !important;
       --color-calendar-graph-day-L4-bg: #ee2e37 !important;
       --color-verified-badge-bg: #00000000 !important;
-      --color-bg-overlay: #2f2329 !important;
+      --color-bg-overlay: #281d22 !important;
       --color-border-primary: #32262c !important;
       --color-notifications-row-read-bg: #2f2329 !important;
       --color-notifications-row-bg: #31262b !important;
@@ -115,7 +115,7 @@
     }
     body::before {
     content:'';pointer-events:none;position:fixed;z-index:9001;width:100%;height:100%;background-position:100% 100%;background-repeat:no-repeat;opacity:1;
-    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/master/assets/stickers/konoSuba/megumin.png');
+    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/v7/assets/stickersmegumin.png');
     }
 
     .UnderlineNav {
@@ -459,8 +459,8 @@
   /* source #0: "#ddd", "#eee","#ddd" */
   .btn.zeroclipboard-is-active, .btn.zeroclipboard-is-hover, .btn:active,
   .btn:hover {
-    background-color: #2f2329;
-    background-image: linear-gradient(#31262b, #2f2329);
+    background-color: #281d22;
+    background-image: linear-gradient(#31262b, #281d22);
   }
   /* source #0: "none" */
   .btn.selected, .btn.zeroclipboard-is-active, .btn:active {
@@ -737,7 +737,7 @@
   }
   /* source #0: "#ffe3c8" */
   .warning table {
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #0: "color: #6f42c1", "#f8f4ff", "#f8f4ff", "#6f42c1" */
   .product {
@@ -838,8 +838,8 @@
   .deprecation-warning {
     color: #EFA554;
     border-color: #542;
-    background-color: #2f2329;
-    background: -webkit-linear-gradient(#2f2329, #f5dac0);
+    background-color: #281d22;
+    background: -webkit-linear-gradient(#281d22, #f5dac0);
   }
   /* source #0: "#fff", "#e5e5e5" */
   .pagination > span, .pagination a, .pagination em {
@@ -1305,7 +1305,7 @@
   }
   /* source #3: "#ddd" */
   .horizontal-scrollbar::-webkit-scrollbar-thumb {
-    background: #2f2329;
+    background: #281d22;
   }
   /* source #3: "#f5f5f5", "#e5e5e5" */
   .zh-pipeline {
@@ -1327,7 +1327,7 @@
   }
   /* source #3: "#ddd" */
   .zh-pipeline-issues::-webkit-scrollbar {
-    background: #2f2329;
+    background: #281d22;
   }
   /* source #3: "#f5f5f5" */
   .zh-pipeline-issues::-webkit-scrollbar-track {
@@ -1335,7 +1335,7 @@
   }
   /* source #3: "#ddd" */
   .zh-pipeline-issues::-webkit-scrollbar-thumb {
-    background: #2f2329;
+    background: #281d22;
   }
   /* source #3: "#e5e5e5", "#fff" */
   .zh-pipeline-issue-content {
@@ -1464,7 +1464,7 @@
   }
   /* source #3: "#eee","#ddd", "color: #333" */
   .zh-reports .btn:hover {
-    background: linear-gradient(#31262b, #2f2329);
+    background: linear-gradient(#31262b, #281d22);
     color: #bbbbbbEE;
   }
   /* source #3: "transparent", "transparent", "none" */
@@ -1687,7 +1687,7 @@
   }
   /* source #3: "#ddd" */
   .zh-issue-counter {
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #3: "#fff" */
   .zh-progress-bar__completed {
@@ -1746,12 +1746,12 @@
   }
   /* source #3: "#ddd", "#f4f4f4" */
   .zh-pipeline-badge-light {
-    background-color: #2f2329;
+    background-color: #281d22;
     background-color: #31262b;
   }
   /* source #3: "#ddd" */
   .zh-pipeline-badge {
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #3: "color: #767676" */
   .zh-epic-creator-header-label {
@@ -1905,7 +1905,7 @@
   }
   /* source #3: "#ddd", "#ddd" */
   .zh-estimate-badge--epic-points {
-    background-color: #2f2329;
+    background-color: #281d22;
     border-color: #32262c;
   }
   /* source #3: "color: #000" */
@@ -2018,7 +2018,7 @@
   .zhc-markdown kbd {
     color: #bbbbbbCC;
     border-bottom-color: #484848;
-    box-shadow: inset 0 -2px 0 #2f2329;
+    box-shadow: inset 0 -2px 0 #281d22;
   }
   /* source #3: "transparent" */
   img.gh-emoji {
@@ -2470,7 +2470,7 @@
   }
   /* source #3: "#ddd" */
   .zhc-badge--issue-count {
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #3: "transparent" */
   .zhc-badge--epic-points {
@@ -3659,7 +3659,7 @@
   /* source #3: "#ddd" */
   .zhc-issue-cards::-webkit-scrollbar,
   .zhc-issue-cards::-webkit-scrollbar-thumb {
-    background: #2f2329;
+    background: #281d22;
   }
   /* source #3: "#f4f4f4" */
   .zhc-issue-cards::-webkit-scrollbar-track {
@@ -4567,7 +4567,7 @@
   }
   /* source #3: "#ddd" */
   .zhc-highlighter {
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #3: "#fff" */
   .zhc-search {
@@ -4641,7 +4641,7 @@
   }
   /* source #3: "#ddd" */
   .zhc-selection-list__item--is-highlighted {
-    background: #2f2329;
+    background: #281d22;
   }
   /* source #3: "#e9e9e9" */
   .zhc-selection-list-deprecated--footer {
@@ -5646,7 +5646,7 @@
   }
   /* source #3: "#ddd" */
   .zhc-roadmap-row.zhc-roadmap-row--color-secondary {
-    background: #2f2329;
+    background: #281d22;
   }
   /* source #3: "#f8f8f8" */
   .zhc-roadmap-row.zhc-roadmap-row--color-primary {
@@ -5761,7 +5761,7 @@
   }
   /* source #3: "#ddd" */
   .zhc-roadmap__title--secondary {
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #3: "#e9e9e9" */
   .zhc-roadmap-date-strip {
@@ -5917,7 +5917,7 @@
   }
   /* source #3: "#ddd" */
   .disabled {
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #3: "color: #bbbbbb66", "transparent" */
   .zh-menu-content__item {
@@ -5957,7 +5957,7 @@
   }
   /* source #5: "rgba(27,31,35,.08)" */
   .btn .Counter {
-    background-color: #a32f345a
+    background-color: #522227
   }
   /* source #5: "color: #959da5", "#fafbfc", "rgba(27,31,35,.15)" */
   .btn, .btn.disabled, .btn:disabled, .btn[aria-disabled="true"] {
@@ -6189,7 +6189,7 @@
   }
   /* source #5: "#fffbdd" */
   .conflict-gutter-marker {
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #5: "#d73a49" */
   .conflict-gutter-marker::after, .conflict-gutter-marker::before {
@@ -6688,7 +6688,7 @@
   /* source #5: "color: rgba(27,31,35,.85)", "#fffbdd", "rgba(27,31,35,.15)" */
   .boxed-group-warning {
     color: rgba(230, 230, 230, 0.85);
-    background-color: #2f2329;
+    background-color: #281d22;
     border-color: rgba(200, 200, 200, 0.1);
   }
   /* source #5: "#e1e4e8" */
@@ -6701,7 +6701,7 @@
   }
   /* source #5: "#fffdef" */
   .list-group-item.selected {
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #5: "#f1f8ff" */
   .list-group-item.navigation-focus, .list-group-item[aria-selected="true"] {
@@ -6915,7 +6915,7 @@
   /* source #5: "color: #444d56", "#dfe2e5" */
   .email-format .email-hidden-toggle a {
     color: #bbbbbbCC;
-    background: #2f2329;
+    background: #281d22;
   }
   /* source #5: "#c6cbd1" */
   .email-format .email-hidden-toggle a:hover {
@@ -7031,7 +7031,7 @@
   }
   /* source #5: "#d3e2f4" */
   .branches-tag-list li .ellipsis-expander {
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #5: "#d6e2f1" */
   .branches-tag-list li .ellipsis-expander:hover {
@@ -7174,7 +7174,7 @@
   }
   /* source #5: "#fffbdd" */
   .blob-code-inner.highlighted, .blob-code-inner .highlighted {
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #5: "color: rgba(27,31,35,.7)" */
   .blob-code-hunk, .blob-num-expandable, .blob-num-hunk {
@@ -7402,7 +7402,7 @@
   /* source #5: "#fffdef", "#e5d999" */
   .timeline-comment.is-internal .timeline-comment-header,
   .timeline-comment.unread-item .timeline-comment-header {
-    background-color: #2f2329;
+    background-color: #281d22;
     border-bottom-color: #542;
   }
   /* source #5: "#e5d999" */
@@ -7413,7 +7413,7 @@
   /* source #5: "#fffdef", "#e5d999" */
   .timeline-comment.is-internal .previewable-comment-form .comment-form-head.tabnav,
   .timeline-comment.unread-item .previewable-comment-form .comment-form-head.tabnav {
-    background-color: #2f2329;
+    background-color: #281d22;
     border-bottom-color: #542;
   }
   /* source #5: "#e1e4e8" */
@@ -7439,7 +7439,7 @@
   }
   /* source #5: "#fffdef" */
   .is-pending .timeline-comment--caret::after {
-    border-right-color: #2f2329;
+    border-right-color: #281d22;
   }
   /* source #5: "transparent" */
   .timeline-comment--caret.current-user::after,
@@ -7464,7 +7464,7 @@
   /* source #5: "#fffdef" */
   .timeline-comment--caret.is-internal::after,
   .timeline-comment--caret.unread-item::after {
-    border-right-color: #2f2329;
+    border-right-color: #281d22;
   }
   /* source #5: "#e5d999" */
   .timeline-comment--caret.is-internal::before,
@@ -7618,7 +7618,7 @@
   }
   /* source #5: "#fffdef" */
   .is-pending .comment-form-head.tabnav, .is-pending .file-header {
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #5: "#e1e4e8" */
   .discussion-item-review-comment {
@@ -7807,12 +7807,12 @@
   }
   /* source #5: "#fffdef" */
   .prose-diff > .markdown-body li.added.moved {
-    background: #2f2329;
+    background: #281d22;
   }
   /* source #5: "#fffdef", "#dfe2e5" */
   .prose-diff > .markdown-body td.changed,
   .prose-diff > .markdown-body th.changed {
-    background: #2f2329;
+    background: #281d22;
     border-left-color: #32262c;
   }
   /* source #5: "color: #cb2431" */
@@ -7845,7 +7845,7 @@
   }
   /* source #5: "#dfe2e5" */
   .render-container {
-    background: #2f2329;
+    background: #281d22;
   }
   /* source #5: "none" */
   .render-container.is-render-ready.is-render-requested:not(.is-render-failed) {
@@ -8367,7 +8367,7 @@
   }
   /* source #5: "#fffbdd", "rgba(27,31,35,.15)" */
   .RecentBranches {
-    background-color: #2f2329;
+    background-color: #281d22;
     border-color: rgba(200, 200, 200, 0.1);
   }
   /* source #5: "color: #735c0f" */
@@ -8574,7 +8574,7 @@
   }
   /* source #5: "#fffdef" */
   .code-list-item-private .blob-num {
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #5: "color: rgba(27,31,35,.7)" */
   .code-list-item-private .blob-num a {
@@ -8584,7 +8584,7 @@
   .code-list-item-private .divider .blob-code,
   .code-list-item-private .divider .blob-num {
     color: rgba(230, 230, 230, 0.7);
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #5: "#ffd33d" */
   .code-scanning-alert-warning-message {
@@ -8889,7 +8889,7 @@
   }
   /* source #5: "#ddd" */
   .file .image {
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #5: "#fff" */
   .file .image .border-wrap {
@@ -8916,7 +8916,7 @@
   }
   /* source #5: "#ddd" */
   .file-info-divider {
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #5: "fill: #0366d6" */
   .graphs .dot.padded circle:hover {
@@ -10291,7 +10291,7 @@
   /* source #5: "color: #735c0f", "#fffbdd" */
   .diffbar-range-menu .is-range-selected {
     color: #EFA554;
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #5: "#fff5b1" */
   .diffbar-range-menu .is-last-in-range {
@@ -10317,7 +10317,7 @@
   /* source #5: "color: #b08800", "#fffdef" */
   .review-comment .pending-batched-suggestion-label {
     color: #cb4;
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #5: "#fff", "#e1e4e8" */
   .review-comment .is-comment-editing {
@@ -10475,7 +10475,7 @@
   }
   /* source #5: "#fffdef" */
   .private .mini-repo-list-item {
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #5: "color: rgba(27,31,35,.7)" */
   .private .mini-repo-list-item .repo-icon {
@@ -10596,7 +10596,7 @@
   }
   /* source #5: "#dfe2e5" */
   table.files tr.up-tree a:hover {
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #5: "color: #586069", "#fafbfc", "#dfe2e5" */
   .branch-infobar {
@@ -10647,7 +10647,7 @@
   }
   /* source #5: "#fffdef" */
   .selected-user-key {
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #5: "#ddd" */
   .user-key-badge, .user-key-email {
@@ -11664,7 +11664,7 @@
   }
   /* source #5: "#24292e" */
   .bg-gradient-gray {
-    background-image: linear-gradient(175.44deg, #2f2329 1.44%, #2c2126 96.23%);
+    background-image: linear-gradient(175.44deg, #281d22 1.44%, #2c2126 96.23%);
   }
   /* source #5: "#fff" */
   .bg-radial-white {
@@ -12781,7 +12781,7 @@
   }
   /* source #7: "linear-gradient(#ececec, #d5d5d5)", "box-shadow: 0 1px 0 rgba(255,255,255,0.7),inset 0 0 0 1px rgba(0,0,0,0.1),inset 0 1px 1px 1px rgba(0,0,0,0.12),inset 0 0 5px rgba(0,0,0,0.1)" */
   .graphiql-container .toolbar-button:active {
-    background: linear-gradient(#32262c, #2f2329);
+    background: linear-gradient(#32262c, #281d22);
     box-shadow: 0 0 0 1px #484848;
   }
   /* source #7: "linear-gradient(#fdfdfd, #d2d3d6)", "box-shadow: 0 1px 0 #fff" */
@@ -12791,7 +12791,7 @@
   }
   /* source #7: "linear-gradient(#e6e6e6, #c3c3c3)" */
   .graphiql-container .execute-button:active {
-    background: linear-gradient(#32262c, #2f2329);
+    background: linear-gradient(#32262c, #281d22);
   }
   /* source #7: "#fff" */
   .graphiql-container .execute-options,
@@ -13068,7 +13068,7 @@
   }
   /* source #7: "#ddd" */
   .graphiql-ide.signed-out::after {
-    background: #2f2329;
+    background: #281d22;
   }
   /* source #8: "transparent" */
   .Box-row:first-of-type {
@@ -13291,7 +13291,7 @@
   }
   /* source #9: "#e6ebf1", "linear-gradient(-180deg,#f0f3f6,#e6ebf1 90%)", "rgba(27,31,35,.35)" */
   .btn.hover, .btn:hover {
-    background-image: linear-gradient(#32262c, #2f2329);
+    background-image: linear-gradient(#32262c, #281d22);
   }
   /* source #9: "#28a745", "#28a745" */
   .btn-primary {
@@ -13646,7 +13646,7 @@
   /* source #9: "color: #586069", "rgba(27,31,35,.08)" */
   .Counter {
     color: #bbbbbbCC;
-    background-color: #a32f345a
+    background-color: #522227
   }
   /* source #9: "color: #24292e", "rgba(27,31,35,.15)" */
   .Counter--gray-light {
@@ -13678,7 +13678,7 @@
     color: #bbbbbbCC;
     background-color: #2c2126;
     border-color: #32262c;
-    box-shadow: inset 0 -2px 0 #2f2329;
+    box-shadow: inset 0 -2px 0 #281d22;
   }
   /* source #9: "color: #cb2431" */
   .markdown-body .absent {
@@ -14330,7 +14330,7 @@
     color: #bbbbbbCC;
     background-color: #2c2126;
     border-color: #32262c;
-    box-shadow: inset 0 -2px 0 #2f2329;
+    box-shadow: inset 0 -2px 0 #281d22;
   }
   /* source #11: "#f6f8fa", "#d1d5da" */
   .gitako-side-bar .gitako-resize-handler {
@@ -14438,8 +14438,8 @@
   }
   /* source #12: "#ddd", "#eee","#ddd" */
   .click-for-more .button:hover {
-    background-color: #2f2329;
-    background-image: linear-gradient(#31262b, #2f2329);
+    background-color: #281d22;
+    background-image: linear-gradient(#31262b, #281d22);
   }
   /* source #13: "#ddd" */
   .is-embedded .render-shell {
@@ -14521,7 +14521,7 @@
   kbd {
     color: #bbbbbbCC;
     border-color: #32262c;
-    box-shadow: inset 0 -2px 0 #2f2329;
+    box-shadow: inset 0 -2px 0 #281d22;
   }
   /* source #14: "#fff", "#d1d5da" */
   .Box, kbd {
@@ -14608,7 +14608,7 @@
   }
   /* source #14: "#fffbdd" */
   .Box-row--yellow {
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #14: "#f1f8ff" */
   .Box-row--blue {
@@ -14843,7 +14843,7 @@
   /* source #14: "color: #444d56", "#dfe2e5" */
   .ellipsis-expander, .hidden-text-expander a {
     color: #bbbbbbCC;
-    background: #2f2329;
+    background: #281d22;
   }
   /* source #14: "#c6cbd1" */
   .ellipsis-expander:hover, .hidden-text-expander a:hover {
@@ -14907,7 +14907,7 @@
   }
   /* source #14: "#fffbdd" */
   .form-checkbox label em.highlight {
-    background: #2f2329;
+    background: #281d22;
   }
   /* source #14: "color: #586069" */
   .form-checkbox .note, .hfields .form-group .form-group-header label,
@@ -14917,7 +14917,7 @@
   /* source #14: "color: #735c0f", "#fffbdd", "#d9d0a5" */
   .form-warning {
     color: #EFA554;
-    background: #2f2329;
+    background: #281d22;
     border-color: #542;
   }
   /* source #14: "#fff" */
@@ -14981,7 +14981,7 @@
   /* source #14: "color: #735c0f", "#fffbdd", "#d9d0a5" */
   .form-group.warn .warning {
     color: #EFA554;
-    background-color: #2f2329;
+    background-color: #281d22;
     border-color: #542;
   }
   /* source #14: "#fffbdd" */
@@ -15332,7 +15332,7 @@
   /* source #14: "color: #735c0f", "#fffbdd", "rgba(27,31,35,0.15)" */
   .flash-warn {
     color: #EFA554;
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #14: "color: #86181d", "#ffdce0", "rgba(27,31,35,0.15)" */
   .flash-error, .flash-warn {
@@ -15350,7 +15350,7 @@
   }
   /* source #14: "#fffbdd" */
   .warning {
-    background-color: #2f2329;
+    background-color: #281d22;
   }
   /* source #14: "#1074e7" */
   .btn-mktg {
@@ -15754,7 +15754,7 @@
   }
   /* source #14: "#fffbdd" */
   .bg-yellow-0, .bg-yellow-1 {
-    background-color: #2f2329 !important;
+    background-color: #281d22 !important;
   }
   /* source #14: "#fff5b1" */
   .bg-yellow-2 {
@@ -16774,12 +16774,12 @@ svg.mobile-hero {
     mix-blend-mode: exclusion;
 }
 .discussion-timeline-actions {
-    border-top: 2px solid #2f2329 !important;
+    border-top: 2px solid #281d22 !important;
     background: none !important;
 }
 .discussion-timeline::before {
     margin-top: 2px !important;
-    background: #2f2329 !important;
+    background: #281d22 !important;
     height: calc(100% - 259px) !important;
 }
 .profile-timeline.discussion-timeline::before {
@@ -17024,7 +17024,7 @@ button.bg-white.subnav-link, main [style="background-color: #fcfdfd;"],
     border-color: #32262c;
 }
 .blob-num-context, #user-content-toc td, .markdown-body table tr:nth-child(2n) {
-    background: #2f2329 !important;
+    background: #281d22 !important;
 }
 .blame .blob-num, .blame-blob-num, .collection-card, .team-grid .team,
 .code-list .divider .blob-num, .code-list .divider .blob-code,
@@ -17182,7 +17182,7 @@ td.inst, .metabox-loader, .pull-flag, .browser-content,
 .credit-card.normal .signature, .credit-card.amex .gladiator,
 .progress-bar:not(.anim-grow-x), .header-search-scope:hover,
 .CommunityTemplate-highlight--focus, .related-issue-item.navigation-focus {
-    background: #2f2329 !important;
+    background: #281d22 !important;
 }
 .discussion-item-locked .discussion-item-icon,
 .discussion-item-unlocked .discussion-item-icon,
@@ -17581,7 +17581,7 @@ circle.day:hover {
     fill: #fff !important;
 }
 path.js-diff-placeholder {
-    fill: #a32f345a !important;
+    fill: #522227 !important;
 }
 #contributors-master svg.viz {
     display: block !important;
@@ -17669,7 +17669,7 @@ div[style*="background-color: #eaecef"] {
 .hidden-text-expander a, .profile-timeline-month-heading::after,
 .review-comment-contents::after, .review-comment.is-comment-editing::after,
 .release-timeline-tags .expander-dots {
-    background: #2f2329 !important;
+    background: #281d22 !important;
 }
 ul.sidetabs li a:hover, .editbox h1, #issues .labels .admin,
 #issues .display .sortbar, #facebox .close, #issues_search .wrapper,
@@ -17871,10 +17871,10 @@ a.function-button, .add-pill-form, .gist .gist-file .gist-meta,
 ul.comparison-list > li.title, button.button, a.button, span.button,
 button.minibutton, a.minibutton, span.minibutton {
     background: linear-gradient(#271c21, #2c2126) !important;
-    border-color: #2f2329 !important;
+    border-color: #281d22 !important;
 }
 .clone-url-button > .clone-url-link {
-    border-color: #2f2329;
+    border-color: #281d22;
 }
 .search-form button, .issues-list-actions, a.gollum-minibutton,
 a.gollum-minibutton:visited {
@@ -17884,7 +17884,7 @@ a.gollum-minibutton:visited {
 .asc .sort-type, .desc .sort-type, .mini-bar-graph, .issues-list>ul>li.unread,
 .timeline-commits-header, .usage-bar dd, .render-bar {
     background: linear-gradient(#2c2126, #271c21) !important;
-    border-color: #2f2329 !important;
+    border-color: #281d22 !important;
 }
 .project-issue-body-blur {
     background: linear-gradient(to top, #2c2126, rgba(0, 0, 0, 0)) !important;
@@ -18274,7 +18274,7 @@ a.pagehead-heading, a.text-inherit, .boxed-group > h3 a,
 .menu-item-danger.navigation-focus, .menu-item-danger.selected:hover,
 .menu-item-danger.selected.navigation-focus {
     background: #911 !important;
-    border-color: #2f2329 !important;
+    border-color: #281d22 !important;
 }
 .btn-close-issue:hover, .btn-danger:hover, .minibutton.danger:hover,
 .remove-topic-button:hover, .btn-danger:active, .btn-danger.selected,
@@ -18386,7 +18386,7 @@ body[class="page-responsive"] .btn-danger:disabled {
 .discussion-item-review.is-pending .comment-form-head.tabnav,
 .timeline-comment.unread-item .timeline-comment-header, .Label.bg-yellow,
 .code-list-item-private .blob-num {
-    background-color: #2f2329 !important;
+    background-color: #281d22 !important;
     border-color: #542 !important;
     color: #ddd !important;
 }
@@ -18400,7 +18400,7 @@ body[class="page-responsive"] .btn-danger:disabled {
     border-right-color: #542 !important;
 }
 .timeline-comment-wrapper .timeline-comment.unread-item::after {
-    border-right-color: #2f2329 !important;
+    border-right-color: #281d22 !important;
 }
 #toc .octicon-diff-modified, .secret .repo-label span, .api .s2 {
     color: #b74 !important;
@@ -18412,7 +18412,7 @@ body[class="page-responsive"] .btn-danger:disabled {
 .code-list-item-private .divider .blob-num,
 .AnnotationsPopover .bg-yellow-light.flash-warn,
 .js-notification-search-autocomplete-results .bg-yellow-light {
-    background-color: #2f2329 !important;
+    background-color: #281d22 !important;
 }
 /* semi-transparent brown */
 .compare-pr-placeholder, .compare-cutoff, .diff-cutoff,
@@ -19084,7 +19084,7 @@ html.octotree:not(.octotree-show) .zhc-board--is-fullscreen .zhc-menu-bar {
 }
 .octotree-view-header, .octotree-toggle {
     background: linear-gradient(#271c21, #2c2126) !important;
-    border-color: #2f2329 !important;
+    border-color: #281d22 !important;
 }
 .octotree-github-sidebar a.octotree-toggle,
 a.octotree-toggle:not(.octotree-loading):hover > span::after {
@@ -19231,7 +19231,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 /*[[syntax-theme]]*//*[[syntax-codemirror]]*//*[[syntax-jupyter]]*/
 /* usercss build - remove start *//*! GitHub: Twilight */
 :root {
-    --ghd-code-background: #2f2329;
+    --ghd-code-background: #281d22;
     --ghd-code-color: #ccc;
 }
 .pl-c, .pl-c span {
@@ -19684,7 +19684,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #bd6b18 !important;
 }
 .cm-meta {
-    background-color: #2f2329 !important;
+    background-color: #281d22 !important;
     color: #f7f7f7 !important;
 }
 .cm-builtin {
@@ -19718,7 +19718,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 #notebook .input_area:not(.highlight), body.api pre,
 :is(#notebook, body.api) .highlight, :is(#notebook, body.api) .highlight pre,
 :is(#notebook, body.api) .highlight table {
-    background: #2f2329 !important;
+    background: #281d22 !important;
     color: #ccc !important;
 }
 :is(#notebook, body.api) .highlight .hll, .highlight code .hll {
@@ -19768,7 +19768,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Other */
 :is(#notebook, body.api) .highlight .w, .highlight code .w {
-    color: #2f2329 !important;
+    color: #281d22 !important;
 }
 /* Text.Whitespace */
 :is(#notebook, body.api) .highlight .cm, .highlight code .cm {
@@ -19990,7 +19990,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 #notebook .input_area, .blob-code-context, .markdown-format code, .api pre,
 .api li:not(a) code, .hook-delivery-details pre, .hook-delivery-container pre,
 .code-list .file-box, .CodeMirror, .highlight.bg-gray {
-    background-color: var(--ghd-code-background, #2f2329) !important;
+    background-color: var(--ghd-code-background, #281d22) !important;
     color: #bbbbbb77 !important;
 }
 .flash p code {
@@ -20153,7 +20153,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
         background-color: #444;
     }
     .hidden-text-expander a, .ellipsis-expander {
-        background: #2f2329;
+        background: #281d22;
     }
     .hidden-text-expander a:hover, .ellipsis-expander:hover {
         background-color: #484848;
@@ -20355,10 +20355,10 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
         background-color: #cb4 !important;
     }
     .form-checkbox label em.highlight, .form-warning {
-        background: #2f2329;
+        background: #281d22;
     }
     .form-group.warn .warning {
-        background-color: #2f2329;
+        background-color: #281d22;
     }
     .form-group.warn .warning::after {
         border-bottom-color: #321;
@@ -20534,7 +20534,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
         background-color: /*[[base-color]]*/ #a73035;
     }
     .intercom-attribute-collector-card-body {
-        background-color: #2f2329;
+        background-color: #281d22;
         color: #eee;
         box-shadow: 0 4px 15px 0 rgba(0, 0, 0, .1),
         0 1px 2px 0 rgba(0, 0, 0, .1),
