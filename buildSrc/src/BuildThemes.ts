@@ -6,7 +6,6 @@ import {
   fillInTemplateScript,
   MasterDokiThemeDefinition,
   resolvePaths,
-  resolveStickerPath
 } from 'doki-build-source';
 
 type GitHubDokiThemeDefinition = BaseAppDokiThemeDefinition;
@@ -17,8 +16,20 @@ const fs = require('fs');
 
 const {
   repoDirectory,
+  masterThemeDefinitionDirectoryPath,
   appTemplatesDirectoryPath,
 } = resolvePaths(__dirname);
+
+function resolveStickerPath(
+  themeDefinitionPath: string,
+  sticker: string,
+) {
+  const stickerPath = path.resolve(
+    path.resolve(themeDefinitionPath, '..'),
+    sticker
+  );
+  return stickerPath.substr(masterThemeDefinitionDirectoryPath.length + '/definitions'.length);
+}
 
 const themesOutputDirectoryTemplateDirectoryPath = path.resolve(
   repoDirectory,
@@ -80,7 +91,6 @@ function evaluateTemplate(
         stickerPath: resolveStickerPath(
           dokiFileDefinitionPath,
           dokiThemeDefinition.stickers.default,
-          __dirname
         ),
         accentColorEditor: dokiThemeDefinition.overrides?.editorScheme?.colors?.accentColor ||
           dokiThemeDefinition.colors.accentColor,
