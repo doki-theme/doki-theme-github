@@ -50,6 +50,7 @@
       --color-workflow-card-bg: #eaf6eb !important;
       --color-bg-tertiary: #f2fff0 !important;
       --color-bg-secondary: #dcf7e0 !important;
+      --color-checks-step-header-open-bg: #dcf7e0 !important;
       --color-bg-discussions-row-emoji-box: #d8eed9 !important;
       --color-underlinenav-counter-text: #252427 !important;
       --color-text-primary: #8a777d !important;
@@ -57,6 +58,8 @@
       --color-shadow-large: 0 8px 24px #388E3C22 !important;
       --color-alert-warn-bg: #f7fbf0 !important;
       --color-alert-info-bg: #f2fff0 !important;
+      --color-checks-bg: #f2fff0 !important;
+      --color-checks-header-border: #f2fff0 !important;
       --color-alert-error-bg: #ff000022 !important;
       --color-calendar-graph-day-L1-bg: #388E3C77 !important;
       --color-calendar-graph-day-L2-bg: #388E3CCC !important;

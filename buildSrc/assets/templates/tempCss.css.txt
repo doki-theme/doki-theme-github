@@ -50,6 +50,7 @@
       --color-workflow-card-bg: {{codeBlock}} !important;
       --color-bg-tertiary: {{textEditorBackground}} !important;
       --color-bg-secondary: {{caretRow}} !important;
+      --color-checks-step-header-open-bg: {{caretRow}} !important;
       --color-bg-discussions-row-emoji-box: {{buttonColor}} !important;
       --color-underlinenav-counter-text: {{foregroundColor}} !important;
       --color-text-primary: {{keyColor}} !important;
@@ -57,6 +58,8 @@
       --color-shadow-large: 0 8px 24px {{accentColor}}22 !important;
       --color-alert-warn-bg: {{nonProjectFileScopeColor}} !important;
       --color-alert-info-bg: {{headerColor}} !important;
+      --color-checks-bg: {{headerColor}} !important;
+      --color-checks-header-border: {{headerColor}} !important;
       --color-alert-error-bg: #ff000022 !important;
       --color-calendar-graph-day-L1-bg: {{accentColor}}77 !important;
       --color-calendar-graph-day-L2-bg: {{accentColor}}CC !important;
