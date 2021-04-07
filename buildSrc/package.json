@@ -29,6 +29,7 @@
   },
   "dependencies": {},
   "scripts": {
-    "buildThemes": "ts-node ./src/BuildThemes.ts"
+    "buildThemes": "ts-node ./src/BuildThemes.ts",
+    "copyAssets": "ts-node ./src/CopyAssets.ts"
   }
 }

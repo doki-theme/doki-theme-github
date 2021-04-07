@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Ishtar Dark
 @namespace      github.com/doki-theme
-@version        7.0.0
+@version        7.1.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -42,6 +42,7 @@
     :root {
       --color-previewable-comment-form-bg: #110F10 !important;
       --color-avatar-bg: #110F10 !important;
+      --color-auto-gray-3: #110F10 !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #0f0d0e !important;
       --color-bg-canvas-inset: #0f0d0e !important;
@@ -50,13 +51,17 @@
       --color-workflow-card-bg: #191718 !important;
       --color-bg-tertiary: #110F10 !important;
       --color-bg-secondary: #1A1913 !important;
+      --color-checks-step-header-open-bg: #1A1913 !important;
       --color-bg-discussions-row-emoji-box: #221d1b !important;
+      --color-current-user-tip-border #221d1b !important;
       --color-underlinenav-counter-text: #c2c2c2 !important;
       --color-text-primary: #0f6ab7 !important;
       --color-text-link: #f5c443 !important;
       --color-shadow-large: 0 8px 24px #f5c44322 !important;
       --color-alert-warn-bg: #161602 !important;
       --color-alert-info-bg: #0d0b0c !important;
+      --color-checks-bg: #0d0b0c !important;
+      --color-checks-header-border: #0d0b0c !important;
       --color-alert-error-bg: #ff000022 !important;
       --color-calendar-graph-day-L1-bg: #f5c44377 !important;
       --color-calendar-graph-day-L2-bg: #f5c443CC !important;
@@ -64,6 +69,7 @@
       --color-calendar-graph-day-L4-bg: #fec144 !important;
       --color-verified-badge-bg: #00000000 !important;
       --color-bg-overlay: #0a0a06 !important;
+      --color-project-sidebar-bg: #0a0a06 !important;
       --color-border-primary: #1a1a00 !important;
       --color-notifications-row-read-bg: #191718 !important;
       --color-notifications-row-bg: #1A1913 !important;
@@ -73,12 +79,12 @@
 
     .suggester li:hover .octicon,
     .suggester li[aria-selected="true"] .octicon {
-      fill: #fbfbfb;
+      fill: #0f0d0e;
     }
 
     .suggester li:hover small,
     .suggester li[aria-selected="true"] small {
-      color: #fbfbfb;
+      color: #0f0d0e;
     }
 
     ::-webkit-input-placeholder {
@@ -126,6 +132,12 @@
         justify-content: space-between;
     }
 
+.timeline-comment--caret.current-user::after {
+    border-color: #1a1a00 !important;
+    background-image: none !important;
+    background: #221d1b;
+} 
+
     .form-control, .form-select {
       box-shadow: none !important;
     }
@@ -135,7 +147,7 @@
     }
 
     .btn-primary .octicon {
-      fill: #fbfbfb !important;
+      fill: #0f0d0e !important;
     }
 
     .btn-primary:active {
@@ -7496,8 +7508,9 @@
     border-bottom-color: #1a1a00;
   }
   /* source #5: "color: #586069" */
+  .Link--primary,
   .timeline-comment-header .author {
-    color: #c2c2c2CC;
+    color: #f5c443 !important;
   }
   /* source #5: "rgba(27,31,35,.15)" */
   .timeline-comment-label {
@@ -13525,7 +13538,7 @@
   .suggester li.navigation-focus, .suggester li:hover,
   .suggester li[aria-selected="true"] {
     background: /*[[base-color]]*/ #f5c443;
-    color: #fbfbfb;
+    color: #0f0d0e;
     background-image: none;
   }
   /* source #9: "#fff" */
@@ -14651,7 +14664,7 @@
       background-color: #553919;
       background-image: linear-gradient(-180deg, #553919 0%, #553919 90%);
       border-color: none !important;
-      color: #fbfbfb !important;
+      color: #0f0d0e !important;
     }
   /* source #14: "#e9ecef", "none", "rgba(27,31,35,0.35)" */
   .btn.selected, .btn:active, .btn[aria-selected="true"], [open] > .btn {
@@ -14670,7 +14683,7 @@
   /* source #14: "#28a745", "#28a745" */
   .btn-primary {
     background-color: #f5c443;
-    color: #fbfbfb !important;
+    color: #0f0d0e !important;
     background-image: linear-gradient(-180deg, #f5c443 0%, #f5c443 90%);
   }
   /* source #14: "box-shadow: 0 0 0 .2em rgba(52,208,88,.4)" */
@@ -15921,7 +15934,7 @@
   /* source #14: "#0366d6" */
   .dropdown-item:focus, .dropdown-item:hover {
     background-color: /*[[base-color]]*/ #f5c443;
-    color: #fbfbfb;
+    color: #0f0d0e;
     background-image: none;
   }
   /* source #14: "none" */
@@ -17937,7 +17950,7 @@ html[prefix] .site-header-nav .dropdown-menu a:hover {
 .filter-item.selected p, .filter-item:hover .marketplace-plan-per-time,
 .feature-preview-dialog .text-white,
 .oauth-permissions-details .permission-summary em.highlight, .btn-primary {
-    color: #fbfbfb;
+    color: #0f0d0e;
 }
 ul.repo-stats li a:hover, .minibutton.danger:hover, #gist-form label,
 .subnav li a:hover, .filters li.selected a, .filters li a:hover, .code-list em,

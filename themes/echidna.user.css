@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Echidna
 @namespace      github.com/doki-theme
-@version        7.0.0
+@version        7.1.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -42,6 +42,7 @@
     :root {
       --color-previewable-comment-form-bg: #121014 !important;
       --color-avatar-bg: #121014 !important;
+      --color-auto-gray-3: #121014 !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #141216 !important;
       --color-bg-canvas-inset: #141216 !important;
@@ -50,13 +51,17 @@
       --color-workflow-card-bg: #1e1b20 !important;
       --color-bg-tertiary: #121014 !important;
       --color-bg-secondary: #1a171c !important;
+      --color-checks-step-header-open-bg: #1a171c !important;
       --color-bg-discussions-row-emoji-box: #212425 !important;
+      --color-current-user-tip-border #212425 !important;
       --color-underlinenav-counter-text: #a8a8a8 !important;
       --color-text-primary: #BD93F9 !important;
       --color-text-link: #ECECEC !important;
       --color-shadow-large: 0 8px 24px #ECECEC22 !important;
       --color-alert-warn-bg: #191a18 !important;
       --color-alert-info-bg: #171519 !important;
+      --color-checks-bg: #171519 !important;
+      --color-checks-header-border: #171519 !important;
       --color-alert-error-bg: #ff000022 !important;
       --color-calendar-graph-day-L1-bg: #ECECEC77 !important;
       --color-calendar-graph-day-L2-bg: #ECECECCC !important;
@@ -64,6 +69,7 @@
       --color-calendar-graph-day-L4-bg: #7ceec8 !important;
       --color-verified-badge-bg: #00000000 !important;
       --color-bg-overlay: #110f13 !important;
+      --color-project-sidebar-bg: #110f13 !important;
       --color-border-primary: #1e2021 !important;
       --color-notifications-row-read-bg: #1e1b20 !important;
       --color-notifications-row-bg: #1a171c !important;
@@ -125,6 +131,12 @@
         box-shadow: inset 0 -1px 0 #1e2021;
         justify-content: space-between;
     }
+
+.timeline-comment--caret.current-user::after {
+    border-color: #1e2021 !important;
+    background-image: none !important;
+    background: #212425;
+} 
 
     .form-control, .form-select {
       box-shadow: none !important;
@@ -7496,8 +7508,9 @@
     border-bottom-color: #1e2021;
   }
   /* source #5: "color: #586069" */
+  .Link--primary,
   .timeline-comment-header .author {
-    color: #a8a8a8CC;
+    color: #ECECEC !important;
   }
   /* source #5: "rgba(27,31,35,.15)" */
   .timeline-comment-label {
