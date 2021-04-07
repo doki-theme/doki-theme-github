@@ -1,6 +1,13 @@
 Changelog
 ---
 
+# 7.1.0 [Issue Fixes]
+
+Fixed the following issues:
+
+- GitHub CSS Sadness [#21](https://github.com/doki-theme/doki-theme-github/issues/21)
+- Timeline Styling Updates [#10](https://github.com/doki-theme/doki-theme-github/issues/21)
+
 # 7.0.0 [Astolfo, Maika, Rias, & Rei]
 
 ## 4 New Themes
