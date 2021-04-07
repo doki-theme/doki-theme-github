@@ -67,6 +67,7 @@
       --color-calendar-graph-day-L4-bg: {{stopColor}} !important;
       --color-verified-badge-bg: #00000000 !important;
       --color-bg-overlay: {{secondaryBackground}} !important;
+      --color-project-sidebar-bg: {{secondaryBackground}} !important;
       --color-border-primary: {{borderColor}} !important;
       --color-notifications-row-read-bg: {{codeBlock}} !important;
       --color-notifications-row-bg: {{caretRow}} !important;
