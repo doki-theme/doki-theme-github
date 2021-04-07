@@ -42,6 +42,7 @@
     :root {
       --color-previewable-comment-form-bg: #111b2d !important;
       --color-avatar-bg: #111b2d !important;
+      --color-auto-gray-3: #111b2d !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #0E1D31 !important;
       --color-bg-canvas-inset: #0E1D31 !important;
@@ -52,6 +53,7 @@
       --color-bg-secondary: #252D3C !important;
       --color-checks-step-header-open-bg: #252D3C !important;
       --color-bg-discussions-row-emoji-box: #18303f !important;
+      --color-current-user-tip-border #18303f !important;
       --color-underlinenav-counter-text: #bbbbbb !important;
       --color-text-primary: #3F77EF !important;
       --color-text-link: #00BCD4 !important;
@@ -129,6 +131,12 @@
         box-shadow: inset 0 -1px 0 #1a1c2d;
         justify-content: space-between;
     }
+
+.timeline-comment--caret.current-user::after {
+    border-color: #1a1c2d !important;
+    background-image: none !important;
+    background: #18303f;
+} 
 
     .form-control, .form-select {
       box-shadow: none !important;
@@ -7500,8 +7508,9 @@
     border-bottom-color: #1a1c2d;
   }
   /* source #5: "color: #586069" */
+  .Link--primary,
   .timeline-comment-header .author {
-    color: #bbbbbbCC;
+    color: #00BCD4 !important;
   }
   /* source #5: "rgba(27,31,35,.15)" */
   .timeline-comment-label {
