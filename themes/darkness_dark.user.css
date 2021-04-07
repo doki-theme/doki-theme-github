@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Darkness Dark
 @namespace      github.com/doki-theme
-@version        7.1.0
+@version        7.1.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -43,6 +43,7 @@
       --color-previewable-comment-form-bg: #0a0904 !important;
       --color-avatar-bg: #0a0904 !important;
       --color-auto-gray-3: #0a0904 !important;
+      --color-auto-gray-1: #0a0904 !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #080703 !important;
       --color-bg-canvas-inset: #080703 !important;
@@ -53,7 +54,7 @@
       --color-bg-secondary: #14110d !important;
       --color-checks-step-header-open-bg: #14110d !important;
       --color-bg-discussions-row-emoji-box: #1e1c19 !important;
-      --color-current-user-tip-border #1e1c19 !important;
+      --color-current-user-tip-border: #1e1c19 !important;
       --color-underlinenav-counter-text: #c3c3c3 !important;
       --color-text-primary: #3492b1 !important;
       --color-text-link: #e99745 !important;

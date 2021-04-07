@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Satsuki
 @namespace      github.com/doki-theme
-@version        7.1.0
+@version        7.1.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -43,6 +43,7 @@
       --color-previewable-comment-form-bg: #e7e6eb !important;
       --color-avatar-bg: #e7e6eb !important;
       --color-auto-gray-3: #e7e6eb !important;
+      --color-auto-gray-1: #e7e6eb !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #eae9ee !important;
       --color-bg-canvas-inset: #eae9ee !important;
@@ -53,7 +54,7 @@
       --color-bg-secondary: #e0dfe6 !important;
       --color-checks-step-header-open-bg: #e0dfe6 !important;
       --color-bg-discussions-row-emoji-box: #CFCFD5 !important;
-      --color-current-user-tip-border #CFCFD5 !important;
+      --color-current-user-tip-border: #CFCFD5 !important;
       --color-underlinenav-counter-text: #252427 !important;
       --color-text-primary: #cd862f !important;
       --color-text-link: #275AB3 !important;

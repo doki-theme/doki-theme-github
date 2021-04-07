@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Megumin
 @namespace      github.com/doki-theme
-@version        7.1.0
+@version        7.1.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -43,6 +43,7 @@
       --color-previewable-comment-form-bg: #2c2126 !important;
       --color-avatar-bg: #2c2126 !important;
       --color-auto-gray-3: #2c2126 !important;
+      --color-auto-gray-1: #2c2126 !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #271c21 !important;
       --color-bg-canvas-inset: #271c21 !important;
@@ -53,7 +54,7 @@
       --color-bg-secondary: #31262b !important;
       --color-checks-step-header-open-bg: #31262b !important;
       --color-bg-discussions-row-emoji-box: #2f2329 !important;
-      --color-current-user-tip-border #2f2329 !important;
+      --color-current-user-tip-border: #2f2329 !important;
       --color-underlinenav-counter-text: #bbbbbb !important;
       --color-text-primary: #AF5C5A !important;
       --color-text-link: #a73035 !important;

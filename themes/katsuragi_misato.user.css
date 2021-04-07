@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Katsuragi Misato
 @namespace      github.com/doki-theme
-@version        7.1.0
+@version        7.1.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -43,6 +43,7 @@
       --color-previewable-comment-form-bg: #382536 !important;
       --color-avatar-bg: #382536 !important;
       --color-auto-gray-3: #382536 !important;
+      --color-auto-gray-1: #382536 !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #3a2333 !important;
       --color-bg-canvas-inset: #3a2333 !important;
@@ -53,7 +54,7 @@
       --color-bg-secondary: #402d41 !important;
       --color-checks-step-header-open-bg: #402d41 !important;
       --color-bg-discussions-row-emoji-box: #341F2D !important;
-      --color-current-user-tip-border #341F2D !important;
+      --color-current-user-tip-border: #341F2D !important;
       --color-underlinenav-counter-text: #b5a3b0 !important;
       --color-text-primary: #FF357C !important;
       --color-text-link: #c2383e !important;

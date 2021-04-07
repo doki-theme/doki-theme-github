@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Emilia Dark
 @namespace      github.com/doki-theme
-@version        7.1.0
+@version        7.1.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -43,6 +43,7 @@
       --color-previewable-comment-form-bg: #492d5a !important;
       --color-avatar-bg: #492d5a !important;
       --color-auto-gray-3: #492d5a !important;
+      --color-auto-gray-1: #492d5a !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #4e3162 !important;
       --color-bg-canvas-inset: #4e3162 !important;
@@ -53,7 +54,7 @@
       --color-bg-secondary: #543466 !important;
       --color-checks-step-header-open-bg: #543466 !important;
       --color-bg-discussions-row-emoji-box: #553967 !important;
-      --color-current-user-tip-border #553967 !important;
+      --color-current-user-tip-border: #553967 !important;
       --color-underlinenav-counter-text: #DADADA !important;
       --color-text-primary: #a475ef !important;
       --color-text-link: #a53ba0 !important;

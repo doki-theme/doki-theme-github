@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Natsuki Light
 @namespace      github.com/doki-theme
-@version        7.1.0
+@version        7.1.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -43,6 +43,7 @@
       --color-previewable-comment-form-bg: #FFE5F1 !important;
       --color-avatar-bg: #FFE5F1 !important;
       --color-auto-gray-3: #FFE5F1 !important;
+      --color-auto-gray-1: #FFE5F1 !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #ffe4f1 !important;
       --color-bg-canvas-inset: #ffe4f1 !important;
@@ -53,7 +54,7 @@
       --color-bg-secondary: #ffdce6 !important;
       --color-checks-step-header-open-bg: #ffdce6 !important;
       --color-bg-discussions-row-emoji-box: #e5c2d1 !important;
-      --color-current-user-tip-border #e5c2d1 !important;
+      --color-current-user-tip-border: #e5c2d1 !important;
       --color-underlinenav-counter-text: #000000 !important;
       --color-text-primary: #7C75EF !important;
       --color-text-link: #E94686 !important;

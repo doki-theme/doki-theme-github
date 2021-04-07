@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Mai Dark
 @namespace      github.com/doki-theme
-@version        7.1.0
+@version        7.1.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -43,6 +43,7 @@
       --color-previewable-comment-form-bg: #242448 !important;
       --color-avatar-bg: #242448 !important;
       --color-auto-gray-3: #242448 !important;
+      --color-auto-gray-1: #242448 !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #25254B !important;
       --color-bg-canvas-inset: #25254B !important;
@@ -53,7 +54,7 @@
       --color-bg-secondary: #2d2d52 !important;
       --color-checks-step-header-open-bg: #2d2d52 !important;
       --color-bg-discussions-row-emoji-box: #2f3357 !important;
-      --color-current-user-tip-border #2f3357 !important;
+      --color-current-user-tip-border: #2f3357 !important;
       --color-underlinenav-counter-text: #bbbbbb !important;
       --color-text-primary: #50cefb !important;
       --color-text-link: #fee3cf !important;

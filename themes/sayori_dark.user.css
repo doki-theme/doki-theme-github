@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Sayori Dark
 @namespace      github.com/doki-theme
-@version        7.1.0
+@version        7.1.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -43,6 +43,7 @@
       --color-previewable-comment-form-bg: #111b2d !important;
       --color-avatar-bg: #111b2d !important;
       --color-auto-gray-3: #111b2d !important;
+      --color-auto-gray-1: #111b2d !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #0E1D31 !important;
       --color-bg-canvas-inset: #0E1D31 !important;
@@ -53,7 +54,7 @@
       --color-bg-secondary: #252D3C !important;
       --color-checks-step-header-open-bg: #252D3C !important;
       --color-bg-discussions-row-emoji-box: #18303f !important;
-      --color-current-user-tip-border #18303f !important;
+      --color-current-user-tip-border: #18303f !important;
       --color-underlinenav-counter-text: #bbbbbb !important;
       --color-text-primary: #3F77EF !important;
       --color-text-link: #00BCD4 !important;

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Makise Kurisu
 @namespace      github.com/doki-theme
-@version        7.1.0
+@version        7.1.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -43,6 +43,7 @@
       --color-previewable-comment-form-bg: #170a0b !important;
       --color-avatar-bg: #170a0b !important;
       --color-auto-gray-3: #170a0b !important;
+      --color-auto-gray-1: #170a0b !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #1c1010 !important;
       --color-bg-canvas-inset: #1c1010 !important;
@@ -53,7 +54,7 @@
       --color-bg-secondary: #210e0f !important;
       --color-checks-step-header-open-bg: #210e0f !important;
       --color-bg-discussions-row-emoji-box: #241919 !important;
-      --color-current-user-tip-border #241919 !important;
+      --color-current-user-tip-border: #241919 !important;
       --color-underlinenav-counter-text: #c3c3c3 !important;
       --color-text-primary: #FF8C74 !important;
       --color-text-link: #8F60B5 !important;

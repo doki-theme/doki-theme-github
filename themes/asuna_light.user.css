@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Asuna Light
 @namespace      github.com/doki-theme
-@version        7.1.0
+@version        7.1.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -43,6 +43,7 @@
       --color-previewable-comment-form-bg: #fcfcfc !important;
       --color-avatar-bg: #fcfcfc !important;
       --color-auto-gray-3: #fcfcfc !important;
+      --color-auto-gray-1: #fcfcfc !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #ffffff !important;
       --color-bg-canvas-inset: #ffffff !important;
@@ -53,7 +54,7 @@
       --color-bg-secondary: #f6f6f6 !important;
       --color-checks-step-header-open-bg: #f6f6f6 !important;
       --color-bg-discussions-row-emoji-box: #f9f2f2 !important;
-      --color-current-user-tip-border #f9f2f2 !important;
+      --color-current-user-tip-border: #f9f2f2 !important;
       --color-underlinenav-counter-text: #252427 !important;
       --color-text-primary: #0d5fa6 !important;
       --color-text-link: #a61d0d !important;

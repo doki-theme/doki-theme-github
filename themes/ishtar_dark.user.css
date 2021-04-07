@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Ishtar Dark
 @namespace      github.com/doki-theme
-@version        7.1.0
+@version        7.1.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -43,6 +43,7 @@
       --color-previewable-comment-form-bg: #110F10 !important;
       --color-avatar-bg: #110F10 !important;
       --color-auto-gray-3: #110F10 !important;
+      --color-auto-gray-1: #110F10 !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #0f0d0e !important;
       --color-bg-canvas-inset: #0f0d0e !important;
@@ -53,7 +54,7 @@
       --color-bg-secondary: #1A1913 !important;
       --color-checks-step-header-open-bg: #1A1913 !important;
       --color-bg-discussions-row-emoji-box: #221d1b !important;
-      --color-current-user-tip-border #221d1b !important;
+      --color-current-user-tip-border: #221d1b !important;
       --color-underlinenav-counter-text: #c2c2c2 !important;
       --color-text-primary: #0f6ab7 !important;
       --color-text-link: #f5c443 !important;
