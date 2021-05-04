@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Mioda Ibuki Light
 @namespace      github.com/doki-theme
-@version        7.1.1
+@version        8.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -144,7 +144,7 @@
     }
 
     .octicon {
-      fill: #8b838a;
+      fill: #b896b1;
     }
 
     .btn-primary .octicon {
@@ -19249,12 +19249,12 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     --ghd-code-color: #ccc;
 }
 .pl-c, .pl-c span {
-    color: #6a737d !important;
+    color: #7d6a7d !important;
     font-style: italic !important;
 }
 /* comment */
 .pl-c1 {
-    color: #6a737d !important;
+    color: #7d6a7d !important;
 }
 /* constant */
 .pl-cce {

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Mai Dark
 @namespace      github.com/doki-theme
-@version        7.1.1
+@version        8.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -48,8 +48,8 @@
       --color-bg-canvas: #25254B !important;
       --color-bg-canvas-inset: #25254B !important;
       --color-bg-primary: #25254B !important;
-      --color-calendar-graph-day-bg: #2e3149 !important;
-      --color-workflow-card-bg: #2e3149 !important;
+      --color-calendar-graph-day-bg: #2d3049 !important;
+      --color-workflow-card-bg: #2d3049 !important;
       --color-bg-tertiary: #242448 !important;
       --color-bg-secondary: #2d2d52 !important;
       --color-checks-step-header-open-bg: #2d2d52 !important;
@@ -72,7 +72,7 @@
       --color-bg-overlay: #272750 !important;
       --color-project-sidebar-bg: #272750 !important;
       --color-border-primary: #2b2c57 !important;
-      --color-notifications-row-read-bg: #2e3149 !important;
+      --color-notifications-row-read-bg: #2d3049 !important;
       --color-notifications-row-bg: #2d2d52 !important;
       --color-input-disabled-bg: #233b53 !important;
       --color-input-disabled-border: #2b2c57 !important;
