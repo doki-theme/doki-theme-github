@@ -56,7 +56,7 @@
       --color-bg-discussions-row-emoji-box: #221d1b !important;
       --color-current-user-tip-border: #221d1b !important;
       --color-underlinenav-counter-text: #c2c2c2 !important;
-      --color-text-primary: #0f6ab7 !important;
+      --color-text-primary: #357fbf !important;
       --color-text-link: #f5c443 !important;
       --color-shadow-large: 0 8px 24px #f5c44322 !important;
       --color-alert-warn-bg: #161602 !important;
@@ -19271,7 +19271,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant.other.color */
 .pl-cos {
-    color: #0f6ab7 !important;
+    color: #357fbf !important;
 }
 /* constant.other.symbol */
 .pl-e {
@@ -19368,7 +19368,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* support.function */
 .pl-mb {
-    color: #0f6ab7 !important;
+    color: #357fbf !important;
     font-weight: bold !important;
 }
 /* markup.bold */
@@ -19391,7 +19391,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* markup.italic */
 .pl-ml {
-    color: #0f6ab7 !important;
+    color: #357fbf !important;
 }
 /* markup.list */
 .pl-mm {
@@ -19419,7 +19419,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* meta.selector */
 .pl-pdb {
-    color: #0f6ab7 !important;
+    color: #357fbf !important;
     font-weight: bold !important;
 }
 /* punctuation.definition.bold */
@@ -19442,7 +19442,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* punctuation.definition.italic */
 .pl-pds {
-    color: #0f6ab7 !important;
+    color: #357fbf !important;
 }
 /* punctuation.definition.string */
 .pl-pdv {
@@ -19462,7 +19462,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* storage */
 .pl-s1 {
-    color: #0f6ab7 !important;
+    color: #357fbf !important;
 }
 /* string */
 .pl-s2 {
@@ -19506,7 +19506,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* support.other.keyword */
 .pl-sol {
-    color: #0f6ab7 !important;
+    color: #357fbf !important;
 }
 /* string.other.link */
 .pl-som {
@@ -19692,7 +19692,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     font-weight: normal !important;
 }
 .cm-string {
-    color: #0f6ab7 !important;
+    color: #357fbf !important;
 }
 .cm-string-2 {
     color: #bd6b18 !important;
@@ -19931,20 +19931,20 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Literal.Number.Oct */
 :is(#notebook, body.api) .highlight .sb, .highlight code .sb {
-    color: #0f6ab7 !important;
+    color: #357fbf !important;
 }
 /* Literal.String.Backtick */
 :is(#notebook, body.api) .highlight .sc, .highlight code .sc {
-    color: #0f6ab7 !important;
+    color: #357fbf !important;
 }
 /* Literal.String.Char */
 :is(#notebook, body.api) .highlight .sd, .highlight code .sd {
-    color: #0f6ab7 !important;
+    color: #357fbf !important;
     font-style: italic !important;
 }
 /* Literal.String.Doc */
 :is(#notebook, body.api) .highlight .s2, .highlight code .s2 {
-    color: #0f6ab7 !important;
+    color: #357fbf !important;
 }
 /* Literal.String.Double */
 :is(#notebook, body.api) .highlight .se, .highlight code .se {
@@ -19953,7 +19953,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Literal.String.Escape */
 :is(#notebook, body.api) .highlight .sh, .highlight code .sh {
-    color: #0f6ab7 !important;
+    color: #357fbf !important;
 }
 /* Literal.String.Heredoc */
 :is(#notebook, body.api) .highlight .si, .highlight code .si {
@@ -19962,7 +19962,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Literal.String.Interpol */
 :is(#notebook, body.api) .highlight .sx, .highlight code .sx {
-    color: #0f6ab7 !important;
+    color: #357fbf !important;
 }
 /* Literal.String.Other */
 :is(#notebook, body.api) .highlight .sr, .highlight code .sr {
@@ -19970,7 +19970,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Literal.String.Regex */
 :is(#notebook, body.api) .highlight .s1, .highlight code .s1 {
-    color: #0f6ab7 !important;
+    color: #357fbf !important;
 }
 /* Literal.String.Single */
 :is(#notebook, body.api) .highlight .ss, .highlight code .ss {

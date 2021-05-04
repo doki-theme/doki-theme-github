@@ -11150,7 +11150,7 @@
   }
   /* source #5: "#fff" */
   .tree-browser-result[aria-selected="true"] {
-    background-color: #a0a5d2!important;
+    background-color: #b1b0d2!important;
     color: #393d45!important;
     background-image: none !important;
   }
@@ -14662,8 +14662,8 @@
   }
   /* source #14: "#e6ebf1", "#e6ebf1", "rgba(27,31,35,0.35)" */
   .btn.hover, .btn:hover {
-      background-color: #a0a5d2;
-      background-image: linear-gradient(-180deg, #a0a5d2 0%, #a0a5d2 90%);
+      background-color: #b1b0d2;
+      background-image: linear-gradient(-180deg, #b1b0d2 0%, #b1b0d2 90%);
       border-color: none !important;
       color: #fbf3f2 !important;
     }
@@ -16248,11 +16248,11 @@ select:-webkit-autofill:focus {
 }
 /* text selection */
 ::selection {
-    background-color: /*[[base-color]]*/ #a0a5d2 !important;
+    background-color: /*[[base-color]]*/ #b1b0d2 !important;
     color: #393d45 !important;
 }
 ::-moz-selection {
-    background-color: /*[[base-color]]*/ #a0a5d2 !important;
+    background-color: /*[[base-color]]*/ #b1b0d2 !important;
     color: #393d45 !important;
 }
 .CodeMirror-selected {
