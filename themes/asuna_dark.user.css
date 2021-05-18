@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Asuna Dark
 @namespace      github.com/doki-theme
-@version        8.0.0
+@version        8.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -52,6 +52,7 @@
       --color-workflow-card-bg: #232323 !important;
       --color-bg-tertiary: #1b1b1b !important;
       --color-bg-secondary: #1f1f1f !important;
+      --color-search-hover-hl: #212121 !important;
       --color-checks-step-header-open-bg: #1f1f1f !important;
       --color-bg-discussions-row-emoji-box: #272524 !important;
       --color-current-user-tip-border: #272524 !important;

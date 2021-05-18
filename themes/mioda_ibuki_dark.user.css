@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Mioda Ibuki Dark
 @namespace      github.com/doki-theme
-@version        8.0.0
+@version        8.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -52,6 +52,7 @@
       --color-workflow-card-bg: #1f2123 !important;
       --color-bg-tertiary: #191b1d !important;
       --color-bg-secondary: #222526 !important;
+      --color-search-hover-hl: #343434 !important;
       --color-checks-step-header-open-bg: #222526 !important;
       --color-bg-discussions-row-emoji-box: #262c32 !important;
       --color-current-user-tip-border: #262c32 !important;

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Monika Light
 @namespace      github.com/doki-theme
-@version        8.0.0
+@version        8.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -52,6 +52,7 @@
       --color-workflow-card-bg: #eaf6eb !important;
       --color-bg-tertiary: #f2fff0 !important;
       --color-bg-secondary: #dcf7e0 !important;
+      --color-search-hover-hl: #def6f3 !important;
       --color-checks-step-header-open-bg: #dcf7e0 !important;
       --color-bg-discussions-row-emoji-box: #d8eed9 !important;
       --color-current-user-tip-border: #d8eed9 !important;

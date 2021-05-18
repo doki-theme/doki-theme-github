@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Mai Light
 @namespace      github.com/doki-theme
-@version        8.0.0
+@version        8.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -52,6 +52,7 @@
       --color-workflow-card-bg: #eaecf6 !important;
       --color-bg-tertiary: #FAF2F1 !important;
       --color-bg-secondary: #f1ecf2 !important;
+      --color-search-hover-hl: #f0e8e7 !important;
       --color-checks-step-header-open-bg: #f1ecf2 !important;
       --color-bg-discussions-row-emoji-box: #d7dcf1 !important;
       --color-current-user-tip-border: #d7dcf1 !important;

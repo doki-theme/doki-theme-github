@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Makise Kurisu
 @namespace      github.com/doki-theme
-@version        8.0.0
+@version        8.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -52,6 +52,7 @@
       --color-workflow-card-bg: #231314 !important;
       --color-bg-tertiary: #170a0b !important;
       --color-bg-secondary: #210e0f !important;
+      --color-search-hover-hl: #231010 !important;
       --color-checks-step-header-open-bg: #210e0f !important;
       --color-bg-discussions-row-emoji-box: #241919 !important;
       --color-current-user-tip-border: #241919 !important;
