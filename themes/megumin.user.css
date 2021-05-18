@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Megumin
 @namespace      github.com/doki-theme
-@version        8.0.0
+@version        8.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -52,6 +52,7 @@
       --color-workflow-card-bg: #2f2329 !important;
       --color-bg-tertiary: #2c2126 !important;
       --color-bg-secondary: #31262b !important;
+      --color-search-hover-hl: #33282d !important;
       --color-checks-step-header-open-bg: #31262b !important;
       --color-bg-discussions-row-emoji-box: #2f2329 !important;
       --color-current-user-tip-border: #2f2329 !important;

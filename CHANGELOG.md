@@ -1,6 +1,10 @@
 Changelog
 ---
 
+# 8.0.1 [Maintentance]
+
+- Fixed the list line hover color from the `file finder` feature.
+
 # 8.0.0 [Nino, Nakano Miku, Gray, Miia, & Tohru]
 
 ## 5 New Themes
