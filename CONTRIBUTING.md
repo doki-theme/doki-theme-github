@@ -146,9 +146,9 @@ Here is [an example of a editing pull request](https://github.com/doki-theme/dok
 
 # Creating New Themes
 
-**IMPORTANT**! Do _not_ create brand new Doki-Themes using the GitHub Plugin. New themes should be created from the original
-JetBrains plugin which uses all the colors defined. There is also Doki Theme creation assistance provided by the IDE as
-well.
+**IMPORTANT**! Do _not_ create brand new Doki-Themes using the GitHub Plugin. New themes should be created from the
+original JetBrains plugin which uses all the colors defined. There is also Doki Theme creation assistance provided by
+the IDE as well.
 
 Please follow
 the [theme creation contributions in the JetBrains Plugin repository](https://github.com/doki-theme/doki-theme-jetbrains/blob/master/CONTRIBUTING.md#creating-new-themes)
@@ -161,6 +161,23 @@ for more details on how to build new themes.
 ## Creating Setup
 
 - Follow the [initial setup](#initial-setup)
+- You'll also probably want to have completed
+  the [Doki Theme VS-Code](https://github.com/doki-theme/doki-theme-vscode/blob/master/CONTRIBUTING.md#creating-new-themes)
+  process. As this plugin uses the sticker assets of the VS-Code plugin. So it helps to have those in place!
+
+**Get the assets repository**
+
+Clone the [doki-theme-assets](https://github.com/doki-theme/doki-theme-assets) repository in the same parent directory
+as this plugin's repository.
+
+Your folder structure should look like this:
+
+```
+your-workspace/
+├─ doki-theme-github/
+│  ├─ masterThemes/
+├─ doki-theme-assets/
+```
 
 ## Theme Creation Process
 
@@ -175,7 +192,8 @@ You'll want to edit the function used by `buildApplicationTemplate`
 and `appName` [defined here](https://github.com/doki-theme/doki-master-theme/blob/596bbe7b258c65e485257a14887ee9b4e0e8b659/buildSrc/AppThemeTemplateGenerator.ts#L79)
 in your `masterThemes` directory.
 
-In the case of this plugin the `buildApplicationsTemplate` should use the `githubTemplate` and `appName` should be `github`.
+In the case of this plugin the `buildApplicationsTemplate` should use the `githubTemplate` and `appName` should
+be `github`.
 
 We need run the `generateTemplates` script. Which will walk the master theme definitions and create the new templates in
 the `<repo-root>/buildSrc/assets/themes` directory (and update existing ones). In
@@ -194,6 +212,18 @@ This script does all the annoying tedious stuff such as:
 
 - Evaluating the `buildSrc/assets/templats` from the templates and putting the user.css in the right place.
   See [GitHub Specifics](#github-specifics) for more details.
+
+Because of silly cross-origin "safety" precautions taken by GitHub (or stylus, I forget), I can't use the assets
+from [https://doki.assets.unthrottled.io]. So to get around that, the GitHub user css, uses assets from the same parent
+domain. So I wrote a script that forklifts the assets, plus the expected directory structure into
+the `doki-theme-github/assets` directory automatically (if it doesn't exist, will not overwrite). In
+the `doki-theme-github/buildSrc` directory run:
+
+```shell
+yarn copyAssets
+```
+
+> Note: you'll probably want to update the sticker's url in the tempUserCss.css.txt file to point to the branch/repo you are working on.
 
 [Here is an example pull request that captures all the artifacts from the development process of imported themes](https://github.com/doki-theme/doki-theme-github/pull/44)
 . There is going to be a heckin a lot of changes, so be prepared!
