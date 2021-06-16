@@ -21,6 +21,12 @@ This works best in combination with [the Doki Theme for Chrome](https://github.c
 
 ![Complete Style Preview](./readmeAssets/styled_github.png)
 
+## Contributing
+
+If you want to get your workstation set up to work on the plugin,
+then you'll want to check out the [CONTRIBUTING.md](./CONTRIBUTING.md) for instructions on what is needed.
+
+
 ## Acknowledgements
 
 Thank you [GitHub Dark](https://github.com/StylishThemes/GitHub-Dark) and all the authors for providing the initial lift to making this experience possible!
