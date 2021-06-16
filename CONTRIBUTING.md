@@ -214,16 +214,16 @@ This script does all the annoying tedious stuff such as:
   See [GitHub Specifics](#github-specifics) for more details.
 
 Because of silly cross-origin "safety" precautions taken by GitHub (or stylus, I forget), I can't use the assets
-from [https://doki.assets.unthrottled.io]. So to get around that, the GitHub user css, uses assets from the same parent
-domain. So I wrote a script that forklifts the assets, plus the expected directory structure into
-the `doki-theme-github/assets` directory automatically (if it doesn't exist, will not overwrite). In
+from [https://doki.assets.unthrottled.io](https://doki.assets.unthrottled.io). So to get around that, the GitHub user
+css, uses assets from the same parent domain. So I wrote a script that forklifts the assets, plus the expected directory
+structure into the `doki-theme-github/assets` directory automatically (if it doesn't exist, will not overwrite). In
 the `doki-theme-github/buildSrc` directory run:
 
 ```shell
 yarn copyAssets
 ```
 
-> Note: you'll probably want to update the sticker's url in the tempUserCss.css.txt file to point to the branch/repo you are working on.
+> Note: you'll probably want to update the sticker's url in the tempUserCss.css.txt file to point to the branch/repo you are working on. Be sure to change it back before submitting a PR!
 
 [Here is an example pull request that captures all the artifacts from the development process of imported themes](https://github.com/doki-theme/doki-theme-github/pull/44)
 . There is going to be a heckin a lot of changes, so be prepared!
