@@ -210,7 +210,7 @@ script.
 
 This script does all the annoying tedious stuff such as:
 
-- Evaluating the `buildSrc/assets/templats` from the templates and putting the user.css in the right place.
+- Evaluating the `buildSrc/assets/templates` from the templates and putting the user.css in the right place.
   See [GitHub Specifics](#github-specifics) for more details.
 
 Because of silly cross-origin "safety" precautions taken by GitHub (or stylus, I forget), I can't use the assets
