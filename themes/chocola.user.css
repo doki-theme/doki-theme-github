@@ -81,12 +81,12 @@
 
     .suggester li:hover .octicon,
     .suggester li[aria-selected="true"] .octicon {
-      fill: #fefefe;
+      fill: #30292c;
     }
 
     .suggester li:hover small,
     .suggester li[aria-selected="true"] small {
-      color: #fefefe;
+      color: #30292c;
     }
 
     ::-webkit-input-placeholder {
@@ -123,7 +123,7 @@
     }
     body::before {
     content:'';pointer-events:none;position:fixed;z-index:9001;width:100%;height:100%;background-position:100% 100%;background-repeat:no-repeat;opacity:1;
-    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/v10/assets/stickers/nekoPara/chocola/dark/chocola_dark.png');
+    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/master/assets/stickers/nekoPara/chocola/dark/chocola_dark.png');
     }
 
     .UnderlineNav {
@@ -149,7 +149,7 @@
     }
 
     .btn-primary .octicon {
-      fill: #fefefe !important;
+      fill: #30292c !important;
     }
 
     .btn-primary:active {
@@ -13540,7 +13540,7 @@
   .suggester li.navigation-focus, .suggester li:hover,
   .suggester li[aria-selected="true"] {
     background: /*[[base-color]]*/ #f771a3;
-    color: #fefefe;
+    color: #30292c;
     background-image: none;
   }
   /* source #9: "#fff" */
@@ -14666,7 +14666,7 @@
       background-color: #6a3849;
       background-image: linear-gradient(-180deg, #6a3849 0%, #6a3849 90%);
       border-color: none !important;
-      color: #fefefe !important;
+      color: #30292c !important;
     }
   /* source #14: "#e9ecef", "none", "rgba(27,31,35,0.35)" */
   .btn.selected, .btn:active, .btn[aria-selected="true"], [open] > .btn {
@@ -14685,7 +14685,7 @@
   /* source #14: "#28a745", "#28a745" */
   .btn-primary {
     background-color: #f771a3;
-    color: #fefefe !important;
+    color: #30292c !important;
     background-image: linear-gradient(-180deg, #f771a3 0%, #f771a3 90%);
   }
   /* source #14: "box-shadow: 0 0 0 .2em rgba(52,208,88,.4)" */
@@ -15936,7 +15936,7 @@
   /* source #14: "#0366d6" */
   .dropdown-item:focus, .dropdown-item:hover {
     background-color: /*[[base-color]]*/ #f771a3;
-    color: #fefefe;
+    color: #30292c;
     background-image: none;
   }
   /* source #14: "none" */
@@ -17952,7 +17952,7 @@ html[prefix] .site-header-nav .dropdown-menu a:hover {
 .filter-item.selected p, .filter-item:hover .marketplace-plan-per-time,
 .feature-preview-dialog .text-white,
 .oauth-permissions-details .permission-summary em.highlight, .btn-primary {
-    color: #fefefe;
+    color: #30292c;
 }
 ul.repo-stats li a:hover, .minibutton.danger:hover, #gist-form label,
 .subnav li a:hover, .filters li.selected a, .filters li a:hover, .code-list em,
