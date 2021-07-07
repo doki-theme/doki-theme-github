@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Ram
 @namespace      github.com/doki-theme
-@version        9.0.0
+@version        10.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -123,7 +123,7 @@
     }
     body::before {
     content:'';pointer-events:none;position:fixed;z-index:9001;width:100%;height:100%;background-position:100% 100%;background-repeat:no-repeat;opacity:1;
-    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/master/assets/stickers/reZero/ram/ram.png');
+    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/v10/assets/stickers/reZero/ram/ram.png');
     }
 
     .UnderlineNav {
@@ -736,7 +736,7 @@
   }
   /* source #0: "color: #264c72", "#97c1da", "#d8ebf8" */
   .alert {
-    color: #6b8b99;
+    color: #b895c9;
     border-color: #e594bf35;
     background-color: #373237;
   }
@@ -846,7 +846,7 @@
   .preview-notice {
     border-left-color: #e594bf35;
     background-color: #373237;
-    color: #6b8b99;
+    color: #b895c9;
   }
   /* source #0: "color: #613a00", "#dca874", "#ffe3c8", "#ffe3c8" */
   .deprecation-warning {
@@ -11766,7 +11766,7 @@
   }
   /* source #5: "color: #032f62 !important" */
   .text-blue-dark {
-    color: #6b8b99 !important;
+    color: #b895c9 !important;
   }
   /* source #5: "color: #959da5" */
   .actions-event-token {
@@ -15336,7 +15336,7 @@
   }
   /* source #14: "color: #032f62", "#dbedff", "rgba(27,31,35,0.15)" */
   .flash {
-    color: #6b8b99;
+    color: #b895c9;
     background-color: #373237;
     border-color: rgba(200, 200, 200, 0.1);
   }
@@ -15733,7 +15733,7 @@
   }
   /* source #14: "color: #032f62 !important" */
   .color-blue-8 {
-    color: #6b8b99 !important;
+    color: #b895c9 !important;
   }
   /* source #14: "#032f62" */
   .bg-blue-8 {
@@ -17801,11 +17801,11 @@ ul.search-results li .label, .markdown-format table th,
 div[style*="background-color: #044d6e"],
 .subset-files-tab .stale-files-tab-link,
 .timeline-comment.current-user:not(.is-internal) .link-gray {
-    color: #6b8b99 !important;
+    color: #b895c9 !important;
 }
 .timeline-comment.current-user:not(.is-internal) .timeline-comment-header,
 .timeline-comment.current-user:not(.is-internal) .timeline-comment-action {
-    color: #6b8b99;
+    color: #b895c9;
 }
 .RecentBranches-item, .commit-ref .user {
     color: #6d7c9c !important;
@@ -19250,12 +19250,12 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     --ghd-code-color: #ccc;
 }
 .pl-c, .pl-c span {
-    color: #6272a4 !important;
+    color: #987fa5 !important;
     font-style: italic !important;
 }
 /* comment */
 .pl-c1 {
-    color: #6272a4 !important;
+    color: #987fa5 !important;
 }
 /* constant */
 .pl-cce {
