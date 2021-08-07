@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Monika Dark
 @namespace      github.com/doki-theme
-@version        10.0.0
+@version        11.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -77,6 +77,8 @@
       --color-notifications-row-bg: #292D1F !important;
       --color-input-disabled-bg: #122D13 !important;
       --color-input-disabled-border: #202416 !important;
+      --color-text-secondary: #3b753d !important;
+      --color-text-tertiary: #697966 !important;
     }
 
     .suggester li:hover .octicon,

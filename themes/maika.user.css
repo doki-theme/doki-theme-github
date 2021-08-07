@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Maika
 @namespace      github.com/doki-theme
-@version        10.0.0
+@version        11.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -77,6 +77,8 @@
       --color-notifications-row-bg: #2e0639 !important;
       --color-input-disabled-bg: #2e0a37 !important;
       --color-input-disabled-border: #341140 !important;
+      --color-text-secondary: #79b7c1 !important;
+      --color-text-tertiary: #70677b !important;
     }
 
     .suggester li:hover .octicon,

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Megumin
 @namespace      github.com/doki-theme
-@version        10.0.0
+@version        11.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -77,6 +77,8 @@
       --color-notifications-row-bg: #31262b !important;
       --color-input-disabled-bg: #31262b !important;
       --color-input-disabled-border: #32262c !important;
+      --color-text-secondary: #75595d !important;
+      --color-text-tertiary: #7b7373 !important;
     }
 
     .suggester li:hover .octicon,

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Sonoda Umi
 @namespace      github.com/doki-theme
-@version        10.0.0
+@version        11.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -77,6 +77,8 @@
       --color-notifications-row-bg: #181A46 !important;
       --color-input-disabled-bg: #202649 !important;
       --color-input-disabled-border: #1c1f50 !important;
+      --color-text-secondary: #6878c2 !important;
+      --color-text-tertiary: #5e5e79 !important;
     }
 
     .suggester li:hover .octicon,

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Mioda Ibuki Dark
 @namespace      github.com/doki-theme
-@version        10.0.0
+@version        11.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -77,6 +77,8 @@
       --color-notifications-row-bg: #222526 !important;
       --color-input-disabled-bg: #333333 !important;
       --color-input-disabled-border: #1e2021 !important;
+      --color-text-secondary: #ab8d9f !important;
+      --color-text-tertiary: #666879 !important;
     }
 
     .suggester li:hover .octicon,

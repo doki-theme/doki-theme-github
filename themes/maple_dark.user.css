@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Maple Dark
 @namespace      github.com/doki-theme
-@version        10.0.0
+@version        11.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -77,6 +77,8 @@
       --color-notifications-row-bg: #352121 !important;
       --color-input-disabled-bg: #2e2f2a !important;
       --color-input-disabled-border: #412828 !important;
+      --color-text-secondary: #bfb38c !important;
+      --color-text-tertiary: #6c5b55 !important;
     }
 
     .suggester li:hover .octicon,

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Tohru
 @namespace      github.com/doki-theme
-@version        10.0.0
+@version        11.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -77,6 +77,8 @@
       --color-notifications-row-bg: #ffe797 !important;
       --color-input-disabled-bg: #f0c07e !important;
       --color-input-disabled-border: #e8bf69 !important;
+      --color-text-secondary: #763530 !important;
+      --color-text-tertiary: #693434 !important;
     }
 
     .suggester li:hover .octicon,

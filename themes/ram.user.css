@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Ram
 @namespace      github.com/doki-theme
-@version        10.0.0
+@version        11.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -77,6 +77,8 @@
       --color-notifications-row-bg: #353139 !important;
       --color-input-disabled-bg: #413a44 !important;
       --color-input-disabled-border: #362d39 !important;
+      --color-text-secondary: #ab7b9d !important;
+      --color-text-tertiary: #666879 !important;
     }
 
     .suggester li:hover .octicon,

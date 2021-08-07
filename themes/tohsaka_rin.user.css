@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Tohsaka Rin
 @namespace      github.com/doki-theme
-@version        10.0.0
+@version        11.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -77,6 +77,8 @@
       --color-notifications-row-bg: #22191b !important;
       --color-input-disabled-bg: #241B1D !important;
       --color-input-disabled-border: #211e1e !important;
+      --color-text-secondary: #86a4ab !important;
+      --color-text-tertiary: #847878 !important;
     }
 
     .suggester li:hover .octicon,

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Mai Dark
 @namespace      github.com/doki-theme
-@version        10.0.0
+@version        11.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -77,6 +77,8 @@
       --color-notifications-row-bg: #2d2d52 !important;
       --color-input-disabled-bg: #233b53 !important;
       --color-input-disabled-border: #2b2c57 !important;
+      --color-text-secondary: #7cab9c !important;
+      --color-text-tertiary: #61647b !important;
     }
 
     .suggester li:hover .octicon,

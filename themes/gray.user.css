@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Gray
 @namespace      github.com/doki-theme
-@version        10.0.0
+@version        11.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -77,6 +77,8 @@
       --color-notifications-row-bg: #353d41 !important;
       --color-input-disabled-bg: #324142 !important;
       --color-input-disabled-border: #424648 !important;
+      --color-text-secondary: #b0a17f !important;
+      --color-text-tertiary: #556c6a !important;
     }
 
     .suggester li:hover .octicon,

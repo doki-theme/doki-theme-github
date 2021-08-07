@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Chocola
 @namespace      github.com/doki-theme
-@version        10.0.0
+@version        11.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -77,6 +77,8 @@
       --color-notifications-row-bg: #352f31 !important;
       --color-input-disabled-bg: #412b32 !important;
       --color-input-disabled-border: #3a3336 !important;
+      --color-text-secondary: #b0a17f !important;
+      --color-text-tertiary: #6c5a63 !important;
     }
 
     .suggester li:hover .octicon,

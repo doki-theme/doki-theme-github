@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Darkness Light
 @namespace      github.com/doki-theme
-@version        10.0.0
+@version        11.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -77,6 +77,8 @@
       --color-notifications-row-bg: #FFF6E4 !important;
       --color-input-disabled-bg: #FFFFBC !important;
       --color-input-disabled-border: #f1f4e0 !important;
+      --color-text-secondary: #aaaaaa !important;
+      --color-text-tertiary: #aaaaaa !important;
     }
 
     .suggester li:hover .octicon,
