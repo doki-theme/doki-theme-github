@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Hatsune Miku
 @namespace      github.com/doki-theme
-@version        10.0.0
+@version        11.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -77,6 +77,8 @@
       --color-notifications-row-bg: #313938 !important;
       --color-input-disabled-bg: #3a4444 !important;
       --color-input-disabled-border: #2d3839 !important;
+      --color-text-secondary: #73999b !important;
+      --color-text-tertiary: #666879 !important;
     }
 
     .suggester li:hover .octicon,

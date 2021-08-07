@@ -77,6 +77,8 @@
       --color-notifications-row-bg: {{caretRow}} !important;
       --color-input-disabled-bg: {{selectionInactive}} !important;
       --color-input-disabled-border: {{borderColor}} !important;
+      --color-text-secondary: {{infoForeground}} !important;
+      --color-text-tertiary: {{lineNumberColor}} !important;
     }
 
     .suggester li:hover .octicon,

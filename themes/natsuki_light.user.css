@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Natsuki Light
 @namespace      github.com/doki-theme
-@version        10.0.0
+@version        11.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -77,6 +77,8 @@
       --color-notifications-row-bg: #ffdce6 !important;
       --color-input-disabled-bg: #FFD9E2 !important;
       --color-input-disabled-border: #F1D7E6 !important;
+      --color-text-secondary: #dd87a1 !important;
+      --color-text-tertiary: #aaaaaa !important;
     }
 
     .suggester li:hover .octicon,

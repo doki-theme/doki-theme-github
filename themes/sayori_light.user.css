@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Sayori Light
 @namespace      github.com/doki-theme
-@version        10.0.0
+@version        11.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -77,6 +77,8 @@
       --color-notifications-row-bg: #dceef7 !important;
       --color-input-disabled-bg: #d7e3f1 !important;
       --color-input-disabled-border: #e2eaee !important;
+      --color-text-secondary: #64a6ac !important;
+      --color-text-tertiary: #aaaaaa !important;
     }
 
     .suggester li:hover .octicon,

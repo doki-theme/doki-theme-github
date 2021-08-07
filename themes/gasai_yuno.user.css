@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Gasai Yuno
 @namespace      github.com/doki-theme
-@version        10.0.0
+@version        11.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -77,6 +77,8 @@
       --color-notifications-row-bg: #230920 !important;
       --color-input-disabled-bg: #2b0c27 !important;
       --color-input-disabled-border: #300c30 !important;
+      --color-text-secondary: #ab5555 !important;
+      --color-text-tertiary: #796675 !important;
     }
 
     .suggester li:hover .octicon,

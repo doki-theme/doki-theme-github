@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Ishtar Dark
 @namespace      github.com/doki-theme
-@version        10.0.0
+@version        11.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -77,6 +77,8 @@
       --color-notifications-row-bg: #1A1913 !important;
       --color-input-disabled-bg: #1A1913 !important;
       --color-input-disabled-border: #1a1a00 !important;
+      --color-text-secondary: #866e45 !important;
+      --color-text-tertiary: #6c6d5b !important;
     }
 
     .suggester li:hover .octicon,

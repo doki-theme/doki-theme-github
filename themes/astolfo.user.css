@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Astolfo
 @namespace      github.com/doki-theme
-@version        10.0.0
+@version        11.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -77,6 +77,8 @@
       --color-notifications-row-bg: #20221f !important;
       --color-input-disabled-bg: #261c20 !important;
       --color-input-disabled-border: #212220 !important;
+      --color-text-secondary: #957a4d !important;
+      --color-text-tertiary: #8e856e !important;
     }
 
     .suggester li:hover .octicon,
