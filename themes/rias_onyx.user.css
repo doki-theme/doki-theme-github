@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Rias Onyx
 @namespace      github.com/doki-theme
-@version        11.0.0
+@version        12.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -46,7 +46,9 @@
       --color-auto-gray-1: #100000 !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #130000 !important;
-      --color-bg-canvas-inset: #130000 !important;
+      --color-canvas-inset: #130000 !important;
+      --color-canvas-inset: #130000 !important;
+      --color-canvas-overlay: #1c0607 !important;
       --color-bg-primary: #130000 !important;
       --color-calendar-graph-day-bg: #1d0406 !important;
       --color-workflow-card-bg: #1d0406 !important;
@@ -59,9 +61,12 @@
       --color-underlinenav-counter-text: #d8d8d8 !important;
       --color-text-primary: #b2dbe3 !important;
       --color-text-link: #7C171F !important;
+      --color-canvas-subtle: #1e0607 !important;
+      --color-accent-fg: #C04750 !important;
       --color-shadow-large: 0 8px 24px #7C171F22 !important;
       --color-alert-warn-bg: #130700 !important;
       --color-alert-info-bg: #100000 !important;
+      --color-canvas-default: #100000 !important;
       --color-checks-bg: #100000 !important;
       --color-checks-header-border: #100000 !important;
       --color-alert-error-bg: #ff000022 !important;

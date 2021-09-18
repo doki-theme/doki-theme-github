@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Maple Light
 @namespace      github.com/doki-theme
-@version        11.0.0
+@version        12.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -46,7 +46,9 @@
       --color-auto-gray-1: #ffd091 !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #ffd297 !important;
-      --color-bg-canvas-inset: #ffd297 !important;
+      --color-canvas-inset: #ffd297 !important;
+      --color-canvas-inset: #ffd297 !important;
+      --color-canvas-overlay: #f9ca92 !important;
       --color-bg-primary: #ffd297 !important;
       --color-calendar-graph-day-bg: #ead88a !important;
       --color-workflow-card-bg: #ead88a !important;
@@ -59,9 +61,12 @@
       --color-underlinenav-counter-text: #101010 !important;
       --color-text-primary: #007972 !important;
       --color-text-link: #923A4E !important;
+      --color-canvas-subtle: #FFC392 !important;
+      --color-accent-fg: #810808 !important;
       --color-shadow-large: 0 8px 24px #923A4E22 !important;
       --color-alert-warn-bg: #fdd58f !important;
       --color-alert-info-bg: #fdcd8f !important;
+      --color-canvas-default: #fdcd8f !important;
       --color-checks-bg: #fdcd8f !important;
       --color-checks-header-border: #fdcd8f !important;
       --color-alert-error-bg: #ff000022 !important;

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Rei
 @namespace      github.com/doki-theme
-@version        11.0.0
+@version        12.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -46,7 +46,9 @@
       --color-auto-gray-1: #191b1f !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #171918 !important;
-      --color-bg-canvas-inset: #171918 !important;
+      --color-canvas-inset: #171918 !important;
+      --color-canvas-inset: #171918 !important;
+      --color-canvas-overlay: #191b1a !important;
       --color-bg-primary: #171918 !important;
       --color-calendar-graph-day-bg: #1b242e !important;
       --color-workflow-card-bg: #1b242e !important;
@@ -59,9 +61,12 @@
       --color-underlinenav-counter-text: #d2d2d2 !important;
       --color-text-primary: #45e68a !important;
       --color-text-link: #b53241 !important;
+      --color-canvas-subtle: #1f2125 !important;
+      --color-accent-fg: #ef596f !important;
       --color-shadow-large: 0 8px 24px #b5324122 !important;
       --color-alert-warn-bg: #191a13 !important;
       --color-alert-info-bg: #131514 !important;
+      --color-canvas-default: #131514 !important;
       --color-checks-bg: #131514 !important;
       --color-checks-header-border: #131514 !important;
       --color-alert-error-bg: #ff000022 !important;

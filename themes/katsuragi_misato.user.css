@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Katsuragi Misato
 @namespace      github.com/doki-theme
-@version        11.0.0
+@version        12.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -46,7 +46,9 @@
       --color-auto-gray-1: #382536 !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #3a2333 !important;
-      --color-bg-canvas-inset: #3a2333 !important;
+      --color-canvas-inset: #3a2333 !important;
+      --color-canvas-inset: #3a2333 !important;
+      --color-canvas-overlay: #382639 !important;
       --color-bg-primary: #3a2333 !important;
       --color-calendar-graph-day-bg: #322130 !important;
       --color-workflow-card-bg: #322130 !important;
@@ -59,9 +61,12 @@
       --color-underlinenav-counter-text: #b5a3b0 !important;
       --color-text-primary: #FF357C !important;
       --color-text-link: #c2383e !important;
+      --color-canvas-subtle: #402d41 !important;
+      --color-accent-fg: #42E66C !important;
       --color-shadow-large: 0 8px 24px #c2383e22 !important;
       --color-alert-warn-bg: #413037 !important;
       --color-alert-info-bg: #3d2536 !important;
+      --color-canvas-default: #3d2536 !important;
       --color-checks-bg: #3d2536 !important;
       --color-checks-header-border: #3d2536 !important;
       --color-alert-error-bg: #ff000022 !important;
@@ -19252,12 +19257,12 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     --ghd-code-color: #ccc;
 }
 .pl-c, .pl-c span {
-    color: #6272a4 !important;
+    color: #786598 !important;
     font-style: italic !important;
 }
 /* comment */
 .pl-c1 {
-    color: #6272a4 !important;
+    color: #786598 !important;
 }
 /* constant */
 .pl-cce {

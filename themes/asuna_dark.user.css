@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Asuna Dark
 @namespace      github.com/doki-theme
-@version        11.0.0
+@version        12.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -46,7 +46,9 @@
       --color-auto-gray-1: #1b1b1b !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #202020 !important;
-      --color-bg-canvas-inset: #202020 !important;
+      --color-canvas-inset: #202020 !important;
+      --color-canvas-inset: #202020 !important;
+      --color-canvas-overlay: #1c1c1c !important;
       --color-bg-primary: #202020 !important;
       --color-calendar-graph-day-bg: #232323 !important;
       --color-workflow-card-bg: #232323 !important;
@@ -59,9 +61,12 @@
       --color-underlinenav-counter-text: #bbbbbb !important;
       --color-text-primary: #3B82BD !important;
       --color-text-link: #99202c !important;
+      --color-canvas-subtle: #1f1f1f !important;
+      --color-accent-fg: #e0474b !important;
       --color-shadow-large: 0 8px 24px #99202c22 !important;
       --color-alert-warn-bg: #20221c !important;
       --color-alert-info-bg: #1e1e1e !important;
+      --color-canvas-default: #1e1e1e !important;
       --color-checks-bg: #1e1e1e !important;
       --color-checks-header-border: #1e1e1e !important;
       --color-alert-error-bg: #ff000022 !important;

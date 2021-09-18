@@ -1,6 +1,22 @@
 Changelog
 ---
 
+# 12.0.0 [KillLaKill Alt. Themes]
+
+
+**2 New Themes!**
+
+- Ryuko Light
+- Satsuki Dark
+
+![v19 Girls](https://doki.assets.unthrottled.io/misc/v19_girls.png)
+
+### Other Stuff
+
+- Updated to new GitHub Styles.
+- Renamed Ryuko's user.css to `ryuko_dark.user.css`
+- Renamed Satsuki's user.css to `satsuki_light.user.css`
+
 # 11.0.0 [NekoPara OneeSan Vol.]
 
 ## 4 New Themes!!

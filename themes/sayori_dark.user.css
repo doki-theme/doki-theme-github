@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Sayori Dark
 @namespace      github.com/doki-theme
-@version        11.0.0
+@version        12.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -46,22 +46,27 @@
       --color-auto-gray-1: #111b2d !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #0E1D31 !important;
-      --color-bg-canvas-inset: #0E1D31 !important;
+      --color-canvas-inset: #0E1D31 !important;
+      --color-canvas-inset: #0E1D31 !important;
+      --color-canvas-overlay: #131d2d !important;
       --color-bg-primary: #0E1D31 !important;
       --color-calendar-graph-day-bg: #1B1D31 !important;
       --color-workflow-card-bg: #1B1D31 !important;
       --color-bg-tertiary: #111b2d !important;
-      --color-bg-secondary: #252D3C !important;
+      --color-bg-secondary: #17243c !important;
       --color-search-hover-hl: #1b2346 !important;
-      --color-checks-step-header-open-bg: #252D3C !important;
+      --color-checks-step-header-open-bg: #17243c !important;
       --color-bg-discussions-row-emoji-box: #18303f !important;
       --color-current-user-tip-border: #18303f !important;
       --color-underlinenav-counter-text: #bbbbbb !important;
       --color-text-primary: #3F77EF !important;
       --color-text-link: #00BCD4 !important;
+      --color-canvas-subtle: #17243c !important;
+      --color-accent-fg: #00BCD4 !important;
       --color-shadow-large: 0 8px 24px #00BCD422 !important;
       --color-alert-warn-bg: #131b2a !important;
       --color-alert-info-bg: #0e1b2f !important;
+      --color-canvas-default: #0e1b2f !important;
       --color-checks-bg: #0e1b2f !important;
       --color-checks-header-border: #0e1b2f !important;
       --color-alert-error-bg: #ff000022 !important;
@@ -74,7 +79,7 @@
       --color-project-sidebar-bg: #131d2d !important;
       --color-border-primary: #1a1c2d !important;
       --color-notifications-row-read-bg: #1B1D31 !important;
-      --color-notifications-row-bg: #252D3C !important;
+      --color-notifications-row-bg: #17243c !important;
       --color-input-disabled-bg: #1d274b !important;
       --color-input-disabled-border: #1a1c2d !important;
       --color-text-secondary: #3a9fb1 !important;
@@ -8486,7 +8491,7 @@
   }
   /* source #5: "#2f363d" */
   .CheckRun-search .btn:hover {
-    background-color: #252D3C;
+    background-color: #17243c;
   }
   /* source #5: "color: #586069", "none" */
   .CheckRun-search .btn[disabled] {
@@ -8522,7 +8527,7 @@
   }
   /* source #5: "#2f363d" */
   .CheckStep-line:hover {
-    background-color: #252D3C;
+    background-color: #17243c;
   }
   /* source #5: "#586069" */
   .CheckStep-line.selected {
@@ -9259,7 +9264,7 @@
   }
   /* source #5: "#2f363d" */
   .MarketplaceJumbotron {
-    background-color: #252D3C;
+    background-color: #17243c;
   }
   /* source #5: "#f6f8fa" */
   .MarketplaceSideNav {
@@ -12662,7 +12667,7 @@
   }
   /* source #6: "rgba(225,228,232,0.31)" */
   #uptime-tooltip .tooltip-box .outage-field {
-    background-color: #252D3C;
+    background-color: #17243c;
   }
   /* source #6: "#dbab09" */
   .layout-content.status.status-index .page-status.status-minor,
@@ -15701,7 +15706,7 @@
   }
   /* source #14: "#2f363d" */
   .bg-gray-8 {
-    background-color: #252D3C !important;
+    background-color: #17243c !important;
   }
   /* source #14: "color: #24292e !important" */
   .color-gray-9 {
@@ -16362,7 +16367,7 @@ input[type="radio"] {
 }
 input[type="checkbox"]:disabled, input[type="checkbox"]:hover:disabled,
 input[type="checkbox"]:hover:active:disabled, input[type="radio"]:disabled {
-    background-color: #252D3C !important;
+    background-color: #17243c !important;
     color: #555 !important;
 }
 input[type="checkbox"]:checked {
@@ -16542,8 +16547,8 @@ aside.border-top + section.bg-gray-dark:not([class*="js-"]) {
 }
 /* Make it more apparent that <details> is clickable */
 .markdown-body details summary:not([aria-haspopup]):hover {
-    background: #252D3C;
-    box-shadow: 0 0 0 2px #252D3C;
+    background: #17243c;
+    box-shadow: 0 0 0 2px #17243c;
     cursor: pointer;
 }
 /* GitHub Bug: Center discussion close icon vertically */
@@ -17129,7 +17134,7 @@ h3.conversation-list-heading strong, .file-commit-form .commit-form,
     border-color: #1a1c2d !important;
 }
 .search-result-group, .gist-quicksearch-result-group {
-    background: #252D3C !important;
+    background: #17243c !important;
     border-color: rgba(68, 68, 68, .5) !important;
     color: #555 !important;
 }
@@ -17667,10 +17672,10 @@ circle.audit-point {
 .dropdown-divider, .js-current .standalone a, .sidebar-module .disable>a,
 .label-select-menu div.labelstyle-000000.selected,
 .ScreenshotCarousel-navitem.selected {
-    background: #252D3C !important;
+    background: #17243c !important;
 }
 div#common-issues ul li a:hover, .rss-subscribe:hover {
-    background-color: #252D3C !important;
+    background-color: #17243c !important;
 }
 .jumbotron-codelines {
     background-color: #0e1b2f !important;
@@ -18801,7 +18806,7 @@ form[action*="/.github/workflows/"] .commit-create {
     background-size: 8px 10px !important;
 }
 .form-select:disabled {
-    background-color: #252D3C !important;
+    background-color: #17243c !important;
     color: #555 !important;
 }
 /* no border */
@@ -20545,7 +20550,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     .intercom-comment-container-admin .intercom-comment:not(.intercom-comment-with-body),
     .intercom-comment-container-other-user .intercom-comment:not(.intercom-comment-with-body) {
         color: #eee;
-        background-color: #252D3C;
+        background-color: #17243c;
     }
     .intercom-comment-container-user .intercom-comment:not(.intercom-comment-with-body) {
         background-color: /*[[base-color]]*/ #00BCD4;
@@ -20805,7 +20810,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
         margin-top: 1px;
     }
     .select-input__option:not(.select-input__option--is-selected):hover {
-        background-color: #252D3C;
+        background-color: #17243c;
         color: #eee;
     }
     .select-input__option--is-selected[class*="css-"] {

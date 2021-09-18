@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Echidna
 @namespace      github.com/doki-theme
-@version        11.0.0
+@version        12.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -46,7 +46,9 @@
       --color-auto-gray-1: #121014 !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #141216 !important;
-      --color-bg-canvas-inset: #141216 !important;
+      --color-canvas-inset: #141216 !important;
+      --color-canvas-inset: #141216 !important;
+      --color-canvas-overlay: #110f13 !important;
       --color-bg-primary: #141216 !important;
       --color-calendar-graph-day-bg: #1e1b20 !important;
       --color-workflow-card-bg: #1e1b20 !important;
@@ -59,9 +61,12 @@
       --color-underlinenav-counter-text: #a8a8a8 !important;
       --color-text-primary: #BD93F9 !important;
       --color-text-link: #ECECEC !important;
+      --color-canvas-subtle: #1a171c !important;
+      --color-accent-fg: #7ceec8 !important;
       --color-shadow-large: 0 8px 24px #ECECEC22 !important;
       --color-alert-warn-bg: #191a18 !important;
       --color-alert-info-bg: #171519 !important;
+      --color-canvas-default: #171519 !important;
       --color-checks-bg: #171519 !important;
       --color-checks-header-border: #171519 !important;
       --color-alert-error-bg: #ff000022 !important;

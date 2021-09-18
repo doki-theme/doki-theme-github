@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Rem
 @namespace      github.com/doki-theme
-@version        11.0.0
+@version        12.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -46,7 +46,9 @@
       --color-auto-gray-1: #2f3036 !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #292A30 !important;
-      --color-bg-canvas-inset: #292A30 !important;
+      --color-canvas-inset: #292A30 !important;
+      --color-canvas-inset: #292A30 !important;
+      --color-canvas-overlay: #313239 !important;
       --color-bg-primary: #292A30 !important;
       --color-calendar-graph-day-bg: #2b2c32 !important;
       --color-workflow-card-bg: #2b2c32 !important;
@@ -59,9 +61,12 @@
       --color-underlinenav-counter-text: #bbbbbb !important;
       --color-text-primary: #6893f3 !important;
       --color-text-link: #578CDA !important;
+      --color-canvas-subtle: #313439 !important;
+      --color-accent-fg: #a87ff8 !important;
       --color-shadow-large: 0 8px 24px #578CDA22 !important;
       --color-alert-warn-bg: #313332 !important;
       --color-alert-info-bg: #2c2d33 !important;
+      --color-canvas-default: #2c2d33 !important;
       --color-checks-bg: #2c2d33 !important;
       --color-checks-header-border: #2c2d33 !important;
       --color-alert-error-bg: #ff000022 !important;
@@ -19714,7 +19719,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #d6bb6d !important;
 }
 .cm-header {
-    color: #a28a92 !important;
+    color: #4E86C8 !important;
 }
 .cm-hr {
     color: #aeaeae !important;

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Darkness Dark
 @namespace      github.com/doki-theme
-@version        11.0.0
+@version        12.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -46,7 +46,9 @@
       --color-auto-gray-1: #0a0904 !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #080703 !important;
-      --color-bg-canvas-inset: #080703 !important;
+      --color-canvas-inset: #080703 !important;
+      --color-canvas-inset: #080703 !important;
+      --color-canvas-overlay: #100d03 !important;
       --color-bg-primary: #080703 !important;
       --color-calendar-graph-day-bg: #191715 !important;
       --color-workflow-card-bg: #191715 !important;
@@ -59,9 +61,12 @@
       --color-underlinenav-counter-text: #c3c3c3 !important;
       --color-text-primary: #3492b1 !important;
       --color-text-link: #e99745 !important;
+      --color-canvas-subtle: #14110d !important;
+      --color-accent-fg: #f4fa8c !important;
       --color-shadow-large: 0 8px 24px #e9974522 !important;
       --color-alert-warn-bg: #161602 !important;
       --color-alert-info-bg: #090802 !important;
+      --color-canvas-default: #090802 !important;
       --color-checks-bg: #090802 !important;
       --color-checks-header-border: #090802 !important;
       --color-alert-error-bg: #ff000022 !important;

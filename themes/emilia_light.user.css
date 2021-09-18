@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Emilia Light
 @namespace      github.com/doki-theme
-@version        11.0.0
+@version        12.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -46,7 +46,9 @@
       --color-auto-gray-1: #fbf0ff !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #fcf3ff !important;
-      --color-bg-canvas-inset: #fcf3ff !important;
+      --color-canvas-inset: #fcf3ff !important;
+      --color-canvas-inset: #fcf3ff !important;
+      --color-canvas-overlay: #faecff !important;
       --color-bg-primary: #fcf3ff !important;
       --color-calendar-graph-day-bg: #f2eaf6 !important;
       --color-workflow-card-bg: #f2eaf6 !important;
@@ -59,9 +61,12 @@
       --color-underlinenav-counter-text: #252427 !important;
       --color-text-primary: #7C75EF !important;
       --color-text-link: #82357d !important;
+      --color-canvas-subtle: #f1dcf7 !important;
+      --color-accent-fg: #90468c !important;
       --color-shadow-large: 0 8px 24px #82357d22 !important;
       --color-alert-warn-bg: #fbf0f4 !important;
       --color-alert-info-bg: #fbf0ff !important;
+      --color-canvas-default: #fbf0ff !important;
       --color-checks-bg: #fbf0ff !important;
       --color-checks-header-border: #fbf0ff !important;
       --color-alert-error-bg: #ff000022 !important;

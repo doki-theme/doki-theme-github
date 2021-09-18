@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Nakano Miku
 @namespace      github.com/doki-theme
-@version        11.0.0
+@version        12.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -46,7 +46,9 @@
       --color-auto-gray-1: #244158 !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #25475e !important;
-      --color-bg-canvas-inset: #25475e !important;
+      --color-canvas-inset: #25475e !important;
+      --color-canvas-inset: #25475e !important;
+      --color-canvas-overlay: #233f55 !important;
       --color-bg-primary: #25475e !important;
       --color-calendar-graph-day-bg: #234b52 !important;
       --color-workflow-card-bg: #234b52 !important;
@@ -59,9 +61,12 @@
       --color-underlinenav-counter-text: #f3edff !important;
       --color-text-primary: #3394dd !important;
       --color-text-link: #A5F3FA !important;
+      --color-canvas-subtle: #25475f !important;
+      --color-accent-fg: #fc9ee6 !important;
       --color-shadow-large: 0 8px 24px #A5F3FA22 !important;
       --color-alert-warn-bg: #2c4754 !important;
       --color-alert-info-bg: #24445b !important;
+      --color-canvas-default: #24445b !important;
       --color-checks-bg: #24445b !important;
       --color-checks-header-border: #24445b !important;
       --color-alert-error-bg: #ff000022 !important;

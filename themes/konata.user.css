@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Konata
 @namespace      github.com/doki-theme
-@version        11.0.0
+@version        12.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -46,7 +46,9 @@
       --color-auto-gray-1: #355082 !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #334c7d !important;
-      --color-bg-canvas-inset: #334c7d !important;
+      --color-canvas-inset: #334c7d !important;
+      --color-canvas-inset: #334c7d !important;
+      --color-canvas-overlay: #344d82 !important;
       --color-bg-primary: #334c7d !important;
       --color-calendar-graph-day-bg: #3e5f99 !important;
       --color-workflow-card-bg: #3e5f99 !important;
@@ -59,9 +61,12 @@
       --color-underlinenav-counter-text: #f3edff !important;
       --color-text-primary: #fffd9b !important;
       --color-text-link: #4bcf4c !important;
+      --color-canvas-subtle: #3d5d96 !important;
+      --color-accent-fg: #60ff62 !important;
       --color-shadow-large: 0 8px 24px #4bcf4c22 !important;
       --color-alert-warn-bg: #3d4b70 !important;
       --color-alert-info-bg: #314978 !important;
+      --color-canvas-default: #314978 !important;
       --color-checks-bg: #314978 !important;
       --color-checks-header-border: #314978 !important;
       --color-alert-error-bg: #ff000022 !important;

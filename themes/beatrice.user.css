@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Beatrice
 @namespace      github.com/doki-theme
-@version        11.0.0
+@version        12.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -46,7 +46,9 @@
       --color-auto-gray-1: #FFE5F1 !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #ffe4f1 !important;
-      --color-bg-canvas-inset: #ffe4f1 !important;
+      --color-canvas-inset: #ffe4f1 !important;
+      --color-canvas-inset: #ffe4f1 !important;
+      --color-canvas-overlay: #f3cfe0 !important;
       --color-bg-primary: #ffe4f1 !important;
       --color-calendar-graph-day-bg: #FDD8FF !important;
       --color-workflow-card-bg: #FDD8FF !important;
@@ -59,9 +61,12 @@
       --color-underlinenav-counter-text: #000000 !important;
       --color-text-primary: #7C75EF !important;
       --color-text-link: #78A5EB !important;
+      --color-canvas-subtle: #ffdce6 !important;
+      --color-accent-fg: #5c84da !important;
       --color-shadow-large: 0 8px 24px #78A5EB22 !important;
       --color-alert-warn-bg: #FFE4E3 !important;
       --color-alert-info-bg: #FFE0F0 !important;
+      --color-canvas-default: #FFE0F0 !important;
       --color-checks-bg: #FFE0F0 !important;
       --color-checks-header-border: #FFE0F0 !important;
       --color-alert-error-bg: #ff000022 !important;

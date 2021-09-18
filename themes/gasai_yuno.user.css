@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Gasai Yuno
 @namespace      github.com/doki-theme
-@version        11.0.0
+@version        12.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -46,7 +46,9 @@
       --color-auto-gray-1: #150713 !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #1a081a !important;
-      --color-bg-canvas-inset: #1a081a !important;
+      --color-canvas-inset: #1a081a !important;
+      --color-canvas-inset: #1a081a !important;
+      --color-canvas-overlay: #130511 !important;
       --color-bg-primary: #1a081a !important;
       --color-calendar-graph-day-bg: #261231 !important;
       --color-workflow-card-bg: #261231 !important;
@@ -59,9 +61,12 @@
       --color-underlinenav-counter-text: #c8c8c8 !important;
       --color-text-primary: #39e6a6 !important;
       --color-text-link: #ffa0b2 !important;
+      --color-canvas-subtle: #230920 !important;
+      --color-accent-fg: #efa2da !important;
       --color-shadow-large: 0 8px 24px #ffa0b222 !important;
       --color-alert-warn-bg: #211515 !important;
       --color-alert-info-bg: #1a0717 !important;
+      --color-canvas-default: #1a0717 !important;
       --color-checks-bg: #1a0717 !important;
       --color-checks-header-border: #1a0717 !important;
       --color-alert-error-bg: #ff000022 !important;

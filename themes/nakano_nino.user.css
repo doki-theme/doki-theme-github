@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Nakano Nino
 @namespace      github.com/doki-theme
-@version        11.0.0
+@version        12.0.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -46,7 +46,9 @@
       --color-auto-gray-1: #1f1b20 !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #1c181e !important;
-      --color-bg-canvas-inset: #1c181e !important;
+      --color-canvas-inset: #1c181e !important;
+      --color-canvas-inset: #1c181e !important;
+      --color-canvas-overlay: #221c23 !important;
       --color-bg-primary: #1c181e !important;
       --color-calendar-graph-day-bg: #232024 !important;
       --color-workflow-card-bg: #232024 !important;
@@ -59,9 +61,12 @@
       --color-underlinenav-counter-text: #bbbbbb !important;
       --color-text-primary: #68c4ee !important;
       --color-text-link: #d45575 !important;
+      --color-canvas-subtle: #272328 !important;
+      --color-accent-fg: #fc9ee6 !important;
       --color-shadow-large: 0 8px 24px #d4557522 !important;
       --color-alert-warn-bg: #24201f !important;
       --color-alert-info-bg: #221c22 !important;
+      --color-canvas-default: #221c22 !important;
       --color-checks-bg: #221c22 !important;
       --color-checks-header-border: #221c22 !important;
       --color-alert-error-bg: #ff000022 !important;
