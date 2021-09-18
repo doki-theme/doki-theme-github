@@ -46,7 +46,9 @@
       --color-auto-gray-1: #2b2c3d !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #2d2f43 !important;
-      --color-bg-canvas-inset: #2d2f43 !important;
+      --color-canvas-inset: #2d2f43 !important;
+      --color-canvas-inset: #2d2f43 !important;
+      --color-canvas-overlay: #272935 !important;
       --color-bg-primary: #2d2f43 !important;
       --color-calendar-graph-day-bg: #2f3354 !important;
       --color-workflow-card-bg: #2f3354 !important;
@@ -59,9 +61,12 @@
       --color-underlinenav-counter-text: #cdcdcd !important;
       --color-text-primary: #6a96e9 !important;
       --color-text-link: #9debff !important;
+      --color-canvas-subtle: #333446 !important;
+      --color-accent-fg: #9bf8ff !important;
       --color-shadow-large: 0 8px 24px #9debff22 !important;
       --color-alert-warn-bg: #303237 !important;
       --color-alert-info-bg: #292a3a !important;
+      --color-canvas-default: #292a3a !important;
       --color-checks-bg: #292a3a !important;
       --color-checks-header-border: #292a3a !important;
       --color-alert-error-bg: #ff000022 !important;

@@ -46,7 +46,9 @@
       --color-auto-gray-1: {{textEditorBackground}} !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: {{baseBackground}} !important;
-      --color-bg-canvas-inset: {{baseBackground}} !important;
+      --color-canvas-inset: {{baseBackground}} !important;
+      --color-canvas-inset: {{baseBackground}} !important;
+      --color-canvas-overlay: {{secondaryBackground}} !important;
       --color-bg-primary: {{baseBackground}} !important;
       --color-calendar-graph-day-bg: {{codeBlock}} !important;
       --color-workflow-card-bg: {{codeBlock}} !important;
@@ -59,9 +61,12 @@
       --color-underlinenav-counter-text: {{foregroundColor}} !important;
       --color-text-primary: {{keyColor}} !important;
       --color-text-link: {{accentColor}} !important;
+      --color-canvas-subtle: {{caretRow}} !important;
+      --color-accent-fg: {{accentColorEditor}} !important;
       --color-shadow-large: 0 8px 24px {{accentColor}}22 !important;
       --color-alert-warn-bg: {{nonProjectFileScopeColor}} !important;
       --color-alert-info-bg: {{headerColor}} !important;
+      --color-canvas-default: {{headerColor}} !important;
       --color-checks-bg: {{headerColor}} !important;
       --color-checks-header-border: {{headerColor}} !important;
       --color-alert-error-bg: #ff000022 !important;

@@ -46,7 +46,9 @@
       --color-auto-gray-1: #422D5A !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #493162 !important;
-      --color-bg-canvas-inset: #493162 !important;
+      --color-canvas-inset: #493162 !important;
+      --color-canvas-inset: #493162 !important;
+      --color-canvas-overlay: #412D62 !important;
       --color-bg-primary: #493162 !important;
       --color-calendar-graph-day-bg: #3e2955 !important;
       --color-workflow-card-bg: #3e2955 !important;
@@ -59,9 +61,12 @@
       --color-underlinenav-counter-text: #DADADA !important;
       --color-text-primary: #7C75EF !important;
       --color-text-link: #AB47BC !important;
+      --color-canvas-subtle: #473466 !important;
+      --color-accent-fg: #BC60CB !important;
       --color-shadow-large: 0 8px 24px #AB47BC22 !important;
       --color-alert-warn-bg: #493458 !important;
       --color-alert-info-bg: #442e5c !important;
+      --color-canvas-default: #442e5c !important;
       --color-checks-bg: #442e5c !important;
       --color-checks-header-border: #442e5c !important;
       --color-alert-error-bg: #ff000022 !important;
@@ -19252,12 +19257,12 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     --ghd-code-color: #ccc;
 }
 .pl-c, .pl-c span {
-    color: #6272a4 !important;
+    color: #8B79B4 !important;
     font-style: italic !important;
 }
 /* comment */
 .pl-c1 {
-    color: #6272a4 !important;
+    color: #8B79B4 !important;
 }
 /* constant */
 .pl-cce {

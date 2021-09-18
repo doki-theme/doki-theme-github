@@ -46,7 +46,9 @@
       --color-auto-gray-1: #15173c !important;
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #15173e !important;
-      --color-bg-canvas-inset: #15173e !important;
+      --color-canvas-inset: #15173e !important;
+      --color-canvas-inset: #15173e !important;
+      --color-canvas-overlay: #151739 !important;
       --color-bg-primary: #15173e !important;
       --color-calendar-graph-day-bg: #181a47 !important;
       --color-workflow-card-bg: #181a47 !important;
@@ -59,9 +61,12 @@
       --color-underlinenav-counter-text: #d0d0d0 !important;
       --color-text-primary: #BD84DD !important;
       --color-text-link: #EFA554 !important;
+      --color-canvas-subtle: #181A46 !important;
+      --color-accent-fg: #EFA554 !important;
       --color-shadow-large: 0 8px 24px #EFA55422 !important;
       --color-alert-warn-bg: #252540 !important;
       --color-alert-info-bg: #191b44 !important;
+      --color-canvas-default: #191b44 !important;
       --color-checks-bg: #191b44 !important;
       --color-checks-header-border: #191b44 !important;
       --color-alert-error-bg: #ff000022 !important;
@@ -11153,7 +11158,7 @@
   }
   /* source #5: "#fff" */
   .tree-browser-result[aria-selected="true"] {
-    background-color: #23264f!important;
+    background-color: #272A59!important;
     color: #fbfbfb!important;
     background-image: none !important;
   }
@@ -14665,8 +14670,8 @@
   }
   /* source #14: "#e6ebf1", "#e6ebf1", "rgba(27,31,35,0.35)" */
   .btn.hover, .btn:hover {
-      background-color: #23264f;
-      background-image: linear-gradient(-180deg, #23264f 0%, #23264f 90%);
+      background-color: #272A59;
+      background-image: linear-gradient(-180deg, #272A59 0%, #272A59 90%);
       border-color: none !important;
       color: #222222 !important;
     }
@@ -16251,11 +16256,11 @@ select:-webkit-autofill:focus {
 }
 /* text selection */
 ::selection {
-    background-color: /*[[base-color]]*/ #23264f !important;
+    background-color: /*[[base-color]]*/ #272A59 !important;
     color: #fbfbfb !important;
 }
 ::-moz-selection {
-    background-color: /*[[base-color]]*/ #23264f !important;
+    background-color: /*[[base-color]]*/ #272A59 !important;
     color: #fbfbfb !important;
 }
 .CodeMirror-selected {
