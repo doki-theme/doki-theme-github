@@ -42,6 +42,8 @@
     :root {
       --color-previewable-comment-form-bg: #1a1426 !important;
       --color-avatar-bg: #1a1426 !important;
+      --color-fg-default: #d0d0d0 !important;
+      --color-fg-muted: #d0d0d0AA !important;
       --color-auto-gray-3: #1a1426 !important;
       --color-auto-gray-1: #1a1426 !important;
       --color-avatar-border: #00000000 !important;
