@@ -2339,10 +2339,10 @@ discontinuous-range@1.0.0:
   resolved "https://registry.yarnpkg.com/discontinuous-range/-/discontinuous-range-1.0.0.tgz#e38331f0844bba49b9a9cb71c771585aab1bc65a"
   integrity sha1-44Mx8IRLukm5qctxx3FYWqsbxlo=
 
-doki-build-source@1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/doki-build-source/-/doki-build-source-1.4.0.tgz#93121324c155b8e755415503b72f007828817b2a"
-  integrity sha512-Mt11nNgcE0qSqRX4IysOH9U+G/MEjMLp/TX+x3xZJakAWcOOABIH/911bdgj7+buZoPIbzXsBdky5nnCdSHsYg==
+doki-build-source@1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/doki-build-source/-/doki-build-source-1.6.0.tgz#5c39cf71e135714ae891301c56c648cc9447ac2a"
+  integrity sha512-jyP9xCNam3fq68lR1G2JVfCV9HSQX0ygfG9RAi2IohIUJNYE9YGDJk5YDxQ7uxEERSLXg/NjMpCOwFFswcBi5A==
 
 dom-serializer@0:
   version "0.2.2"

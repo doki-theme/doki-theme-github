@@ -1,6 +1,27 @@
 Changelog
 ---
 
+
+# 13.0.0 [Only for Onii-Chan]
+
+**3 New Themes!**
+
+Last addition from the NekoPara Series:
+
+- Minaduki Shigure (Light Theme)
+
+From the dumpster fire of a series, "EroManga Sensei":
+
+- Izumi Sagiri (Dark Theme)
+
+From the smaller burning trash heap, "OreImo (My little sister cannot be this cute)":
+
+- Kousaka Kirino (Dark Theme)
+
+Anime is trash...._and so am I_.
+
+![v20 Girls](https://doki.assets.unthrottled.io/misc/v20_girls.png)
+
 # 12.0.0 [KillLaKill Alt. Themes]
 
 
