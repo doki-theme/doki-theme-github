@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Shima Rin
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #3c3443 !important;
       --color-bg-tertiary: #2b303b !important;
       --color-bg-secondary: #313a49 !important;
+      --color-user-mention-bg: #195A80 !important;
+      --color-user-mention-fg: #fbfbfb !important;
       --color-search-hover-hl: #323743 !important;
       --color-checks-step-header-open-bg: #313a49 !important;
       --color-bg-discussions-row-emoji-box: #3a4148 !important;

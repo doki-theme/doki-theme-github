@@ -56,6 +56,8 @@
       --color-workflow-card-bg: {{codeBlock}} !important;
       --color-bg-tertiary: {{textEditorBackground}} !important;
       --color-bg-secondary: {{caretRow}} !important;
+      --color-user-mention-bg: {{searchBackground}} !important;
+      --color-user-mention-fg: {{searchForeground}} !important;
       --color-search-hover-hl: {{foldedTextBackground}} !important;
       --color-checks-step-header-open-bg: {{caretRow}} !important;
       --color-bg-discussions-row-emoji-box: {{buttonColor}} !important;

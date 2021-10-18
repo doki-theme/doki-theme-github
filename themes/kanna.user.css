@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Kanna
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #1d152d !important;
       --color-bg-tertiary: #1a1426 !important;
       --color-bg-secondary: #231a31 !important;
+      --color-user-mention-bg: #665DA6 !important;
+      --color-user-mention-fg: #fbfbfb !important;
       --color-search-hover-hl: #251832 !important;
       --color-checks-step-header-open-bg: #231a31 !important;
       --color-bg-discussions-row-emoji-box: #262732 !important;

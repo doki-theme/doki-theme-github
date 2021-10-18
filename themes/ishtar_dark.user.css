@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Ishtar Dark
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #191718 !important;
       --color-bg-tertiary: #110F10 !important;
       --color-bg-secondary: #1A1913 !important;
+      --color-user-mention-bg: #4B1212 !important;
+      --color-user-mention-fg: #fbfbfb !important;
       --color-search-hover-hl: #191718 !important;
       --color-checks-step-header-open-bg: #1A1913 !important;
       --color-bg-discussions-row-emoji-box: #221d1b !important;

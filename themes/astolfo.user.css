@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Astolfo
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #201d1d !important;
       --color-bg-tertiary: #1a1c19 !important;
       --color-bg-secondary: #20221f !important;
+      --color-user-mention-bg: #65395B !important;
+      --color-user-mention-fg: #fbfbfb !important;
       --color-search-hover-hl: #211D1E !important;
       --color-checks-step-header-open-bg: #20221f !important;
       --color-bg-discussions-row-emoji-box: #242422 !important;

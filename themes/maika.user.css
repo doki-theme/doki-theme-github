@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Maika
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #2a0930 !important;
       --color-bg-tertiary: #24062f !important;
       --color-bg-secondary: #2e0639 !important;
+      --color-user-mention-bg: #234260 !important;
+      --color-user-mention-fg: #b4e5f4 !important;
       --color-search-hover-hl: #310e32 !important;
       --color-checks-step-header-open-bg: #2e0639 !important;
       --color-bg-discussions-row-emoji-box: #2e1738 !important;

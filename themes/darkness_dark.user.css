@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Darkness Dark
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #191715 !important;
       --color-bg-tertiary: #0a0904 !important;
       --color-bg-secondary: #14110d !important;
+      --color-user-mention-bg: #144824 !important;
+      --color-user-mention-fg: #fbfbfb !important;
       --color-search-hover-hl: #191813 !important;
       --color-checks-step-header-open-bg: #14110d !important;
       --color-bg-discussions-row-emoji-box: #1e1c19 !important;

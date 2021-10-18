@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Hayase Nagatoro
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #1f1c1b !important;
       --color-bg-tertiary: #151515 !important;
       --color-bg-secondary: #1f1f1f !important;
+      --color-user-mention-bg: #255926 !important;
+      --color-user-mention-fg: #fbfbfb !important;
       --color-search-hover-hl: #212121 !important;
       --color-checks-step-header-open-bg: #1f1f1f !important;
       --color-bg-discussions-row-emoji-box: #2e2c2b !important;

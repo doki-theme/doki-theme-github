@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Gray
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #323f41 !important;
       --color-bg-tertiary: #35393b !important;
       --color-bg-secondary: #353d41 !important;
+      --color-user-mention-bg: #3F6F80 !important;
+      --color-user-mention-fg: #fbfbfb !important;
       --color-search-hover-hl: #3c4443 !important;
       --color-checks-step-header-open-bg: #353d41 !important;
       --color-bg-discussions-row-emoji-box: #414648 !important;

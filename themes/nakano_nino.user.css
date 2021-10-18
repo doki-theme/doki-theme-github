@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Nakano Nino
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #232024 !important;
       --color-bg-tertiary: #1f1b20 !important;
       --color-bg-secondary: #272328 !important;
+      --color-user-mention-bg: #35637C !important;
+      --color-user-mention-fg: #fbfbfb !important;
       --color-search-hover-hl: #252126 !important;
       --color-checks-step-header-open-bg: #272328 !important;
       --color-bg-discussions-row-emoji-box: #2d2330 !important;

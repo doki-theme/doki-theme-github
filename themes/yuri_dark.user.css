@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Yuri Dark
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #3e2955 !important;
       --color-bg-tertiary: #422D5A !important;
       --color-bg-secondary: #473466 !important;
+      --color-user-mention-bg: #7749b2 !important;
+      --color-user-mention-fg: #e7e5f3 !important;
       --color-search-hover-hl: #3C1D55 !important;
       --color-checks-step-header-open-bg: #473466 !important;
       --color-bg-discussions-row-emoji-box: #483967 !important;

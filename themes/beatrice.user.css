@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Beatrice
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #FDD8FF !important;
       --color-bg-tertiary: #FFE5F1 !important;
       --color-bg-secondary: #ffdce6 !important;
+      --color-user-mention-bg: #dc99bb !important;
+      --color-user-mention-fg: #ffffff !important;
       --color-search-hover-hl: #F1E5FA !important;
       --color-checks-step-header-open-bg: #ffdce6 !important;
       --color-bg-discussions-row-emoji-box: #e5c5d3 !important;

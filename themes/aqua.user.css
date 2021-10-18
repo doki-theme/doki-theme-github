@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Aqua
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #2e3149 !important;
       --color-bg-tertiary: #262940 !important;
       --color-bg-secondary: #2d3047 !important;
+      --color-user-mention-bg: #28734B !important;
+      --color-user-mention-fg: #fbfbfb !important;
       --color-search-hover-hl: #2e3149 !important;
       --color-checks-step-header-open-bg: #2d3047 !important;
       --color-bg-discussions-row-emoji-box: #31374b !important;

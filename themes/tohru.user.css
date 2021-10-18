@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Tohru
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #f9da7d !important;
       --color-bg-tertiary: #ffe090 !important;
       --color-bg-secondary: #ffe797 !important;
+      --color-user-mention-bg: #FF6684 !important;
+      --color-user-mention-fg: #2f1206 !important;
       --color-search-hover-hl: #ffe692 !important;
       --color-checks-step-header-open-bg: #ffe797 !important;
       --color-bg-discussions-row-emoji-box: #ffce85 !important;

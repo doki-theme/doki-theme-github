@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Asuna Light
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #f6f6f6 !important;
       --color-bg-tertiary: #fcfcfc !important;
       --color-bg-secondary: #f6f6f6 !important;
+      --color-user-mention-bg: #F8E728 !important;
+      --color-user-mention-fg: #393d45 !important;
       --color-search-hover-hl: #f6f6f6 !important;
       --color-checks-step-header-open-bg: #f6f6f6 !important;
       --color-bg-discussions-row-emoji-box: #f9f2f2 !important;

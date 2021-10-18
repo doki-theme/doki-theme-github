@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Sonoda Umi
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #181a47 !important;
       --color-bg-tertiary: #15173c !important;
       --color-bg-secondary: #181A46 !important;
+      --color-user-mention-bg: #47264B !important;
+      --color-user-mention-fg: #fbfbfb !important;
       --color-search-hover-hl: #251832 !important;
       --color-checks-step-header-open-bg: #181A46 !important;
       --color-bg-discussions-row-emoji-box: #202440 !important;

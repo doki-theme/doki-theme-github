@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Rias Crimson
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #491818 !important;
       --color-bg-tertiary: #3E1010 !important;
       --color-bg-secondary: #491818 !important;
+      --color-user-mention-bg: #181212 !important;
+      --color-user-mention-fg: #fbfbfb !important;
       --color-search-hover-hl: #491818 !important;
       --color-checks-step-header-open-bg: #491818 !important;
       --color-bg-discussions-row-emoji-box: #611c1c !important;

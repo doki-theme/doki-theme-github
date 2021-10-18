@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Rias Onyx
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #1d0406 !important;
       --color-bg-tertiary: #100000 !important;
       --color-bg-secondary: #1e0607 !important;
+      --color-user-mention-bg: #0F625A !important;
+      --color-user-mention-fg: #fbfbfb !important;
       --color-search-hover-hl: #280a0b !important;
       --color-checks-step-header-open-bg: #1e0607 !important;
       --color-bg-discussions-row-emoji-box: #2b0808 !important;

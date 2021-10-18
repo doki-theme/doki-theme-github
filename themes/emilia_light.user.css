@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Emilia Light
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #f2eaf6 !important;
       --color-bg-tertiary: #fbf0ff !important;
       --color-bg-secondary: #f1dcf7 !important;
+      --color-user-mention-bg: #78c5ad !important;
+      --color-user-mention-fg: #393d45 !important;
       --color-search-hover-hl: #f2e5f6 !important;
       --color-checks-step-header-open-bg: #f1dcf7 !important;
       --color-bg-discussions-row-emoji-box: #e7d8ee !important;

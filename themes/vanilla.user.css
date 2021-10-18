@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Vanilla
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #2f3354 !important;
       --color-bg-tertiary: #2b2c3d !important;
       --color-bg-secondary: #333446 !important;
+      --color-user-mention-bg: #3A6875 !important;
+      --color-user-mention-fg: #fefefe !important;
       --color-search-hover-hl: #323449 !important;
       --color-checks-step-header-open-bg: #333446 !important;
       --color-bg-discussions-row-emoji-box: #393c48 !important;

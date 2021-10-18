@@ -1,6 +1,9 @@
 Changelog
 ---
 
+# 13.0.1 [User Mentions]
+
+- Updated the color of direct user mentions to be themed.
 
 # 13.0.0 [Only for Onii-Chan]
 

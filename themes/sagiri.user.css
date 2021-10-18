@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Sagiri
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #07312c !important;
       --color-bg-tertiary: #0a3b36 !important;
       --color-bg-secondary: #0b463f !important;
+      --color-user-mention-bg: #AD4B65 !important;
+      --color-user-mention-fg: #e7e9ff !important;
       --color-search-hover-hl: #0c4b44 !important;
       --color-checks-step-header-open-bg: #0b463f !important;
       --color-bg-discussions-row-emoji-box: #135e57 !important;

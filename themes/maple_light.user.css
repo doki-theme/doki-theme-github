@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Maple Light
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #ead88a !important;
       --color-bg-tertiary: #ffd091 !important;
       --color-bg-secondary: #FFC392 !important;
+      --color-user-mention-bg: #AFF16A !important;
+      --color-user-mention-fg: #651c10 !important;
       --color-search-hover-hl: #FABD8C !important;
       --color-checks-step-header-open-bg: #FFC392 !important;
       --color-bg-discussions-row-emoji-box: #eab184 !important;

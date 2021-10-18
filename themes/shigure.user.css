@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Shigure
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #e7d8f1 !important;
       --color-bg-tertiary: #e9e9ff !important;
       --color-bg-secondary: #d4d2ff !important;
+      --color-user-mention-bg: #F39AE9 !important;
+      --color-user-mention-fg: #323232 !important;
       --color-search-hover-hl: #ddddff !important;
       --color-checks-step-header-open-bg: #d4d2ff !important;
       --color-bg-discussions-row-emoji-box: #b1affc !important;

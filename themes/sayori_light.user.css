@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Sayori Light
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #eaf0f6 !important;
       --color-bg-tertiary: #f0faff !important;
       --color-bg-secondary: #dceef7 !important;
+      --color-user-mention-bg: #BDB9F1 !important;
+      --color-user-mention-fg: #393d45 !important;
       --color-search-hover-hl: #e5edf6 !important;
       --color-checks-step-header-open-bg: #dceef7 !important;
       --color-bg-discussions-row-emoji-box: #d8e6ee !important;

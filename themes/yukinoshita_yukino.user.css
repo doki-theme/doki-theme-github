@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Yukinoshita Yukino
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #25272c !important;
       --color-bg-tertiary: #1f2126 !important;
       --color-bg-secondary: #23252a !important;
+      --color-user-mention-bg: #4B262A !important;
+      --color-user-mention-fg: #fbfbfb !important;
       --color-search-hover-hl: #25272d !important;
       --color-checks-step-header-open-bg: #23252a !important;
       --color-bg-discussions-row-emoji-box: #2f3136 !important;

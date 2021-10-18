@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Cinnamon
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #33417a !important;
       --color-bg-tertiary: #343277 !important;
       --color-bg-secondary: #3f3c91 !important;
+      --color-user-mention-bg: #5334D9 !important;
+      --color-user-mention-fg: #e7e9ff !important;
       --color-search-hover-hl: #3b3886 !important;
       --color-checks-step-header-open-bg: #3f3c91 !important;
       --color-bg-discussions-row-emoji-box: #4a4a8c !important;

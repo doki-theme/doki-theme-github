@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Ryuko Dark
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #292e34 !important;
       --color-bg-tertiary: #2b3238 !important;
       --color-bg-secondary: #2a3037 !important;
+      --color-user-mention-bg: #2C5277 !important;
+      --color-user-mention-fg: #E2CB14 !important;
       --color-search-hover-hl: #272e34 !important;
       --color-checks-step-header-open-bg: #2a3037 !important;
       --color-bg-discussions-row-emoji-box: #2b3237 !important;

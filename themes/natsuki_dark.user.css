@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Natsuki Dark
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #3d1c31 !important;
       --color-bg-tertiary: #35102c !important;
       --color-bg-secondary: #441539 !important;
+      --color-user-mention-bg: #6d4cb9 !important;
+      --color-user-mention-fg: #ffffff !important;
       --color-search-hover-hl: #441a35 !important;
       --color-checks-step-header-open-bg: #441539 !important;
       --color-bg-discussions-row-emoji-box: #561b3e !important;

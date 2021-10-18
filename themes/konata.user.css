@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Konata
 @namespace      github.com/doki-theme
-@version        12.0.0
+@version        13.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -56,6 +56,8 @@
       --color-workflow-card-bg: #3e5f99 !important;
       --color-bg-tertiary: #355082 !important;
       --color-bg-secondary: #3d5d96 !important;
+      --color-user-mention-bg: #6a527e !important;
+      --color-user-mention-fg: #e7e9ff !important;
       --color-search-hover-hl: #3b5a91 !important;
       --color-checks-step-header-open-bg: #3d5d96 !important;
       --color-bg-discussions-row-emoji-box: #4e608d !important;
