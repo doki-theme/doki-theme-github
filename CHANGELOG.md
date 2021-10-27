@@ -1,6 +1,14 @@
 Changelog
 ---
 
+# 14.0.0 [Jahy-sama will not be discouraged!]
+
+**1 New Theme!**
+
+Featuring the Dark World's Second in Command: Jahy!
+
+![v21 Girl](https://doki.assets.unthrottled.io/misc/v21_girl.png)
+
 # 13.0.1 [User Mentions]
 
 - Updated the color of direct user mentions to be themed.
