@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Mioda Ibuki Dark
 @namespace      github.com/doki-theme
-@version        15.0.0
+@version        15.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -70,6 +70,7 @@
       --color-shadow-large: 0 8px 24px #5395b422 !important;
       --color-alert-warn-bg: #191a18 !important;
       --color-alert-info-bg: #17191b !important;
+      --color-page-header-bg: #141617 !important;
       --color-canvas-default: #17191b !important;
       --color-checks-bg: #17191b !important;
       --color-checks-header-border: #17191b !important;
@@ -134,7 +135,7 @@
     }
     body::before {
     content:'';pointer-events:none;position:fixed;z-index:9001;width:100%;height:100%;background-position:100% 100%;background-repeat:no-repeat;opacity:1;
-    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/master/assets/stickers/danganronpa/ibuki/dark/ibuki_dark.png');
+    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/master/assets/stickers\danganronpa\ibuki\dark\ibuki_dark.png');
     }
 
     .UnderlineNav {
