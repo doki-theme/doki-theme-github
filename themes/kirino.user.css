@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Kirino
 @namespace      github.com/doki-theme
-@version        15.0.0
+@version        15.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -70,6 +70,7 @@
       --color-shadow-large: 0 8px 24px #6cb3b522 !important;
       --color-alert-warn-bg: #23281b !important;
       --color-alert-info-bg: #121e1c !important;
+      --color-page-header-bg: #152321 !important;
       --color-canvas-default: #121e1c !important;
       --color-checks-bg: #121e1c !important;
       --color-checks-header-border: #121e1c !important;

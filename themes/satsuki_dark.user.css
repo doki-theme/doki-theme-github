@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Satsuki Dark
 @namespace      github.com/doki-theme
-@version        15.0.0
+@version        15.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -70,6 +70,7 @@
       --color-shadow-large: 0 8px 24px #f0302222 !important;
       --color-alert-warn-bg: #312b27 !important;
       --color-alert-info-bg: #212427 !important;
+      --color-page-header-bg: #272b2d !important;
       --color-canvas-default: #212427 !important;
       --color-checks-bg: #212427 !important;
       --color-checks-header-border: #212427 !important;

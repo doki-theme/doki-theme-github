@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Maple Light
 @namespace      github.com/doki-theme
-@version        15.0.0
+@version        15.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -70,6 +70,7 @@
       --color-shadow-large: 0 8px 24px #923A4E22 !important;
       --color-alert-warn-bg: #fdd58f !important;
       --color-alert-info-bg: #fdcd8f !important;
+      --color-page-header-bg: #ffd297 !important;
       --color-canvas-default: #fdcd8f !important;
       --color-checks-bg: #fdcd8f !important;
       --color-checks-header-border: #fdcd8f !important;

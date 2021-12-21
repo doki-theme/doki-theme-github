@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Makise Kurisu
 @namespace      github.com/doki-theme
-@version        15.0.0
+@version        15.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -70,6 +70,7 @@
       --color-shadow-large: 0 8px 24px #8F60B522 !important;
       --color-alert-warn-bg: #1d130e !important;
       --color-alert-info-bg: #1a0e0e !important;
+      --color-page-header-bg: #1c1010 !important;
       --color-canvas-default: #1a0e0e !important;
       --color-checks-bg: #1a0e0e !important;
       --color-checks-header-border: #1a0e0e !important;

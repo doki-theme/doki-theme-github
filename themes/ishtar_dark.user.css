@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Ishtar Dark
 @namespace      github.com/doki-theme
-@version        15.0.0
+@version        15.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -70,6 +70,7 @@
       --color-shadow-large: 0 8px 24px #f5c44322 !important;
       --color-alert-warn-bg: #161602 !important;
       --color-alert-info-bg: #0d0b0c !important;
+      --color-page-header-bg: #0f0d0e !important;
       --color-canvas-default: #0d0b0c !important;
       --color-checks-bg: #0d0b0c !important;
       --color-checks-header-border: #0d0b0c !important;

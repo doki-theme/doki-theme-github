@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Vanilla
 @namespace      github.com/doki-theme
-@version        15.0.0
+@version        15.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -70,6 +70,7 @@
       --color-shadow-large: 0 8px 24px #9debff22 !important;
       --color-alert-warn-bg: #303237 !important;
       --color-alert-info-bg: #292a3a !important;
+      --color-page-header-bg: #2d2f43 !important;
       --color-canvas-default: #292a3a !important;
       --color-checks-bg: #292a3a !important;
       --color-checks-header-border: #292a3a !important;

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Essex
 @namespace      github.com/doki-theme
-@version        15.0.0
+@version        15.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -70,6 +70,7 @@
       --color-shadow-large: 0 8px 24px #D5323222 !important;
       --color-alert-warn-bg: #14263b !important;
       --color-alert-info-bg: #00203e !important;
+      --color-page-header-bg: #002446 !important;
       --color-canvas-default: #00203e !important;
       --color-checks-bg: #00203e !important;
       --color-checks-header-border: #00203e !important;

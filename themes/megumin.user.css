@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Megumin
 @namespace      github.com/doki-theme
-@version        15.0.0
+@version        15.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -70,6 +70,7 @@
       --color-shadow-large: 0 8px 24px #a7303522 !important;
       --color-alert-warn-bg: #312A26 !important;
       --color-alert-info-bg: #2a1f24 !important;
+      --color-page-header-bg: #271c21 !important;
       --color-canvas-default: #2a1f24 !important;
       --color-checks-bg: #2a1f24 !important;
       --color-checks-header-border: #2a1f24 !important;

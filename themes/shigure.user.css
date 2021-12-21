@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Shigure
 @namespace      github.com/doki-theme
-@version        15.0.0
+@version        15.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -70,6 +70,7 @@
       --color-shadow-large: 0 8px 24px #5e1f7f22 !important;
       --color-alert-warn-bg: #e4e1ea !important;
       --color-alert-info-bg: #dad9ff !important;
+      --color-page-header-bg: #e5e5ff !important;
       --color-canvas-default: #dad9ff !important;
       --color-checks-bg: #dad9ff !important;
       --color-checks-header-border: #dad9ff !important;

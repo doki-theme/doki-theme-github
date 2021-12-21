@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Emilia Dark
 @namespace      github.com/doki-theme
-@version        15.0.0
+@version        15.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -70,6 +70,7 @@
       --color-shadow-large: 0 8px 24px #a53ba022 !important;
       --color-alert-warn-bg: #4d3458 !important;
       --color-alert-info-bg: #4c2e5c !important;
+      --color-page-header-bg: #4e3162 !important;
       --color-canvas-default: #4c2e5c !important;
       --color-checks-bg: #4c2e5c !important;
       --color-checks-header-border: #4c2e5c !important;

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Maika
 @namespace      github.com/doki-theme
-@version        15.0.0
+@version        15.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -70,6 +70,7 @@
       --color-shadow-large: 0 8px 24px #bc5d7122 !important;
       --color-alert-warn-bg: #221228 !important;
       --color-alert-info-bg: #20052a !important;
+      --color-page-header-bg: #24062f !important;
       --color-canvas-default: #20052a !important;
       --color-checks-bg: #20052a !important;
       --color-checks-header-border: #20052a !important;

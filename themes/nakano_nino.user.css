@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Nakano Nino
 @namespace      github.com/doki-theme
-@version        15.0.0
+@version        15.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -70,6 +70,7 @@
       --color-shadow-large: 0 8px 24px #d4557522 !important;
       --color-alert-warn-bg: #24201f !important;
       --color-alert-info-bg: #221c22 !important;
+      --color-page-header-bg: #1c181e !important;
       --color-canvas-default: #221c22 !important;
       --color-checks-bg: #221c22 !important;
       --color-checks-header-border: #221c22 !important;

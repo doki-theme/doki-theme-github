@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Darkness Dark
 @namespace      github.com/doki-theme
-@version        15.0.0
+@version        15.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -70,6 +70,7 @@
       --color-shadow-large: 0 8px 24px #e9974522 !important;
       --color-alert-warn-bg: #161602 !important;
       --color-alert-info-bg: #090802 !important;
+      --color-page-header-bg: #080703 !important;
       --color-canvas-default: #090802 !important;
       --color-checks-bg: #090802 !important;
       --color-checks-header-border: #090802 !important;

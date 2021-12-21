@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Tohru
 @namespace      github.com/doki-theme
-@version        15.0.0
+@version        15.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -70,6 +70,7 @@
       --color-shadow-large: 0 8px 24px #d23c4b22 !important;
       --color-alert-warn-bg: #f9d27e !important;
       --color-alert-info-bg: #f6d988 !important;
+      --color-page-header-bg: #ffe591 !important;
       --color-canvas-default: #f6d988 !important;
       --color-checks-bg: #f6d988 !important;
       --color-checks-header-border: #f6d988 !important;

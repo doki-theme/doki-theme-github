@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Mai Light
 @namespace      github.com/doki-theme
-@version        15.0.0
+@version        15.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -70,6 +70,7 @@
       --color-shadow-large: 0 8px 24px #4f528722 !important;
       --color-alert-warn-bg: #fef8e7 !important;
       --color-alert-info-bg: #fff7f6 !important;
+      --color-page-header-bg: #fbf3f2 !important;
       --color-canvas-default: #fff7f6 !important;
       --color-checks-bg: #fff7f6 !important;
       --color-checks-header-border: #fff7f6 !important;

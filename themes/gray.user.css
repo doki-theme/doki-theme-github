@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Gray
 @namespace      github.com/doki-theme
-@version        15.0.0
+@version        15.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -70,6 +70,7 @@
       --color-shadow-large: 0 8px 24px #4ed4b022 !important;
       --color-alert-warn-bg: #373e3a !important;
       --color-alert-info-bg: #363b3d !important;
+      --color-page-header-bg: #3b3f41 !important;
       --color-canvas-default: #363b3d !important;
       --color-checks-bg: #363b3d !important;
       --color-checks-header-border: #363b3d !important;

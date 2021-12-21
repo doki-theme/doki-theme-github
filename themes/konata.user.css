@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Konata
 @namespace      github.com/doki-theme
-@version        15.0.0
+@version        15.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -70,6 +70,7 @@
       --color-shadow-large: 0 8px 24px #4bcf4c22 !important;
       --color-alert-warn-bg: #3d4b70 !important;
       --color-alert-info-bg: #314978 !important;
+      --color-page-header-bg: #334c7d !important;
       --color-canvas-default: #314978 !important;
       --color-checks-bg: #314978 !important;
       --color-checks-header-border: #314978 !important;

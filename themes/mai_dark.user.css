@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Mai Dark
 @namespace      github.com/doki-theme
-@version        15.0.0
+@version        15.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -70,6 +70,7 @@
       --color-shadow-large: 0 8px 24px #fee3cf22 !important;
       --color-alert-warn-bg: #2f2f4e !important;
       --color-alert-info-bg: #25254e !important;
+      --color-page-header-bg: #25254B !important;
       --color-canvas-default: #25254e !important;
       --color-checks-bg: #25254e !important;
       --color-checks-header-border: #25254e !important;

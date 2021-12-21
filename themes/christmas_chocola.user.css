@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Christmas Chocola
 @namespace      github.com/doki-theme
-@version        15.0.0
+@version        15.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -70,6 +70,7 @@
       --color-shadow-large: 0 8px 24px #23932422 !important;
       --color-alert-warn-bg: #3b1f20 !important;
       --color-alert-info-bg: #37131b !important;
+      --color-page-header-bg: #3c161f !important;
       --color-canvas-default: #37131b !important;
       --color-checks-bg: #37131b !important;
       --color-checks-header-border: #37131b !important;

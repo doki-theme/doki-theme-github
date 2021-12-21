@@ -1,6 +1,10 @@
 Changelog
 ---
 
+# 15.0.1 [GitHub Updates]
+
+- Fixed theming for the header bar.
+
 # 15.0.0 [Holiday Release]
 
 **3 New Dark Themes!**

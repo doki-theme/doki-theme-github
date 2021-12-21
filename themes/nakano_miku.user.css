@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Nakano Miku
 @namespace      github.com/doki-theme
-@version        15.0.0
+@version        15.0.1
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -70,6 +70,7 @@
       --color-shadow-large: 0 8px 24px #A5F3FA22 !important;
       --color-alert-warn-bg: #2c4754 !important;
       --color-alert-info-bg: #24445b !important;
+      --color-page-header-bg: #25475e !important;
       --color-canvas-default: #24445b !important;
       --color-checks-bg: #24445b !important;
       --color-checks-header-border: #24445b !important;

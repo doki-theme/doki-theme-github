@@ -70,6 +70,7 @@
       --color-shadow-large: 0 8px 24px {{accentColor}}22 !important;
       --color-alert-warn-bg: {{nonProjectFileScopeColor}} !important;
       --color-alert-info-bg: {{headerColor}} !important;
+      --color-page-header-bg: {{baseBackground}} !important;
       --color-canvas-default: {{headerColor}} !important;
       --color-checks-bg: {{headerColor}} !important;
       --color-checks-header-border: {{headerColor}} !important;
