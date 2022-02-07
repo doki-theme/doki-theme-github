@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Aqua
 @namespace      github.com/doki-theme
-@version        15.0.1
+@version        74.1.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -19271,7 +19271,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant */
 .pl-cce {
-    color: #86dbfd !important;
+    color: #48ffd6 !important;
     font-weight: normal !important;
 }
 /* constant.character.escape */
@@ -19280,7 +19280,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant.numeric */
 .pl-coc {
-    color: #86dbfd !important;
+    color: #48ffd6 !important;
 }
 /* constant.other.color */
 .pl-cos {

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Asuna Light
 @namespace      github.com/doki-theme
-@version        15.0.1
+@version        74.1.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -55,17 +55,17 @@
       --color-calendar-graph-day-bg: #f6f6f6 !important;
       --color-workflow-card-bg: #f6f6f6 !important;
       --color-bg-tertiary: #fcfcfc !important;
-      --color-bg-secondary: #f6f6f6 !important;
+      --color-bg-secondary: #feeeee !important;
       --color-user-mention-bg: #F8E728 !important;
       --color-user-mention-fg: #393d45 !important;
       --color-search-hover-hl: #f6f6f6 !important;
-      --color-checks-step-header-open-bg: #f6f6f6 !important;
+      --color-checks-step-header-open-bg: #feeeee !important;
       --color-bg-discussions-row-emoji-box: #f9f2f2 !important;
       --color-current-user-tip-border: #f9f2f2 !important;
       --color-underlinenav-counter-text: #252427 !important;
       --color-text-primary: #0d5fa6 !important;
       --color-text-link: #a61d0d !important;
-      --color-canvas-subtle: #f6f6f6 !important;
+      --color-canvas-subtle: #feeeee !important;
       --color-accent-fg: #212121 !important;
       --color-shadow-large: 0 8px 24px #a61d0d22 !important;
       --color-alert-warn-bg: #fcfdf3 !important;
@@ -84,7 +84,7 @@
       --color-project-sidebar-bg: #fcfcfc !important;
       --color-border-primary: #eeeeee !important;
       --color-notifications-row-read-bg: #f6f6f6 !important;
-      --color-notifications-row-bg: #f6f6f6 !important;
+      --color-notifications-row-bg: #feeeee !important;
       --color-input-disabled-bg: #fff4f4 !important;
       --color-input-disabled-border: #eeeeee !important;
       --color-text-secondary: #a25252 !important;
@@ -8496,7 +8496,7 @@
   }
   /* source #5: "#2f363d" */
   .CheckRun-search .btn:hover {
-    background-color: #f6f6f6;
+    background-color: #feeeee;
   }
   /* source #5: "color: #586069", "none" */
   .CheckRun-search .btn[disabled] {
@@ -8532,7 +8532,7 @@
   }
   /* source #5: "#2f363d" */
   .CheckStep-line:hover {
-    background-color: #f6f6f6;
+    background-color: #feeeee;
   }
   /* source #5: "#586069" */
   .CheckStep-line.selected {
@@ -9269,7 +9269,7 @@
   }
   /* source #5: "#2f363d" */
   .MarketplaceJumbotron {
-    background-color: #f6f6f6;
+    background-color: #feeeee;
   }
   /* source #5: "#f6f8fa" */
   .MarketplaceSideNav {
@@ -12672,7 +12672,7 @@
   }
   /* source #6: "rgba(225,228,232,0.31)" */
   #uptime-tooltip .tooltip-box .outage-field {
-    background-color: #f6f6f6;
+    background-color: #feeeee;
   }
   /* source #6: "#dbab09" */
   .layout-content.status.status-index .page-status.status-minor,
@@ -15711,7 +15711,7 @@
   }
   /* source #14: "#2f363d" */
   .bg-gray-8 {
-    background-color: #f6f6f6 !important;
+    background-color: #feeeee !important;
   }
   /* source #14: "color: #24292e !important" */
   .color-gray-9 {
@@ -16372,7 +16372,7 @@ input[type="radio"] {
 }
 input[type="checkbox"]:disabled, input[type="checkbox"]:hover:disabled,
 input[type="checkbox"]:hover:active:disabled, input[type="radio"]:disabled {
-    background-color: #f6f6f6 !important;
+    background-color: #feeeee !important;
     color: #555 !important;
 }
 input[type="checkbox"]:checked {
@@ -16552,8 +16552,8 @@ aside.border-top + section.bg-gray-dark:not([class*="js-"]) {
 }
 /* Make it more apparent that <details> is clickable */
 .markdown-body details summary:not([aria-haspopup]):hover {
-    background: #f6f6f6;
-    box-shadow: 0 0 0 2px #f6f6f6;
+    background: #feeeee;
+    box-shadow: 0 0 0 2px #feeeee;
     cursor: pointer;
 }
 /* GitHub Bug: Center discussion close icon vertically */
@@ -17139,7 +17139,7 @@ h3.conversation-list-heading strong, .file-commit-form .commit-form,
     border-color: #eeeeee !important;
 }
 .search-result-group, .gist-quicksearch-result-group {
-    background: #f6f6f6 !important;
+    background: #feeeee !important;
     border-color: rgba(68, 68, 68, .5) !important;
     color: #555 !important;
 }
@@ -17677,10 +17677,10 @@ circle.audit-point {
 .dropdown-divider, .js-current .standalone a, .sidebar-module .disable>a,
 .label-select-menu div.labelstyle-000000.selected,
 .ScreenshotCarousel-navitem.selected {
-    background: #f6f6f6 !important;
+    background: #feeeee !important;
 }
 div#common-issues ul li a:hover, .rss-subscribe:hover {
-    background-color: #f6f6f6 !important;
+    background-color: #feeeee !important;
 }
 .jumbotron-codelines {
     background-color: #fdfdfd !important;
@@ -18811,7 +18811,7 @@ form[action*="/.github/workflows/"] .commit-create {
     background-size: 8px 10px !important;
 }
 .form-select:disabled {
-    background-color: #f6f6f6 !important;
+    background-color: #feeeee !important;
     color: #555 !important;
 }
 /* no border */
@@ -20555,7 +20555,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     .intercom-comment-container-admin .intercom-comment:not(.intercom-comment-with-body),
     .intercom-comment-container-other-user .intercom-comment:not(.intercom-comment-with-body) {
         color: #eee;
-        background-color: #f6f6f6;
+        background-color: #feeeee;
     }
     .intercom-comment-container-user .intercom-comment:not(.intercom-comment-with-body) {
         background-color: /*[[base-color]]*/ #a61d0d;
@@ -20815,7 +20815,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
         margin-top: 1px;
     }
     .select-input__option:not(.select-input__option--is-selected):hover {
-        background-color: #f6f6f6;
+        background-color: #feeeee;
         color: #eee;
     }
     .select-input__option--is-selected[class*="css-"] {

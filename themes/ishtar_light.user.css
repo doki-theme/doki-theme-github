@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Ishtar Light
 @namespace      github.com/doki-theme
-@version        15.0.1
+@version        74.1.0
 @description    Browse code with your waifu.
 @author         Unthrottled
 @license        MIT
@@ -5983,7 +5983,7 @@
   }
   /* source #5: "rgba(27,31,35,.08)" */
   .btn .Counter {
-    background-color: #fffae8
+    background-color: #fff9db
   }
   /* source #5: "color: #959da5", "#fafbfc", "rgba(27,31,35,.15)" */
   .btn, .btn.disabled, .btn:disabled, .btn[aria-disabled="true"] {
@@ -13673,7 +13673,7 @@
   /* source #9: "color: #586069", "rgba(27,31,35,.08)" */
   .Counter {
     color: #252427CC;
-    background-color: #fffae8
+    background-color: #fff9db
   }
   /* source #9: "color: #24292e", "rgba(27,31,35,.15)" */
   .Counter--gray-light {
@@ -17608,7 +17608,7 @@ circle.day:hover {
     fill: #fff !important;
 }
 path.js-diff-placeholder {
-    fill: #fffae8 !important;
+    fill: #fff9db !important;
 }
 #contributors-master svg.viz {
     display: block !important;
