@@ -135,7 +135,7 @@
     }
     body::before {
     content:'';pointer-events:none;position:fixed;z-index:9001;width:100%;height:100%;background-position:100% 100%;background-repeat:no-repeat;opacity:1;
-    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/master/assets/stickers/fate/ishtar/light/ishtar_light.png');
+    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/v74.1/assets/stickers/fate/ishtar/light/ishtar_light.png');
     }
 
     .UnderlineNav {
@@ -5983,7 +5983,7 @@
   }
   /* source #5: "rgba(27,31,35,.08)" */
   .btn .Counter {
-    background-color: #fffae8
+    background-color: #fff9db
   }
   /* source #5: "color: #959da5", "#fafbfc", "rgba(27,31,35,.15)" */
   .btn, .btn.disabled, .btn:disabled, .btn[aria-disabled="true"] {
@@ -13673,7 +13673,7 @@
   /* source #9: "color: #586069", "rgba(27,31,35,.08)" */
   .Counter {
     color: #252427CC;
-    background-color: #fffae8
+    background-color: #fff9db
   }
   /* source #9: "color: #24292e", "rgba(27,31,35,.15)" */
   .Counter--gray-light {
@@ -17608,7 +17608,7 @@ circle.day:hover {
     fill: #fff !important;
 }
 path.js-diff-placeholder {
-    fill: #fffae8 !important;
+    fill: #fff9db !important;
 }
 #contributors-master svg.viz {
     display: block !important;

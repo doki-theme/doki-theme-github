@@ -135,7 +135,7 @@
     }
     body::before {
     content:'';pointer-events:none;position:fixed;z-index:9001;width:100%;height:100%;background-position:100% 100%;background-repeat:no-repeat;opacity:1;
-    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/master/assets/stickers/konoSuba/aqua/dark/aqua_dark.png');
+    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/v74.1/assets/stickers/konoSuba/aqua/dark/aqua_dark.png');
     }
 
     .UnderlineNav {
@@ -19271,7 +19271,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant */
 .pl-cce {
-    color: #86dbfd !important;
+    color: #48ffd6 !important;
     font-weight: normal !important;
 }
 /* constant.character.escape */
@@ -19280,7 +19280,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant.numeric */
 .pl-coc {
-    color: #86dbfd !important;
+    color: #48ffd6 !important;
 }
 /* constant.other.color */
 .pl-cos {
