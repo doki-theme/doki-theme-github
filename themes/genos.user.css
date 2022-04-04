@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name           Doki-Theme: Genos
 @namespace      github.com/doki-theme
-@version        74.1.0
-@description    Browse code with your waifu.
+@version        78.1.0
+@description    Cute anime themes for GitHub
 @author         Unthrottled
 @license        MIT
 @homepageURL    https://github.com/doki-theme/doki-theme-github
@@ -93,12 +93,12 @@
 
     .suggester li:hover .octicon,
     .suggester li[aria-selected="true"] .octicon {
-      fill: #fbfbfb;
+      fill: #2f3031;
     }
 
     .suggester li:hover small,
     .suggester li[aria-selected="true"] small {
-      color: #fbfbfb;
+      color: #2f3031;
     }
 
     ::-webkit-input-placeholder {
@@ -135,7 +135,7 @@
     }
     body::before {
     content:'';pointer-events:none;position:fixed;z-index:9001;width:100%;height:100%;background-position:100% 100%;background-repeat:no-repeat;opacity:1;
-    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/theBois/assets/stickers/onePunch/genos/dark/genos_dark.png');
+    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/master/assets/stickers/onePunch/genos/dark/genos_dark.png');
     }
 
     .UnderlineNav {
@@ -161,7 +161,7 @@
     }
 
     .btn-primary .octicon {
-      fill: #fbfbfb !important;
+      fill: #2f3031 !important;
     }
 
     .btn-primary:active {
@@ -13552,7 +13552,7 @@
   .suggester li.navigation-focus, .suggester li:hover,
   .suggester li[aria-selected="true"] {
     background: /*[[base-color]]*/ #ddc7a1;
-    color: #fbfbfb;
+    color: #2f3031;
     background-image: none;
   }
   /* source #9: "#fff" */
@@ -14678,7 +14678,7 @@
       background-color: #605d51;
       background-image: linear-gradient(-180deg, #605d51 0%, #605d51 90%);
       border-color: none !important;
-      color: #fbfbfb !important;
+      color: #2f3031 !important;
     }
   /* source #14: "#e9ecef", "none", "rgba(27,31,35,0.35)" */
   .btn.selected, .btn:active, .btn[aria-selected="true"], [open] > .btn {
@@ -14697,7 +14697,7 @@
   /* source #14: "#28a745", "#28a745" */
   .btn-primary {
     background-color: #ddc7a1;
-    color: #fbfbfb !important;
+    color: #2f3031 !important;
     background-image: linear-gradient(-180deg, #ddc7a1 0%, #ddc7a1 90%);
   }
   /* source #14: "box-shadow: 0 0 0 .2em rgba(52,208,88,.4)" */
@@ -15948,7 +15948,7 @@
   /* source #14: "#0366d6" */
   .dropdown-item:focus, .dropdown-item:hover {
     background-color: /*[[base-color]]*/ #ddc7a1;
-    color: #fbfbfb;
+    color: #2f3031;
     background-image: none;
   }
   /* source #14: "none" */
@@ -17964,7 +17964,7 @@ html[prefix] .site-header-nav .dropdown-menu a:hover {
 .filter-item.selected p, .filter-item:hover .marketplace-plan-per-time,
 .feature-preview-dialog .text-white,
 .oauth-permissions-details .permission-summary em.highlight, .btn-primary {
-    color: #fbfbfb;
+    color: #2f3031;
 }
 ul.repo-stats li a:hover, .minibutton.danger:hover, #gist-form label,
 .subnav li a:hover, .filters li.selected a, .filters li a:hover, .code-list em,

@@ -1,7 +1,7 @@
 Changelog
 ---
 
-# 78.0-1.0.6 [The Boys]
+# 78.0-1.0.0 [The Boys]
 
 I'm trying to bring in a bit of inclusion.
 
