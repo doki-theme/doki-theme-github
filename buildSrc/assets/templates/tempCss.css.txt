@@ -2,7 +2,7 @@
 @name           Doki-Theme: {{displayName}}
 @namespace      github.com/doki-theme
 @version        {{version}}
-@description    Browse code with your waifu.
+@description    Cute anime themes for GitHub
 @author         Unthrottled
 @license        MIT
 @homepageURL    https://github.com/doki-theme/doki-theme-github

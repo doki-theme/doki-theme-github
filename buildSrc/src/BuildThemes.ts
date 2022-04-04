@@ -91,7 +91,7 @@ function evaluateTemplate(
         themeProperName,
         stickerPath: resolveStickerPath(
           dokiFileDefinitionPath,
-          dokiThemeDefinition.stickers.default,
+          dokiThemeDefinition.stickers.default.name,
         ),
         accentColorEditor: dokiThemeDefinition.overrides?.editorScheme?.colors?.accentColor ||
           dokiThemeDefinition.colors.accentColor,
