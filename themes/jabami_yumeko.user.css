@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Jabami Yumeko
 @namespace      github.com/doki-theme
-@version        78.1.0
+@version        78.1.1
 @description    Cute anime themes for GitHub
 @author         Unthrottled
 @license        MIT
@@ -49,7 +49,6 @@
       --color-avatar-border: #00000000 !important;
       --color-bg-canvas: #070000 !important;
       --color-canvas-inset: #070000 !important;
-      --color-canvas-inset: #070000 !important;
       --color-canvas-overlay: #160304 !important;
       --color-bg-primary: #070000 !important;
       --color-calendar-graph-day-bg: #1d0406 !important;
@@ -89,7 +88,19 @@
       --color-input-disabled-border: #1e0000 !important;
       --color-text-secondary: #7e2a2a !important;
       --color-text-tertiary: #97706f !important;
+      --color-primer-fg-disabled: #584445 !important;
+      --lightness-threshold: 0.453 !important;
     }
+
+    [data-color-mode="light"][data-light-theme*="dark"] .hx_IssueLabel, [data-color-mode="dark"][data-dark-theme*="dark"] .hx_IssueLabel {
+            --lightness-threshold: 0.6 !important;
+  --background-alpha: 0.18;
+  --border-alpha: 0.3;
+  --lighten-by: calc(((var(--lightness-threshold) - var(--perceived-lightness)) * 100) * var(--lightness-switch));
+  color: hsl(var(--label-h), calc(var(--label-s) * 1%), calc((var(--label-l) + var(--lighten-by)) * 1%));
+  background: rgba(var(--label-r), var(--label-g), var(--label-b), var(--background-alpha));
+  border-color: hsla(var(--label-h), calc(var(--label-s) * 1%), calc((var(--label-l) + var(--lighten-by)) * 1%), var(--border-alpha));
+}
 
     .suggester li:hover .octicon,
     .suggester li[aria-selected="true"] .octicon {
@@ -158,6 +169,10 @@
 
     .octicon {
       fill: #795555;
+    }
+
+    .octicon .octicon-git-merge {
+      fill: #070000 !important;
     }
 
     .btn-primary .octicon {
@@ -13654,21 +13669,18 @@
   .Label--orange {
     background-color: #f3582c;
   }
-  /* source #9: "#6a737d" */
-  .state, .State {
-    background-color: #444;
-  }
+
   /* source #9: "#2cbe4e" */
   .State--green {
-    background-color: #373;
+    background-color: #102f07;
   }
   /* source #9: "#6f42c1" */
   .State--purple {
-    background-color: #8368aa;
+    background-color: #1a041e;
   }
   /* source #9: "#cb2431" */
   .State--red {
-    background-color: #911;
+    background-color: #471316;
   }
   /* source #9: "color: #586069", "rgba(27,31,35,.08)" */
   .Counter {
@@ -14688,7 +14700,7 @@
   }
   /* source #14: "color: rgba(36,41,46,.4)", "#eff3f6", "none", "rgba(27,31,35,0.2)", "box-shadow: none" */
   .btn.disabled, .btn:disabled, .btn[aria-disabled="true"] {
-    color: rgba(210, 210, 210, 0.4);
+    color: #584445;
     background-color: #220708;
     background-image: none;
     border-color: rgba(200, 200, 200, 0.15);
@@ -17878,7 +17890,7 @@ div[style*="background-color: #044d6e"],
     background: radial-gradient(ellipse at center, #000 0%, rgba(0, 0, 0, .6) 65%, rgba(0, 0, 0, .6) 100%) !important;
 }
 .TimelineItem-break {
-    background: linear-gradient(to bottom, rgba(25, 25, 25, .8) 1%, transparent 80%) !important;
+    background: linear-gradient(to bottom, #140404 1%, transparent 80%) !important;
 }
 /* light grey gradient */
 .signup-button:hover, a.signin:hover, .hero .textographic,

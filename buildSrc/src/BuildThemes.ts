@@ -4,7 +4,9 @@ import {
   DokiThemeDefinitions,
   evaluateTemplates,
   fillInTemplateScript,
+  getColorFromTemplate,
   MasterDokiThemeDefinition,
+  resolveColor,
   resolvePaths,
 } from 'doki-build-source';
 
@@ -95,6 +97,21 @@ function evaluateTemplate(
         ),
         accentColorEditor: dokiThemeDefinition.overrides?.editorScheme?.colors?.accentColor ||
           dokiThemeDefinition.colors.accentColor,
+        lightnessThreshold: dokiThemeDefinition.dark ? 0.6 : 0.453,
+        issueLabelColor: dokiThemeDefinition.dark ? 'hsl(var(--label-h), calc(var(--label-s) * 1%), calc((var(--label-l) + var(--lighten-by)) * 1%))' : 'hsl(0deg, 0%, calc(var(--lightness-switch) * 100%))',
+        issueLabelBackground: dokiThemeDefinition.dark ? 'rgba(var(--label-r), var(--label-g), var(--label-b), var(--background-alpha))' : 'rgb(var(--label-r), var(--label-g), var(--label-b));',
+      },
+      (templateVariable, templateVariables) => {
+        const colorFromTemplate = getColorFromTemplate(templateVariables, templateVariable);
+        if(typeof colorFromTemplate === 'number') {
+          return colorFromTemplate;
+        }
+
+        const hexColor = resolveColor(
+          colorFromTemplate,
+          templateVariables
+        );
+        return hexColor;
       }
     );
   } catch (e) {
