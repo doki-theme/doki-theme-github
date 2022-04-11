@@ -1,6 +1,10 @@
 Changelog
 ---
 
+# 78.0-1.0.1 [Light Theme Enhancements]
+
+- Made the light themes a bit more usable (Now that I am actually using them).
+
 # 78.0-1.0.0 [The Boys]
 
 I'm trying to bring in a bit of inclusion.
