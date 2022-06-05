@@ -14,7 +14,7 @@ const dokiThemeAssets = path.resolve(
 
 walkDir(dokiThemeAssets).then((assetPaths) => {
   const stickerAssets = assetPaths.filter(
-    (assetPath) => !assetPath.endsWith("checksum.txt")
+    (assetPath) => !assetPath.endsWith("checksum.txt") && !assetPath.endsWith('.DS_Store')
   );
 
   stickerAssets.forEach((dokiStickerAssetPath) => {
