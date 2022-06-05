@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Yukinoshita Yukino
 @namespace      github.com/doki-theme
-@version        78.1.1
+@version        84.1.1
 @description    Cute anime themes for GitHub
 @author         Unthrottled
 @license        MIT
@@ -19274,12 +19274,12 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     --ghd-code-color: #ccc;
 }
 .pl-c, .pl-c span {
-    color: #41495A !important;
+    color: #596477 !important;
     font-style: italic !important;
 }
 /* comment */
 .pl-c1 {
-    color: #41495A !important;
+    color: #596477 !important;
 }
 /* constant */
 .pl-cce {

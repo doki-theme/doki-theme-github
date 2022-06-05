@@ -12,7 +12,7 @@
     "@types/jest": "^26.0.0",
     "@types/lodash": "^4.14.157",
     "copy-webpack-plugin": "^6.0.2",
-    "doki-build-source": "78.2.3",
+    "doki-build-source": "84.2.4",
     "fetch-css": "^3.0.1",
     "jest": "^26.0.1",
     "lodash": "^4.17.21",

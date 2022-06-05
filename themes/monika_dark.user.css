@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Monika Dark
 @namespace      github.com/doki-theme
-@version        78.1.1
+@version        84.1.1
 @description    Cute anime themes for GitHub
 @author         Unthrottled
 @license        MIT
@@ -55,17 +55,17 @@
       --color-workflow-card-bg: #23271A !important;
       --color-bg-tertiary: #1d2115 !important;
       --color-bg-secondary: #24291a !important;
-      --color-user-mention-bg: #16690D !important;
+      --color-user-mention-bg: #2362A7 !important;
       --color-user-mention-fg: #ececec !important;
       --color-search-hover-hl: #252D19 !important;
       --color-checks-step-header-open-bg: #24291a !important;
       --color-bg-discussions-row-emoji-box: #1e3219 !important;
       --color-current-user-tip-border: #1e3219 !important;
       --color-underlinenav-counter-text: #bbbbbb !important;
-      --color-text-primary: #bca3aa !important;
+      --color-text-primary: #ABFFAF !important;
       --color-text-link: #388E3C !important;
       --color-canvas-subtle: #24291a !important;
-      --color-accent-fg: #388E3C !important;
+      --color-accent-fg: #60E769 !important;
       --color-shadow-large: 0 8px 24px #388E3C22 !important;
       --color-alert-warn-bg: #222613 !important;
       --color-alert-info-bg: #1D2115 !important;
@@ -18209,7 +18209,7 @@ button.project-header-link, td.icon, .facebox-close,
 }
 
  .tree-browser-result mark {
-    color: #bca3aa !important;
+    color: #FFEA82 !important;
  }
 
 .timeline-comment-action, #suggestions a, .table-list-header-toggle .btn-link,
@@ -19274,16 +19274,16 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     --ghd-code-color: #ccc;
 }
 .pl-c, .pl-c span {
-    color: #4E6B4C !important;
+    color: #647863 !important;
     font-style: italic !important;
 }
 /* comment */
 .pl-c1 {
-    color: #4E6B4C !important;
+    color: #647863 !important;
 }
 /* constant */
 .pl-cce {
-    color: #86dbfd !important;
+    color: #FF8FCA !important;
     font-weight: normal !important;
 }
 /* constant.character.escape */
@@ -19292,23 +19292,23 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant.numeric */
 .pl-coc {
-    color: #86dbfd !important;
+    color: #FF8FCA !important;
 }
 /* constant.other.color */
 .pl-cos {
-    color: #bca3aa !important;
+    color: #ABFFAF !important;
 }
 /* constant.other.symbol */
 .pl-e {
-    color: #bca3aa !important;
+    color: #FFEA82 !important;
 }
 /* entity */
 .pl-ef {
-    color: #bca3aa !important;
+    color: #FFEA82 !important;
 }
 /* entity.function */
 .pl-en {
-    color: #bca3aa !important;
+    color: #FFEA82 !important;
 }
 /* entity.name */
 .pl-enc {
@@ -19316,11 +19316,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.class */
 .pl-enf {
-    color: #bca3aa !important;
+    color: #FFEA82 !important;
 }
 /* entity.name.function */
 .pl-enm {
-    color: #bca3aa !important;
+    color: #FFEA82 !important;
 }
 /* entity.name.method-name */
 .pl-ens {
@@ -19332,11 +19332,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.tag */
 .pl-entc {
-    color: #bca3aa !important;
+    color: #FFEA82 !important;
 }
 /* entity.name.type.class */
 .pl-enti {
-    color: #bca3aa !important;
+    color: #FFEA82 !important;
     font-weight: bold !important;
 }
 /* entity.name.type.instance */
@@ -19365,7 +19365,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* punctuation.definition.entity */
 .pl-eoi {
-    color: #bca3aa !important;
+    color: #FFEA82 !important;
 }
 /* entity.other.inherited-class */
 .pl-k {
@@ -19393,7 +19393,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* support.function */
 .pl-mb {
-    color: #bca3aa !important;
+    color: #ABFFAF !important;
     font-weight: bold !important;
 }
 /* markup.bold */
@@ -19416,7 +19416,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* markup.italic */
 .pl-ml {
-    color: #bca3aa !important;
+    color: #ABFFAF !important;
 }
 /* markup.list */
 .pl-mm {
@@ -19444,7 +19444,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* meta.selector */
 .pl-pdb {
-    color: #bca3aa !important;
+    color: #ABFFAF !important;
     font-weight: bold !important;
 }
 /* punctuation.definition.bold */
@@ -19467,7 +19467,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* punctuation.definition.italic */
 .pl-pds {
-    color: #bca3aa !important;
+    color: #ABFFAF !important;
 }
 /* punctuation.definition.string */
 .pl-pdv {
@@ -19483,11 +19483,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* punctuation.section.embedded source */
 .pl-s {
-    color: #f1fa8c !important;
+    color: #94CFFF !important;
 }
 /* storage */
 .pl-s1 {
-    color: #bca3aa !important;
+    color: #ABFFAF !important;
 }
 /* string */
 .pl-s2 {
@@ -19515,15 +19515,15 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* support.function */
 .pl-smc {
-    color: #bca3aa !important;
+    color: #FFEA82 !important;
 }
 /* storage.modifier.c */
 .pl-smi {
-    color: #bca3aa !important;
+    color: #FFEA82 !important;
 }
 /* storage.modifier.import */
 .pl-smp {
-    color: #bca3aa !important;
+    color: #FFEA82 !important;
 }
 /* storage.modifier.package */
 .pl-sok {
@@ -19531,7 +19531,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* support.other.keyword */
 .pl-sol {
-    color: #bca3aa !important;
+    color: #ABFFAF !important;
 }
 /* string.other.link */
 .pl-som {
@@ -19579,7 +19579,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* variable.interpolation */
 .pl-vo {
-    color: #bca3aa !important;
+    color: #FFEA82 !important;
 }
 /* variable.other */
 .pl-vpf {
@@ -19653,17 +19653,17 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* variable.parameter.url */
 .pl-entl {
-    color: #bca3aa !important;
+    color: #FFEA82 !important;
 }
 /* entity.name.tag.label */
 .pl-corl, .highlight .pl-corl span.x {
-    color: #f1fa8c !important;
+    color: #94CFFF !important;
     text-decoration: underline !important;
 }
 /* links */
 .pl-token.active, .pl-token:hover {
-    background: #bca3aa !important;
-    color: #bca3aa !important;
+    background: #FFEA82 !important;
+    color: #FFEA82 !important;
 }
 /*! CodeMirror: Twilight */
 /* based on https://github.com/codemirror/CodeMirror/blob/master/theme/twilight.css */
@@ -19691,7 +19691,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: white !important;
 }
 .cm-keyword {
-    color: #f1fa8c !important;
+    color: #94CFFF !important;
 }
 .cm-atom {
     color: #fc0 !important;
@@ -19712,12 +19712,12 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #3eae5d !important;
 }
 .cm-comment {
-    color: #bca3aa !important;
+    color: #FFEA82 !important;
     font-style: italic !important;
     font-weight: normal !important;
 }
 .cm-string {
-    color: #bca3aa !important;
+    color: #ABFFAF !important;
 }
 .cm-string-2 {
     color: #bd6b18 !important;
@@ -19742,7 +19742,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #aeaeae !important;
 }
 .cm-link {
-    color: #388E3C !important;
+    color: #60E769 !important;
     font-style: italic !important;
     text-decoration: none !important;
 }
@@ -19890,7 +19890,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Keyword.Type */
 :is(#notebook, body.api) .highlight .na, .highlight code .na {
-    color: #f1fa8c !important;
+    color: #94CFFF !important;
 }
 /* Name.Attribute */
 :is(#notebook, body.api) .highlight .nb, .highlight code .nb {
@@ -19956,29 +19956,29 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Literal.Number.Oct */
 :is(#notebook, body.api) .highlight .sb, .highlight code .sb {
-    color: #bca3aa !important;
+    color: #ABFFAF !important;
 }
 /* Literal.String.Backtick */
 :is(#notebook, body.api) .highlight .sc, .highlight code .sc {
-    color: #bca3aa !important;
+    color: #ABFFAF !important;
 }
 /* Literal.String.Char */
 :is(#notebook, body.api) .highlight .sd, .highlight code .sd {
-    color: #bca3aa !important;
+    color: #ABFFAF !important;
     font-style: italic !important;
 }
 /* Literal.String.Doc */
 :is(#notebook, body.api) .highlight .s2, .highlight code .s2 {
-    color: #bca3aa !important;
+    color: #ABFFAF !important;
 }
 /* Literal.String.Double */
 :is(#notebook, body.api) .highlight .se, .highlight code .se {
-    color: #f1fa8c !important;
+    color: #94CFFF !important;
     font-weight: bold !important;
 }
 /* Literal.String.Escape */
 :is(#notebook, body.api) .highlight .sh, .highlight code .sh {
-    color: #bca3aa !important;
+    color: #ABFFAF !important;
 }
 /* Literal.String.Heredoc */
 :is(#notebook, body.api) .highlight .si, .highlight code .si {
@@ -19987,7 +19987,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Literal.String.Interpol */
 :is(#notebook, body.api) .highlight .sx, .highlight code .sx {
-    color: #bca3aa !important;
+    color: #ABFFAF !important;
 }
 /* Literal.String.Other */
 :is(#notebook, body.api) .highlight .sr, .highlight code .sr {
@@ -19995,7 +19995,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Literal.String.Regex */
 :is(#notebook, body.api) .highlight .s1, .highlight code .s1 {
-    color: #bca3aa !important;
+    color: #ABFFAF !important;
 }
 /* Literal.String.Single */
 :is(#notebook, body.api) .highlight .ss, .highlight code .ss {

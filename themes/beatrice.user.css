@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Beatrice
 @namespace      github.com/doki-theme
-@version        78.1.1
+@version        84.1.1
 @description    Cute anime themes for GitHub
 @author         Unthrottled
 @license        MIT
@@ -19274,12 +19274,12 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     --ghd-code-color: #ccc;
 }
 .pl-c, .pl-c span {
-    color: #6a737d !important;
+    color: #7d6a7d !important;
     font-style: italic !important;
 }
 /* comment */
 .pl-c1 {
-    color: #6a737d !important;
+    color: #7d6a7d !important;
 }
 /* constant */
 .pl-cce {
@@ -19736,7 +19736,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #d6bb6d !important;
 }
 .cm-header {
-    color: #7B6970 !important;
+    color: #C64EA1 !important;
 }
 .cm-hr {
     color: #aeaeae !important;

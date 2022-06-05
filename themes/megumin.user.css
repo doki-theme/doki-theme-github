@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Megumin
 @namespace      github.com/doki-theme
-@version        78.1.1
+@version        84.1.1
 @description    Cute anime themes for GitHub
 @author         Unthrottled
 @license        MIT
@@ -62,7 +62,7 @@
       --color-bg-discussions-row-emoji-box: #2f2329 !important;
       --color-current-user-tip-border: #2f2329 !important;
       --color-underlinenav-counter-text: #bbbbbb !important;
-      --color-text-primary: #AF5C5A !important;
+      --color-text-primary: #BA6462 !important;
       --color-text-link: #a73035 !important;
       --color-canvas-subtle: #31262b !important;
       --color-accent-fg: #e4ff10 !important;
@@ -18209,7 +18209,7 @@ button.project-header-link, td.icon, .facebox-close,
 }
 
  .tree-browser-result mark {
-    color: #dae838 !important;
+    color: #FF8A5F !important;
  }
 
 .timeline-comment-action, #suggestions a, .table-list-header-toggle .btn-link,
@@ -19283,7 +19283,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant */
 .pl-cce {
-    color: #86dbfd !important;
+    color: #FC79BB !important;
     font-weight: normal !important;
 }
 /* constant.character.escape */
@@ -19292,23 +19292,23 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant.numeric */
 .pl-coc {
-    color: #86dbfd !important;
+    color: #FC79BB !important;
 }
 /* constant.other.color */
 .pl-cos {
-    color: #AF5C5A !important;
+    color: #BA6462 !important;
 }
 /* constant.other.symbol */
 .pl-e {
-    color: #dae838 !important;
+    color: #FF8A5F !important;
 }
 /* entity */
 .pl-ef {
-    color: #dae838 !important;
+    color: #FF8A5F !important;
 }
 /* entity.function */
 .pl-en {
-    color: #dae838 !important;
+    color: #FF8A5F !important;
 }
 /* entity.name */
 .pl-enc {
@@ -19316,11 +19316,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.class */
 .pl-enf {
-    color: #dae838 !important;
+    color: #FF8A5F !important;
 }
 /* entity.name.function */
 .pl-enm {
-    color: #dae838 !important;
+    color: #FF8A5F !important;
 }
 /* entity.name.method-name */
 .pl-ens {
@@ -19332,11 +19332,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.tag */
 .pl-entc {
-    color: #dae838 !important;
+    color: #FF8A5F !important;
 }
 /* entity.name.type.class */
 .pl-enti {
-    color: #dae838 !important;
+    color: #FF8A5F !important;
     font-weight: bold !important;
 }
 /* entity.name.type.instance */
@@ -19365,7 +19365,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* punctuation.definition.entity */
 .pl-eoi {
-    color: #dae838 !important;
+    color: #FF8A5F !important;
 }
 /* entity.other.inherited-class */
 .pl-k {
@@ -19393,7 +19393,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* support.function */
 .pl-mb {
-    color: #AF5C5A !important;
+    color: #BA6462 !important;
     font-weight: bold !important;
 }
 /* markup.bold */
@@ -19416,7 +19416,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* markup.italic */
 .pl-ml {
-    color: #AF5C5A !important;
+    color: #BA6462 !important;
 }
 /* markup.list */
 .pl-mm {
@@ -19444,7 +19444,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* meta.selector */
 .pl-pdb {
-    color: #AF5C5A !important;
+    color: #BA6462 !important;
     font-weight: bold !important;
 }
 /* punctuation.definition.bold */
@@ -19467,7 +19467,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* punctuation.definition.italic */
 .pl-pds {
-    color: #AF5C5A !important;
+    color: #BA6462 !important;
 }
 /* punctuation.definition.string */
 .pl-pdv {
@@ -19487,7 +19487,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* storage */
 .pl-s1 {
-    color: #AF5C5A !important;
+    color: #BA6462 !important;
 }
 /* string */
 .pl-s2 {
@@ -19515,15 +19515,15 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* support.function */
 .pl-smc {
-    color: #dae838 !important;
+    color: #FF8A5F !important;
 }
 /* storage.modifier.c */
 .pl-smi {
-    color: #dae838 !important;
+    color: #FF8A5F !important;
 }
 /* storage.modifier.import */
 .pl-smp {
-    color: #dae838 !important;
+    color: #FF8A5F !important;
 }
 /* storage.modifier.package */
 .pl-sok {
@@ -19531,7 +19531,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* support.other.keyword */
 .pl-sol {
-    color: #AF5C5A !important;
+    color: #BA6462 !important;
 }
 /* string.other.link */
 .pl-som {
@@ -19579,7 +19579,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* variable.interpolation */
 .pl-vo {
-    color: #dae838 !important;
+    color: #FF8A5F !important;
 }
 /* variable.other */
 .pl-vpf {
@@ -19653,7 +19653,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* variable.parameter.url */
 .pl-entl {
-    color: #dae838 !important;
+    color: #FF8A5F !important;
 }
 /* entity.name.tag.label */
 .pl-corl, .highlight .pl-corl span.x {
@@ -19662,8 +19662,8 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* links */
 .pl-token.active, .pl-token:hover {
-    background: #dae838 !important;
-    color: #dae838 !important;
+    background: #FF8A5F !important;
+    color: #FF8A5F !important;
 }
 /*! CodeMirror: Twilight */
 /* based on https://github.com/codemirror/CodeMirror/blob/master/theme/twilight.css */
@@ -19712,12 +19712,12 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #a28a92 !important;
 }
 .cm-comment {
-    color: #dae838 !important;
+    color: #FF8A5F !important;
     font-style: italic !important;
     font-weight: normal !important;
 }
 .cm-string {
-    color: #AF5C5A !important;
+    color: #BA6462 !important;
 }
 .cm-string-2 {
     color: #bd6b18 !important;
@@ -19956,20 +19956,20 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Literal.Number.Oct */
 :is(#notebook, body.api) .highlight .sb, .highlight code .sb {
-    color: #AF5C5A !important;
+    color: #BA6462 !important;
 }
 /* Literal.String.Backtick */
 :is(#notebook, body.api) .highlight .sc, .highlight code .sc {
-    color: #AF5C5A !important;
+    color: #BA6462 !important;
 }
 /* Literal.String.Char */
 :is(#notebook, body.api) .highlight .sd, .highlight code .sd {
-    color: #AF5C5A !important;
+    color: #BA6462 !important;
     font-style: italic !important;
 }
 /* Literal.String.Doc */
 :is(#notebook, body.api) .highlight .s2, .highlight code .s2 {
-    color: #AF5C5A !important;
+    color: #BA6462 !important;
 }
 /* Literal.String.Double */
 :is(#notebook, body.api) .highlight .se, .highlight code .se {
@@ -19978,7 +19978,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Literal.String.Escape */
 :is(#notebook, body.api) .highlight .sh, .highlight code .sh {
-    color: #AF5C5A !important;
+    color: #BA6462 !important;
 }
 /* Literal.String.Heredoc */
 :is(#notebook, body.api) .highlight .si, .highlight code .si {
@@ -19987,7 +19987,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Literal.String.Interpol */
 :is(#notebook, body.api) .highlight .sx, .highlight code .sx {
-    color: #AF5C5A !important;
+    color: #BA6462 !important;
 }
 /* Literal.String.Other */
 :is(#notebook, body.api) .highlight .sr, .highlight code .sr {
@@ -19995,7 +19995,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Literal.String.Regex */
 :is(#notebook, body.api) .highlight .s1, .highlight code .s1 {
-    color: #AF5C5A !important;
+    color: #BA6462 !important;
 }
 /* Literal.String.Single */
 :is(#notebook, body.api) .highlight .ss, .highlight code .ss {

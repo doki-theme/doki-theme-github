@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Zero Two Dark
 @namespace      github.com/doki-theme
-@version        78.1.1
+@version        84.1.1
 @description    Cute anime themes for GitHub
 @author         Unthrottled
 @license        MIT
@@ -55,7 +55,7 @@
       --color-workflow-card-bg: #3c1616 !important;
       --color-bg-tertiary: #310f0f !important;
       --color-bg-secondary: #3c1414 !important;
-      --color-user-mention-bg: #721515 !important;
+      --color-user-mention-bg: #268B61 !important;
       --color-user-mention-fg: #fbfbfb !important;
       --color-search-hover-hl: #3c1515 !important;
       --color-checks-step-header-open-bg: #3c1414 !important;

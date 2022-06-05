@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Ryuko Dark
 @namespace      github.com/doki-theme
-@version        78.1.1
+@version        84.1.1
 @description    Cute anime themes for GitHub
 @author         Unthrottled
 @license        MIT
@@ -62,7 +62,7 @@
       --color-bg-discussions-row-emoji-box: #2b3237 !important;
       --color-current-user-tip-border: #2b3237 !important;
       --color-underlinenav-counter-text: #bbbbbb !important;
-      --color-text-primary: #C1B5C3 !important;
+      --color-text-primary: #99B6D5 !important;
       --color-text-link: #a73035 !important;
       --color-canvas-subtle: #2a3037 !important;
       --color-accent-fg: #e4ff10 !important;
@@ -19274,12 +19274,12 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     --ghd-code-color: #ccc;
 }
 .pl-c, .pl-c span {
-    color: #6272a4 !important;
+    color: #677684 !important;
     font-style: italic !important;
 }
 /* comment */
 .pl-c1 {
-    color: #6272a4 !important;
+    color: #677684 !important;
 }
 /* constant */
 .pl-cce {
@@ -19296,7 +19296,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant.other.color */
 .pl-cos {
-    color: #C1B5C3 !important;
+    color: #99B6D5 !important;
 }
 /* constant.other.symbol */
 .pl-e {
@@ -19393,7 +19393,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* support.function */
 .pl-mb {
-    color: #C1B5C3 !important;
+    color: #99B6D5 !important;
     font-weight: bold !important;
 }
 /* markup.bold */
@@ -19416,7 +19416,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* markup.italic */
 .pl-ml {
-    color: #C1B5C3 !important;
+    color: #99B6D5 !important;
 }
 /* markup.list */
 .pl-mm {
@@ -19444,7 +19444,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* meta.selector */
 .pl-pdb {
-    color: #C1B5C3 !important;
+    color: #99B6D5 !important;
     font-weight: bold !important;
 }
 /* punctuation.definition.bold */
@@ -19467,7 +19467,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* punctuation.definition.italic */
 .pl-pds {
-    color: #C1B5C3 !important;
+    color: #99B6D5 !important;
 }
 /* punctuation.definition.string */
 .pl-pdv {
@@ -19487,7 +19487,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* storage */
 .pl-s1 {
-    color: #C1B5C3 !important;
+    color: #99B6D5 !important;
 }
 /* string */
 .pl-s2 {
@@ -19531,7 +19531,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* support.other.keyword */
 .pl-sol {
-    color: #C1B5C3 !important;
+    color: #99B6D5 !important;
 }
 /* string.other.link */
 .pl-som {
@@ -19717,7 +19717,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     font-weight: normal !important;
 }
 .cm-string {
-    color: #C1B5C3 !important;
+    color: #99B6D5 !important;
 }
 .cm-string-2 {
     color: #bd6b18 !important;
@@ -19956,20 +19956,20 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Literal.Number.Oct */
 :is(#notebook, body.api) .highlight .sb, .highlight code .sb {
-    color: #C1B5C3 !important;
+    color: #99B6D5 !important;
 }
 /* Literal.String.Backtick */
 :is(#notebook, body.api) .highlight .sc, .highlight code .sc {
-    color: #C1B5C3 !important;
+    color: #99B6D5 !important;
 }
 /* Literal.String.Char */
 :is(#notebook, body.api) .highlight .sd, .highlight code .sd {
-    color: #C1B5C3 !important;
+    color: #99B6D5 !important;
     font-style: italic !important;
 }
 /* Literal.String.Doc */
 :is(#notebook, body.api) .highlight .s2, .highlight code .s2 {
-    color: #C1B5C3 !important;
+    color: #99B6D5 !important;
 }
 /* Literal.String.Double */
 :is(#notebook, body.api) .highlight .se, .highlight code .se {
@@ -19978,7 +19978,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Literal.String.Escape */
 :is(#notebook, body.api) .highlight .sh, .highlight code .sh {
-    color: #C1B5C3 !important;
+    color: #99B6D5 !important;
 }
 /* Literal.String.Heredoc */
 :is(#notebook, body.api) .highlight .si, .highlight code .si {
@@ -19987,7 +19987,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Literal.String.Interpol */
 :is(#notebook, body.api) .highlight .sx, .highlight code .sx {
-    color: #C1B5C3 !important;
+    color: #99B6D5 !important;
 }
 /* Literal.String.Other */
 :is(#notebook, body.api) .highlight .sr, .highlight code .sr {
@@ -19995,7 +19995,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Literal.String.Regex */
 :is(#notebook, body.api) .highlight .s1, .highlight code .s1 {
-    color: #C1B5C3 !important;
+    color: #99B6D5 !important;
 }
 /* Literal.String.Single */
 :is(#notebook, body.api) .highlight .ss, .highlight code .ss {

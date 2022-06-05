@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Asuna Light
 @namespace      github.com/doki-theme
-@version        78.1.1
+@version        84.1.1
 @description    Cute anime themes for GitHub
 @author         Unthrottled
 @license        MIT
@@ -65,7 +65,7 @@
       --color-text-primary: #0d5fa6 !important;
       --color-text-link: #a61d0d !important;
       --color-canvas-subtle: #feeeee !important;
-      --color-accent-fg: #212121 !important;
+      --color-accent-fg: #2527B1 !important;
       --color-shadow-large: 0 8px 24px #a61d0d22 !important;
       --color-alert-warn-bg: #fcfdf3 !important;
       --color-alert-info-bg: #fdfdfd !important;
@@ -18209,7 +18209,7 @@ button.project-header-link, td.icon, .facebox-close,
 }
 
  .tree-browser-result mark {
-    color: #db974d !important;
+    color: #C68741 !important;
  }
 
 .timeline-comment-action, #suggestions a, .table-list-header-toggle .btn-link,
@@ -19300,15 +19300,15 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant.other.symbol */
 .pl-e {
-    color: #db974d !important;
+    color: #C68741 !important;
 }
 /* entity */
 .pl-ef {
-    color: #db974d !important;
+    color: #C68741 !important;
 }
 /* entity.function */
 .pl-en {
-    color: #db974d !important;
+    color: #C68741 !important;
 }
 /* entity.name */
 .pl-enc {
@@ -19316,11 +19316,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.class */
 .pl-enf {
-    color: #db974d !important;
+    color: #C68741 !important;
 }
 /* entity.name.function */
 .pl-enm {
-    color: #db974d !important;
+    color: #C68741 !important;
 }
 /* entity.name.method-name */
 .pl-ens {
@@ -19332,11 +19332,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.tag */
 .pl-entc {
-    color: #db974d !important;
+    color: #C68741 !important;
 }
 /* entity.name.type.class */
 .pl-enti {
-    color: #db974d !important;
+    color: #C68741 !important;
     font-weight: bold !important;
 }
 /* entity.name.type.instance */
@@ -19365,7 +19365,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* punctuation.definition.entity */
 .pl-eoi {
-    color: #db974d !important;
+    color: #C68741 !important;
 }
 /* entity.other.inherited-class */
 .pl-k {
@@ -19515,15 +19515,15 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* support.function */
 .pl-smc {
-    color: #db974d !important;
+    color: #C68741 !important;
 }
 /* storage.modifier.c */
 .pl-smi {
-    color: #db974d !important;
+    color: #C68741 !important;
 }
 /* storage.modifier.import */
 .pl-smp {
-    color: #db974d !important;
+    color: #C68741 !important;
 }
 /* storage.modifier.package */
 .pl-sok {
@@ -19579,7 +19579,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* variable.interpolation */
 .pl-vo {
-    color: #db974d !important;
+    color: #C68741 !important;
 }
 /* variable.other */
 .pl-vpf {
@@ -19653,7 +19653,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* variable.parameter.url */
 .pl-entl {
-    color: #db974d !important;
+    color: #C68741 !important;
 }
 /* entity.name.tag.label */
 .pl-corl, .highlight .pl-corl span.x {
@@ -19662,8 +19662,8 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* links */
 .pl-token.active, .pl-token:hover {
-    background: #db974d !important;
-    color: #db974d !important;
+    background: #C68741 !important;
+    color: #C68741 !important;
 }
 /*! CodeMirror: Twilight */
 /* based on https://github.com/codemirror/CodeMirror/blob/master/theme/twilight.css */
@@ -19712,7 +19712,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #a61d0d !important;
 }
 .cm-comment {
-    color: #db974d !important;
+    color: #C68741 !important;
     font-style: italic !important;
     font-weight: normal !important;
 }
@@ -19742,7 +19742,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #aeaeae !important;
 }
 .cm-link {
-    color: #212121 !important;
+    color: #2527B1 !important;
     font-style: italic !important;
     text-decoration: none !important;
 }

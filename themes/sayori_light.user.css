@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Sayori Light
 @namespace      github.com/doki-theme
-@version        78.1.1
+@version        84.1.1
 @description    Cute anime themes for GitHub
 @author         Unthrottled
 @license        MIT
@@ -57,12 +57,12 @@
       --color-bg-secondary: #dceef7 !important;
       --color-user-mention-bg: #BDB9F1 !important;
       --color-user-mention-fg: #393d45 !important;
-      --color-search-hover-hl: #e5edf6 !important;
+      --color-search-hover-hl: #e9f5fd !important;
       --color-checks-step-header-open-bg: #dceef7 !important;
       --color-bg-discussions-row-emoji-box: #d8e6ee !important;
       --color-current-user-tip-border: #d8e6ee !important;
       --color-underlinenav-counter-text: #252427 !important;
-      --color-text-primary: #3F77EF !important;
+      --color-text-primary: #9f69dc !important;
       --color-text-link: #00bcd4 !important;
       --color-canvas-subtle: #dceef7 !important;
       --color-accent-fg: #2e7093 !important;
@@ -18209,7 +18209,7 @@ button.project-header-link, td.icon, .facebox-close,
 }
 
  .tree-browser-result mark {
-    color: #FF3889 !important;
+    color: #EF5D99 !important;
  }
 
 .timeline-comment-action, #suggestions a, .table-list-header-toggle .btn-link,
@@ -19274,12 +19274,12 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     --ghd-code-color: #ccc;
 }
 .pl-c, .pl-c span {
-    color: #6a737d !important;
+    color: #7790AF !important;
     font-style: italic !important;
 }
 /* comment */
 .pl-c1 {
-    color: #6a737d !important;
+    color: #7790AF !important;
 }
 /* constant */
 .pl-cce {
@@ -19296,19 +19296,19 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant.other.color */
 .pl-cos {
-    color: #3F77EF !important;
+    color: #9f69dc !important;
 }
 /* constant.other.symbol */
 .pl-e {
-    color: #FF3889 !important;
+    color: #EF5D99 !important;
 }
 /* entity */
 .pl-ef {
-    color: #FF3889 !important;
+    color: #EF5D99 !important;
 }
 /* entity.function */
 .pl-en {
-    color: #FF3889 !important;
+    color: #EF5D99 !important;
 }
 /* entity.name */
 .pl-enc {
@@ -19316,11 +19316,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.class */
 .pl-enf {
-    color: #FF3889 !important;
+    color: #EF5D99 !important;
 }
 /* entity.name.function */
 .pl-enm {
-    color: #FF3889 !important;
+    color: #EF5D99 !important;
 }
 /* entity.name.method-name */
 .pl-ens {
@@ -19328,15 +19328,15 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.section */
 .pl-ent {
-    color: #9D868D !important;
+    color: #3F77EF !important;
 }
 /* entity.name.tag */
 .pl-entc {
-    color: #FF3889 !important;
+    color: #EF5D99 !important;
 }
 /* entity.name.type.class */
 .pl-enti {
-    color: #FF3889 !important;
+    color: #EF5D99 !important;
     font-weight: bold !important;
 }
 /* entity.name.type.instance */
@@ -19345,7 +19345,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.type.module */
 .pl-eoa {
-    color: #9D868D !important;
+    color: #3F77EF !important;
 }
 /* entity.other.attribute-name */
 .pl-eoac {
@@ -19357,27 +19357,27 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* punctuation.definition.entity */
 .pl-eoai {
-    color: #9D868D !important;
+    color: #3F77EF !important;
 }
 /* entity.other.attribute-name.id */
 .pl-eoai .pl-pde {
-    color: #9D868D !important;
+    color: #3F77EF !important;
 }
 /* punctuation.definition.entity */
 .pl-eoi {
-    color: #FF3889 !important;
+    color: #EF5D99 !important;
 }
 /* entity.other.inherited-class */
 .pl-k {
-    color: #9D868D !important;
+    color: #3F77EF !important;
 }
 /* keyword */
 .pl-ko {
-    color: #9D868D !important;
+    color: #3F77EF !important;
 }
 /* keyword.operator */
 .pl-kolp {
-    color: #9D868D !important;
+    color: #3F77EF !important;
 }
 /* keyword.operator.logical.python */
 .pl-kos {
@@ -19393,12 +19393,12 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* support.function */
 .pl-mb {
-    color: #3F77EF !important;
+    color: #9f69dc !important;
     font-weight: bold !important;
 }
 /* markup.bold */
 .pl-mc {
-    color: #9D868D !important;
+    color: #3F77EF !important;
 }
 /* markup.changed */
 .pl-mh {
@@ -19411,12 +19411,12 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* markup.heading punctuation.definition.heading */
 .pl-mi {
-    color: #9D868D !important;
+    color: #3F77EF !important;
     font-style: italic !important;
 }
 /* markup.italic */
 .pl-ml {
-    color: #3F77EF !important;
+    color: #9f69dc !important;
 }
 /* markup.list */
 .pl-mm {
@@ -19436,15 +19436,15 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* markup.quote */
 .pl-mr {
-    color: #9D868D !important;
+    color: #3F77EF !important;
 }
 /* meta.require */
 .pl-ms {
-    color: #9D868D !important;
+    color: #3F77EF !important;
 }
 /* meta.selector */
 .pl-pdb {
-    color: #3F77EF !important;
+    color: #9f69dc !important;
     font-weight: bold !important;
 }
 /* punctuation.definition.bold */
@@ -19462,12 +19462,12 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* punctuation.definition.entity */
 .pl-pdi {
-    color: #9D868D !important;
+    color: #3F77EF !important;
     font-style: italic !important;
 }
 /* punctuation.definition.italic */
 .pl-pds {
-    color: #3F77EF !important;
+    color: #9f69dc !important;
 }
 /* punctuation.definition.string */
 .pl-pdv {
@@ -19483,11 +19483,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* punctuation.section.embedded source */
 .pl-s {
-    color: #DC872E !important;
+    color: #E59584 !important;
 }
 /* storage */
 .pl-s1 {
-    color: #3F77EF !important;
+    color: #9f69dc !important;
 }
 /* string */
 .pl-s2 {
@@ -19495,7 +19495,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* source */
 .pl-mp .pl-s3 {
-    color: #9D868D !important;
+    color: #3F77EF !important;
 }
 /* support */
 .pl-s3 {
@@ -19515,23 +19515,23 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* support.function */
 .pl-smc {
-    color: #FF3889 !important;
+    color: #EF5D99 !important;
 }
 /* storage.modifier.c */
 .pl-smi {
-    color: #FF3889 !important;
+    color: #EF5D99 !important;
 }
 /* storage.modifier.import */
 .pl-smp {
-    color: #FF3889 !important;
+    color: #EF5D99 !important;
 }
 /* storage.modifier.package */
 .pl-sok {
-    color: #9D868D !important;
+    color: #3F77EF !important;
 }
 /* support.other.keyword */
 .pl-sol {
-    color: #3F77EF !important;
+    color: #9f69dc !important;
 }
 /* string.other.link */
 .pl-som {
@@ -19543,19 +19543,19 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* string.regexp */
 .pl-sra {
-    color: #9D868D !important;
+    color: #3F77EF !important;
 }
 /* string.regexp string.regexp.arbitrary-repetition */
 .pl-src {
-    color: #9D868D !important;
+    color: #3F77EF !important;
 }
 /* string.regexp.character-class */
 .pl-sre {
-    color: #9D868D !important;
+    color: #3F77EF !important;
 }
 /* string.regexp source.ruby.embedded */
 .pl-st {
-    color: #9D868D !important;
+    color: #3F77EF !important;
 }
 /* support.type */
 .pl-stj {
@@ -19579,7 +19579,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* variable.interpolation */
 .pl-vo {
-    color: #FF3889 !important;
+    color: #EF5D99 !important;
 }
 /* variable.other */
 .pl-vpf {
@@ -19653,17 +19653,17 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* variable.parameter.url */
 .pl-entl {
-    color: #FF3889 !important;
+    color: #EF5D99 !important;
 }
 /* entity.name.tag.label */
 .pl-corl, .highlight .pl-corl span.x {
-    color: #DC872E !important;
+    color: #E59584 !important;
     text-decoration: underline !important;
 }
 /* links */
 .pl-token.active, .pl-token:hover {
-    background: #FF3889 !important;
-    color: #FF3889 !important;
+    background: #EF5D99 !important;
+    color: #EF5D99 !important;
 }
 /*! CodeMirror: Twilight */
 /* based on https://github.com/codemirror/CodeMirror/blob/master/theme/twilight.css */
@@ -19691,7 +19691,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: white !important;
 }
 .cm-keyword {
-    color: #DC872E !important;
+    color: #E59584 !important;
 }
 .cm-atom {
     color: #fc0 !important;
@@ -19709,15 +19709,15 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #607392 !important;
 }
 .cm-operator {
-    color: #9D868D !important;
+    color: #3F77EF !important;
 }
 .cm-comment {
-    color: #FF3889 !important;
+    color: #EF5D99 !important;
     font-style: italic !important;
     font-weight: normal !important;
 }
 .cm-string {
-    color: #3F77EF !important;
+    color: #9f69dc !important;
 }
 .cm-string-2 {
     color: #bd6b18 !important;
@@ -19727,7 +19727,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #f7f7f7 !important;
 }
 .cm-builtin {
-    color: #9D868D !important;
+    color: #3F77EF !important;
 }
 .cm-tag {
     color: #997643 !important;
@@ -19736,7 +19736,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #d6bb6d !important;
 }
 .cm-header {
-    color: #9D868D !important;
+    color: #167BBA !important;
 }
 .cm-hr {
     color: #aeaeae !important;
@@ -19779,7 +19779,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Name */
 :is(#notebook, body.api) .highlight .k, .highlight code .k {
-    color: #9D868D !important;
+    color: #3F77EF !important;
 }
 /* Keyword */
 :is(#notebook, body.api) .highlight .l, .highlight code .l {
@@ -19890,11 +19890,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Keyword.Type */
 :is(#notebook, body.api) .highlight .na, .highlight code .na {
-    color: #DC872E !important;
+    color: #E59584 !important;
 }
 /* Name.Attribute */
 :is(#notebook, body.api) .highlight .nb, .highlight code .nb {
-    color: #9D868D !important;
+    color: #3F77EF !important;
 }
 /* Name.Builtin */
 :is(#notebook, body.api) .highlight .nc, .highlight code .nc {
@@ -19926,7 +19926,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Name.Namespace */
 :is(#notebook, body.api) .highlight .nt, .highlight code .nt {
-    color: #9D868D !important;
+    color: #3F77EF !important;
     font-weight: bold !important;
 }
 /* Name.Tag */
@@ -19956,29 +19956,29 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Literal.Number.Oct */
 :is(#notebook, body.api) .highlight .sb, .highlight code .sb {
-    color: #3F77EF !important;
+    color: #9f69dc !important;
 }
 /* Literal.String.Backtick */
 :is(#notebook, body.api) .highlight .sc, .highlight code .sc {
-    color: #3F77EF !important;
+    color: #9f69dc !important;
 }
 /* Literal.String.Char */
 :is(#notebook, body.api) .highlight .sd, .highlight code .sd {
-    color: #3F77EF !important;
+    color: #9f69dc !important;
     font-style: italic !important;
 }
 /* Literal.String.Doc */
 :is(#notebook, body.api) .highlight .s2, .highlight code .s2 {
-    color: #3F77EF !important;
+    color: #9f69dc !important;
 }
 /* Literal.String.Double */
 :is(#notebook, body.api) .highlight .se, .highlight code .se {
-    color: #DC872E !important;
+    color: #E59584 !important;
     font-weight: bold !important;
 }
 /* Literal.String.Escape */
 :is(#notebook, body.api) .highlight .sh, .highlight code .sh {
-    color: #3F77EF !important;
+    color: #9f69dc !important;
 }
 /* Literal.String.Heredoc */
 :is(#notebook, body.api) .highlight .si, .highlight code .si {
@@ -19987,7 +19987,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Literal.String.Interpol */
 :is(#notebook, body.api) .highlight .sx, .highlight code .sx {
-    color: #3F77EF !important;
+    color: #9f69dc !important;
 }
 /* Literal.String.Other */
 :is(#notebook, body.api) .highlight .sr, .highlight code .sr {
@@ -19995,7 +19995,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Literal.String.Regex */
 :is(#notebook, body.api) .highlight .s1, .highlight code .s1 {
-    color: #3F77EF !important;
+    color: #9f69dc !important;
 }
 /* Literal.String.Single */
 :is(#notebook, body.api) .highlight .ss, .highlight code .ss {

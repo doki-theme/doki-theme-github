@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Sonoda Umi
 @namespace      github.com/doki-theme
-@version        78.1.1
+@version        84.1.1
 @description    Cute anime themes for GitHub
 @author         Unthrottled
 @license        MIT
@@ -57,7 +57,7 @@
       --color-bg-secondary: #181A46 !important;
       --color-user-mention-bg: #47264B !important;
       --color-user-mention-fg: #fbfbfb !important;
-      --color-search-hover-hl: #251832 !important;
+      --color-search-hover-hl: #191c49 !important;
       --color-checks-step-header-open-bg: #181A46 !important;
       --color-bg-discussions-row-emoji-box: #202440 !important;
       --color-current-user-tip-border: #202440 !important;
@@ -88,7 +88,7 @@
       --color-input-disabled-border: #1c1f50 !important;
       --color-text-secondary: #6878c2 !important;
       --color-text-tertiary: #5e5e79 !important;
-      --color-primer-fg-disabled: #6f6f6f !important;
+      --color-primer-fg-disabled: #585966 !important;
       --lightness-threshold: 0.453 !important;
     }
 
@@ -14700,7 +14700,7 @@
   }
   /* source #14: "color: rgba(36,41,46,.4)", "#eff3f6", "none", "rgba(27,31,35,0.2)", "box-shadow: none" */
   .btn.disabled, .btn:disabled, .btn[aria-disabled="true"] {
-    color: #6f6f6f;
+    color: #585966;
     background-color: #202649;
     background-image: none;
     border-color: rgba(200, 200, 200, 0.15);
