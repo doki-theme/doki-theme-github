@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Mioda Ibuki Light
 @namespace      github.com/doki-theme
-@version        78.1.1
+@version        84.1.1
 @description    Cute anime themes for GitHub
 @author         Unthrottled
 @license        MIT
@@ -146,7 +146,7 @@
     }
     body::before {
     content:'';pointer-events:none;position:fixed;z-index:9001;width:100%;height:100%;background-position:100% 100%;background-repeat:no-repeat;opacity:1;
-    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/master/assets/stickers/danganronpa/ibuki/light/ibuki_light.png');
+    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/v84/assets/stickers/danganronpa/ibuki/light/ibuki_light.png');
     }
 
     .UnderlineNav {
@@ -19283,7 +19283,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant */
 .pl-cce {
-    color: #4C94D6 !important;
+    color: #2F6AAD !important;
     font-weight: normal !important;
 }
 /* constant.character.escape */
@@ -19292,7 +19292,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant.numeric */
 .pl-coc {
-    color: #4C94D6 !important;
+    color: #2F6AAD !important;
 }
 /* constant.other.color */
 .pl-cos {
@@ -19483,7 +19483,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* punctuation.section.embedded source */
 .pl-s {
-    color: #d27f2d !important;
+    color: #3193D7 !important;
 }
 /* storage */
 .pl-s1 {
@@ -19657,7 +19657,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.tag.label */
 .pl-corl, .highlight .pl-corl span.x {
-    color: #d27f2d !important;
+    color: #3193D7 !important;
     text-decoration: underline !important;
 }
 /* links */
@@ -19691,7 +19691,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: white !important;
 }
 .cm-keyword {
-    color: #d27f2d !important;
+    color: #3193D7 !important;
 }
 .cm-atom {
     color: #fc0 !important;
@@ -19736,7 +19736,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #d6bb6d !important;
 }
 .cm-header {
-    color: #7B6970 !important;
+    color: #3A8CB8 !important;
 }
 .cm-hr {
     color: #aeaeae !important;
@@ -19890,7 +19890,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Keyword.Type */
 :is(#notebook, body.api) .highlight .na, .highlight code .na {
-    color: #d27f2d !important;
+    color: #3193D7 !important;
 }
 /* Name.Attribute */
 :is(#notebook, body.api) .highlight .nb, .highlight code .nb {
@@ -19973,7 +19973,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* Literal.String.Double */
 :is(#notebook, body.api) .highlight .se, .highlight code .se {
-    color: #d27f2d !important;
+    color: #3193D7 !important;
     font-weight: bold !important;
 }
 /* Literal.String.Escape */

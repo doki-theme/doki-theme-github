@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Mai Light
 @namespace      github.com/doki-theme
-@version        78.1.1
+@version        84.1.1
 @description    Cute anime themes for GitHub
 @author         Unthrottled
 @license        MIT
@@ -65,7 +65,7 @@
       --color-text-primary: #C869A3 !important;
       --color-text-link: #4f5287 !important;
       --color-canvas-subtle: #f1ecf2 !important;
-      --color-accent-fg: #90468c !important;
+      --color-accent-fg: #BA2BB2 !important;
       --color-shadow-large: 0 8px 24px #4f528722 !important;
       --color-alert-warn-bg: #fef8e7 !important;
       --color-alert-info-bg: #fff7f6 !important;
@@ -146,7 +146,7 @@
     }
     body::before {
     content:'';pointer-events:none;position:fixed;z-index:9001;width:100%;height:100%;background-position:100% 100%;background-repeat:no-repeat;opacity:1;
-    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/master/assets/stickers/bunnySenpai/mai/light/mai_light.png');
+    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/v84/assets/stickers/bunnySenpai/mai/light/mai_light.png');
     }
 
     .UnderlineNav {
@@ -19736,13 +19736,13 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #d6bb6d !important;
 }
 .cm-header {
-    color: #7B6970 !important;
+    color: #4C5ED6 !important;
 }
 .cm-hr {
     color: #aeaeae !important;
 }
 .cm-link {
-    color: #90468c !important;
+    color: #BA2BB2 !important;
     font-style: italic !important;
     text-decoration: none !important;
 }

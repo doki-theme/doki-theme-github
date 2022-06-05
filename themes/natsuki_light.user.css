@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Natsuki Light
 @namespace      github.com/doki-theme
-@version        78.1.1
+@version        84.1.1
 @description    Cute anime themes for GitHub
 @author         Unthrottled
 @license        MIT
@@ -65,7 +65,7 @@
       --color-text-primary: #7C75EF !important;
       --color-text-link: #E94686 !important;
       --color-canvas-subtle: #ffdce6 !important;
-      --color-accent-fg: #E94686 !important;
+      --color-accent-fg: #EE5687 !important;
       --color-shadow-large: 0 8px 24px #E9468622 !important;
       --color-alert-warn-bg: #FFE4E3 !important;
       --color-alert-info-bg: #FFE0F0 !important;
@@ -146,7 +146,7 @@
     }
     body::before {
     content:'';pointer-events:none;position:fixed;z-index:9001;width:100%;height:100%;background-position:100% 100%;background-repeat:no-repeat;opacity:1;
-    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/master/assets/stickers/literature/natsuki/light/natsuki.png');
+    background-image: url('https://raw.githubusercontent.com/doki-theme/doki-theme-github/v84/assets/stickers/literature/natsuki/light/natsuki.png');
     }
 
     .UnderlineNav {
@@ -19736,13 +19736,13 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #d6bb6d !important;
 }
 .cm-header {
-    color: #7B6970 !important;
+    color: #df81b8 !important;
 }
 .cm-hr {
     color: #aeaeae !important;
 }
 .cm-link {
-    color: #E94686 !important;
+    color: #EE5687 !important;
     font-style: italic !important;
     text-decoration: none !important;
 }
