@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Zero Two Light Lily
 @namespace      github.com/doki-theme
-@version        84.1.1
+@version        88.1.1
 @description    Cute anime themes for GitHub
 @author         Unthrottled
 @license        MIT
@@ -102,14 +102,18 @@
   border-color: hsla(var(--label-h), calc(var(--label-s) * 1%), calc((var(--label-l) + var(--lighten-by)) * 1%), var(--border-alpha));
 }
 
+.CodeMirror-linenumber {
+  color: #aaaaaa !important;
+}
+
     .suggester li:hover .octicon,
     .suggester li[aria-selected="true"] .octicon {
-      fill: #393d45;
+      fill: #EFA554;
     }
 
     .suggester li:hover small,
     .suggester li[aria-selected="true"] small {
-      color: #393d45;
+      color: #EFA554;
     }
 
     ::-webkit-input-placeholder {
@@ -176,7 +180,7 @@
     }
 
     .btn-primary .octicon {
-      fill: #393d45 !important;
+      fill: #EFA554 !important;
     }
 
     .btn-primary:active {
@@ -13567,7 +13571,7 @@
   .suggester li.navigation-focus, .suggester li:hover,
   .suggester li[aria-selected="true"] {
     background: /*[[base-color]]*/ #A62210;
-    color: #393d45;
+    color: #EFA554;
     background-image: none;
   }
   /* source #9: "#fff" */
@@ -14690,7 +14694,7 @@
       background-color: #e9b4b8;
       background-image: linear-gradient(-180deg, #e9b4b8 0%, #e9b4b8 90%);
       border-color: none !important;
-      color: #393d45 !important;
+      color: #EFA554 !important;
     }
   /* source #14: "#e9ecef", "none", "rgba(27,31,35,0.35)" */
   .btn.selected, .btn:active, .btn[aria-selected="true"], [open] > .btn {
@@ -14709,7 +14713,7 @@
   /* source #14: "#28a745", "#28a745" */
   .btn-primary {
     background-color: #A62210;
-    color: #393d45 !important;
+    color: #EFA554 !important;
     background-image: linear-gradient(-180deg, #A62210 0%, #A62210 90%);
   }
   /* source #14: "box-shadow: 0 0 0 .2em rgba(52,208,88,.4)" */
@@ -15960,7 +15964,7 @@
   /* source #14: "#0366d6" */
   .dropdown-item:focus, .dropdown-item:hover {
     background-color: /*[[base-color]]*/ #A62210;
-    color: #393d45;
+    color: #EFA554;
     background-image: none;
   }
   /* source #14: "none" */
@@ -17976,7 +17980,7 @@ html[prefix] .site-header-nav .dropdown-menu a:hover {
 .filter-item.selected p, .filter-item:hover .marketplace-plan-per-time,
 .feature-preview-dialog .text-white,
 .oauth-permissions-details .permission-summary em.highlight, .btn-primary {
-    color: #393d45;
+    color: #EFA554;
 }
 ul.repo-stats li a:hover, .minibutton.danger:hover, #gist-form label,
 .subnav li a:hover, .filters li.selected a, .filters li a:hover, .code-list em,
@@ -19675,9 +19679,6 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: white !important;
 }
 .CodeMirror-guttermarker-subtle {
-    color: #aaa !important;
-}
-.CodeMirror-linenumber {
     color: #aaa !important;
 }
 .CodeMirror-cursor {

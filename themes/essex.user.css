@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Essex
 @namespace      github.com/doki-theme
-@version        84.1.1
+@version        88.1.1
 @description    Cute anime themes for GitHub
 @author         Unthrottled
 @license        MIT
@@ -100,6 +100,10 @@
   color: hsl(var(--label-h), calc(var(--label-s) * 1%), calc((var(--label-l) + var(--lighten-by)) * 1%));
   background: rgba(var(--label-r), var(--label-g), var(--label-b), var(--background-alpha));
   border-color: hsla(var(--label-h), calc(var(--label-s) * 1%), calc((var(--label-l) + var(--lighten-by)) * 1%), var(--border-alpha));
+}
+
+.CodeMirror-linenumber {
+  color: #5d7685 !important;
 }
 
     .suggester li:hover .octicon,
@@ -19675,9 +19679,6 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: white !important;
 }
 .CodeMirror-guttermarker-subtle {
-    color: #aaa !important;
-}
-.CodeMirror-linenumber {
     color: #aaa !important;
 }
 .CodeMirror-cursor {
