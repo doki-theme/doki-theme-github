@@ -102,6 +102,10 @@
   border-color: hsla(var(--label-h), calc(var(--label-s) * 1%), calc((var(--label-l) + var(--lighten-by)) * 1%), var(--border-alpha));
 }
 
+.CodeMirror-linenumber {
+  color: {{lineNumberColor}} !important;
+}
+
     .suggester li:hover .octicon,
     .suggester li[aria-selected="true"] .octicon {
       fill: {{defaultButtonColor|selectionForeground}};
@@ -19675,9 +19679,6 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: white !important;
 }
 .CodeMirror-guttermarker-subtle {
-    color: #aaa !important;
-}
-.CodeMirror-linenumber {
     color: #aaa !important;
 }
 .CodeMirror-cursor {
