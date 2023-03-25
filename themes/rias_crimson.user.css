@@ -48,6 +48,8 @@
       --color-btn-primary-icon: #fbfbfb !important;
       --color-fg-default: #fafafa !important;
       --color-btn-text: #996b6b !important;
+      --color-attention-subtle: #532e1799 !important;
+      --color-attention-muted: #532e1799 !important;
       --color-accent-subtle: #e03943AA !important;
       --color-auto-gray-3: #3E1010 !important;
       --color-auto-gray-1: #3E1010 !important;
@@ -140,6 +142,10 @@ span.Button-label:hover {
         opacity: 1 !important;
     }
 
+    .header-search-button.placeholder {
+    color: #cdacac!important;
+    }
+
     input:-webkit-autofill,
     input:-webkit-autofill:hover,
     input:-webkit-autofill:focus,
@@ -216,9 +222,14 @@ span.Button-label:hover {
     /* new ui junk */
 
     .koyZg th,
+    .PjhnZ th,
     .ekYzge
     {
       background-color: #3d1313 !important;
+    }
+
+    .kVpYHc {
+    border: #551818 !important;
     }
 
     .kMwSDe .segmentedControl-content {
@@ -226,16 +237,21 @@ span.Button-label:hover {
        border-color: #e03943 !important;
     }
 
+    .gZAWpy,
+    .bjLiTB,
     .cNspDo, .dCpkrR, .edeeWf, .gHfWgt, .hImDzR, .cFcYmG {
        background-color: #611c1c !important;
     }
 
+    .bxqzVV[aria-expanded="true"],
     .hImDzR[aria-expanded="true"] {
       background-color: #4c1818 !important;
     }
 
+    .beVJOq,
     .cYvszO {
        background-color: #401010 !important;
+       border: #551818 !important;
     }
 
     .kGYPAT {
