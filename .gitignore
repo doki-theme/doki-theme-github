@@ -11,3 +11,4 @@ generatedThemes/*.json
 buildSrc/temp/
 
 /masterThemes
+.DS_Store

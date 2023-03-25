@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Emilia Light
 @namespace      github.com/doki-theme
-@version        88.1.1
+@version        88.1.2
 @description    Cute anime themes for GitHub
 @author         Unthrottled
 @license        MIT
@@ -42,8 +42,15 @@
     :root {
       --color-previewable-comment-form-bg: #fbf0ff !important;
       --color-avatar-bg: #fbf0ff !important;
+      --color-btn-primary-bg: #82357d !important;
+      --color-btn-primary-hover-bg: #82357d !important;
+      --color-btn-primary-fg: #393d45 !important;
+      --color-btn-primary-icon: #393d45 !important;
       --color-fg-default: #252427 !important;
-      --color-fg-muted: #252427AA !important;
+      --color-btn-text: #252427 !important;
+      --color-attention-subtle: #eee4be99 !important;
+      --color-attention-muted: #eee4be99 !important;
+      --color-accent-subtle: #82357dAA !important;
       --color-auto-gray-3: #fbf0ff !important;
       --color-auto-gray-1: #fbf0ff !important;
       --color-avatar-border: #00000000 !important;
@@ -61,6 +68,8 @@
       --color-checks-step-header-open-bg: #f1dcf7 !important;
       --color-bg-discussions-row-emoji-box: #e7d8ee !important;
       --color-current-user-tip-border: #e7d8ee !important;
+      --color-btn-bg: #e7d8ee !important;
+      --color-fg-muted: #8864ac !important;
       --color-underlinenav-counter-text: #252427 !important;
       --color-text-primary: #7C75EF !important;
       --color-text-link: #82357d !important;
@@ -106,6 +115,10 @@
   color: #aaaaaa !important;
 }
 
+span.Button-label:hover {
+      color: #393d45;
+}
+
     .suggester li:hover .octicon,
     .suggester li[aria-selected="true"] .octicon {
       fill: #393d45;
@@ -127,6 +140,10 @@
     ::placeholder {
         color: #25242766 !important;
         opacity: 1 !important;
+    }
+
+    .header-search-button.placeholder {
+    color: #8864ac!important;
     }
 
     input:-webkit-autofill,
@@ -199,6 +216,46 @@
     .social-count {
       box-shadow: none !important;
       background-color: #e7d8ee;
+    }
+
+
+    /* new ui junk */
+
+    .koyZg th,
+    .PjhnZ th,
+    .ekYzge
+    {
+      background-color: #fbf0ff !important;
+    }
+
+    .kVpYHc {
+    border: #e9d8f6 !important;
+    }
+
+    .kMwSDe .segmentedControl-content {
+       background-color: #e7d8ee !important;
+       border-color: #82357d !important;
+    }
+
+    .gZAWpy,
+    .bjLiTB,
+    .cNspDo, .dCpkrR, .edeeWf, .gHfWgt, .hImDzR, .cFcYmG {
+       background-color: #e7d8ee !important;
+    }
+
+    .bxqzVV[aria-expanded="true"],
+    .hImDzR[aria-expanded="true"] {
+      background-color: #f6e0ff !important;
+    }
+
+    .beVJOq,
+    .cYvszO {
+       background-color: #faecff !important;
+       border: #e9d8f6 !important;
+    }
+
+    .kGYPAT {
+    color: #82357d !important;
     }
 
     /* end doki addons */
@@ -16338,8 +16395,10 @@ select:-webkit-autofill:focus {
 .auto-search-group input[type="text"][aria-label] {
     background: #fbf0ff;
 }
+
+
 /* focus hightlight */
-a:focus, button:focus, [tabindex] {
+a:focus, button:focus {
     outline-color: /*[[base-color]]*/ #82357d !important;
 }
 input.focus[type="text"], #adv_code_search .focus.search-page-label,

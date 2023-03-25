@@ -1,5 +1,9 @@
 Changelog
 ---
+# 88.5-1.1.0 [Initial New View Support]
+
+- Added some support for the `Light Default` and `Dark Default` GitHub new UI themes.
+
 # 88.1-1.0.2 [Darling]
 
 Best Girl just got _better_. ❤️

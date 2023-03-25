@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Doki-Theme: Sagiri
 @namespace      github.com/doki-theme
-@version        88.1.1
+@version        88.1.2
 @description    Cute anime themes for GitHub
 @author         Unthrottled
 @license        MIT
@@ -42,8 +42,15 @@
     :root {
       --color-previewable-comment-form-bg: #0a3b36 !important;
       --color-avatar-bg: #0a3b36 !important;
+      --color-btn-primary-bg: #5eabb8 !important;
+      --color-btn-primary-hover-bg: #5eabb8 !important;
+      --color-btn-primary-fg: #e7e9ff !important;
+      --color-btn-primary-icon: #e7e9ff !important;
       --color-fg-default: #f3edff !important;
-      --color-fg-muted: #f3edffAA !important;
+      --color-btn-text: #f6f1ff !important;
+      --color-attention-subtle: #27533899 !important;
+      --color-attention-muted: #27533899 !important;
+      --color-accent-subtle: #5eabb8AA !important;
       --color-auto-gray-3: #0a3b36 !important;
       --color-auto-gray-1: #0a3b36 !important;
       --color-avatar-border: #00000000 !important;
@@ -61,6 +68,8 @@
       --color-checks-step-header-open-bg: #0b463f !important;
       --color-bg-discussions-row-emoji-box: #135e57 !important;
       --color-current-user-tip-border: #135e57 !important;
+      --color-btn-bg: #135e57 !important;
+      --color-fg-muted: #eae99a !important;
       --color-underlinenav-counter-text: #f3edff !important;
       --color-text-primary: #F1A4FA !important;
       --color-text-link: #5eabb8 !important;
@@ -106,6 +115,10 @@
   color: #ffffff !important;
 }
 
+span.Button-label:hover {
+      color: #e7e9ff;
+}
+
     .suggester li:hover .octicon,
     .suggester li[aria-selected="true"] .octicon {
       fill: #e7e9ff;
@@ -127,6 +140,10 @@
     ::placeholder {
         color: #f3edff66 !important;
         opacity: 1 !important;
+    }
+
+    .header-search-button.placeholder {
+    color: #eae99a!important;
     }
 
     input:-webkit-autofill,
@@ -199,6 +216,46 @@
     .social-count {
       box-shadow: none !important;
       background-color: #135e57;
+    }
+
+
+    /* new ui junk */
+
+    .koyZg th,
+    .PjhnZ th,
+    .ekYzge
+    {
+      background-color: #0a3f39 !important;
+    }
+
+    .kVpYHc {
+    border: #0d514a !important;
+    }
+
+    .kMwSDe .segmentedControl-content {
+       background-color: #135e57 !important;
+       border-color: #5eabb8 !important;
+    }
+
+    .gZAWpy,
+    .bjLiTB,
+    .cNspDo, .dCpkrR, .edeeWf, .gHfWgt, .hImDzR, .cFcYmG {
+       background-color: #135e57 !important;
+    }
+
+    .bxqzVV[aria-expanded="true"],
+    .hImDzR[aria-expanded="true"] {
+      background-color: #242431 !important;
+    }
+
+    .beVJOq,
+    .cYvszO {
+       background-color: #08332e !important;
+       border: #0d514a !important;
+    }
+
+    .kGYPAT {
+    color: #5eabb8 !important;
     }
 
     /* end doki addons */
@@ -16338,8 +16395,10 @@ select:-webkit-autofill:focus {
 .auto-search-group input[type="text"][aria-label] {
     background: #0a3b36;
 }
+
+
 /* focus hightlight */
-a:focus, button:focus, [tabindex] {
+a:focus, button:focus {
     outline-color: /*[[base-color]]*/ #5eabb8 !important;
 }
 input.focus[type="text"], #adv_code_search .focus.search-page-label,
@@ -18213,7 +18272,7 @@ button.project-header-link, td.icon, .facebox-close,
 }
 
  .tree-browser-result mark {
-    color: #FF8282 !important;
+    color: #9FBBFF !important;
  }
 
 .timeline-comment-action, #suggestions a, .table-list-header-toggle .btn-link,
@@ -19304,15 +19363,15 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* constant.other.symbol */
 .pl-e {
-    color: #FF8282 !important;
+    color: #9FBBFF !important;
 }
 /* entity */
 .pl-ef {
-    color: #FF8282 !important;
+    color: #9FBBFF !important;
 }
 /* entity.function */
 .pl-en {
-    color: #FF8282 !important;
+    color: #9FBBFF !important;
 }
 /* entity.name */
 .pl-enc {
@@ -19320,11 +19379,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.class */
 .pl-enf {
-    color: #FF8282 !important;
+    color: #9FBBFF !important;
 }
 /* entity.name.function */
 .pl-enm {
-    color: #FF8282 !important;
+    color: #9FBBFF !important;
 }
 /* entity.name.method-name */
 .pl-ens {
@@ -19336,11 +19395,11 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* entity.name.tag */
 .pl-entc {
-    color: #FF8282 !important;
+    color: #9FBBFF !important;
 }
 /* entity.name.type.class */
 .pl-enti {
-    color: #FF8282 !important;
+    color: #9FBBFF !important;
     font-weight: bold !important;
 }
 /* entity.name.type.instance */
@@ -19369,7 +19428,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* punctuation.definition.entity */
 .pl-eoi {
-    color: #FF8282 !important;
+    color: #9FBBFF !important;
 }
 /* entity.other.inherited-class */
 .pl-k {
@@ -19519,15 +19578,15 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* support.function */
 .pl-smc {
-    color: #FF8282 !important;
+    color: #9FBBFF !important;
 }
 /* storage.modifier.c */
 .pl-smi {
-    color: #FF8282 !important;
+    color: #9FBBFF !important;
 }
 /* storage.modifier.import */
 .pl-smp {
-    color: #FF8282 !important;
+    color: #9FBBFF !important;
 }
 /* storage.modifier.package */
 .pl-sok {
@@ -19583,7 +19642,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* variable.interpolation */
 .pl-vo {
-    color: #FF8282 !important;
+    color: #9FBBFF !important;
 }
 /* variable.other */
 .pl-vpf {
@@ -19657,7 +19716,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* variable.parameter.url */
 .pl-entl {
-    color: #FF8282 !important;
+    color: #9FBBFF !important;
 }
 /* entity.name.tag.label */
 .pl-corl, .highlight .pl-corl span.x {
@@ -19666,8 +19725,8 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
 }
 /* links */
 .pl-token.active, .pl-token:hover {
-    background: #FF8282 !important;
-    color: #FF8282 !important;
+    background: #9FBBFF !important;
+    color: #9FBBFF !important;
 }
 /*! CodeMirror: Twilight */
 /* based on https://github.com/codemirror/CodeMirror/blob/master/theme/twilight.css */
@@ -19713,7 +19772,7 @@ a.notifications-dropdown-see-all:hover, .top-nav .dropdown-menu a:hover {
     color: #FFD448 !important;
 }
 .cm-comment {
-    color: #FF8282 !important;
+    color: #9FBBFF !important;
     font-style: italic !important;
     font-weight: normal !important;
 }
