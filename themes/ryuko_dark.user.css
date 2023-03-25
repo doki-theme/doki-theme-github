@@ -42,8 +42,11 @@
     :root {
       --color-previewable-comment-form-bg: #2b3238 !important;
       --color-avatar-bg: #2b3238 !important;
+      --color-btn-primary-bg: #a73035 !important;
+      --color-btn-primary-hover-bg: #a73035 !important;
+      --color-btn-primary-fg: #E2CB14 !important;
+      --color-btn-primary-icon: #E2CB14 !important;
       --color-fg-default: #bbbbbb !important;
-      --color-fg-muted: #bbbbbbAA !important;
       --color-auto-gray-3: #2b3238 !important;
       --color-auto-gray-1: #2b3238 !important;
       --color-avatar-border: #00000000 !important;
@@ -61,6 +64,8 @@
       --color-checks-step-header-open-bg: #2a3037 !important;
       --color-bg-discussions-row-emoji-box: #2b3237 !important;
       --color-current-user-tip-border: #2b3237 !important;
+      --color-btn-bg: #2b3237 !important;
+      --color-fg-muted: #6e707a !important;
       --color-underlinenav-counter-text: #bbbbbb !important;
       --color-text-primary: #99B6D5 !important;
       --color-text-link: #a73035 !important;
@@ -104,6 +109,10 @@
 
 .CodeMirror-linenumber {
   color: #666879 !important;
+}
+
+span.Button-label:hover {
+      color: #E2CB14;
 }
 
     .suggester li:hover .octicon,
@@ -199,6 +208,36 @@
     .social-count {
       box-shadow: none !important;
       background-color: #2b3237;
+    }
+
+
+    /* new ui junk */
+
+    .koyZg th,
+    .ekYzge
+    {
+      background-color: #2b3238 !important;
+    }
+
+    .kMwSDe .segmentedControl-content {
+       background-color: #2b3237 !important;
+       border-color: #a73035 !important;
+    }
+
+    .cNspDo, .dCpkrR, .edeeWf, .gHfWgt, .hImDzR, .cFcYmG {
+       background-color: #2b3237 !important;
+    }
+
+    .hImDzR[aria-expanded="true"] {
+      background-color: #573238 !important;
+    }
+
+    .cYvszO {
+       background-color: #282f35 !important;
+    }
+
+    .kGYPAT {
+    color: #a73035 !important;
     }
 
     /* end doki addons */
@@ -16338,8 +16377,10 @@ select:-webkit-autofill:focus {
 .auto-search-group input[type="text"][aria-label] {
     background: #2b3238;
 }
+
+
 /* focus hightlight */
-a:focus, button:focus, [tabindex] {
+a:focus, button:focus {
     outline-color: /*[[base-color]]*/ #a73035 !important;
 }
 input.focus[type="text"], #adv_code_search .focus.search-page-label,

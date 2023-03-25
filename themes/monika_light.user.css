@@ -42,8 +42,11 @@
     :root {
       --color-previewable-comment-form-bg: #f2fff0 !important;
       --color-avatar-bg: #f2fff0 !important;
+      --color-btn-primary-bg: #388E3C !important;
+      --color-btn-primary-hover-bg: #388E3C !important;
+      --color-btn-primary-fg: #393d45 !important;
+      --color-btn-primary-icon: #393d45 !important;
       --color-fg-default: #252427 !important;
-      --color-fg-muted: #252427AA !important;
       --color-auto-gray-3: #f2fff0 !important;
       --color-auto-gray-1: #f2fff0 !important;
       --color-avatar-border: #00000000 !important;
@@ -61,6 +64,8 @@
       --color-checks-step-header-open-bg: #dcf7e0 !important;
       --color-bg-discussions-row-emoji-box: #d8eed9 !important;
       --color-current-user-tip-border: #d8eed9 !important;
+      --color-btn-bg: #d8eed9 !important;
+      --color-fg-muted: #3b753d !important;
       --color-underlinenav-counter-text: #252427 !important;
       --color-text-primary: #6D71DC !important;
       --color-text-link: #388E3C !important;
@@ -87,7 +92,7 @@
       --color-input-disabled-bg: #def9e2 !important;
       --color-input-disabled-border: #e2eee3 !important;
       --color-text-secondary: #3b753d !important;
-      --color-text-tertiary: #aaaaaa !important;
+      --color-text-tertiary: #8CAA8E !important;
       --color-primer-fg-disabled: #a2cba3 !important;
       --lightness-threshold: 0.453 !important;
     }
@@ -103,7 +108,11 @@
 }
 
 .CodeMirror-linenumber {
-  color: #aaaaaa !important;
+  color: #8CAA8E !important;
+}
+
+span.Button-label:hover {
+      color: #393d45;
 }
 
     .suggester li:hover .octicon,
@@ -199,6 +208,36 @@
     .social-count {
       box-shadow: none !important;
       background-color: #d8eed9;
+    }
+
+
+    /* new ui junk */
+
+    .koyZg th,
+    .ekYzge
+    {
+      background-color: #f2fff0 !important;
+    }
+
+    .kMwSDe .segmentedControl-content {
+       background-color: #d8eed9 !important;
+       border-color: #388E3C !important;
+    }
+
+    .cNspDo, .dCpkrR, .edeeWf, .gHfWgt, .hImDzR, .cFcYmG {
+       background-color: #d8eed9 !important;
+    }
+
+    .hImDzR[aria-expanded="true"] {
+      background-color: #e0ffe1 !important;
+    }
+
+    .cYvszO {
+       background-color: #edffec !important;
+    }
+
+    .kGYPAT {
+    color: #388E3C !important;
     }
 
     /* end doki addons */
@@ -16338,8 +16377,10 @@ select:-webkit-autofill:focus {
 .auto-search-group input[type="text"][aria-label] {
     background: #f2fff0;
 }
+
+
 /* focus hightlight */
-a:focus, button:focus, [tabindex] {
+a:focus, button:focus {
     outline-color: /*[[base-color]]*/ #388E3C !important;
 }
 input.focus[type="text"], #adv_code_search .focus.search-page-label,
@@ -17078,7 +17119,7 @@ button.bg-white.subnav-link, main [style="background-color: #fcfdfd;"],
 .MarketplaceBackground-buffer, .team-left-column.bg-white, .overall-summary,
 .markdown-body table tr {
     background: #f2fff0 !important;
-    color: #aaaaaa !important;
+    color: #8CAA8E !important;
 }
 .action-card::after, .action-card::before {
     background-color: #f3fff4 !important;

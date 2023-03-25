@@ -42,8 +42,11 @@
     :root {
       --color-previewable-comment-form-bg: {{textEditorBackground}} !important;
       --color-avatar-bg: {{textEditorBackground}} !important;
+      --color-btn-primary-bg: {{accentColor}} !important;
+      --color-btn-primary-hover-bg: {{accentColor}} !important;
+      --color-btn-primary-fg: {{defaultButtonColor|selectionForeground}} !important;
+      --color-btn-primary-icon: {{defaultButtonColor|selectionForeground}} !important;
       --color-fg-default: {{foregroundColor}} !important;
-      --color-fg-muted: {{foregroundColor}}AA !important;
       --color-auto-gray-3: {{textEditorBackground}} !important;
       --color-auto-gray-1: {{textEditorBackground}} !important;
       --color-avatar-border: #00000000 !important;
@@ -61,6 +64,8 @@
       --color-checks-step-header-open-bg: {{caretRow}} !important;
       --color-bg-discussions-row-emoji-box: {{buttonColor}} !important;
       --color-current-user-tip-border: {{buttonColor}} !important;
+      --color-btn-bg: {{buttonColor}} !important;
+      --color-fg-muted: {{infoForeground}} !important;
       --color-underlinenav-counter-text: {{foregroundColor}} !important;
       --color-text-primary: {{keyColor}} !important;
       --color-text-link: {{accentColor}} !important;
@@ -104,6 +109,10 @@
 
 .CodeMirror-linenumber {
   color: {{lineNumberColor}} !important;
+}
+
+span.Button-label:hover {
+      color: {{defaultButtonColor|selectionForeground}};
 }
 
     .suggester li:hover .octicon,
@@ -199,6 +208,36 @@
     .social-count {
       box-shadow: none !important;
       background-color: {{buttonColor}};
+    }
+
+
+    /* new ui junk */
+
+    .koyZg th,
+    .ekYzge
+    {
+      background-color: {{headerColor}} !important;
+    }
+
+    .kMwSDe .segmentedControl-content {
+       background-color: {{buttonColor}} !important;
+       border-color: {{accentColor}} !important;
+    }
+
+    .cNspDo, .dCpkrR, .edeeWf, .gHfWgt, .hImDzR, .cFcYmG {
+       background-color: {{buttonColor}} !important;
+    }
+
+    .hImDzR[aria-expanded="true"] {
+      background-color: {{highlightColor}} !important;
+    }
+
+    .cYvszO {
+       background-color: {{secondaryBackground}} !important;
+    }
+
+    .kGYPAT {
+    color: {{accentColor}} !important;
     }
 
     /* end doki addons */
@@ -16338,8 +16377,10 @@ select:-webkit-autofill:focus {
 .auto-search-group input[type="text"][aria-label] {
     background: {{textEditorBackground}};
 }
+
+
 /* focus hightlight */
-a:focus, button:focus, [tabindex] {
+a:focus, button:focus {
     outline-color: /*[[base-color]]*/ {{accentColor}} !important;
 }
 input.focus[type="text"], #adv_code_search .focus.search-page-label,
