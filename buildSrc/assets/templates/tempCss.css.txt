@@ -47,6 +47,8 @@
       --color-btn-primary-fg: {{defaultButtonColor|selectionForeground}} !important;
       --color-btn-primary-icon: {{defaultButtonColor|selectionForeground}} !important;
       --color-fg-default: {{foregroundColor}} !important;
+      --color-btn-text: {{buttonFont}} !important;
+      --color-accent-subtle: {{accentColor}}AA !important;
       --color-auto-gray-3: {{textEditorBackground}} !important;
       --color-auto-gray-1: {{textEditorBackground}} !important;
       --color-avatar-border: #00000000 !important;
